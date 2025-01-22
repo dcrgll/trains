@@ -89,7 +89,7 @@ export default function SetupForm() {
                     </Button>
                   </FormControl>
                 </PopoverTrigger>
-                <PopoverContent className="w-[400px] p-0">
+                <PopoverContent className="w-[340px] p-0 lg:w-[400px]">
                   <Command>
                     <CommandInput placeholder="Search station..." />
                     <CommandList>

@@ -22,8 +22,6 @@ export default function Footer() {
               Dan Cargill
             </Link>
           </p>
-
-          <p className="text-sm">&copy; {new Date().getFullYear()}</p>
         </div>
       </div>
     </footer>
