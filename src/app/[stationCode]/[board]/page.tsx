@@ -4,7 +4,7 @@ import { api } from '@/trpc/server'
 import { type Board, type CRSCode } from '@/types/stations'
 import { stations } from '@/lib/stations'
 import { filterTrainServices } from '@/lib/utils'
-import TrainTimesBoard from '@/app/_components/board'
+import TrainTimesBoard from '@/components/board'
 
 interface PageProps {
   params: Promise<{

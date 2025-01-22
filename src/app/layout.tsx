@@ -4,10 +4,15 @@ import { type Metadata, type Viewport } from 'next'
 import { TRPCReactProvider } from '@/trpc/react'
 import { GeistSans } from 'geist/font/sans'
 
-import Footer from './_components/footer'
-import { ThemeProvider } from './_components/theme-provider'
+import { env } from '@/env'
+import Footer from '@/components/footer'
+import { ThemeProvider } from '@/components/theme-provider'
 
 export const metadata: Metadata = {
+  metadataBase:
+    env.NODE_ENV === 'production'
+      ? new URL('https://trains.cargill.dev')
+      : new URL('http://localhost:3000'),
   title: 'Trains!',
   description: 'See any train board in the UK as it was meant to be viewed.',
   manifest: '/site.webmanifest',
@@ -62,7 +67,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${GeistSans.variable} bg-background text-foreground font-sans`}
+        className={`${GeistSans.variable} bg-background font-sans text-foreground`}
       >
         <ThemeProvider
           attribute="class"

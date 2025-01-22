@@ -7,6 +7,7 @@ import { AlertTriangle } from 'lucide-react'
 import { type FilteredTrains, type Station } from '@/types/stations'
 import { cn } from '@/lib/utils'
 
+import BoardToggle from './board-toggle'
 import CurrentTime from './current-time'
 
 export default function TrainTimesBoard({
@@ -67,28 +68,17 @@ export default function TrainTimesBoard({
           <CurrentTime currentTime={currentTime} />
         </div>
 
-        <div className="bg-card border-border mb-4 flex items-center justify-between border-b border-t py-3">
+        <div className="border-border bg-card mb-4 flex items-center justify-between border-b border-t py-3">
           <div className="flex w-full items-center justify-between space-x-2 px-4">
             <span className="text-2xl font-semibold">
               {showDepartures ? 'Departures' : 'Arrivals'}
             </span>
 
             {enableSwitching && (
-              <div className="flex items-center space-x-2">
-                {/* Indicator Circles */}
-                <div
-                  className={cn(
-                    'h-3 w-3 rounded-full transition-colors duration-300',
-                    showDepartures ? 'bg-muted-foreground' : 'bg-muted'
-                  )}
-                ></div>
-                <div
-                  className={cn(
-                    'h-3 w-3 rounded-full transition-colors duration-300',
-                    !showDepartures ? 'bg-muted-foreground' : 'bg-muted'
-                  )}
-                ></div>
-              </div>
+              <BoardToggle
+                showDepartures={showDepartures}
+                setShowDepartures={setShowDepartures}
+              />
             )}
           </div>
         </div>
