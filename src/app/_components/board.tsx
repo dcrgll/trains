@@ -54,20 +54,20 @@ export default function TrainTimesBoard({
 
   return (
     <div
-      className={`flex min-h-screen w-full flex-col bg-gray-900 p-4 font-sans text-gray-200 transition-colors duration-500`}
+      className={`bg-background flex min-h-screen w-full flex-col p-4 transition-colors duration-500`}
     >
       <div className="mx-auto flex w-full max-w-7xl flex-grow flex-col">
         <div className="mb-6 flex items-center justify-between">
           <div>
             <span className="font-bold">{station.crsCode}</span>
-            <h1 className="w-full overflow-hidden truncate whitespace-break-spaces text-xl font-bold text-white md:text-4xl">
+            <h1 className="w-full overflow-hidden truncate whitespace-break-spaces text-xl font-bold md:text-4xl">
               {station.stationName}
             </h1>
           </div>
           <CurrentTime currentTime={currentTime} />
         </div>
 
-        <div className="mb-4 flex items-center justify-between rounded-lg border-b border-t border-gray-700 bg-gray-800 py-3">
+        <div className="bg-card border-border mb-4 flex items-center justify-between border-b border-t py-3">
           <div className="flex w-full items-center justify-between space-x-2 px-4">
             <span className="text-2xl font-semibold">
               {showDepartures ? 'Departures' : 'Arrivals'}
@@ -79,13 +79,13 @@ export default function TrainTimesBoard({
                 <div
                   className={cn(
                     'h-3 w-3 rounded-full transition-colors duration-300',
-                    showDepartures ? 'bg-blue-300' : 'bg-gray-600'
+                    showDepartures ? 'bg-muted-foreground' : 'bg-muted'
                   )}
                 ></div>
                 <div
                   className={cn(
                     'h-3 w-3 rounded-full transition-colors duration-300',
-                    !showDepartures ? 'bg-blue-300' : 'bg-gray-600'
+                    !showDepartures ? 'bg-muted-foreground' : 'bg-muted'
                   )}
                 ></div>
               </div>
@@ -93,7 +93,7 @@ export default function TrainTimesBoard({
           </div>
         </div>
 
-        <div className="mb-2 grid grid-cols-5 gap-4 rounded-t-lg bg-gray-800 p-3 text-lg font-bold">
+        <div className="mb-2 grid grid-cols-5 gap-4 rounded-t-lg p-3 text-lg font-bold">
           <div>Time</div>
           <div className="col-span-2">Destination</div>
 
@@ -101,7 +101,7 @@ export default function TrainTimesBoard({
           <div>Operator</div>
         </div>
 
-        <div className="flex-grow overflow-y-hidden rounded-b-lg bg-gray-800 bg-opacity-50">
+        <div className="bg-card flex-grow overflow-y-hidden rounded-b-lg">
           <AnimatePresence mode="wait">
             <motion.div
               key={showDepartures ? 'departures' : 'arrivals'}
@@ -114,7 +114,7 @@ export default function TrainTimesBoard({
               {filteredTrains.map((train, index) => (
                 <motion.div
                   key={index}
-                  className="grid grid-cols-5 gap-4 border-b border-gray-700 p-3 last:border-b-0"
+                  className="border-border grid grid-cols-5 gap-4 border-b p-3 last:border-b-0"
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5, delay: index * 0.1 }}
@@ -148,7 +148,7 @@ export default function TrainTimesBoard({
                     </div>
                   </div>
                   <div className="text-2xl font-medium">{train.platform}</div>
-                  <div className="truncate text-xl text-blue-300">
+                  <div className="text-primary truncate text-xl">
                     {train.operator}
                   </div>
                 </motion.div>
@@ -158,7 +158,7 @@ export default function TrainTimesBoard({
         </div>
 
         {trains?.nrccMessages && (
-          <div className="mt-4 rounded-lg border-b border-t border-gray-700 bg-gray-800 py-3">
+          <div className="border-border bg-card mt-4 rounded-lg border-b border-t py-3">
             <div className="flex items-center space-x-2 px-4">
               <AlertTriangle className="h-6 w-6 text-amber-400" />
               <span className="text-xl">Service Updates</span>

@@ -5,6 +5,7 @@ import { TRPCReactProvider } from '@/trpc/react'
 import { GeistSans } from 'geist/font/sans'
 
 import Footer from './_components/footer'
+import { ThemeProvider } from './_components/theme-provider'
 
 export const metadata: Metadata = {
   title: 'Trains!',
@@ -59,10 +60,19 @@ export default function RootLayout({
   children
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en">
-      <body className={`${GeistSans.variable} bg-gray-900 font-sans`}>
-        <TRPCReactProvider>{children}</TRPCReactProvider>
-        <Footer />
+    <html lang="en" suppressHydrationWarning>
+      <body
+        className={`${GeistSans.variable} bg-background text-foreground font-sans`}
+      >
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          <TRPCReactProvider>{children}</TRPCReactProvider>
+          <Footer />
+        </ThemeProvider>
       </body>
     </html>
   )

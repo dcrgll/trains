@@ -1,10 +1,13 @@
 import Link from 'next/link'
 
+import ThemeToggle from './theme-toggle'
+
 export default function Footer() {
   return (
-    <footer className="flex h-16 w-full bg-gray-900 text-gray-500">
+    <footer className="text-muted-foreground flex h-16 w-full">
       <div className="mx-auto flex w-full max-w-7xl items-center justify-between px-2">
         <p className="text-sm">&copy; {new Date().getFullYear()}</p>
+        <ThemeToggle />
         <p className="text-sm">
           Built by{' '}
           <Link

@@ -1,5 +1,5 @@
-import Link from 'next/link'
+import SetupForm from './_components/setup-form'
 
 export default function HomePage() {
-  return <Link href="/nmp/departures">go</Link>
+  return <SetupForm />
 }
