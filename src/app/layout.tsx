@@ -67,7 +67,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${GeistSans.variable} bg-background font-sans text-foreground`}
+        className={`${GeistSans.variable} bg-background text-foreground min-h-screen font-sans`}
       >
         <ThemeProvider
           attribute="class"

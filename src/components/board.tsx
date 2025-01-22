@@ -1,14 +1,16 @@
 'use client'
 
 import { useEffect, useState } from 'react'
+import Link from 'next/link'
 import { AnimatePresence, motion } from 'framer-motion'
-import { AlertTriangle } from 'lucide-react'
+import { AlertTriangle, ArrowLeft } from 'lucide-react'
 
 import { type FilteredTrains, type Station } from '@/types/stations'
 import { cn } from '@/lib/utils'
 
 import BoardToggle from './board-toggle'
 import CurrentTime from './current-time'
+import { Button } from './ui/button'
 
 export default function TrainTimesBoard({
   trains,
@@ -55,15 +57,22 @@ export default function TrainTimesBoard({
 
   return (
     <div
-      className={`bg-background flex min-h-screen w-full flex-col p-4 transition-colors duration-500`}
+      className={`bg-background flex min-h-[calc(100vh-4rem)] w-full flex-col p-4 transition-colors duration-500`}
     >
       <div className="mx-auto flex w-full max-w-7xl flex-grow flex-col">
-        <div className="mb-6 flex items-center justify-between">
+        <div className="mb-6 flex items-end justify-between">
           <div>
-            <span className="font-bold">{station.crsCode}</span>
+            <Button variant="secondary" size="icon" className="mb-8" asChild>
+              <Link href="/">
+                <ArrowLeft />
+              </Link>
+            </Button>
             <h1 className="w-full overflow-hidden truncate whitespace-break-spaces text-xl font-bold md:text-4xl">
               {station.stationName}
             </h1>
+            <span className="text-muted-foreground font-bold">
+              {station.crsCode}
+            </span>
           </div>
           <CurrentTime currentTime={currentTime} />
         </div>
@@ -114,7 +123,12 @@ export default function TrainTimesBoard({
                   </div>
                   <div className="col-span-2">
                     <div className="truncate text-2xl font-medium">
-                      {train.destination[0]?.locationName}
+                      <Link
+                        href={`/${train.destination[0]?.crs.toLowerCase()}/all`}
+                        className="hover:underline"
+                      >
+                        {train.destination[0]?.locationName}
+                      </Link>
                     </div>
 
                     <div

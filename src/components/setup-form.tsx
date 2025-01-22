@@ -47,7 +47,7 @@ export default function SetupForm() {
 
   function onSubmit(values: z.infer<typeof formSchema>) {
     try {
-      router.push(`/${values.station}/${values.board}`)
+      router.push(`/${values.station.toLowerCase()}/${values.board}`)
     } catch (error) {
       console.error('Form submission error', error)
     }

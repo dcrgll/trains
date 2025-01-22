@@ -9,7 +9,7 @@ import SetupForm from '@/components/setup-form'
 
 export default function HomePage() {
   return (
-    <main className="flex h-screen items-center justify-center">
+    <main className="flex h-[calc(100vh-4rem)] items-center justify-center">
       <Card className="w-full max-w-md">
         <CardHeader>
           <CardTitle>UK Live Departure Boards</CardTitle>

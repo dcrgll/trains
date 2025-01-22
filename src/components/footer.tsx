@@ -4,8 +4,8 @@ import ThemeToggle from './theme-toggle'
 
 export default function Footer() {
   return (
-    <footer className="flex h-16 w-full text-muted-foreground">
-      <div className="mx-auto flex w-full max-w-7xl items-center justify-between px-2">
+    <footer className="text-muted-foreground flex h-16 w-full">
+      <div className="mx-auto flex w-full max-w-7xl items-center justify-between px-4">
         <p className="text-sm">&copy; {new Date().getFullYear()}</p>
         <ThemeToggle />
         <p className="text-sm">

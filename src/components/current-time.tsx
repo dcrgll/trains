@@ -3,8 +3,11 @@ import { Clock } from 'lucide-react'
 export default function CurrentTime({ currentTime }: { currentTime: Date }) {
   return (
     <div className="flex h-full w-64 items-center justify-end space-x-4 rounded-lg px-4 py-2">
-      <Clock className="h-8 w-8 flex-shrink-0 text-primary" />
-      <span className="text-3xl tabular-nums" suppressHydrationWarning>
+      <Clock className="text-primary h-6 w-6 flex-shrink-0 lg:h-8 lg:w-8" />
+      <span
+        className="text-xl tabular-nums lg:text-3xl"
+        suppressHydrationWarning
+      >
         {currentTime.toLocaleTimeString()}
       </span>
     </div>
