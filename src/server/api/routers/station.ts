@@ -12,16 +12,17 @@ export const stationRouter = createTRPCRouter({
         board: z
           .enum(['departures', 'arrivals', 'all'])
           .optional()
-          .default('all')
+          .default('all'),
+        amount: z.number().optional().default(16)
       })
     )
     .query(async ({ input }): Promise<HuxleyApiResponse> => {
-      const { board, stationCode } = input
+      const { board, stationCode, amount } = input
 
       try {
         const response = await fetch(
           env.HUXLEY_BASE_URL +
-            `/${board}/${stationCode}?accessToken=${env.LDBWS_KEY}`
+            `/${board}/${stationCode}/${amount}/?accessToken=${env.LDBWS_KEY}`
         )
 
         if (!response.ok) {

@@ -21,7 +21,7 @@ type OriginDestination = {
   assocIsCancelled: boolean
 }
 
-type TrainService = {
+export type TrainService = {
   formation: {
     avgLoading: number
     avgLoadingSpecified: boolean
@@ -80,3 +80,9 @@ export type Station = {
 }
 
 export type Board = 'departures' | 'arrivals' | 'all'
+
+export type FilteredTrains = {
+  arrivals: TrainService[]
+  departures: TrainService[]
+  nrccMessages: HuxleyApiResponse['nrccMessages']
+}

@@ -4,6 +4,8 @@ import { type Metadata, type Viewport } from 'next'
 import { TRPCReactProvider } from '@/trpc/react'
 import { GeistSans } from 'geist/font/sans'
 
+import Footer from './_components/footer'
+
 export const metadata: Metadata = {
   title: 'Trains!',
   description: 'See any train board in the UK as it was meant to be viewed.',
@@ -57,9 +59,10 @@ export default function RootLayout({
   children
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" className={`${GeistSans.variable} bg-gray-900`}>
-      <body>
+    <html lang="en">
+      <body className={`${GeistSans.variable} bg-gray-900 font-sans`}>
         <TRPCReactProvider>{children}</TRPCReactProvider>
+        <Footer />
       </body>
     </html>
   )

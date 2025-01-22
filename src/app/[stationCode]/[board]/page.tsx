@@ -3,6 +3,7 @@ import { api } from '@/trpc/server'
 
 import { type Board, type CRSCode } from '@/types/stations'
 import { stations } from '@/lib/stations'
+import { filterTrainServices } from '@/lib/utils'
 import TrainTimesBoard from '@/app/_components/board'
 
 interface PageProps {
@@ -19,11 +20,6 @@ export default async function BoardPage(props: PageProps) {
     return redirect('/')
   }
 
-  const data = await api.station.getTrainsByCode({
-    stationCode: params.stationCode.toUpperCase(),
-    board: params.board
-  })
-
   const station = stations.find(
     (station) => station.crsCode === params.stationCode.toUpperCase()
   )
@@ -32,10 +28,17 @@ export default async function BoardPage(props: PageProps) {
     return redirect('/')
   }
 
+  const data = await api.station.getTrainsByCode({
+    stationCode: params.stationCode.toUpperCase(),
+    board: params.board
+  })
+
+  const trains = filterTrainServices(data, params.board)
+
   return (
     <TrainTimesBoard
       station={station}
-      data={data}
+      trains={trains}
       enableSwitching={params.board === 'all'}
     />
   )
