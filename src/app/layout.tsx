@@ -2,6 +2,7 @@ import '@/styles/globals.css'
 
 import { type Metadata, type Viewport } from 'next'
 import { TRPCReactProvider } from '@/trpc/react'
+import { GeistMono } from 'geist/font/mono'
 import { GeistSans } from 'geist/font/sans'
 
 import { env } from '@/env'
@@ -58,7 +59,8 @@ export const metadata: Metadata = {
 
 export const viewport: Viewport = {
   initialScale: 1,
-  width: 'device-width'
+  width: 'device-width',
+  themeColor: '#020817'
 }
 
 export default function RootLayout({
@@ -67,7 +69,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${GeistSans.variable} bg-background text-foreground min-h-screen font-sans`}
+        className={`${GeistSans.variable} ${GeistMono.variable} min-h-screen bg-background font-sans text-foreground`}
       >
         <ThemeProvider
           attribute="class"

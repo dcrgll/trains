@@ -57,7 +57,7 @@ export default function TrainTimesBoard({
 
   return (
     <div
-      className={`bg-background flex min-h-[calc(100vh-4rem)] w-full flex-col p-4 transition-colors duration-500`}
+      className={`flex min-h-[calc(100vh-4rem)] w-full flex-col bg-background p-4 transition-colors duration-500`}
     >
       <div className="mx-auto flex w-full max-w-7xl flex-grow flex-col">
         <div className="mb-6 flex items-end justify-between">
@@ -70,14 +70,14 @@ export default function TrainTimesBoard({
             <h1 className="w-full overflow-hidden truncate whitespace-break-spaces text-xl font-bold md:text-4xl">
               {station.stationName}
             </h1>
-            <span className="text-muted-foreground font-bold">
+            <span className="font-mono font-bold text-muted-foreground">
               {station.crsCode}
             </span>
           </div>
           <CurrentTime currentTime={currentTime} />
         </div>
 
-        <div className="border-border bg-card mb-4 flex items-center justify-between border-b border-t py-3">
+        <div className="mb-4 flex items-center justify-between border-b border-t border-border bg-card py-3">
           <div className="flex w-full items-center justify-between space-x-2 px-4">
             <span className="text-2xl font-semibold">
               {showDepartures ? 'Departures' : 'Arrivals'}
@@ -92,15 +92,15 @@ export default function TrainTimesBoard({
           </div>
         </div>
 
-        <div className="mb-2 grid grid-cols-5 gap-4 rounded-t-lg p-3 text-lg font-bold">
+        <div className="mb-2 grid grid-cols-4 gap-4 rounded-t-lg p-3 text-lg font-bold md:grid-cols-5">
           <div>Time</div>
           <div className="col-span-2">Destination</div>
 
-          <div>Platform</div>
-          <div>Operator</div>
+          <div className="flex justify-end md:justify-normal">Platform</div>
+          <div className="hidden md:flex">Operator</div>
         </div>
 
-        <div className="bg-card flex-grow overflow-y-hidden rounded-b-lg">
+        <div className="flex-grow overflow-y-hidden rounded-b-lg bg-card">
           <AnimatePresence mode="wait">
             <motion.div
               key={showDepartures ? 'departures' : 'arrivals'}
@@ -113,16 +113,16 @@ export default function TrainTimesBoard({
               {filteredTrains.map((train, index) => (
                 <motion.div
                   key={index}
-                  className="border-border grid grid-cols-5 gap-4 border-b p-3 last:border-b-0"
+                  className="grid grid-cols-4 gap-4 border-b border-border p-3 last:border-b-0 md:grid-cols-5"
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5, delay: index * 0.1 }}
                 >
-                  <div className="text-2xl font-medium">
+                  <div className="font-mono text-xl font-medium md:text-2xl">
                     {showDepartures ? train.std : train.sta}
                   </div>
                   <div className="col-span-2">
-                    <div className="truncate text-2xl font-medium">
+                    <div className="truncate text-xl font-medium md:text-2xl">
                       <Link
                         href={`/${train.destination[0]?.crs.toLowerCase()}/all`}
                         className="hover:underline"
@@ -133,7 +133,7 @@ export default function TrainTimesBoard({
 
                     <div
                       className={cn(
-                        'text-lg text-amber-400',
+                        'text-base text-amber-400 md:text-lg',
                         train.eta?.toLowerCase().includes('on time') &&
                           'text-green-400',
                         train.eta?.toLowerCase().includes('cancelled') &&
@@ -151,8 +151,10 @@ export default function TrainTimesBoard({
                       {showDepartures ? train.etd : train.eta}
                     </div>
                   </div>
-                  <div className="text-2xl font-medium">{train.platform}</div>
-                  <div className="text-primary truncate text-xl">
+                  <div className="flex justify-end text-xl font-medium md:justify-normal md:text-2xl">
+                    {train.platform}
+                  </div>
+                  <div className="hidden truncate text-xl text-primary md:flex">
                     {train.operator}
                   </div>
                 </motion.div>
@@ -162,7 +164,7 @@ export default function TrainTimesBoard({
         </div>
 
         {trains?.nrccMessages && (
-          <div className="border-border bg-card mt-4 rounded-lg border-b border-t py-3">
+          <div className="mt-4 rounded-lg border-b border-t border-border bg-card py-3">
             <div className="flex items-center space-x-2 px-4">
               <AlertTriangle className="h-6 w-6 text-amber-400" />
               <span className="text-xl">Service Updates</span>
