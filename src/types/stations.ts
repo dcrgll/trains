@@ -75,8 +75,8 @@ export type HuxleyApiResponse = {
 }
 
 export type Station = {
-  stationName: string
-  crsCode: CRSCode
+  label: string
+  value: CRSCode
 }
 
 export type Board = 'departures' | 'arrivals' | 'all'

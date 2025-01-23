@@ -68,10 +68,10 @@ export default function TrainTimesBoard({
               </Link>
             </Button>
             <h1 className="w-full overflow-hidden truncate whitespace-break-spaces text-xl font-bold md:text-4xl">
-              {station.stationName}
+              {station.label}
             </h1>
             <span className="font-mono font-bold text-muted-foreground">
-              {station.crsCode}
+              {station.value}
             </span>
           </div>
           <CurrentTime currentTime={currentTime} />

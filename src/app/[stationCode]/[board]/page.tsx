@@ -21,7 +21,7 @@ export default async function BoardPage(props: PageProps) {
   }
 
   const station = stations.find(
-    (station) => station.crsCode === params.stationCode.toUpperCase()
+    (station) => station.value === params.stationCode.toUpperCase()
   )
 
   if (!station) {

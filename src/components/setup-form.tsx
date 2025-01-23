@@ -8,6 +8,7 @@ import { useForm } from 'react-hook-form'
 import * as z from 'zod'
 
 import { stations } from '@/lib/stations'
+import { cn } from '@/lib/utils'
 import { Button } from '@/components/ui/button'
 import {
   Form,
@@ -18,8 +19,7 @@ import {
   FormMessage
 } from '@/components/ui/form'
 import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group'
-
-import Select from './select'
+import Select from '@/components/ui/select'
 
 const formSchema = z.object({
   station: z.object({
@@ -61,10 +61,7 @@ export default function SetupForm() {
               <Select
                 {...field}
                 placeholder="Select station..."
-                options={stations.map((station) => ({
-                  label: station.stationName,
-                  value: station.crsCode
-                }))}
+                options={stations}
               />
               <FormMessage />
             </FormItem>
@@ -113,9 +110,15 @@ export default function SetupForm() {
           )}
         />
 
-        <Button type="submit" className="w-full" disabled={loading}>
+        <Button
+          type="submit"
+          className={cn(
+            'w-full',
+            loading ? 'cursor-not-allowed opacity-50' : 'hover:cursor-pointer'
+          )}
+        >
           {loading ? (
-            <Loader2 className="h-5 w-5 animate-spin text-foreground" />
+            <Loader2 className="h-5 w-5 animate-spin text-background" />
           ) : (
             'Submit'
           )}

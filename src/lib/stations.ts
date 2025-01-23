@@ -2,10503 +2,10503 @@ import { type Station } from '@/types/stations'
 
 export const stations: Station[] = [
   {
-    stationName: 'Abbey Wood',
-    crsCode: 'ABW'
+    label: 'Abbey Wood',
+    value: 'ABW'
   },
   {
-    stationName: 'Aber',
-    crsCode: 'ABE'
+    label: 'Aber',
+    value: 'ABE'
   },
   {
-    stationName: 'Abercynon',
-    crsCode: 'ACY'
+    label: 'Abercynon',
+    value: 'ACY'
   },
   {
-    stationName: 'Aberdare',
-    crsCode: 'ABA'
+    label: 'Aberdare',
+    value: 'ABA'
   },
   {
-    stationName: 'Aberdeen',
-    crsCode: 'ABD'
+    label: 'Aberdeen',
+    value: 'ABD'
   },
   {
-    stationName: 'Aberdour',
-    crsCode: 'AUR'
+    label: 'Aberdour',
+    value: 'AUR'
   },
   {
-    stationName: 'Aberdovey',
-    crsCode: 'AVY'
+    label: 'Aberdovey',
+    value: 'AVY'
   },
   {
-    stationName: 'Abererch',
-    crsCode: 'ABH'
+    label: 'Abererch',
+    value: 'ABH'
   },
   {
-    stationName: 'Abergavenny',
-    crsCode: 'AGV'
+    label: 'Abergavenny',
+    value: 'AGV'
   },
   {
-    stationName: 'Abergele & Pensarn',
-    crsCode: 'AGL'
+    label: 'Abergele & Pensarn',
+    value: 'AGL'
   },
   {
-    stationName: 'Aberystwyth',
-    crsCode: 'AYW'
+    label: 'Aberystwyth',
+    value: 'AYW'
   },
   {
-    stationName: 'Accrington',
-    crsCode: 'ACR'
+    label: 'Accrington',
+    value: 'ACR'
   },
   {
-    stationName: 'Achanalt',
-    crsCode: 'AAT'
+    label: 'Achanalt',
+    value: 'AAT'
   },
   {
-    stationName: 'Achnasheen',
-    crsCode: 'ACN'
+    label: 'Achnasheen',
+    value: 'ACN'
   },
   {
-    stationName: 'Achnashellach',
-    crsCode: 'ACH'
+    label: 'Achnashellach',
+    value: 'ACH'
   },
   {
-    stationName: 'Acklington',
-    crsCode: 'ACK'
+    label: 'Acklington',
+    value: 'ACK'
   },
   {
-    stationName: 'Acle',
-    crsCode: 'ACL'
+    label: 'Acle',
+    value: 'ACL'
   },
   {
-    stationName: 'Acocks Green',
-    crsCode: 'ACG'
+    label: 'Acocks Green',
+    value: 'ACG'
   },
   {
-    stationName: 'Acton Bridge',
-    crsCode: 'ACB'
+    label: 'Acton Bridge',
+    value: 'ACB'
   },
   {
-    stationName: 'Acton Central',
-    crsCode: 'ACC'
+    label: 'Acton Central',
+    value: 'ACC'
   },
   {
-    stationName: 'Acton Main Line',
-    crsCode: 'AML'
+    label: 'Acton Main Line',
+    value: 'AML'
   },
   {
-    stationName: 'Adderley Park',
-    crsCode: 'ADD'
+    label: 'Adderley Park',
+    value: 'ADD'
   },
   {
-    stationName: 'Addiewell',
-    crsCode: 'ADW'
+    label: 'Addiewell',
+    value: 'ADW'
   },
   {
-    stationName: 'Addlestone',
-    crsCode: 'ASN'
+    label: 'Addlestone',
+    value: 'ASN'
   },
   {
-    stationName: 'Adisham',
-    crsCode: 'ADM'
+    label: 'Adisham',
+    value: 'ADM'
   },
   {
-    stationName: 'Adlington (Cheshire)',
-    crsCode: 'ADC'
+    label: 'Adlington (Cheshire)',
+    value: 'ADC'
   },
   {
-    stationName: 'Adlington (Lancashire)',
-    crsCode: 'ADL'
+    label: 'Adlington (Lancashire)',
+    value: 'ADL'
   },
   {
-    stationName: 'Adwick',
-    crsCode: 'AWK'
+    label: 'Adwick',
+    value: 'AWK'
   },
   {
-    stationName: 'Aigburth',
-    crsCode: 'AIG'
+    label: 'Aigburth',
+    value: 'AIG'
   },
   {
-    stationName: 'Ainsdale',
-    crsCode: 'ANS'
+    label: 'Ainsdale',
+    value: 'ANS'
   },
   {
-    stationName: 'Aintree',
-    crsCode: 'AIN'
+    label: 'Aintree',
+    value: 'AIN'
   },
   {
-    stationName: 'Airbles',
-    crsCode: 'AIR'
+    label: 'Airbles',
+    value: 'AIR'
   },
   {
-    stationName: 'Airdrie',
-    crsCode: 'ADR'
+    label: 'Airdrie',
+    value: 'ADR'
   },
   {
-    stationName: 'Albany Park',
-    crsCode: 'AYP'
+    label: 'Albany Park',
+    value: 'AYP'
   },
   {
-    stationName: 'Albrighton',
-    crsCode: 'ALB'
+    label: 'Albrighton',
+    value: 'ALB'
   },
   {
-    stationName: 'Alderley Edge',
-    crsCode: 'ALD'
+    label: 'Alderley Edge',
+    value: 'ALD'
   },
   {
-    stationName: 'Aldermaston',
-    crsCode: 'AMT'
+    label: 'Aldermaston',
+    value: 'AMT'
   },
   {
-    stationName: 'Aldershot',
-    crsCode: 'AHT'
+    label: 'Aldershot',
+    value: 'AHT'
   },
   {
-    stationName: 'Aldrington',
-    crsCode: 'AGT'
+    label: 'Aldrington',
+    value: 'AGT'
   },
   {
-    stationName: 'Alexandra Palace',
-    crsCode: 'AAP'
+    label: 'Alexandra Palace',
+    value: 'AAP'
   },
   {
-    stationName: 'Alexandra Parade',
-    crsCode: 'AXP'
+    label: 'Alexandra Parade',
+    value: 'AXP'
   },
   {
-    stationName: 'Alexandria',
-    crsCode: 'ALX'
+    label: 'Alexandria',
+    value: 'ALX'
   },
   {
-    stationName: 'Alfreton',
-    crsCode: 'ALF'
+    label: 'Alfreton',
+    value: 'ALF'
   },
   {
-    stationName: 'Allens West',
-    crsCode: 'ALW'
+    label: 'Allens West',
+    value: 'ALW'
   },
   {
-    stationName: 'Alloa',
-    crsCode: 'ALO'
+    label: 'Alloa',
+    value: 'ALO'
   },
   {
-    stationName: 'Alness',
-    crsCode: 'ASS'
+    label: 'Alness',
+    value: 'ASS'
   },
   {
-    stationName: 'Alnmouth',
-    crsCode: 'ALM'
+    label: 'Alnmouth',
+    value: 'ALM'
   },
   {
-    stationName: 'Alresford',
-    crsCode: 'ALR'
+    label: 'Alresford',
+    value: 'ALR'
   },
   {
-    stationName: 'Alsager',
-    crsCode: 'ASG'
+    label: 'Alsager',
+    value: 'ASG'
   },
   {
-    stationName: 'Althorne',
-    crsCode: 'ALN'
+    label: 'Althorne',
+    value: 'ALN'
   },
   {
-    stationName: 'Althorpe',
-    crsCode: 'ALP'
+    label: 'Althorpe',
+    value: 'ALP'
   },
   {
-    stationName: 'Altnabreac',
-    crsCode: 'ABC'
+    label: 'Altnabreac',
+    value: 'ABC'
   },
   {
-    stationName: 'Alton',
-    crsCode: 'AON'
+    label: 'Alton',
+    value: 'AON'
   },
   {
-    stationName: 'Altrincham',
-    crsCode: 'ALT'
+    label: 'Altrincham',
+    value: 'ALT'
   },
   {
-    stationName: 'Alvechurch',
-    crsCode: 'ALV'
+    label: 'Alvechurch',
+    value: 'ALV'
   },
   {
-    stationName: 'Ambergate',
-    crsCode: 'AMB'
+    label: 'Ambergate',
+    value: 'AMB'
   },
   {
-    stationName: 'Amberley',
-    crsCode: 'AMY'
+    label: 'Amberley',
+    value: 'AMY'
   },
   {
-    stationName: 'Amersham',
-    crsCode: 'AMR'
+    label: 'Amersham',
+    value: 'AMR'
   },
   {
-    stationName: 'Ammanford',
-    crsCode: 'AMF'
+    label: 'Ammanford',
+    value: 'AMF'
   },
   {
-    stationName: 'Ancaster',
-    crsCode: 'ANC'
+    label: 'Ancaster',
+    value: 'ANC'
   },
   {
-    stationName: 'Anderston',
-    crsCode: 'AND'
+    label: 'Anderston',
+    value: 'AND'
   },
   {
-    stationName: 'Andover',
-    crsCode: 'ADV'
+    label: 'Andover',
+    value: 'ADV'
   },
   {
-    stationName: 'Anerley',
-    crsCode: 'ANZ'
+    label: 'Anerley',
+    value: 'ANZ'
   },
   {
-    stationName: 'Angmering',
-    crsCode: 'ANG'
+    label: 'Angmering',
+    value: 'ANG'
   },
   {
-    stationName: 'Annan',
-    crsCode: 'ANN'
+    label: 'Annan',
+    value: 'ANN'
   },
   {
-    stationName: 'Anniesland',
-    crsCode: 'ANL'
+    label: 'Anniesland',
+    value: 'ANL'
   },
   {
-    stationName: 'Ansdell & Fairhaven',
-    crsCode: 'AFV'
+    label: 'Ansdell & Fairhaven',
+    value: 'AFV'
   },
   {
-    stationName: 'Apperley Bridge',
-    crsCode: 'APY'
+    label: 'Apperley Bridge',
+    value: 'APY'
   },
   {
-    stationName: 'Appleby',
-    crsCode: 'APP'
+    label: 'Appleby',
+    value: 'APP'
   },
   {
-    stationName: 'Appledore (Kent)',
-    crsCode: 'APD'
+    label: 'Appledore (Kent)',
+    value: 'APD'
   },
   {
-    stationName: 'Appleford',
-    crsCode: 'APF'
+    label: 'Appleford',
+    value: 'APF'
   },
   {
-    stationName: 'Appley Bridge',
-    crsCode: 'APB'
+    label: 'Appley Bridge',
+    value: 'APB'
   },
   {
-    stationName: 'Apsley',
-    crsCode: 'APS'
+    label: 'Apsley',
+    value: 'APS'
   },
   {
-    stationName: 'Arbroath',
-    crsCode: 'ARB'
+    label: 'Arbroath',
+    value: 'ARB'
   },
   {
-    stationName: 'Ardgay',
-    crsCode: 'ARD'
+    label: 'Ardgay',
+    value: 'ARD'
   },
   {
-    stationName: 'Ardlui',
-    crsCode: 'AUI'
+    label: 'Ardlui',
+    value: 'AUI'
   },
   {
-    stationName: 'Ardrossan Harbour',
-    crsCode: 'ADS'
+    label: 'Ardrossan Harbour',
+    value: 'ADS'
   },
   {
-    stationName: 'Ardrossan South Beach',
-    crsCode: 'ASB'
+    label: 'Ardrossan South Beach',
+    value: 'ASB'
   },
   {
-    stationName: 'Ardrossan Town',
-    crsCode: 'ADN'
+    label: 'Ardrossan Town',
+    value: 'ADN'
   },
   {
-    stationName: 'Ardwick',
-    crsCode: 'ADK'
+    label: 'Ardwick',
+    value: 'ADK'
   },
   {
-    stationName: 'Argyle Street',
-    crsCode: 'AGS'
+    label: 'Argyle Street',
+    value: 'AGS'
   },
   {
-    stationName: 'Arisaig',
-    crsCode: 'ARG'
+    label: 'Arisaig',
+    value: 'ARG'
   },
   {
-    stationName: 'Arlesey',
-    crsCode: 'ARL'
+    label: 'Arlesey',
+    value: 'ARL'
   },
   {
-    stationName: 'Armadale',
-    crsCode: 'ARM'
+    label: 'Armadale',
+    value: 'ARM'
   },
   {
-    stationName: 'Armathwaite',
-    crsCode: 'AWT'
+    label: 'Armathwaite',
+    value: 'AWT'
   },
   {
-    stationName: 'Arnside',
-    crsCode: 'ARN'
+    label: 'Arnside',
+    value: 'ARN'
   },
   {
-    stationName: 'Arram',
-    crsCode: 'ARR'
+    label: 'Arram',
+    value: 'ARR'
   },
   {
-    stationName: 'Arrochar & Tarbet',
-    crsCode: 'ART'
+    label: 'Arrochar & Tarbet',
+    value: 'ART'
   },
   {
-    stationName: 'Arundel',
-    crsCode: 'ARU'
+    label: 'Arundel',
+    value: 'ARU'
   },
   {
-    stationName: 'Ascot',
-    crsCode: 'ACT'
+    label: 'Ascot',
+    value: 'ACT'
   },
   {
-    stationName: 'Ascott-Under-Wychwood',
-    crsCode: 'AUW'
+    label: 'Ascott-Under-Wychwood',
+    value: 'AUW'
   },
   {
-    stationName: 'Ash',
-    crsCode: 'ASH'
+    label: 'Ash',
+    value: 'ASH'
   },
   {
-    stationName: 'Ash Vale',
-    crsCode: 'AHV'
+    label: 'Ash Vale',
+    value: 'AHV'
   },
   {
-    stationName: 'Ashburys',
-    crsCode: 'ABY'
+    label: 'Ashburys',
+    value: 'ABY'
   },
   {
-    stationName: 'Ashchurch for Tewkesbury',
-    crsCode: 'ASC'
+    label: 'Ashchurch for Tewkesbury',
+    value: 'ASC'
   },
   {
-    stationName: 'Ashfield',
-    crsCode: 'ASF'
+    label: 'Ashfield',
+    value: 'ASF'
   },
   {
-    stationName: 'Ashford International',
-    crsCode: 'AFK'
+    label: 'Ashford International',
+    value: 'AFK'
   },
   {
-    stationName: 'Ashford Surrey',
-    crsCode: 'AFS'
+    label: 'Ashford Surrey',
+    value: 'AFS'
   },
   {
-    stationName: 'Ashington',
-    crsCode: 'ASL'
+    label: 'Ashington',
+    value: 'ASL'
   },
   {
-    stationName: 'Ashley',
-    crsCode: 'ASY'
+    label: 'Ashley',
+    value: 'ASY'
   },
   {
-    stationName: 'Ashley Down',
-    crsCode: 'ASD'
+    label: 'Ashley Down',
+    value: 'ASD'
   },
   {
-    stationName: 'Ashtead',
-    crsCode: 'AHD'
+    label: 'Ashtead',
+    value: 'AHD'
   },
   {
-    stationName: 'Ashton-Under-Lyne',
-    crsCode: 'AHN'
+    label: 'Ashton-Under-Lyne',
+    value: 'AHN'
   },
   {
-    stationName: 'Ashurst Kent',
-    crsCode: 'AHS'
+    label: 'Ashurst Kent',
+    value: 'AHS'
   },
   {
-    stationName: 'Ashurst New Forest',
-    crsCode: 'ANF'
+    label: 'Ashurst New Forest',
+    value: 'ANF'
   },
   {
-    stationName: 'Ashwell & Morden',
-    crsCode: 'AWM'
+    label: 'Ashwell & Morden',
+    value: 'AWM'
   },
   {
-    stationName: 'Askam',
-    crsCode: 'ASK'
+    label: 'Askam',
+    value: 'ASK'
   },
   {
-    stationName: 'Aslockton',
-    crsCode: 'ALK'
+    label: 'Aslockton',
+    value: 'ALK'
   },
   {
-    stationName: 'Aspatria',
-    crsCode: 'ASP'
+    label: 'Aspatria',
+    value: 'ASP'
   },
   {
-    stationName: 'Aspley Guise',
-    crsCode: 'APG'
+    label: 'Aspley Guise',
+    value: 'APG'
   },
   {
-    stationName: 'Aston',
-    crsCode: 'AST'
+    label: 'Aston',
+    value: 'AST'
   },
   {
-    stationName: 'Atherstone',
-    crsCode: 'ATH'
+    label: 'Atherstone',
+    value: 'ATH'
   },
   {
-    stationName: 'Atherton',
-    crsCode: 'ATN'
+    label: 'Atherton',
+    value: 'ATN'
   },
   {
-    stationName: 'Attadale',
-    crsCode: 'ATT'
+    label: 'Attadale',
+    value: 'ATT'
   },
   {
-    stationName: 'Attenborough',
-    crsCode: 'ATB'
+    label: 'Attenborough',
+    value: 'ATB'
   },
   {
-    stationName: 'Attleborough',
-    crsCode: 'ATL'
+    label: 'Attleborough',
+    value: 'ATL'
   },
   {
-    stationName: 'Auchinleck',
-    crsCode: 'AUK'
+    label: 'Auchinleck',
+    value: 'AUK'
   },
   {
-    stationName: 'Audley End',
-    crsCode: 'AUD'
+    label: 'Audley End',
+    value: 'AUD'
   },
   {
-    stationName: 'Aughton Park',
-    crsCode: 'AUG'
+    label: 'Aughton Park',
+    value: 'AUG'
   },
   {
-    stationName: 'Aviemore',
-    crsCode: 'AVM'
+    label: 'Aviemore',
+    value: 'AVM'
   },
   {
-    stationName: 'Avoncliff',
-    crsCode: 'AVF'
+    label: 'Avoncliff',
+    value: 'AVF'
   },
   {
-    stationName: 'Avonmouth',
-    crsCode: 'AVN'
+    label: 'Avonmouth',
+    value: 'AVN'
   },
   {
-    stationName: 'Axminster',
-    crsCode: 'AXM'
+    label: 'Axminster',
+    value: 'AXM'
   },
   {
-    stationName: 'Aylesbury',
-    crsCode: 'AYS'
+    label: 'Aylesbury',
+    value: 'AYS'
   },
   {
-    stationName: 'Aylesbury Vale Parkway',
-    crsCode: 'AVP'
+    label: 'Aylesbury Vale Parkway',
+    value: 'AVP'
   },
   {
-    stationName: 'Aylesford',
-    crsCode: 'AYL'
+    label: 'Aylesford',
+    value: 'AYL'
   },
   {
-    stationName: 'Aylesham',
-    crsCode: 'AYH'
+    label: 'Aylesham',
+    value: 'AYH'
   },
   {
-    stationName: 'Ayr',
-    crsCode: 'AYR'
+    label: 'Ayr',
+    value: 'AYR'
   },
   {
-    stationName: 'Bache',
-    crsCode: 'BAC'
+    label: 'Bache',
+    value: 'BAC'
   },
   {
-    stationName: 'Baglan',
-    crsCode: 'BAJ'
+    label: 'Baglan',
+    value: 'BAJ'
   },
   {
-    stationName: 'Bagshot',
-    crsCode: 'BAG'
+    label: 'Bagshot',
+    value: 'BAG'
   },
   {
-    stationName: 'Baildon',
-    crsCode: 'BLD'
+    label: 'Baildon',
+    value: 'BLD'
   },
   {
-    stationName: 'Baillieston',
-    crsCode: 'BIO'
+    label: 'Baillieston',
+    value: 'BIO'
   },
   {
-    stationName: 'Balcombe',
-    crsCode: 'BAB'
+    label: 'Balcombe',
+    value: 'BAB'
   },
   {
-    stationName: 'Baldock',
-    crsCode: 'BDK'
+    label: 'Baldock',
+    value: 'BDK'
   },
   {
-    stationName: 'Balham',
-    crsCode: 'BAL'
+    label: 'Balham',
+    value: 'BAL'
   },
   {
-    stationName: 'Balloch Central',
-    crsCode: 'BHC'
+    label: 'Balloch Central',
+    value: 'BHC'
   },
   {
-    stationName: 'Balmossie',
-    crsCode: 'BSI'
+    label: 'Balmossie',
+    value: 'BSI'
   },
   {
-    stationName: 'Bamber Bridge',
-    crsCode: 'BMB'
+    label: 'Bamber Bridge',
+    value: 'BMB'
   },
   {
-    stationName: 'Bamford',
-    crsCode: 'BAM'
+    label: 'Bamford',
+    value: 'BAM'
   },
   {
-    stationName: 'Banavie',
-    crsCode: 'BNV'
+    label: 'Banavie',
+    value: 'BNV'
   },
   {
-    stationName: 'Banbury',
-    crsCode: 'BAN'
+    label: 'Banbury',
+    value: 'BAN'
   },
   {
-    stationName: 'Bangor (Gwynedd)',
-    crsCode: 'BNG'
+    label: 'Bangor (Gwynedd)',
+    value: 'BNG'
   },
   {
-    stationName: 'Bank Hall',
-    crsCode: 'BAH'
+    label: 'Bank Hall',
+    value: 'BAH'
   },
   {
-    stationName: 'Banstead',
-    crsCode: 'BAD'
+    label: 'Banstead',
+    value: 'BAD'
   },
   {
-    stationName: 'Barassie',
-    crsCode: 'BSS'
+    label: 'Barassie',
+    value: 'BSS'
   },
   {
-    stationName: 'Bardon Mill',
-    crsCode: 'BLL'
+    label: 'Bardon Mill',
+    value: 'BLL'
   },
   {
-    stationName: 'Bare Lane',
-    crsCode: 'BAR'
+    label: 'Bare Lane',
+    value: 'BAR'
   },
   {
-    stationName: 'Bargeddie',
-    crsCode: 'BGI'
+    label: 'Bargeddie',
+    value: 'BGI'
   },
   {
-    stationName: 'Bargoed',
-    crsCode: 'BGD'
+    label: 'Bargoed',
+    value: 'BGD'
   },
   {
-    stationName: 'Barking',
-    crsCode: 'BKG'
+    label: 'Barking',
+    value: 'BKG'
   },
   {
-    stationName: 'Barking Riverside',
-    crsCode: 'BGV'
+    label: 'Barking Riverside',
+    value: 'BGV'
   },
   {
-    stationName: 'Barlaston',
-    crsCode: 'BRT'
+    label: 'Barlaston',
+    value: 'BRT'
   },
   {
-    stationName: 'Barming',
-    crsCode: 'BMG'
+    label: 'Barming',
+    value: 'BMG'
   },
   {
-    stationName: 'Barmouth',
-    crsCode: 'BRM'
+    label: 'Barmouth',
+    value: 'BRM'
   },
   {
-    stationName: 'Barnehurst',
-    crsCode: 'BNH'
+    label: 'Barnehurst',
+    value: 'BNH'
   },
   {
-    stationName: 'Barnes Bridge',
-    crsCode: 'BNI'
+    label: 'Barnes Bridge',
+    value: 'BNI'
   },
   {
-    stationName: 'Barnes',
-    crsCode: 'BNS'
+    label: 'Barnes',
+    value: 'BNS'
   },
   {
-    stationName: 'Barnetby',
-    crsCode: 'BTB'
+    label: 'Barnetby',
+    value: 'BTB'
   },
   {
-    stationName: 'Barnham',
-    crsCode: 'BAA'
+    label: 'Barnham',
+    value: 'BAA'
   },
   {
-    stationName: 'Barnhill',
-    crsCode: 'BNL'
+    label: 'Barnhill',
+    value: 'BNL'
   },
   {
-    stationName: 'Barnsley',
-    crsCode: 'BNY'
+    label: 'Barnsley',
+    value: 'BNY'
   },
   {
-    stationName: 'Barnstaple',
-    crsCode: 'BNP'
+    label: 'Barnstaple',
+    value: 'BNP'
   },
   {
-    stationName: 'Barnt Green',
-    crsCode: 'BTG'
+    label: 'Barnt Green',
+    value: 'BTG'
   },
   {
-    stationName: 'Barrhead',
-    crsCode: 'BRR'
+    label: 'Barrhead',
+    value: 'BRR'
   },
   {
-    stationName: 'Barrhill',
-    crsCode: 'BRL'
+    label: 'Barrhill',
+    value: 'BRL'
   },
   {
-    stationName: 'Barrow Haven',
-    crsCode: 'BAV'
+    label: 'Barrow Haven',
+    value: 'BAV'
   },
   {
-    stationName: 'Barrow Upon Soar',
-    crsCode: 'BWS'
+    label: 'Barrow Upon Soar',
+    value: 'BWS'
   },
   {
-    stationName: 'Barrow-In-Furness',
-    crsCode: 'BIF'
+    label: 'Barrow-In-Furness',
+    value: 'BIF'
   },
   {
-    stationName: 'Barry Docks',
-    crsCode: 'BYD'
+    label: 'Barry Docks',
+    value: 'BYD'
   },
   {
-    stationName: 'Barry Island',
-    crsCode: 'BYI'
+    label: 'Barry Island',
+    value: 'BYI'
   },
   {
-    stationName: 'Barry Links',
-    crsCode: 'BYL'
+    label: 'Barry Links',
+    value: 'BYL'
   },
   {
-    stationName: 'Barry',
-    crsCode: 'BRY'
+    label: 'Barry',
+    value: 'BRY'
   },
   {
-    stationName: 'Barton-On-Humber',
-    crsCode: 'BAU'
+    label: 'Barton-On-Humber',
+    value: 'BAU'
   },
   {
-    stationName: 'Basildon',
-    crsCode: 'BSO'
+    label: 'Basildon',
+    value: 'BSO'
   },
   {
-    stationName: 'Basingstoke',
-    crsCode: 'BSK'
+    label: 'Basingstoke',
+    value: 'BSK'
   },
   {
-    stationName: 'Bat & Ball',
-    crsCode: 'BBL'
+    label: 'Bat & Ball',
+    value: 'BBL'
   },
   {
-    stationName: 'Bath Spa',
-    crsCode: 'BTH'
+    label: 'Bath Spa',
+    value: 'BTH'
   },
   {
-    stationName: 'Bathgate',
-    crsCode: 'BHG'
+    label: 'Bathgate',
+    value: 'BHG'
   },
   {
-    stationName: 'Batley',
-    crsCode: 'BTL'
+    label: 'Batley',
+    value: 'BTL'
   },
   {
-    stationName: 'Battersby',
-    crsCode: 'BTT'
+    label: 'Battersby',
+    value: 'BTT'
   },
   {
-    stationName: 'Battersea Park',
-    crsCode: 'BAK'
+    label: 'Battersea Park',
+    value: 'BAK'
   },
   {
-    stationName: 'Battle',
-    crsCode: 'BAT'
+    label: 'Battle',
+    value: 'BAT'
   },
   {
-    stationName: 'Battlesbridge',
-    crsCode: 'BLB'
+    label: 'Battlesbridge',
+    value: 'BLB'
   },
   {
-    stationName: 'Bayford',
-    crsCode: 'BAY'
+    label: 'Bayford',
+    value: 'BAY'
   },
   {
-    stationName: 'Beaconsfield',
-    crsCode: 'BCF'
+    label: 'Beaconsfield',
+    value: 'BCF'
   },
   {
-    stationName: 'Bearley',
-    crsCode: 'BER'
+    label: 'Bearley',
+    value: 'BER'
   },
   {
-    stationName: 'Bearsden',
-    crsCode: 'BRN'
+    label: 'Bearsden',
+    value: 'BRN'
   },
   {
-    stationName: 'Bearsted',
-    crsCode: 'BSD'
+    label: 'Bearsted',
+    value: 'BSD'
   },
   {
-    stationName: 'Beasdale',
-    crsCode: 'BSL'
+    label: 'Beasdale',
+    value: 'BSL'
   },
   {
-    stationName: 'Beaulieu Road',
-    crsCode: 'BEU'
+    label: 'Beaulieu Road',
+    value: 'BEU'
   },
   {
-    stationName: 'Beauly',
-    crsCode: 'BEL'
+    label: 'Beauly',
+    value: 'BEL'
   },
   {
-    stationName: 'Bebington',
-    crsCode: 'BEB'
+    label: 'Bebington',
+    value: 'BEB'
   },
   {
-    stationName: 'Beccles',
-    crsCode: 'BCC'
+    label: 'Beccles',
+    value: 'BCC'
   },
   {
-    stationName: 'Beckenham Hill',
-    crsCode: 'BEC'
+    label: 'Beckenham Hill',
+    value: 'BEC'
   },
   {
-    stationName: 'Beckenham Junction',
-    crsCode: 'BKJ'
+    label: 'Beckenham Junction',
+    value: 'BKJ'
   },
   {
-    stationName: 'Bedford St Johns',
-    crsCode: 'BSJ'
+    label: 'Bedford St Johns',
+    value: 'BSJ'
   },
   {
-    stationName: 'Bedford',
-    crsCode: 'BDM'
+    label: 'Bedford',
+    value: 'BDM'
   },
   {
-    stationName: 'Bedhampton',
-    crsCode: 'BDH'
+    label: 'Bedhampton',
+    value: 'BDH'
   },
   {
-    stationName: 'Bedminster',
-    crsCode: 'BMT'
+    label: 'Bedminster',
+    value: 'BMT'
   },
   {
-    stationName: 'Bedworth',
-    crsCode: 'BEH'
+    label: 'Bedworth',
+    value: 'BEH'
   },
   {
-    stationName: 'Bedwyn',
-    crsCode: 'BDW'
+    label: 'Bedwyn',
+    value: 'BDW'
   },
   {
-    stationName: 'Beeston',
-    crsCode: 'BEE'
+    label: 'Beeston',
+    value: 'BEE'
   },
   {
-    stationName: 'Bekesbourne',
-    crsCode: 'BKS'
+    label: 'Bekesbourne',
+    value: 'BKS'
   },
   {
-    stationName: 'Belfast Central',
-    crsCode: 'BFC'
+    label: 'Belfast Central',
+    value: 'BFC'
   },
   {
-    stationName: 'Belle Vue',
-    crsCode: 'BLV'
+    label: 'Belle Vue',
+    value: 'BLV'
   },
   {
-    stationName: 'Bellgrove',
-    crsCode: 'BLG'
+    label: 'Bellgrove',
+    value: 'BLG'
   },
   {
-    stationName: 'Bellingham',
-    crsCode: 'BGM'
+    label: 'Bellingham',
+    value: 'BGM'
   },
   {
-    stationName: 'Bellshill',
-    crsCode: 'BLH'
+    label: 'Bellshill',
+    value: 'BLH'
   },
   {
-    stationName: 'Belmont',
-    crsCode: 'BLM'
+    label: 'Belmont',
+    value: 'BLM'
   },
   {
-    stationName: 'Belper',
-    crsCode: 'BLP'
+    label: 'Belper',
+    value: 'BLP'
   },
   {
-    stationName: 'Beltring',
-    crsCode: 'BEG'
+    label: 'Beltring',
+    value: 'BEG'
   },
   {
-    stationName: 'Belvedere',
-    crsCode: 'BVD'
+    label: 'Belvedere',
+    value: 'BVD'
   },
   {
-    stationName: 'Bempton',
-    crsCode: 'BEM'
+    label: 'Bempton',
+    value: 'BEM'
   },
   {
-    stationName: 'Ben Rhydding',
-    crsCode: 'BEY'
+    label: 'Ben Rhydding',
+    value: 'BEY'
   },
   {
-    stationName: 'Benfleet',
-    crsCode: 'BEF'
+    label: 'Benfleet',
+    value: 'BEF'
   },
   {
-    stationName: 'Bentham',
-    crsCode: 'BEN'
+    label: 'Bentham',
+    value: 'BEN'
   },
   {
-    stationName: 'Bentley (Hampshire)',
-    crsCode: 'BTY'
+    label: 'Bentley (Hampshire)',
+    value: 'BTY'
   },
   {
-    stationName: 'Bentley (South Yorkshire)',
-    crsCode: 'BYK'
+    label: 'Bentley (South Yorkshire)',
+    value: 'BYK'
   },
   {
-    stationName: 'Bere Alston',
-    crsCode: 'BAS'
+    label: 'Bere Alston',
+    value: 'BAS'
   },
   {
-    stationName: 'Bere Ferrers',
-    crsCode: 'BFE'
+    label: 'Bere Ferrers',
+    value: 'BFE'
   },
   {
-    stationName: 'Berkhamsted',
-    crsCode: 'BKM'
+    label: 'Berkhamsted',
+    value: 'BKM'
   },
   {
-    stationName: 'Berkswell',
-    crsCode: 'BKW'
+    label: 'Berkswell',
+    value: 'BKW'
   },
   {
-    stationName: 'Bermuda Park',
-    crsCode: 'BEP'
+    label: 'Bermuda Park',
+    value: 'BEP'
   },
   {
-    stationName: 'Berney Arms',
-    crsCode: 'BYA'
+    label: 'Berney Arms',
+    value: 'BYA'
   },
   {
-    stationName: 'Berry Brow',
-    crsCode: 'BBW'
+    label: 'Berry Brow',
+    value: 'BBW'
   },
   {
-    stationName: 'Berrylands',
-    crsCode: 'BRS'
+    label: 'Berrylands',
+    value: 'BRS'
   },
   {
-    stationName: 'Berwick (Sussex)',
-    crsCode: 'BRK'
+    label: 'Berwick (Sussex)',
+    value: 'BRK'
   },
   {
-    stationName: 'Berwick-Upon-Tweed',
-    crsCode: 'BWK'
+    label: 'Berwick-Upon-Tweed',
+    value: 'BWK'
   },
   {
-    stationName: 'Bescar Lane',
-    crsCode: 'BES'
+    label: 'Bescar Lane',
+    value: 'BES'
   },
   {
-    stationName: 'Bescot Stadium',
-    crsCode: 'BSC'
+    label: 'Bescot Stadium',
+    value: 'BSC'
   },
   {
-    stationName: 'Betchworth',
-    crsCode: 'BTO'
+    label: 'Betchworth',
+    value: 'BTO'
   },
   {
-    stationName: 'Bethnal Green',
-    crsCode: 'BET'
+    label: 'Bethnal Green',
+    value: 'BET'
   },
   {
-    stationName: 'Betws-Y-Coed',
-    crsCode: 'BYC'
+    label: 'Betws-Y-Coed',
+    value: 'BYC'
   },
   {
-    stationName: 'Beverley',
-    crsCode: 'BEV'
+    label: 'Beverley',
+    value: 'BEV'
   },
   {
-    stationName: 'Bexhill',
-    crsCode: 'BEX'
+    label: 'Bexhill',
+    value: 'BEX'
   },
   {
-    stationName: 'Bexley',
-    crsCode: 'BXY'
+    label: 'Bexley',
+    value: 'BXY'
   },
   {
-    stationName: 'Bexleyheath',
-    crsCode: 'BXH'
+    label: 'Bexleyheath',
+    value: 'BXH'
   },
   {
-    stationName: 'Bicester North',
-    crsCode: 'BCS'
+    label: 'Bicester North',
+    value: 'BCS'
   },
   {
-    stationName: 'Bicester Village',
-    crsCode: 'BIT'
+    label: 'Bicester Village',
+    value: 'BIT'
   },
   {
-    stationName: 'Bickley',
-    crsCode: 'BKL'
+    label: 'Bickley',
+    value: 'BKL'
   },
   {
-    stationName: 'Bidston',
-    crsCode: 'BID'
+    label: 'Bidston',
+    value: 'BID'
   },
   {
-    stationName: 'Biggleswade',
-    crsCode: 'BIW'
+    label: 'Biggleswade',
+    value: 'BIW'
   },
   {
-    stationName: 'Bilbrook',
-    crsCode: 'BBK'
+    label: 'Bilbrook',
+    value: 'BBK'
   },
   {
-    stationName: 'Billericay',
-    crsCode: 'BIC'
+    label: 'Billericay',
+    value: 'BIC'
   },
   {
-    stationName: 'Billingham',
-    crsCode: 'BIL'
+    label: 'Billingham',
+    value: 'BIL'
   },
   {
-    stationName: 'Billingshurst',
-    crsCode: 'BIG'
+    label: 'Billingshurst',
+    value: 'BIG'
   },
   {
-    stationName: 'Bingham',
-    crsCode: 'BIN'
+    label: 'Bingham',
+    value: 'BIN'
   },
   {
-    stationName: 'Bingley',
-    crsCode: 'BIY'
+    label: 'Bingley',
+    value: 'BIY'
   },
   {
-    stationName: 'Birchgrove',
-    crsCode: 'BCG'
+    label: 'Birchgrove',
+    value: 'BCG'
   },
   {
-    stationName: 'Birchington-On-Sea',
-    crsCode: 'BCH'
+    label: 'Birchington-On-Sea',
+    value: 'BCH'
   },
   {
-    stationName: 'Birchwood',
-    crsCode: 'BWD'
+    label: 'Birchwood',
+    value: 'BWD'
   },
   {
-    stationName: 'Birkbeck',
-    crsCode: 'BIK'
+    label: 'Birkbeck',
+    value: 'BIK'
   },
   {
-    stationName: 'Birkdale',
-    crsCode: 'BDL'
+    label: 'Birkdale',
+    value: 'BDL'
   },
   {
-    stationName: 'Birkenhead Central',
-    crsCode: 'BKC'
+    label: 'Birkenhead Central',
+    value: 'BKC'
   },
   {
-    stationName: 'Birkenhead Hamilton Square',
-    crsCode: 'BKQ'
+    label: 'Birkenhead Hamilton Square',
+    value: 'BKQ'
   },
   {
-    stationName: 'Birkenhead North',
-    crsCode: 'BKN'
+    label: 'Birkenhead North',
+    value: 'BKN'
   },
   {
-    stationName: 'Birkenhead Park',
-    crsCode: 'BKP'
+    label: 'Birkenhead Park',
+    value: 'BKP'
   },
   {
-    stationName: 'Birmingham International',
-    crsCode: 'BHI'
+    label: 'Birmingham International',
+    value: 'BHI'
   },
   {
-    stationName: 'Birmingham Moor Street',
-    crsCode: 'BMO'
+    label: 'Birmingham Moor Street',
+    value: 'BMO'
   },
   {
-    stationName: 'Birmingham New Street',
-    crsCode: 'BHM'
+    label: 'Birmingham New Street',
+    value: 'BHM'
   },
   {
-    stationName: 'Birmingham Snow Hill',
-    crsCode: 'BSW'
+    label: 'Birmingham Snow Hill',
+    value: 'BSW'
   },
   {
-    stationName: 'Bishop Auckland',
-    crsCode: 'BIA'
+    label: 'Bishop Auckland',
+    value: 'BIA'
   },
   {
-    stationName: 'Bishopbriggs',
-    crsCode: 'BBG'
+    label: 'Bishopbriggs',
+    value: 'BBG'
   },
   {
-    stationName: 'Bishops Stortford',
-    crsCode: 'BIS'
+    label: 'Bishops Stortford',
+    value: 'BIS'
   },
   {
-    stationName: 'Bishopstone (Sussex)',
-    crsCode: 'BIP'
+    label: 'Bishopstone (Sussex)',
+    value: 'BIP'
   },
   {
-    stationName: 'Bishopton',
-    crsCode: 'BPT'
+    label: 'Bishopton',
+    value: 'BPT'
   },
   {
-    stationName: 'Bitterne',
-    crsCode: 'BTE'
+    label: 'Bitterne',
+    value: 'BTE'
   },
   {
-    stationName: 'Blackburn',
-    crsCode: 'BBN'
+    label: 'Blackburn',
+    value: 'BBN'
   },
   {
-    stationName: 'Blackheath',
-    crsCode: 'BKH'
+    label: 'Blackheath',
+    value: 'BKH'
   },
   {
-    stationName: 'Blackhorse Road',
-    crsCode: 'BHO'
+    label: 'Blackhorse Road',
+    value: 'BHO'
   },
   {
-    stationName: 'Blackpool North',
-    crsCode: 'BPN'
+    label: 'Blackpool North',
+    value: 'BPN'
   },
   {
-    stationName: 'Blackpool Pleasure Beach',
-    crsCode: 'BPB'
+    label: 'Blackpool Pleasure Beach',
+    value: 'BPB'
   },
   {
-    stationName: 'Blackpool South',
-    crsCode: 'BPS'
+    label: 'Blackpool South',
+    value: 'BPS'
   },
   {
-    stationName: 'Blackridge',
-    crsCode: 'BKR'
+    label: 'Blackridge',
+    value: 'BKR'
   },
   {
-    stationName: 'Blackrod',
-    crsCode: 'BLK'
+    label: 'Blackrod',
+    value: 'BLK'
   },
   {
-    stationName: 'Blackwater',
-    crsCode: 'BAW'
+    label: 'Blackwater',
+    value: 'BAW'
   },
   {
-    stationName: 'Blaenau Ffestiniog',
-    crsCode: 'BFF'
+    label: 'Blaenau Ffestiniog',
+    value: 'BFF'
   },
   {
-    stationName: 'Blair Atholl',
-    crsCode: 'BLA'
+    label: 'Blair Atholl',
+    value: 'BLA'
   },
   {
-    stationName: 'Blairhill',
-    crsCode: 'BAI'
+    label: 'Blairhill',
+    value: 'BAI'
   },
   {
-    stationName: 'Blake Street',
-    crsCode: 'BKT'
+    label: 'Blake Street',
+    value: 'BKT'
   },
   {
-    stationName: 'Blakedown',
-    crsCode: 'BKD'
+    label: 'Blakedown',
+    value: 'BKD'
   },
   {
-    stationName: 'Blantyre',
-    crsCode: 'BLT'
+    label: 'Blantyre',
+    value: 'BLT'
   },
   {
-    stationName: 'Blaydon',
-    crsCode: 'BLO'
+    label: 'Blaydon',
+    value: 'BLO'
   },
   {
-    stationName: 'Bleasby',
-    crsCode: 'BSB'
+    label: 'Bleasby',
+    value: 'BSB'
   },
   {
-    stationName: 'Bletchley',
-    crsCode: 'BLY'
+    label: 'Bletchley',
+    value: 'BLY'
   },
   {
-    stationName: 'Bloxwich North',
-    crsCode: 'BWN'
+    label: 'Bloxwich North',
+    value: 'BWN'
   },
   {
-    stationName: 'Bloxwich',
-    crsCode: 'BLX'
+    label: 'Bloxwich',
+    value: 'BLX'
   },
   {
-    stationName: 'Blundellsands & Crosby',
-    crsCode: 'BLN'
+    label: 'Blundellsands & Crosby',
+    value: 'BLN'
   },
   {
-    stationName: 'Blythe Bridge',
-    crsCode: 'BYB'
+    label: 'Blythe Bridge',
+    value: 'BYB'
   },
   {
-    stationName: 'Bodmin Parkway',
-    crsCode: 'BOD'
+    label: 'Bodmin Parkway',
+    value: 'BOD'
   },
   {
-    stationName: 'Bodorgan',
-    crsCode: 'BOR'
+    label: 'Bodorgan',
+    value: 'BOR'
   },
   {
-    stationName: 'Bognor Regis',
-    crsCode: 'BOG'
+    label: 'Bognor Regis',
+    value: 'BOG'
   },
   {
-    stationName: 'Bogston',
-    crsCode: 'BGS'
+    label: 'Bogston',
+    value: 'BGS'
   },
   {
-    stationName: 'Bond Street',
-    crsCode: 'BDS'
+    label: 'Bond Street',
+    value: 'BDS'
   },
   {
-    stationName: 'Bolton',
-    crsCode: 'BON'
+    label: 'Bolton',
+    value: 'BON'
   },
   {
-    stationName: 'Bolton-On-Dearne',
-    crsCode: 'BTD'
+    label: 'Bolton-On-Dearne',
+    value: 'BTD'
   },
   {
-    stationName: 'Bookham',
-    crsCode: 'BKA'
+    label: 'Bookham',
+    value: 'BKA'
   },
   {
-    stationName: 'Bootle (Cumbria)',
-    crsCode: 'BOC'
+    label: 'Bootle (Cumbria)',
+    value: 'BOC'
   },
   {
-    stationName: 'Bootle New Strand',
-    crsCode: 'BNW'
+    label: 'Bootle New Strand',
+    value: 'BNW'
   },
   {
-    stationName: 'Bootle Oriel Road',
-    crsCode: 'BOT'
+    label: 'Bootle Oriel Road',
+    value: 'BOT'
   },
   {
-    stationName: 'Bordesley',
-    crsCode: 'BBS'
+    label: 'Bordesley',
+    value: 'BBS'
   },
   {
-    stationName: 'Borough Green & Wrotham',
-    crsCode: 'BRG'
+    label: 'Borough Green & Wrotham',
+    value: 'BRG'
   },
   {
-    stationName: 'Borth',
-    crsCode: 'BRH'
+    label: 'Borth',
+    value: 'BRH'
   },
   {
-    stationName: 'Bosham',
-    crsCode: 'BOH'
+    label: 'Bosham',
+    value: 'BOH'
   },
   {
-    stationName: 'Boston',
-    crsCode: 'BSN'
+    label: 'Boston',
+    value: 'BSN'
   },
   {
-    stationName: 'Botley',
-    crsCode: 'BOE'
+    label: 'Botley',
+    value: 'BOE'
   },
   {
-    stationName: 'Bottesford',
-    crsCode: 'BTF'
+    label: 'Bottesford',
+    value: 'BTF'
   },
   {
-    stationName: 'Bourne End',
-    crsCode: 'BNE'
+    label: 'Bourne End',
+    value: 'BNE'
   },
   {
-    stationName: 'Bournemouth',
-    crsCode: 'BMH'
+    label: 'Bournemouth',
+    value: 'BMH'
   },
   {
-    stationName: 'Bournville',
-    crsCode: 'BRV'
+    label: 'Bournville',
+    value: 'BRV'
   },
   {
-    stationName: 'Bow Brickhill',
-    crsCode: 'BWB'
+    label: 'Bow Brickhill',
+    value: 'BWB'
   },
   {
-    stationName: 'Bow Street',
-    crsCode: 'BOW'
+    label: 'Bow Street',
+    value: 'BOW'
   },
   {
-    stationName: 'Bowes Park',
-    crsCode: 'BOP'
+    label: 'Bowes Park',
+    value: 'BOP'
   },
   {
-    stationName: 'Bowling',
-    crsCode: 'BWG'
+    label: 'Bowling',
+    value: 'BWG'
   },
   {
-    stationName: 'Box Hill & Westhumble',
-    crsCode: 'BXW'
+    label: 'Box Hill & Westhumble',
+    value: 'BXW'
   },
   {
-    stationName: 'Bracknell',
-    crsCode: 'BCE'
+    label: 'Bracknell',
+    value: 'BCE'
   },
   {
-    stationName: 'Bradford Forster Square',
-    crsCode: 'BDQ'
+    label: 'Bradford Forster Square',
+    value: 'BDQ'
   },
   {
-    stationName: 'Bradford Interchange',
-    crsCode: 'BDI'
+    label: 'Bradford Interchange',
+    value: 'BDI'
   },
   {
-    stationName: 'Bradford-On-Avon',
-    crsCode: 'BOA'
+    label: 'Bradford-On-Avon',
+    value: 'BOA'
   },
   {
-    stationName: 'Brading',
-    crsCode: 'BDN'
+    label: 'Brading',
+    value: 'BDN'
   },
   {
-    stationName: 'Braintree',
-    crsCode: 'BTR'
+    label: 'Braintree',
+    value: 'BTR'
   },
   {
-    stationName: 'Braintree Freeport',
-    crsCode: 'BTP'
+    label: 'Braintree Freeport',
+    value: 'BTP'
   },
   {
-    stationName: 'Bramhall',
-    crsCode: 'BML'
+    label: 'Bramhall',
+    value: 'BML'
   },
   {
-    stationName: 'Bramley (Hants)',
-    crsCode: 'BMY'
+    label: 'Bramley (Hants)',
+    value: 'BMY'
   },
   {
-    stationName: 'Bramley (West Yorkshire)',
-    crsCode: 'BLE'
+    label: 'Bramley (West Yorkshire)',
+    value: 'BLE'
   },
   {
-    stationName: 'Brampton (Cumbria)',
-    crsCode: 'BMP'
+    label: 'Brampton (Cumbria)',
+    value: 'BMP'
   },
   {
-    stationName: 'Brampton (Suffolk)',
-    crsCode: 'BRP'
+    label: 'Brampton (Suffolk)',
+    value: 'BRP'
   },
   {
-    stationName: 'Branchton',
-    crsCode: 'BCN'
+    label: 'Branchton',
+    value: 'BCN'
   },
   {
-    stationName: 'Brandon',
-    crsCode: 'BND'
+    label: 'Brandon',
+    value: 'BND'
   },
   {
-    stationName: 'Branksome',
-    crsCode: 'BSM'
+    label: 'Branksome',
+    value: 'BSM'
   },
   {
-    stationName: 'Braystones',
-    crsCode: 'BYS'
+    label: 'Braystones',
+    value: 'BYS'
   },
   {
-    stationName: 'Bredbury',
-    crsCode: 'BDY'
+    label: 'Bredbury',
+    value: 'BDY'
   },
   {
-    stationName: 'Breich',
-    crsCode: 'BRC'
+    label: 'Breich',
+    value: 'BRC'
   },
   {
-    stationName: 'Brentford',
-    crsCode: 'BFD'
+    label: 'Brentford',
+    value: 'BFD'
   },
   {
-    stationName: 'Brent Cross West',
-    crsCode: 'BCZ'
+    label: 'Brent Cross West',
+    value: 'BCZ'
   },
   {
-    stationName: 'Brentwood',
-    crsCode: 'BRE'
+    label: 'Brentwood',
+    value: 'BRE'
   },
   {
-    stationName: 'Bricket Wood',
-    crsCode: 'BWO'
+    label: 'Bricket Wood',
+    value: 'BWO'
   },
   {
-    stationName: 'Bridge of Allan',
-    crsCode: 'BEA'
+    label: 'Bridge of Allan',
+    value: 'BEA'
   },
   {
-    stationName: 'Bridge of Orchy',
-    crsCode: 'BRO'
+    label: 'Bridge of Orchy',
+    value: 'BRO'
   },
   {
-    stationName: 'Bridgend',
-    crsCode: 'BGN'
+    label: 'Bridgend',
+    value: 'BGN'
   },
   {
-    stationName: 'Bridgeton',
-    crsCode: 'BDG'
+    label: 'Bridgeton',
+    value: 'BDG'
   },
   {
-    stationName: 'Bridgwater',
-    crsCode: 'BWT'
+    label: 'Bridgwater',
+    value: 'BWT'
   },
   {
-    stationName: 'Bridlington',
-    crsCode: 'BDT'
+    label: 'Bridlington',
+    value: 'BDT'
   },
   {
-    stationName: 'Brierfield',
-    crsCode: 'BRF'
+    label: 'Brierfield',
+    value: 'BRF'
   },
   {
-    stationName: 'Brigg',
-    crsCode: 'BGG'
+    label: 'Brigg',
+    value: 'BGG'
   },
   {
-    stationName: 'Brighouse',
-    crsCode: 'BGH'
+    label: 'Brighouse',
+    value: 'BGH'
   },
   {
-    stationName: 'Brighton',
-    crsCode: 'BTN'
+    label: 'Brighton',
+    value: 'BTN'
   },
   {
-    stationName: 'Brimsdown',
-    crsCode: 'BMD'
+    label: 'Brimsdown',
+    value: 'BMD'
   },
   {
-    stationName: 'Brinnington',
-    crsCode: 'BNT'
+    label: 'Brinnington',
+    value: 'BNT'
   },
   {
-    stationName: 'Bristol Parkway',
-    crsCode: 'BPW'
+    label: 'Bristol Parkway',
+    value: 'BPW'
   },
   {
-    stationName: 'Bristol Temple Meads',
-    crsCode: 'BRI'
+    label: 'Bristol Temple Meads',
+    value: 'BRI'
   },
   {
-    stationName: 'Brithdir',
-    crsCode: 'BHD'
+    label: 'Brithdir',
+    value: 'BHD'
   },
   {
-    stationName: 'Briton Ferry',
-    crsCode: 'BNF'
+    label: 'Briton Ferry',
+    value: 'BNF'
   },
   {
-    stationName: 'Brixton',
-    crsCode: 'BRX'
+    label: 'Brixton',
+    value: 'BRX'
   },
   {
-    stationName: 'Broad Green',
-    crsCode: 'BGE'
+    label: 'Broad Green',
+    value: 'BGE'
   },
   {
-    stationName: 'Broadbottom',
-    crsCode: 'BDB'
+    label: 'Broadbottom',
+    value: 'BDB'
   },
   {
-    stationName: 'Broadstairs',
-    crsCode: 'BSR'
+    label: 'Broadstairs',
+    value: 'BSR'
   },
   {
-    stationName: 'Brockenhurst',
-    crsCode: 'BCU'
+    label: 'Brockenhurst',
+    value: 'BCU'
   },
   {
-    stationName: 'Brockholes',
-    crsCode: 'BHS'
+    label: 'Brockholes',
+    value: 'BHS'
   },
   {
-    stationName: 'Brockley',
-    crsCode: 'BCY'
+    label: 'Brockley',
+    value: 'BCY'
   },
   {
-    stationName: 'Brockley Whins',
-    crsCode: 'BNR'
+    label: 'Brockley Whins',
+    value: 'BNR'
   },
   {
-    stationName: 'Bromborough Rake',
-    crsCode: 'BMR'
+    label: 'Bromborough Rake',
+    value: 'BMR'
   },
   {
-    stationName: 'Bromborough',
-    crsCode: 'BOM'
+    label: 'Bromborough',
+    value: 'BOM'
   },
   {
-    stationName: 'Bromley Cross',
-    crsCode: 'BMC'
+    label: 'Bromley Cross',
+    value: 'BMC'
   },
   {
-    stationName: 'Bromley North',
-    crsCode: 'BMN'
+    label: 'Bromley North',
+    value: 'BMN'
   },
   {
-    stationName: 'Bromley South',
-    crsCode: 'BMS'
+    label: 'Bromley South',
+    value: 'BMS'
   },
   {
-    stationName: 'Bromsgrove',
-    crsCode: 'BMV'
+    label: 'Bromsgrove',
+    value: 'BMV'
   },
   {
-    stationName: 'Brondesbury Park',
-    crsCode: 'BSP'
+    label: 'Brondesbury Park',
+    value: 'BSP'
   },
   {
-    stationName: 'Brondesbury',
-    crsCode: 'BSY'
+    label: 'Brondesbury',
+    value: 'BSY'
   },
   {
-    stationName: 'Brookmans Park',
-    crsCode: 'BPK'
+    label: 'Brookmans Park',
+    value: 'BPK'
   },
   {
-    stationName: 'Brookwood',
-    crsCode: 'BKO'
+    label: 'Brookwood',
+    value: 'BKO'
   },
   {
-    stationName: 'Broome',
-    crsCode: 'BME'
+    label: 'Broome',
+    value: 'BME'
   },
   {
-    stationName: 'Broomfleet',
-    crsCode: 'BMF'
+    label: 'Broomfleet',
+    value: 'BMF'
   },
   {
-    stationName: 'Brora',
-    crsCode: 'BRA'
+    label: 'Brora',
+    value: 'BRA'
   },
   {
-    stationName: 'Brough',
-    crsCode: 'BUH'
+    label: 'Brough',
+    value: 'BUH'
   },
   {
-    stationName: 'Broughty Ferry',
-    crsCode: 'BYF'
+    label: 'Broughty Ferry',
+    value: 'BYF'
   },
   {
-    stationName: 'Broxbourne',
-    crsCode: 'BXB'
+    label: 'Broxbourne',
+    value: 'BXB'
   },
   {
-    stationName: 'Bruce Grove',
-    crsCode: 'BCV'
+    label: 'Bruce Grove',
+    value: 'BCV'
   },
   {
-    stationName: 'Brundall Gardens',
-    crsCode: 'BGA'
+    label: 'Brundall Gardens',
+    value: 'BGA'
   },
   {
-    stationName: 'Brundall',
-    crsCode: 'BDA'
+    label: 'Brundall',
+    value: 'BDA'
   },
   {
-    stationName: 'Brunstane',
-    crsCode: 'BSU'
+    label: 'Brunstane',
+    value: 'BSU'
   },
   {
-    stationName: 'Brunswick',
-    crsCode: 'BRW'
+    label: 'Brunswick',
+    value: 'BRW'
   },
   {
-    stationName: 'Bruton',
-    crsCode: 'BRU'
+    label: 'Bruton',
+    value: 'BRU'
   },
   {
-    stationName: 'Bryn',
-    crsCode: 'BYN'
+    label: 'Bryn',
+    value: 'BYN'
   },
   {
-    stationName: 'Buckenham',
-    crsCode: 'BUC'
+    label: 'Buckenham',
+    value: 'BUC'
   },
   {
-    stationName: 'Buckley',
-    crsCode: 'BCK'
+    label: 'Buckley',
+    value: 'BCK'
   },
   {
-    stationName: 'Bucknell',
-    crsCode: 'BUK'
+    label: 'Bucknell',
+    value: 'BUK'
   },
   {
-    stationName: 'Buckshaw Parkway',
-    crsCode: 'BSV'
+    label: 'Buckshaw Parkway',
+    value: 'BSV'
   },
   {
-    stationName: 'Bugle',
-    crsCode: 'BGL'
+    label: 'Bugle',
+    value: 'BGL'
   },
   {
-    stationName: 'Builth Road',
-    crsCode: 'BHR'
+    label: 'Builth Road',
+    value: 'BHR'
   },
   {
-    stationName: 'Bulwell',
-    crsCode: 'BLW'
+    label: 'Bulwell',
+    value: 'BLW'
   },
   {
-    stationName: 'Bures',
-    crsCode: 'BUE'
+    label: 'Bures',
+    value: 'BUE'
   },
   {
-    stationName: 'Burgess Hill',
-    crsCode: 'BUG'
+    label: 'Burgess Hill',
+    value: 'BUG'
   },
   {
-    stationName: 'Burley Park',
-    crsCode: 'BUY'
+    label: 'Burley Park',
+    value: 'BUY'
   },
   {
-    stationName: 'Burley-In-Wharfedale',
-    crsCode: 'BUW'
+    label: 'Burley-In-Wharfedale',
+    value: 'BUW'
   },
   {
-    stationName: 'Burnage',
-    crsCode: 'BNA'
+    label: 'Burnage',
+    value: 'BNA'
   },
   {
-    stationName: 'Burneside',
-    crsCode: 'BUD'
+    label: 'Burneside',
+    value: 'BUD'
   },
   {
-    stationName: 'Burnham',
-    crsCode: 'BNM'
+    label: 'Burnham',
+    value: 'BNM'
   },
   {
-    stationName: 'Burnham-On-Crouch',
-    crsCode: 'BUU'
+    label: 'Burnham-On-Crouch',
+    value: 'BUU'
   },
   {
-    stationName: 'Burnley Barracks',
-    crsCode: 'BUB'
+    label: 'Burnley Barracks',
+    value: 'BUB'
   },
   {
-    stationName: 'Burnley Central',
-    crsCode: 'BNC'
+    label: 'Burnley Central',
+    value: 'BNC'
   },
   {
-    stationName: 'Burnley Manchester Road',
-    crsCode: 'BYM'
+    label: 'Burnley Manchester Road',
+    value: 'BYM'
   },
   {
-    stationName: 'Burnside',
-    crsCode: 'BUI'
+    label: 'Burnside',
+    value: 'BUI'
   },
   {
-    stationName: 'Burntisland',
-    crsCode: 'BTS'
+    label: 'Burntisland',
+    value: 'BTS'
   },
   {
-    stationName: 'Burscough Bridge',
-    crsCode: 'BCB'
+    label: 'Burscough Bridge',
+    value: 'BCB'
   },
   {
-    stationName: 'Burscough Junction',
-    crsCode: 'BCJ'
+    label: 'Burscough Junction',
+    value: 'BCJ'
   },
   {
-    stationName: 'Bursledon',
-    crsCode: 'BUO'
+    label: 'Bursledon',
+    value: 'BUO'
   },
   {
-    stationName: 'Burton Joyce',
-    crsCode: 'BUJ'
+    label: 'Burton Joyce',
+    value: 'BUJ'
   },
   {
-    stationName: 'Burton-On-Trent',
-    crsCode: 'BUT'
+    label: 'Burton-On-Trent',
+    value: 'BUT'
   },
   {
-    stationName: 'Bury St Edmunds',
-    crsCode: 'BSE'
+    label: 'Bury St Edmunds',
+    value: 'BSE'
   },
   {
-    stationName: 'Busby',
-    crsCode: 'BUS'
+    label: 'Busby',
+    value: 'BUS'
   },
   {
-    stationName: 'Bush Hill Park',
-    crsCode: 'BHK'
+    label: 'Bush Hill Park',
+    value: 'BHK'
   },
   {
-    stationName: 'Bushey',
-    crsCode: 'BSH'
+    label: 'Bushey',
+    value: 'BSH'
   },
   {
-    stationName: 'Butlers Lane',
-    crsCode: 'BUL'
+    label: 'Butlers Lane',
+    value: 'BUL'
   },
   {
-    stationName: 'Buxted',
-    crsCode: 'BXD'
+    label: 'Buxted',
+    value: 'BXD'
   },
   {
-    stationName: 'Buxton',
-    crsCode: 'BUX'
+    label: 'Buxton',
+    value: 'BUX'
   },
   {
-    stationName: 'Byfleet & New Haw',
-    crsCode: 'BFN'
+    label: 'Byfleet & New Haw',
+    value: 'BFN'
   },
   {
-    stationName: 'Bynea',
-    crsCode: 'BYE'
+    label: 'Bynea',
+    value: 'BYE'
   },
   {
-    stationName: 'Cadoxton',
-    crsCode: 'CAD'
+    label: 'Cadoxton',
+    value: 'CAD'
   },
   {
-    stationName: 'Caergwrle',
-    crsCode: 'CGW'
+    label: 'Caergwrle',
+    value: 'CGW'
   },
   {
-    stationName: 'Caerphilly',
-    crsCode: 'CPH'
+    label: 'Caerphilly',
+    value: 'CPH'
   },
   {
-    stationName: 'Caersws',
-    crsCode: 'CWS'
+    label: 'Caersws',
+    value: 'CWS'
   },
   {
-    stationName: 'Caldercruix',
-    crsCode: 'CAC'
+    label: 'Caldercruix',
+    value: 'CAC'
   },
   {
-    stationName: 'Caldicot',
-    crsCode: 'CDT'
+    label: 'Caldicot',
+    value: 'CDT'
   },
   {
-    stationName: 'Caledonian Road & Barnsbury',
-    crsCode: 'CIR'
+    label: 'Caledonian Road & Barnsbury',
+    value: 'CIR'
   },
   {
-    stationName: 'Calstock',
-    crsCode: 'CSK'
+    label: 'Calstock',
+    value: 'CSK'
   },
   {
-    stationName: 'Cam & Dursley',
-    crsCode: 'CDU'
+    label: 'Cam & Dursley',
+    value: 'CDU'
   },
   {
-    stationName: 'Camberley',
-    crsCode: 'CAM'
+    label: 'Camberley',
+    value: 'CAM'
   },
   {
-    stationName: 'Camborne',
-    crsCode: 'CBN'
+    label: 'Camborne',
+    value: 'CBN'
   },
   {
-    stationName: 'Cambridge',
-    crsCode: 'CBG'
+    label: 'Cambridge',
+    value: 'CBG'
   },
   {
-    stationName: 'Cambridge Heath',
-    crsCode: 'CBH'
+    label: 'Cambridge Heath',
+    value: 'CBH'
   },
   {
-    stationName: 'Cambridge North',
-    crsCode: 'CMB'
+    label: 'Cambridge North',
+    value: 'CMB'
   },
   {
-    stationName: 'Cambuslang',
-    crsCode: 'CBL'
+    label: 'Cambuslang',
+    value: 'CBL'
   },
   {
-    stationName: 'Camden Road',
-    crsCode: 'CMD'
+    label: 'Camden Road',
+    value: 'CMD'
   },
   {
-    stationName: 'Camelon',
-    crsCode: 'CMO'
+    label: 'Camelon',
+    value: 'CMO'
   },
   {
-    stationName: 'Cameron Bridge',
-    crsCode: 'CBX'
+    label: 'Cameron Bridge',
+    value: 'CBX'
   },
   {
-    stationName: 'Canada Water',
-    crsCode: 'ZCW'
+    label: 'Canada Water',
+    value: 'ZCW'
   },
   {
-    stationName: 'Canary Wharf',
-    crsCode: 'CWX'
+    label: 'Canary Wharf',
+    value: 'CWX'
   },
   {
-    stationName: 'Canley',
-    crsCode: 'CNL'
+    label: 'Canley',
+    value: 'CNL'
   },
   {
-    stationName: 'Cannock',
-    crsCode: 'CAO'
+    label: 'Cannock',
+    value: 'CAO'
   },
   {
-    stationName: 'Canonbury',
-    crsCode: 'CNN'
+    label: 'Canonbury',
+    value: 'CNN'
   },
   {
-    stationName: 'Canterbury East',
-    crsCode: 'CBE'
+    label: 'Canterbury East',
+    value: 'CBE'
   },
   {
-    stationName: 'Canterbury West',
-    crsCode: 'CBW'
+    label: 'Canterbury West',
+    value: 'CBW'
   },
   {
-    stationName: 'Cantley',
-    crsCode: 'CNY'
+    label: 'Cantley',
+    value: 'CNY'
   },
   {
-    stationName: 'Capenhurst',
-    crsCode: 'CPU'
+    label: 'Capenhurst',
+    value: 'CPU'
   },
   {
-    stationName: 'Carbis Bay',
-    crsCode: 'CBB'
+    label: 'Carbis Bay',
+    value: 'CBB'
   },
   {
-    stationName: 'Cardenden',
-    crsCode: 'CDD'
+    label: 'Cardenden',
+    value: 'CDD'
   },
   {
-    stationName: 'Cardiff Bay',
-    crsCode: 'CDB'
+    label: 'Cardiff Bay',
+    value: 'CDB'
   },
   {
-    stationName: 'Cardiff Central',
-    crsCode: 'CDF'
+    label: 'Cardiff Central',
+    value: 'CDF'
   },
   {
-    stationName: 'Cardiff International Airport',
-    crsCode: 'XCF'
+    label: 'Cardiff International Airport',
+    value: 'XCF'
   },
   {
-    stationName: 'Cardiff Queen Street',
-    crsCode: 'CDQ'
+    label: 'Cardiff Queen Street',
+    value: 'CDQ'
   },
   {
-    stationName: 'Cardonald',
-    crsCode: 'CDO'
+    label: 'Cardonald',
+    value: 'CDO'
   },
   {
-    stationName: 'Cardross',
-    crsCode: 'CDR'
+    label: 'Cardross',
+    value: 'CDR'
   },
   {
-    stationName: 'Carfin',
-    crsCode: 'CRF'
+    label: 'Carfin',
+    value: 'CRF'
   },
   {
-    stationName: 'Cark',
-    crsCode: 'CAK'
+    label: 'Cark',
+    value: 'CAK'
   },
   {
-    stationName: 'Carlisle',
-    crsCode: 'CAR'
+    label: 'Carlisle',
+    value: 'CAR'
   },
   {
-    stationName: 'Carlton',
-    crsCode: 'CTO'
+    label: 'Carlton',
+    value: 'CTO'
   },
   {
-    stationName: 'Carluke',
-    crsCode: 'CLU'
+    label: 'Carluke',
+    value: 'CLU'
   },
   {
-    stationName: 'Carmarthen',
-    crsCode: 'CMN'
+    label: 'Carmarthen',
+    value: 'CMN'
   },
   {
-    stationName: 'Carmyle',
-    crsCode: 'CML'
+    label: 'Carmyle',
+    value: 'CML'
   },
   {
-    stationName: 'Carnforth',
-    crsCode: 'CNF'
+    label: 'Carnforth',
+    value: 'CNF'
   },
   {
-    stationName: 'Carnoustie',
-    crsCode: 'CAN'
+    label: 'Carnoustie',
+    value: 'CAN'
   },
   {
-    stationName: 'Carntyne',
-    crsCode: 'CAY'
+    label: 'Carntyne',
+    value: 'CAY'
   },
   {
-    stationName: 'Carpenders Park',
-    crsCode: 'CPK'
+    label: 'Carpenders Park',
+    value: 'CPK'
   },
   {
-    stationName: 'Carrbridge',
-    crsCode: 'CAG'
+    label: 'Carrbridge',
+    value: 'CAG'
   },
   {
-    stationName: 'Carshalton',
-    crsCode: 'CSH'
+    label: 'Carshalton',
+    value: 'CSH'
   },
   {
-    stationName: 'Carshalton Beeches',
-    crsCode: 'CSB'
+    label: 'Carshalton Beeches',
+    value: 'CSB'
   },
   {
-    stationName: 'Carstairs',
-    crsCode: 'CRS'
+    label: 'Carstairs',
+    value: 'CRS'
   },
   {
-    stationName: 'Cartsdyke',
-    crsCode: 'CDY'
+    label: 'Cartsdyke',
+    value: 'CDY'
   },
   {
-    stationName: 'Castle Bar Park',
-    crsCode: 'CBP'
+    label: 'Castle Bar Park',
+    value: 'CBP'
   },
   {
-    stationName: 'Castle Cary',
-    crsCode: 'CLC'
+    label: 'Castle Cary',
+    value: 'CLC'
   },
   {
-    stationName: 'Castleford',
-    crsCode: 'CFD'
+    label: 'Castleford',
+    value: 'CFD'
   },
   {
-    stationName: 'Castleton',
-    crsCode: 'CAS'
+    label: 'Castleton',
+    value: 'CAS'
   },
   {
-    stationName: 'Castleton Moor',
-    crsCode: 'CSM'
+    label: 'Castleton Moor',
+    value: 'CSM'
   },
   {
-    stationName: 'Caterham',
-    crsCode: 'CAT'
+    label: 'Caterham',
+    value: 'CAT'
   },
   {
-    stationName: 'Catford Bridge',
-    crsCode: 'CFB'
+    label: 'Catford Bridge',
+    value: 'CFB'
   },
   {
-    stationName: 'Catford',
-    crsCode: 'CTF'
+    label: 'Catford',
+    value: 'CTF'
   },
   {
-    stationName: 'Cathays',
-    crsCode: 'CYS'
+    label: 'Cathays',
+    value: 'CYS'
   },
   {
-    stationName: 'Cathcart',
-    crsCode: 'CCT'
+    label: 'Cathcart',
+    value: 'CCT'
   },
   {
-    stationName: 'Cattal',
-    crsCode: 'CTL'
+    label: 'Cattal',
+    value: 'CTL'
   },
   {
-    stationName: 'Causeland',
-    crsCode: 'CAU'
+    label: 'Causeland',
+    value: 'CAU'
   },
   {
-    stationName: 'Cefn-Y-Bedd',
-    crsCode: 'CYB'
+    label: 'Cefn-Y-Bedd',
+    value: 'CYB'
   },
   {
-    stationName: 'Chadwell Heath',
-    crsCode: 'CTH'
+    label: 'Chadwell Heath',
+    value: 'CTH'
   },
   {
-    stationName: 'Chafford Hundred',
-    crsCode: 'CFH'
+    label: 'Chafford Hundred',
+    value: 'CFH'
   },
   {
-    stationName: 'Chalfont & Latimer',
-    crsCode: 'CFO'
+    label: 'Chalfont & Latimer',
+    value: 'CFO'
   },
   {
-    stationName: 'Chalkwell',
-    crsCode: 'CHW'
+    label: 'Chalkwell',
+    value: 'CHW'
   },
   {
-    stationName: 'Chandlers Ford',
-    crsCode: 'CFR'
+    label: 'Chandlers Ford',
+    value: 'CFR'
   },
   {
-    stationName: 'Chapel-En-Le-Frith',
-    crsCode: 'CEF'
+    label: 'Chapel-En-Le-Frith',
+    value: 'CEF'
   },
   {
-    stationName: 'Chapeltown',
-    crsCode: 'CLN'
+    label: 'Chapeltown',
+    value: 'CLN'
   },
   {
-    stationName: 'Chapleton',
-    crsCode: 'CPN'
+    label: 'Chapleton',
+    value: 'CPN'
   },
   {
-    stationName: 'Chappel & Wakes Colne',
-    crsCode: 'CWC'
+    label: 'Chappel & Wakes Colne',
+    value: 'CWC'
   },
   {
-    stationName: 'Charing',
-    crsCode: 'CHG'
+    label: 'Charing',
+    value: 'CHG'
   },
   {
-    stationName: 'Charing Cross (Glasgow)',
-    crsCode: 'CHC'
+    label: 'Charing Cross (Glasgow)',
+    value: 'CHC'
   },
   {
-    stationName: 'Charlbury',
-    crsCode: 'CBY'
+    label: 'Charlbury',
+    value: 'CBY'
   },
   {
-    stationName: 'Charlton',
-    crsCode: 'CTN'
+    label: 'Charlton',
+    value: 'CTN'
   },
   {
-    stationName: 'Chartham',
-    crsCode: 'CRT'
+    label: 'Chartham',
+    value: 'CRT'
   },
   {
-    stationName: 'Chassen Road',
-    crsCode: 'CSR'
+    label: 'Chassen Road',
+    value: 'CSR'
   },
   {
-    stationName: 'Chatelherault',
-    crsCode: 'CTE'
+    label: 'Chatelherault',
+    value: 'CTE'
   },
   {
-    stationName: 'Chatham',
-    crsCode: 'CTM'
+    label: 'Chatham',
+    value: 'CTM'
   },
   {
-    stationName: 'Chathill',
-    crsCode: 'CHT'
+    label: 'Chathill',
+    value: 'CHT'
   },
   {
-    stationName: 'Cheadle Hulme',
-    crsCode: 'CHU'
+    label: 'Cheadle Hulme',
+    value: 'CHU'
   },
   {
-    stationName: 'Cheam',
-    crsCode: 'CHE'
+    label: 'Cheam',
+    value: 'CHE'
   },
   {
-    stationName: 'Cheddington',
-    crsCode: 'CED'
+    label: 'Cheddington',
+    value: 'CED'
   },
   {
-    stationName: 'Chelford',
-    crsCode: 'CEL'
+    label: 'Chelford',
+    value: 'CEL'
   },
   {
-    stationName: 'Chelmsford',
-    crsCode: 'CHM'
+    label: 'Chelmsford',
+    value: 'CHM'
   },
   {
-    stationName: 'Chelsfield',
-    crsCode: 'CLD'
+    label: 'Chelsfield',
+    value: 'CLD'
   },
   {
-    stationName: 'Cheltenham Spa',
-    crsCode: 'CNM'
+    label: 'Cheltenham Spa',
+    value: 'CNM'
   },
   {
-    stationName: 'Chepstow',
-    crsCode: 'CPW'
+    label: 'Chepstow',
+    value: 'CPW'
   },
   {
-    stationName: 'Cherry Tree',
-    crsCode: 'CYT'
+    label: 'Cherry Tree',
+    value: 'CYT'
   },
   {
-    stationName: 'Chertsey',
-    crsCode: 'CHY'
+    label: 'Chertsey',
+    value: 'CHY'
   },
   {
-    stationName: 'Cheshunt',
-    crsCode: 'CHN'
+    label: 'Cheshunt',
+    value: 'CHN'
   },
   {
-    stationName: 'Chessington North',
-    crsCode: 'CSN'
+    label: 'Chessington North',
+    value: 'CSN'
   },
   {
-    stationName: 'Chessington South',
-    crsCode: 'CSS'
+    label: 'Chessington South',
+    value: 'CSS'
   },
   {
-    stationName: 'Chester',
-    crsCode: 'CTR'
+    label: 'Chester',
+    value: 'CTR'
   },
   {
-    stationName: 'Chester Road',
-    crsCode: 'CRD'
+    label: 'Chester Road',
+    value: 'CRD'
   },
   {
-    stationName: 'Chesterfield',
-    crsCode: 'CHD'
+    label: 'Chesterfield',
+    value: 'CHD'
   },
   {
-    stationName: 'Chester-Le-Street',
-    crsCode: 'CLS'
+    label: 'Chester-Le-Street',
+    value: 'CLS'
   },
   {
-    stationName: 'Chestfield & Swalecliffe',
-    crsCode: 'CSW'
+    label: 'Chestfield & Swalecliffe',
+    value: 'CSW'
   },
   {
-    stationName: 'Chetnole',
-    crsCode: 'CNO'
+    label: 'Chetnole',
+    value: 'CNO'
   },
   {
-    stationName: 'Chichester',
-    crsCode: 'CCH'
+    label: 'Chichester',
+    value: 'CCH'
   },
   {
-    stationName: 'Chilham',
-    crsCode: 'CIL'
+    label: 'Chilham',
+    value: 'CIL'
   },
   {
-    stationName: 'Chilworth',
-    crsCode: 'CHL'
+    label: 'Chilworth',
+    value: 'CHL'
   },
   {
-    stationName: 'Chingford',
-    crsCode: 'CHI'
+    label: 'Chingford',
+    value: 'CHI'
   },
   {
-    stationName: 'Chinley',
-    crsCode: 'CLY'
+    label: 'Chinley',
+    value: 'CLY'
   },
   {
-    stationName: 'Chippenham',
-    crsCode: 'CPM'
+    label: 'Chippenham',
+    value: 'CPM'
   },
   {
-    stationName: 'Chipstead',
-    crsCode: 'CHP'
+    label: 'Chipstead',
+    value: 'CHP'
   },
   {
-    stationName: 'Chirk',
-    crsCode: 'CRK'
+    label: 'Chirk',
+    value: 'CRK'
   },
   {
-    stationName: 'Chislehurst',
-    crsCode: 'CIT'
+    label: 'Chislehurst',
+    value: 'CIT'
   },
   {
-    stationName: 'Chiswick',
-    crsCode: 'CHK'
+    label: 'Chiswick',
+    value: 'CHK'
   },
   {
-    stationName: 'Cholsey',
-    crsCode: 'CHO'
+    label: 'Cholsey',
+    value: 'CHO'
   },
   {
-    stationName: 'Chorley',
-    crsCode: 'CRL'
+    label: 'Chorley',
+    value: 'CRL'
   },
   {
-    stationName: 'Chorleywood',
-    crsCode: 'CLW'
+    label: 'Chorleywood',
+    value: 'CLW'
   },
   {
-    stationName: 'Christchurch',
-    crsCode: 'CHR'
+    label: 'Christchurch',
+    value: 'CHR'
   },
   {
-    stationName: 'Christs Hospital',
-    crsCode: 'CHH'
+    label: 'Christs Hospital',
+    value: 'CHH'
   },
   {
-    stationName: 'Church & Oswaldtwistle',
-    crsCode: 'CTW'
+    label: 'Church & Oswaldtwistle',
+    value: 'CTW'
   },
   {
-    stationName: 'Church Fenton',
-    crsCode: 'CHF'
+    label: 'Church Fenton',
+    value: 'CHF'
   },
   {
-    stationName: 'Church Stretton',
-    crsCode: 'CTT'
+    label: 'Church Stretton',
+    value: 'CTT'
   },
   {
-    stationName: 'Cilmeri',
-    crsCode: 'CIM'
+    label: 'Cilmeri',
+    value: 'CIM'
   },
   {
-    stationName: 'City Thameslink',
-    crsCode: 'CTK'
+    label: 'City Thameslink',
+    value: 'CTK'
   },
   {
-    stationName: 'Clacton-On-Sea',
-    crsCode: 'CLT'
+    label: 'Clacton-On-Sea',
+    value: 'CLT'
   },
   {
-    stationName: 'Clandon',
-    crsCode: 'CLA'
+    label: 'Clandon',
+    value: 'CLA'
   },
   {
-    stationName: 'Clapham (North Yorkshire)',
-    crsCode: 'CPY'
+    label: 'Clapham (North Yorkshire)',
+    value: 'CPY'
   },
   {
-    stationName: 'Clapham High Street',
-    crsCode: 'CLP'
+    label: 'Clapham High Street',
+    value: 'CLP'
   },
   {
-    stationName: 'Clapham Junction',
-    crsCode: 'CLJ'
+    label: 'Clapham Junction',
+    value: 'CLJ'
   },
   {
-    stationName: 'Clapton',
-    crsCode: 'CPT'
+    label: 'Clapton',
+    value: 'CPT'
   },
   {
-    stationName: 'Clarbeston Road',
-    crsCode: 'CLR'
+    label: 'Clarbeston Road',
+    value: 'CLR'
   },
   {
-    stationName: 'Clarkston',
-    crsCode: 'CKS'
+    label: 'Clarkston',
+    value: 'CKS'
   },
   {
-    stationName: 'Claverdon',
-    crsCode: 'CLV'
+    label: 'Claverdon',
+    value: 'CLV'
   },
   {
-    stationName: 'Claygate',
-    crsCode: 'CLG'
+    label: 'Claygate',
+    value: 'CLG'
   },
   {
-    stationName: 'Cleethorpes',
-    crsCode: 'CLE'
+    label: 'Cleethorpes',
+    value: 'CLE'
   },
   {
-    stationName: 'Cleland',
-    crsCode: 'CEA'
+    label: 'Cleland',
+    value: 'CEA'
   },
   {
-    stationName: 'Clifton',
-    crsCode: 'CLI'
+    label: 'Clifton',
+    value: 'CLI'
   },
   {
-    stationName: 'Clifton Down',
-    crsCode: 'CFN'
+    label: 'Clifton Down',
+    value: 'CFN'
   },
   {
-    stationName: 'Clitheroe',
-    crsCode: 'CLH'
+    label: 'Clitheroe',
+    value: 'CLH'
   },
   {
-    stationName: 'Clock House',
-    crsCode: 'CLK'
+    label: 'Clock House',
+    value: 'CLK'
   },
   {
-    stationName: 'Clunderwen',
-    crsCode: 'CUW'
+    label: 'Clunderwen',
+    value: 'CUW'
   },
   {
-    stationName: 'Clydebank',
-    crsCode: 'CYK'
+    label: 'Clydebank',
+    value: 'CYK'
   },
   {
-    stationName: 'Coatbridge Central',
-    crsCode: 'CBC'
+    label: 'Coatbridge Central',
+    value: 'CBC'
   },
   {
-    stationName: 'Coatbridge Sunnyside',
-    crsCode: 'CBS'
+    label: 'Coatbridge Sunnyside',
+    value: 'CBS'
   },
   {
-    stationName: 'Coatdyke',
-    crsCode: 'COA'
+    label: 'Coatdyke',
+    value: 'COA'
   },
   {
-    stationName: 'Cobham & Stoke Dabernon',
-    crsCode: 'CSD'
+    label: 'Cobham & Stoke Dabernon',
+    value: 'CSD'
   },
   {
-    stationName: 'Codsall',
-    crsCode: 'CSL'
+    label: 'Codsall',
+    value: 'CSL'
   },
   {
-    stationName: 'Cogan',
-    crsCode: 'CGN'
+    label: 'Cogan',
+    value: 'CGN'
   },
   {
-    stationName: 'Colchester',
-    crsCode: 'COL'
+    label: 'Colchester',
+    value: 'COL'
   },
   {
-    stationName: 'Colchester Town',
-    crsCode: 'CET'
+    label: 'Colchester Town',
+    value: 'CET'
   },
   {
-    stationName: 'Coleshill Parkway',
-    crsCode: 'CEH'
+    label: 'Coleshill Parkway',
+    value: 'CEH'
   },
   {
-    stationName: 'Collingham',
-    crsCode: 'CLM'
+    label: 'Collingham',
+    value: 'CLM'
   },
   {
-    stationName: 'Collington',
-    crsCode: 'CLL'
+    label: 'Collington',
+    value: 'CLL'
   },
   {
-    stationName: 'Colne',
-    crsCode: 'CNE'
+    label: 'Colne',
+    value: 'CNE'
   },
   {
-    stationName: 'Colwall',
-    crsCode: 'CWL'
+    label: 'Colwall',
+    value: 'CWL'
   },
   {
-    stationName: 'Colwyn Bay',
-    crsCode: 'CWB'
+    label: 'Colwyn Bay',
+    value: 'CWB'
   },
   {
-    stationName: 'Combe',
-    crsCode: 'CME'
+    label: 'Combe',
+    value: 'CME'
   },
   {
-    stationName: 'Commondale',
-    crsCode: 'COM'
+    label: 'Commondale',
+    value: 'COM'
   },
   {
-    stationName: 'Congleton',
-    crsCode: 'CNG'
+    label: 'Congleton',
+    value: 'CNG'
   },
   {
-    stationName: 'Conisbrough',
-    crsCode: 'CNS'
+    label: 'Conisbrough',
+    value: 'CNS'
   },
   {
-    stationName: 'Connel Ferry',
-    crsCode: 'CON'
+    label: 'Connel Ferry',
+    value: 'CON'
   },
   {
-    stationName: 'Conon Bridge',
-    crsCode: 'CBD'
+    label: 'Conon Bridge',
+    value: 'CBD'
   },
   {
-    stationName: 'Cononley',
-    crsCode: 'CEY'
+    label: 'Cononley',
+    value: 'CEY'
   },
   {
-    stationName: 'Conway Park',
-    crsCode: 'CNP'
+    label: 'Conway Park',
+    value: 'CNP'
   },
   {
-    stationName: 'Conwy',
-    crsCode: 'CNW'
+    label: 'Conwy',
+    value: 'CNW'
   },
   {
-    stationName: 'Cooden Beach',
-    crsCode: 'COB'
+    label: 'Cooden Beach',
+    value: 'COB'
   },
   {
-    stationName: 'Cookham',
-    crsCode: 'COO'
+    label: 'Cookham',
+    value: 'COO'
   },
   {
-    stationName: 'Cooksbridge',
-    crsCode: 'CBR'
+    label: 'Cooksbridge',
+    value: 'CBR'
   },
   {
-    stationName: 'Coombe',
-    crsCode: 'COE'
+    label: 'Coombe',
+    value: 'COE'
   },
   {
-    stationName: 'Copplestone',
-    crsCode: 'COP'
+    label: 'Copplestone',
+    value: 'COP'
   },
   {
-    stationName: 'Corbridge',
-    crsCode: 'CRB'
+    label: 'Corbridge',
+    value: 'CRB'
   },
   {
-    stationName: 'Corby',
-    crsCode: 'COR'
+    label: 'Corby',
+    value: 'COR'
   },
   {
-    stationName: 'Corfe Castle',
-    crsCode: 'CFC'
+    label: 'Corfe Castle',
+    value: 'CFC'
   },
   {
-    stationName: 'Corkerhill',
-    crsCode: 'CKH'
+    label: 'Corkerhill',
+    value: 'CKH'
   },
   {
-    stationName: 'Corkickle',
-    crsCode: 'CKL'
+    label: 'Corkickle',
+    value: 'CKL'
   },
   {
-    stationName: 'Corpach',
-    crsCode: 'CPA'
+    label: 'Corpach',
+    value: 'CPA'
   },
   {
-    stationName: 'Corrour',
-    crsCode: 'CRR'
+    label: 'Corrour',
+    value: 'CRR'
   },
   {
-    stationName: 'Coryton',
-    crsCode: 'COY'
+    label: 'Coryton',
+    value: 'COY'
   },
   {
-    stationName: 'Coseley',
-    crsCode: 'CSY'
+    label: 'Coseley',
+    value: 'CSY'
   },
   {
-    stationName: 'Cosford',
-    crsCode: 'COS'
+    label: 'Cosford',
+    value: 'COS'
   },
   {
-    stationName: 'Cosham',
-    crsCode: 'CSA'
+    label: 'Cosham',
+    value: 'CSA'
   },
   {
-    stationName: 'Cottingham',
-    crsCode: 'CGM'
+    label: 'Cottingham',
+    value: 'CGM'
   },
   {
-    stationName: 'Cottingley',
-    crsCode: 'COT'
+    label: 'Cottingley',
+    value: 'COT'
   },
   {
-    stationName: 'Coulsdon South',
-    crsCode: 'CDS'
+    label: 'Coulsdon South',
+    value: 'CDS'
   },
   {
-    stationName: 'Coulsdon Town',
-    crsCode: 'CDN'
+    label: 'Coulsdon Town',
+    value: 'CDN'
   },
   {
-    stationName: 'Coventry',
-    crsCode: 'COV'
+    label: 'Coventry',
+    value: 'COV'
   },
   {
-    stationName: 'Coventry Arena',
-    crsCode: 'CAA'
+    label: 'Coventry Arena',
+    value: 'CAA'
   },
   {
-    stationName: 'Cowden',
-    crsCode: 'CWN'
+    label: 'Cowden',
+    value: 'CWN'
   },
   {
-    stationName: 'Cowdenbeath',
-    crsCode: 'COW'
+    label: 'Cowdenbeath',
+    value: 'COW'
   },
   {
-    stationName: 'Cradley Heath',
-    crsCode: 'CRA'
+    label: 'Cradley Heath',
+    value: 'CRA'
   },
   {
-    stationName: 'Craigendoran',
-    crsCode: 'CGD'
+    label: 'Craigendoran',
+    value: 'CGD'
   },
   {
-    stationName: 'Cramlington',
-    crsCode: 'CRM'
+    label: 'Cramlington',
+    value: 'CRM'
   },
   {
-    stationName: 'Cranbrook (Devon)',
-    crsCode: 'CBK'
+    label: 'Cranbrook (Devon)',
+    value: 'CBK'
   },
   {
-    stationName: 'Craven Arms',
-    crsCode: 'CRV'
+    label: 'Craven Arms',
+    value: 'CRV'
   },
   {
-    stationName: 'Crawley',
-    crsCode: 'CRW'
+    label: 'Crawley',
+    value: 'CRW'
   },
   {
-    stationName: 'Crayford',
-    crsCode: 'CRY'
+    label: 'Crayford',
+    value: 'CRY'
   },
   {
-    stationName: 'Crediton',
-    crsCode: 'CDI'
+    label: 'Crediton',
+    value: 'CDI'
   },
   {
-    stationName: 'Cressing',
-    crsCode: 'CES'
+    label: 'Cressing',
+    value: 'CES'
   },
   {
-    stationName: 'Cressington',
-    crsCode: 'CSG'
+    label: 'Cressington',
+    value: 'CSG'
   },
   {
-    stationName: 'Creswell',
-    crsCode: 'CWD'
+    label: 'Creswell',
+    value: 'CWD'
   },
   {
-    stationName: 'Crewe',
-    crsCode: 'CRE'
+    label: 'Crewe',
+    value: 'CRE'
   },
   {
-    stationName: 'Crewkerne',
-    crsCode: 'CKN'
+    label: 'Crewkerne',
+    value: 'CKN'
   },
   {
-    stationName: 'Crews Hill',
-    crsCode: 'CWH'
+    label: 'Crews Hill',
+    value: 'CWH'
   },
   {
-    stationName: 'Crianlarich',
-    crsCode: 'CNR'
+    label: 'Crianlarich',
+    value: 'CNR'
   },
   {
-    stationName: 'Criccieth',
-    crsCode: 'CCC'
+    label: 'Criccieth',
+    value: 'CCC'
   },
   {
-    stationName: 'Cricklewood',
-    crsCode: 'CRI'
+    label: 'Cricklewood',
+    value: 'CRI'
   },
   {
-    stationName: 'Croftfoot',
-    crsCode: 'CFF'
+    label: 'Croftfoot',
+    value: 'CFF'
   },
   {
-    stationName: 'Crofton Park',
-    crsCode: 'CFT'
+    label: 'Crofton Park',
+    value: 'CFT'
   },
   {
-    stationName: 'Cromer',
-    crsCode: 'CMR'
+    label: 'Cromer',
+    value: 'CMR'
   },
   {
-    stationName: 'Cromford',
-    crsCode: 'CMF'
+    label: 'Cromford',
+    value: 'CMF'
   },
   {
-    stationName: 'Crookston',
-    crsCode: 'CKT'
+    label: 'Crookston',
+    value: 'CKT'
   },
   {
-    stationName: 'Cross Gates',
-    crsCode: 'CRG'
+    label: 'Cross Gates',
+    value: 'CRG'
   },
   {
-    stationName: 'Crossflatts',
-    crsCode: 'CFL'
+    label: 'Crossflatts',
+    value: 'CFL'
   },
   {
-    stationName: 'Crosshill',
-    crsCode: 'COI'
+    label: 'Crosshill',
+    value: 'COI'
   },
   {
-    stationName: 'Crosskeys',
-    crsCode: 'CKY'
+    label: 'Crosskeys',
+    value: 'CKY'
   },
   {
-    stationName: 'Crossmyloof',
-    crsCode: 'CMY'
+    label: 'Crossmyloof',
+    value: 'CMY'
   },
   {
-    stationName: 'Croston',
-    crsCode: 'CSO'
+    label: 'Croston',
+    value: 'CSO'
   },
   {
-    stationName: 'Crouch Hill',
-    crsCode: 'CRH'
+    label: 'Crouch Hill',
+    value: 'CRH'
   },
   {
-    stationName: 'Crowborough',
-    crsCode: 'COH'
+    label: 'Crowborough',
+    value: 'COH'
   },
   {
-    stationName: 'Crowhurst',
-    crsCode: 'CWU'
+    label: 'Crowhurst',
+    value: 'CWU'
   },
   {
-    stationName: 'Crowle',
-    crsCode: 'CWE'
+    label: 'Crowle',
+    value: 'CWE'
   },
   {
-    stationName: 'Crowthorne',
-    crsCode: 'CRN'
+    label: 'Crowthorne',
+    value: 'CRN'
   },
   {
-    stationName: 'Croy',
-    crsCode: 'CRO'
+    label: 'Croy',
+    value: 'CRO'
   },
   {
-    stationName: 'Crystal Palace',
-    crsCode: 'CYP'
+    label: 'Crystal Palace',
+    value: 'CYP'
   },
   {
-    stationName: 'Cuddington',
-    crsCode: 'CUD'
+    label: 'Cuddington',
+    value: 'CUD'
   },
   {
-    stationName: 'Cuffley',
-    crsCode: 'CUF'
+    label: 'Cuffley',
+    value: 'CUF'
   },
   {
-    stationName: 'Culham',
-    crsCode: 'CUM'
+    label: 'Culham',
+    value: 'CUM'
   },
   {
-    stationName: 'Culrain',
-    crsCode: 'CUA'
+    label: 'Culrain',
+    value: 'CUA'
   },
   {
-    stationName: 'Cumbernauld',
-    crsCode: 'CUB'
+    label: 'Cumbernauld',
+    value: 'CUB'
   },
   {
-    stationName: 'Cupar',
-    crsCode: 'CUP'
+    label: 'Cupar',
+    value: 'CUP'
   },
   {
-    stationName: 'Curriehill',
-    crsCode: 'CUH'
+    label: 'Curriehill',
+    value: 'CUH'
   },
   {
-    stationName: 'Custom House',
-    crsCode: 'CUS'
+    label: 'Custom House',
+    value: 'CUS'
   },
   {
-    stationName: 'Cuxton',
-    crsCode: 'CUX'
+    label: 'Cuxton',
+    value: 'CUX'
   },
   {
-    stationName: 'Cwmbach',
-    crsCode: 'CMH'
+    label: 'Cwmbach',
+    value: 'CMH'
   },
   {
-    stationName: 'Cwmbran',
-    crsCode: 'CWM'
+    label: 'Cwmbran',
+    value: 'CWM'
   },
   {
-    stationName: 'Cynghordy',
-    crsCode: 'CYN'
+    label: 'Cynghordy',
+    value: 'CYN'
   },
   {
-    stationName: 'Dagenham Dock',
-    crsCode: 'DDK'
+    label: 'Dagenham Dock',
+    value: 'DDK'
   },
   {
-    stationName: 'Dagenham East L.T.',
-    crsCode: 'ZDE'
+    label: 'Dagenham East L.T.',
+    value: 'ZDE'
   },
   {
-    stationName: 'Daisy Hill',
-    crsCode: 'DSY'
+    label: 'Daisy Hill',
+    value: 'DSY'
   },
   {
-    stationName: 'Dalgety Bay',
-    crsCode: 'DAG'
+    label: 'Dalgety Bay',
+    value: 'DAG'
   },
   {
-    stationName: 'Dalmally',
-    crsCode: 'DAL'
+    label: 'Dalmally',
+    value: 'DAL'
   },
   {
-    stationName: 'Dalmarnock',
-    crsCode: 'DAK'
+    label: 'Dalmarnock',
+    value: 'DAK'
   },
   {
-    stationName: 'Dalmeny',
-    crsCode: 'DAM'
+    label: 'Dalmeny',
+    value: 'DAM'
   },
   {
-    stationName: 'Dalmuir',
-    crsCode: 'DMR'
+    label: 'Dalmuir',
+    value: 'DMR'
   },
   {
-    stationName: 'Dalreoch',
-    crsCode: 'DLR'
+    label: 'Dalreoch',
+    value: 'DLR'
   },
   {
-    stationName: 'Dalry',
-    crsCode: 'DLY'
+    label: 'Dalry',
+    value: 'DLY'
   },
   {
-    stationName: 'Dalston (Cumbria)',
-    crsCode: 'DLS'
+    label: 'Dalston (Cumbria)',
+    value: 'DLS'
   },
   {
-    stationName: 'Dalston Junction',
-    crsCode: 'DLJ'
+    label: 'Dalston Junction',
+    value: 'DLJ'
   },
   {
-    stationName: 'Dalston Kingsland',
-    crsCode: 'DLK'
+    label: 'Dalston Kingsland',
+    value: 'DLK'
   },
   {
-    stationName: 'Dalton',
-    crsCode: 'DLT'
+    label: 'Dalton',
+    value: 'DLT'
   },
   {
-    stationName: 'Dalwhinnie',
-    crsCode: 'DLW'
+    label: 'Dalwhinnie',
+    value: 'DLW'
   },
   {
-    stationName: 'Danby',
-    crsCode: 'DNY'
+    label: 'Danby',
+    value: 'DNY'
   },
   {
-    stationName: 'Danescourt',
-    crsCode: 'DCT'
+    label: 'Danescourt',
+    value: 'DCT'
   },
   {
-    stationName: 'Danzey',
-    crsCode: 'DZY'
+    label: 'Danzey',
+    value: 'DZY'
   },
   {
-    stationName: 'Darlington',
-    crsCode: 'DAR'
+    label: 'Darlington',
+    value: 'DAR'
   },
   {
-    stationName: 'Darnall',
-    crsCode: 'DAN'
+    label: 'Darnall',
+    value: 'DAN'
   },
   {
-    stationName: 'Darsham',
-    crsCode: 'DSM'
+    label: 'Darsham',
+    value: 'DSM'
   },
   {
-    stationName: 'Dartford',
-    crsCode: 'DFD'
+    label: 'Dartford',
+    value: 'DFD'
   },
   {
-    stationName: 'Darton',
-    crsCode: 'DRT'
+    label: 'Darton',
+    value: 'DRT'
   },
   {
-    stationName: 'Darwen',
-    crsCode: 'DWN'
+    label: 'Darwen',
+    value: 'DWN'
   },
   {
-    stationName: 'Datchet',
-    crsCode: 'DAT'
+    label: 'Datchet',
+    value: 'DAT'
   },
   {
-    stationName: 'Davenport',
-    crsCode: 'DVN'
+    label: 'Davenport',
+    value: 'DVN'
   },
   {
-    stationName: 'Dawlish',
-    crsCode: 'DWL'
+    label: 'Dawlish',
+    value: 'DWL'
   },
   {
-    stationName: 'Dawlish Warren',
-    crsCode: 'DWW'
+    label: 'Dawlish Warren',
+    value: 'DWW'
   },
   {
-    stationName: 'Deal',
-    crsCode: 'DEA'
+    label: 'Deal',
+    value: 'DEA'
   },
   {
-    stationName: 'Dean',
-    crsCode: 'DEN'
+    label: 'Dean',
+    value: 'DEN'
   },
   {
-    stationName: 'Deansgate',
-    crsCode: 'DGT'
+    label: 'Deansgate',
+    value: 'DGT'
   },
   {
-    stationName: 'Deganwy',
-    crsCode: 'DGY'
+    label: 'Deganwy',
+    value: 'DGY'
   },
   {
-    stationName: 'Deighton',
-    crsCode: 'DHN'
+    label: 'Deighton',
+    value: 'DHN'
   },
   {
-    stationName: 'Delamere',
-    crsCode: 'DLM'
+    label: 'Delamere',
+    value: 'DLM'
   },
   {
-    stationName: 'Denby Dale',
-    crsCode: 'DBD'
+    label: 'Denby Dale',
+    value: 'DBD'
   },
   {
-    stationName: 'Denham',
-    crsCode: 'DNM'
+    label: 'Denham',
+    value: 'DNM'
   },
   {
-    stationName: 'Denham Golf Club',
-    crsCode: 'DGC'
+    label: 'Denham Golf Club',
+    value: 'DGC'
   },
   {
-    stationName: 'Denmark Hill',
-    crsCode: 'DMK'
+    label: 'Denmark Hill',
+    value: 'DMK'
   },
   {
-    stationName: 'Dent',
-    crsCode: 'DNT'
+    label: 'Dent',
+    value: 'DNT'
   },
   {
-    stationName: 'Denton',
-    crsCode: 'DTN'
+    label: 'Denton',
+    value: 'DTN'
   },
   {
-    stationName: 'Deptford',
-    crsCode: 'DEP'
+    label: 'Deptford',
+    value: 'DEP'
   },
   {
-    stationName: 'Derby',
-    crsCode: 'DBY'
+    label: 'Derby',
+    value: 'DBY'
   },
   {
-    stationName: 'Derby Road',
-    crsCode: 'DBR'
+    label: 'Derby Road',
+    value: 'DBR'
   },
   {
-    stationName: 'Dereham Market Place',
-    crsCode: 'DEB'
+    label: 'Dereham Market Place',
+    value: 'DEB'
   },
   {
-    stationName: 'Devonport',
-    crsCode: 'DPT'
+    label: 'Devonport',
+    value: 'DPT'
   },
   {
-    stationName: 'Dewsbury',
-    crsCode: 'DEW'
+    label: 'Dewsbury',
+    value: 'DEW'
   },
   {
-    stationName: 'Didcot Parkway',
-    crsCode: 'DID'
+    label: 'Didcot Parkway',
+    value: 'DID'
   },
   {
-    stationName: 'Digby & Sowton',
-    crsCode: 'DIG'
+    label: 'Digby & Sowton',
+    value: 'DIG'
   },
   {
-    stationName: 'Dilton Marsh',
-    crsCode: 'DMH'
+    label: 'Dilton Marsh',
+    value: 'DMH'
   },
   {
-    stationName: 'Dinas Powys',
-    crsCode: 'DNS'
+    label: 'Dinas Powys',
+    value: 'DNS'
   },
   {
-    stationName: 'Dinas Rhondda',
-    crsCode: 'DMG'
+    label: 'Dinas Rhondda',
+    value: 'DMG'
   },
   {
-    stationName: 'Dingle Road',
-    crsCode: 'DGL'
+    label: 'Dingle Road',
+    value: 'DGL'
   },
   {
-    stationName: 'Dingwall',
-    crsCode: 'DIN'
+    label: 'Dingwall',
+    value: 'DIN'
   },
   {
-    stationName: 'Dinsdale',
-    crsCode: 'DND'
+    label: 'Dinsdale',
+    value: 'DND'
   },
   {
-    stationName: 'Dinting',
-    crsCode: 'DTG'
+    label: 'Dinting',
+    value: 'DTG'
   },
   {
-    stationName: 'Disley',
-    crsCode: 'DSL'
+    label: 'Disley',
+    value: 'DSL'
   },
   {
-    stationName: 'Diss',
-    crsCode: 'DIS'
+    label: 'Diss',
+    value: 'DIS'
   },
   {
-    stationName: 'Dockyard',
-    crsCode: 'DOC'
+    label: 'Dockyard',
+    value: 'DOC'
   },
   {
-    stationName: 'Dodworth',
-    crsCode: 'DOD'
+    label: 'Dodworth',
+    value: 'DOD'
   },
   {
-    stationName: 'Dolau',
-    crsCode: 'DOL'
+    label: 'Dolau',
+    value: 'DOL'
   },
   {
-    stationName: 'Doleham',
-    crsCode: 'DLH'
+    label: 'Doleham',
+    value: 'DLH'
   },
   {
-    stationName: 'Dolgarrog',
-    crsCode: 'DLG'
+    label: 'Dolgarrog',
+    value: 'DLG'
   },
   {
-    stationName: 'Dolwyddelan',
-    crsCode: 'DWD'
+    label: 'Dolwyddelan',
+    value: 'DWD'
   },
   {
-    stationName: 'Doncaster',
-    crsCode: 'DON'
+    label: 'Doncaster',
+    value: 'DON'
   },
   {
-    stationName: 'Dorchester South',
-    crsCode: 'DCH'
+    label: 'Dorchester South',
+    value: 'DCH'
   },
   {
-    stationName: 'Dorchester West',
-    crsCode: 'DCW'
+    label: 'Dorchester West',
+    value: 'DCW'
   },
   {
-    stationName: 'Dore & Totley',
-    crsCode: 'DOR'
+    label: 'Dore & Totley',
+    value: 'DOR'
   },
   {
-    stationName: 'Dorking Deepdene',
-    crsCode: 'DPD'
+    label: 'Dorking Deepdene',
+    value: 'DPD'
   },
   {
-    stationName: 'Dorking',
-    crsCode: 'DKG'
+    label: 'Dorking',
+    value: 'DKG'
   },
   {
-    stationName: 'Dorking West',
-    crsCode: 'DKT'
+    label: 'Dorking West',
+    value: 'DKT'
   },
   {
-    stationName: 'Dormans',
-    crsCode: 'DMS'
+    label: 'Dormans',
+    value: 'DMS'
   },
   {
-    stationName: 'Dorridge',
-    crsCode: 'DDG'
+    label: 'Dorridge',
+    value: 'DDG'
   },
   {
-    stationName: 'Dove Holes',
-    crsCode: 'DVH'
+    label: 'Dove Holes',
+    value: 'DVH'
   },
   {
-    stationName: 'Dover Priory',
-    crsCode: 'DVP'
+    label: 'Dover Priory',
+    value: 'DVP'
   },
   {
-    stationName: 'Dovercourt',
-    crsCode: 'DVC'
+    label: 'Dovercourt',
+    value: 'DVC'
   },
   {
-    stationName: 'Dovey Junction',
-    crsCode: 'DVY'
+    label: 'Dovey Junction',
+    value: 'DVY'
   },
   {
-    stationName: 'Downham Market',
-    crsCode: 'DOW'
+    label: 'Downham Market',
+    value: 'DOW'
   },
   {
-    stationName: 'Drayton Green',
-    crsCode: 'DRG'
+    label: 'Drayton Green',
+    value: 'DRG'
   },
   {
-    stationName: 'Drayton Manor',
-    crsCode: 'DRY'
+    label: 'Drayton Manor',
+    value: 'DRY'
   },
   {
-    stationName: 'Drayton Park',
-    crsCode: 'DYP'
+    label: 'Drayton Park',
+    value: 'DYP'
   },
   {
-    stationName: 'Drem',
-    crsCode: 'DRM'
+    label: 'Drem',
+    value: 'DRM'
   },
   {
-    stationName: 'Driffield',
-    crsCode: 'DRF'
+    label: 'Driffield',
+    value: 'DRF'
   },
   {
-    stationName: 'Drigg',
-    crsCode: 'DRI'
+    label: 'Drigg',
+    value: 'DRI'
   },
   {
-    stationName: 'Droitwich Spa',
-    crsCode: 'DTW'
+    label: 'Droitwich Spa',
+    value: 'DTW'
   },
   {
-    stationName: 'Dronfield',
-    crsCode: 'DRO'
+    label: 'Dronfield',
+    value: 'DRO'
   },
   {
-    stationName: 'Drumchapel',
-    crsCode: 'DMC'
+    label: 'Drumchapel',
+    value: 'DMC'
   },
   {
-    stationName: 'Drumfrochar',
-    crsCode: 'DFR'
+    label: 'Drumfrochar',
+    value: 'DFR'
   },
   {
-    stationName: 'Drumgelloch',
-    crsCode: 'DRU'
+    label: 'Drumgelloch',
+    value: 'DRU'
   },
   {
-    stationName: 'Drumry',
-    crsCode: 'DMY'
+    label: 'Drumry',
+    value: 'DMY'
   },
   {
-    stationName: 'Duddeston',
-    crsCode: 'DUD'
+    label: 'Duddeston',
+    value: 'DUD'
   },
   {
-    stationName: 'Dudley Port',
-    crsCode: 'DDP'
+    label: 'Dudley Port',
+    value: 'DDP'
   },
   {
-    stationName: 'Duffield',
-    crsCode: 'DFI'
+    label: 'Duffield',
+    value: 'DFI'
   },
   {
-    stationName: 'Duirinish',
-    crsCode: 'DRN'
+    label: 'Duirinish',
+    value: 'DRN'
   },
   {
-    stationName: 'Duke Street',
-    crsCode: 'DST'
+    label: 'Duke Street',
+    value: 'DST'
   },
   {
-    stationName: 'Dullingham',
-    crsCode: 'DUL'
+    label: 'Dullingham',
+    value: 'DUL'
   },
   {
-    stationName: 'Dumbarton Central',
-    crsCode: 'DBC'
+    label: 'Dumbarton Central',
+    value: 'DBC'
   },
   {
-    stationName: 'Dumbarton East',
-    crsCode: 'DBE'
+    label: 'Dumbarton East',
+    value: 'DBE'
   },
   {
-    stationName: 'Dumbreck',
-    crsCode: 'DUM'
+    label: 'Dumbreck',
+    value: 'DUM'
   },
   {
-    stationName: 'Dumfries',
-    crsCode: 'DMF'
+    label: 'Dumfries',
+    value: 'DMF'
   },
   {
-    stationName: 'Dumpton Park',
-    crsCode: 'DMP'
+    label: 'Dumpton Park',
+    value: 'DMP'
   },
   {
-    stationName: 'Dunbar',
-    crsCode: 'DUN'
+    label: 'Dunbar',
+    value: 'DUN'
   },
   {
-    stationName: 'Dunblane',
-    crsCode: 'DBL'
+    label: 'Dunblane',
+    value: 'DBL'
   },
   {
-    stationName: 'Duncraig',
-    crsCode: 'DCG'
+    label: 'Duncraig',
+    value: 'DCG'
   },
   {
-    stationName: 'Dundee',
-    crsCode: 'DEE'
+    label: 'Dundee',
+    value: 'DEE'
   },
   {
-    stationName: 'Dunfermline Queen Margaret',
-    crsCode: 'DFL'
+    label: 'Dunfermline Queen Margaret',
+    value: 'DFL'
   },
   {
-    stationName: 'Dunfermline City',
-    crsCode: 'DFE'
+    label: 'Dunfermline City',
+    value: 'DFE'
   },
   {
-    stationName: 'Dunkeld & Birnam',
-    crsCode: 'DKD'
+    label: 'Dunkeld & Birnam',
+    value: 'DKD'
   },
   {
-    stationName: 'Dunlop',
-    crsCode: 'DNL'
+    label: 'Dunlop',
+    value: 'DNL'
   },
   {
-    stationName: 'Dunoon',
-    crsCode: 'DUO'
+    label: 'Dunoon',
+    value: 'DUO'
   },
   {
-    stationName: 'Dunrobin Castle',
-    crsCode: 'DNO'
+    label: 'Dunrobin Castle',
+    value: 'DNO'
   },
   {
-    stationName: 'Duns',
-    crsCode: 'DUU'
+    label: 'Duns',
+    value: 'DUU'
   },
   {
-    stationName: 'Dunston',
-    crsCode: 'DOT'
+    label: 'Dunston',
+    value: 'DOT'
   },
   {
-    stationName: 'Dunton Green',
-    crsCode: 'DNG'
+    label: 'Dunton Green',
+    value: 'DNG'
   },
   {
-    stationName: 'Durham',
-    crsCode: 'DHM'
+    label: 'Durham',
+    value: 'DHM'
   },
   {
-    stationName: 'Durrington-On-Sea',
-    crsCode: 'DUR'
+    label: 'Durrington-On-Sea',
+    value: 'DUR'
   },
   {
-    stationName: 'Dyce',
-    crsCode: 'DYC'
+    label: 'Dyce',
+    value: 'DYC'
   },
   {
-    stationName: 'Dyffryn Ardudwy',
-    crsCode: 'DYF'
+    label: 'Dyffryn Ardudwy',
+    value: 'DYF'
   },
   {
-    stationName: 'Eaglescliffe',
-    crsCode: 'EAG'
+    label: 'Eaglescliffe',
+    value: 'EAG'
   },
   {
-    stationName: 'Ealing Broadway',
-    crsCode: 'EAL'
+    label: 'Ealing Broadway',
+    value: 'EAL'
   },
   {
-    stationName: 'Ealing Common',
-    crsCode: 'ZEC'
+    label: 'Ealing Common',
+    value: 'ZEC'
   },
   {
-    stationName: 'Earlestown',
-    crsCode: 'ERL'
+    label: 'Earlestown',
+    value: 'ERL'
   },
   {
-    stationName: 'Earley',
-    crsCode: 'EAR'
+    label: 'Earley',
+    value: 'EAR'
   },
   {
-    stationName: "Earl's Court L.T.",
-    crsCode: 'ZET'
+    label: "Earl's Court L.T.",
+    value: 'ZET'
   },
   {
-    stationName: 'Earlsfield',
-    crsCode: 'EAD'
+    label: 'Earlsfield',
+    value: 'EAD'
   },
   {
-    stationName: 'Earlston',
-    crsCode: 'EAS'
+    label: 'Earlston',
+    value: 'EAS'
   },
   {
-    stationName: 'Earlswood (Surrey)',
-    crsCode: 'ELD'
+    label: 'Earlswood (Surrey)',
+    value: 'ELD'
   },
   {
-    stationName: 'Earlswood (West Midlands)',
-    crsCode: 'EWD'
+    label: 'Earlswood (West Midlands)',
+    value: 'EWD'
   },
   {
-    stationName: 'East Boldon',
-    crsCode: 'EBL'
+    label: 'East Boldon',
+    value: 'EBL'
   },
   {
-    stationName: 'East Cowes',
-    crsCode: 'ECW'
+    label: 'East Cowes',
+    value: 'ECW'
   },
   {
-    stationName: 'East Croydon',
-    crsCode: 'ECR'
+    label: 'East Croydon',
+    value: 'ECR'
   },
   {
-    stationName: 'East Didsbury',
-    crsCode: 'EDY'
+    label: 'East Didsbury',
+    value: 'EDY'
   },
   {
-    stationName: 'East Dulwich',
-    crsCode: 'EDW'
+    label: 'East Dulwich',
+    value: 'EDW'
   },
   {
-    stationName: 'East Farleigh',
-    crsCode: 'EFL'
+    label: 'East Farleigh',
+    value: 'EFL'
   },
   {
-    stationName: 'East Garforth',
-    crsCode: 'EGF'
+    label: 'East Garforth',
+    value: 'EGF'
   },
   {
-    stationName: 'East Grinstead',
-    crsCode: 'EGR'
+    label: 'East Grinstead',
+    value: 'EGR'
   },
   {
-    stationName: 'East Kilbride',
-    crsCode: 'EKL'
+    label: 'East Kilbride',
+    value: 'EKL'
   },
   {
-    stationName: 'East Linton',
-    crsCode: 'ELT'
+    label: 'East Linton',
+    value: 'ELT'
   },
   {
-    stationName: 'East Malling',
-    crsCode: 'EML'
+    label: 'East Malling',
+    value: 'EML'
   },
   {
-    stationName: 'East Midlands Parkway',
-    crsCode: 'EMD'
+    label: 'East Midlands Parkway',
+    value: 'EMD'
   },
   {
-    stationName: 'East Tilbury',
-    crsCode: 'ETL'
+    label: 'East Tilbury',
+    value: 'ETL'
   },
   {
-    stationName: 'East Worthing',
-    crsCode: 'EWR'
+    label: 'East Worthing',
+    value: 'EWR'
   },
   {
-    stationName: 'Eastbourne',
-    crsCode: 'EBN'
+    label: 'Eastbourne',
+    value: 'EBN'
   },
   {
-    stationName: 'Eastbrook',
-    crsCode: 'EBK'
+    label: 'Eastbrook',
+    value: 'EBK'
   },
   {
-    stationName: 'Easterhouse',
-    crsCode: 'EST'
+    label: 'Easterhouse',
+    value: 'EST'
   },
   {
-    stationName: 'Eastham Rake',
-    crsCode: 'ERA'
+    label: 'Eastham Rake',
+    value: 'ERA'
   },
   {
-    stationName: 'Eastleigh',
-    crsCode: 'ESL'
+    label: 'Eastleigh',
+    value: 'ESL'
   },
   {
-    stationName: 'Eastrington',
-    crsCode: 'EGN'
+    label: 'Eastrington',
+    value: 'EGN'
   },
   {
-    stationName: 'Ebbsfleet International',
-    crsCode: 'EBD'
+    label: 'Ebbsfleet International',
+    value: 'EBD'
   },
   {
-    stationName: 'Ebbw Vale Parkway',
-    crsCode: 'EBV'
+    label: 'Ebbw Vale Parkway',
+    value: 'EBV'
   },
   {
-    stationName: 'Ebbw Vale Town',
-    crsCode: 'EBB'
+    label: 'Ebbw Vale Town',
+    value: 'EBB'
   },
   {
-    stationName: 'Eccles',
-    crsCode: 'ECC'
+    label: 'Eccles',
+    value: 'ECC'
   },
   {
-    stationName: 'Eccles Road',
-    crsCode: 'ECS'
+    label: 'Eccles Road',
+    value: 'ECS'
   },
   {
-    stationName: 'Eccleston Park',
-    crsCode: 'ECL'
+    label: 'Eccleston Park',
+    value: 'ECL'
   },
   {
-    stationName: 'Edale',
-    crsCode: 'EDL'
+    label: 'Edale',
+    value: 'EDL'
   },
   {
-    stationName: 'Eden Park',
-    crsCode: 'EDN'
+    label: 'Eden Park',
+    value: 'EDN'
   },
   {
-    stationName: 'Edenbridge',
-    crsCode: 'EBR'
+    label: 'Edenbridge',
+    value: 'EBR'
   },
   {
-    stationName: 'Edenbridge Town',
-    crsCode: 'EBT'
+    label: 'Edenbridge Town',
+    value: 'EBT'
   },
   {
-    stationName: 'Edge Hill',
-    crsCode: 'EDG'
+    label: 'Edge Hill',
+    value: 'EDG'
   },
   {
-    stationName: 'Edinburgh Gateway',
-    crsCode: 'EGY'
+    label: 'Edinburgh Gateway',
+    value: 'EGY'
   },
   {
-    stationName: 'Edinburgh Park',
-    crsCode: 'EDP'
+    label: 'Edinburgh Park',
+    value: 'EDP'
   },
   {
-    stationName: 'Edinburgh Waverley',
-    crsCode: 'EDB'
+    label: 'Edinburgh Waverley',
+    value: 'EDB'
   },
   {
-    stationName: 'Edmonton Green',
-    crsCode: 'EDR'
+    label: 'Edmonton Green',
+    value: 'EDR'
   },
   {
-    stationName: 'Effingham Junction',
-    crsCode: 'EFF'
+    label: 'Effingham Junction',
+    value: 'EFF'
   },
   {
-    stationName: 'Eggesford',
-    crsCode: 'EGG'
+    label: 'Eggesford',
+    value: 'EGG'
   },
   {
-    stationName: 'Egham',
-    crsCode: 'EGH'
+    label: 'Egham',
+    value: 'EGH'
   },
   {
-    stationName: 'Egton',
-    crsCode: 'EGT'
+    label: 'Egton',
+    value: 'EGT'
   },
   {
-    stationName: 'Elephant & Castle',
-    crsCode: 'EPH'
+    label: 'Elephant & Castle',
+    value: 'EPH'
   },
   {
-    stationName: 'Elgin',
-    crsCode: 'ELG'
+    label: 'Elgin',
+    value: 'ELG'
   },
   {
-    stationName: 'Ellesmere Port',
-    crsCode: 'ELP'
+    label: 'Ellesmere Port',
+    value: 'ELP'
   },
   {
-    stationName: 'Elmers End',
-    crsCode: 'ELE'
+    label: 'Elmers End',
+    value: 'ELE'
   },
   {
-    stationName: 'Elmstead Woods',
-    crsCode: 'ESD'
+    label: 'Elmstead Woods',
+    value: 'ESD'
   },
   {
-    stationName: 'Elmswell',
-    crsCode: 'ESW'
+    label: 'Elmswell',
+    value: 'ESW'
   },
   {
-    stationName: 'Elsecar',
-    crsCode: 'ELR'
+    label: 'Elsecar',
+    value: 'ELR'
   },
   {
-    stationName: 'Elsenham',
-    crsCode: 'ESM'
+    label: 'Elsenham',
+    value: 'ESM'
   },
   {
-    stationName: 'Elstree & Borehamwood',
-    crsCode: 'ELS'
+    label: 'Elstree & Borehamwood',
+    value: 'ELS'
   },
   {
-    stationName: 'Eltham',
-    crsCode: 'ELW'
+    label: 'Eltham',
+    value: 'ELW'
   },
   {
-    stationName: 'Elton & Orston',
-    crsCode: 'ELO'
+    label: 'Elton & Orston',
+    value: 'ELO'
   },
   {
-    stationName: 'Ely',
-    crsCode: 'ELY'
+    label: 'Ely',
+    value: 'ELY'
   },
   {
-    stationName: 'Emerson Park',
-    crsCode: 'EMP'
+    label: 'Emerson Park',
+    value: 'EMP'
   },
   {
-    stationName: 'Emsworth',
-    crsCode: 'EMS'
+    label: 'Emsworth',
+    value: 'EMS'
   },
   {
-    stationName: 'Energlyn & Churchill Park',
-    crsCode: 'ECP'
+    label: 'Energlyn & Churchill Park',
+    value: 'ECP'
   },
   {
-    stationName: 'Enfield Chase',
-    crsCode: 'ENC'
+    label: 'Enfield Chase',
+    value: 'ENC'
   },
   {
-    stationName: 'Enfield Lock',
-    crsCode: 'ENL'
+    label: 'Enfield Lock',
+    value: 'ENL'
   },
   {
-    stationName: 'Enfield Town',
-    crsCode: 'ENF'
+    label: 'Enfield Town',
+    value: 'ENF'
   },
   {
-    stationName: 'Entwistle',
-    crsCode: 'ENT'
+    label: 'Entwistle',
+    value: 'ENT'
   },
   {
-    stationName: 'Epsom Downs',
-    crsCode: 'EPD'
+    label: 'Epsom Downs',
+    value: 'EPD'
   },
   {
-    stationName: 'Epsom',
-    crsCode: 'EPS'
+    label: 'Epsom',
+    value: 'EPS'
   },
   {
-    stationName: 'Erdington',
-    crsCode: 'ERD'
+    label: 'Erdington',
+    value: 'ERD'
   },
   {
-    stationName: 'Eridge',
-    crsCode: 'ERI'
+    label: 'Eridge',
+    value: 'ERI'
   },
   {
-    stationName: 'Erith',
-    crsCode: 'ERH'
+    label: 'Erith',
+    value: 'ERH'
   },
   {
-    stationName: 'Esher',
-    crsCode: 'ESH'
+    label: 'Esher',
+    value: 'ESH'
   },
   {
-    stationName: 'Eskbank',
-    crsCode: 'EKB'
+    label: 'Eskbank',
+    value: 'EKB'
   },
   {
-    stationName: 'Essex Road',
-    crsCode: 'EXR'
+    label: 'Essex Road',
+    value: 'EXR'
   },
   {
-    stationName: 'Etchingham',
-    crsCode: 'ETC'
+    label: 'Etchingham',
+    value: 'ETC'
   },
   {
-    stationName: 'Euxton Balshaw Lane',
-    crsCode: 'EBA'
+    label: 'Euxton Balshaw Lane',
+    value: 'EBA'
   },
   {
-    stationName: 'Evesham',
-    crsCode: 'EVE'
+    label: 'Evesham',
+    value: 'EVE'
   },
   {
-    stationName: 'Ewell East',
-    crsCode: 'EWE'
+    label: 'Ewell East',
+    value: 'EWE'
   },
   {
-    stationName: 'Ewell West',
-    crsCode: 'EWW'
+    label: 'Ewell West',
+    value: 'EWW'
   },
   {
-    stationName: 'Exeter Central',
-    crsCode: 'EXC'
+    label: 'Exeter Central',
+    value: 'EXC'
   },
   {
-    stationName: 'Exeter St Davids',
-    crsCode: 'EXD'
+    label: 'Exeter St Davids',
+    value: 'EXD'
   },
   {
-    stationName: 'Exeter St Thomas',
-    crsCode: 'EXT'
+    label: 'Exeter St Thomas',
+    value: 'EXT'
   },
   {
-    stationName: 'Exhibition Centre',
-    crsCode: 'EXG'
+    label: 'Exhibition Centre',
+    value: 'EXG'
   },
   {
-    stationName: 'Exmouth',
-    crsCode: 'EXM'
+    label: 'Exmouth',
+    value: 'EXM'
   },
   {
-    stationName: 'Exton',
-    crsCode: 'EXN'
+    label: 'Exton',
+    value: 'EXN'
   },
   {
-    stationName: 'Eynsford',
-    crsCode: 'EYN'
+    label: 'Eynsford',
+    value: 'EYN'
   },
   {
-    stationName: 'Fairbourne',
-    crsCode: 'FRB'
+    label: 'Fairbourne',
+    value: 'FRB'
   },
   {
-    stationName: 'Fairfield',
-    crsCode: 'FRF'
+    label: 'Fairfield',
+    value: 'FRF'
   },
   {
-    stationName: 'Fairlie',
-    crsCode: 'FRL'
+    label: 'Fairlie',
+    value: 'FRL'
   },
   {
-    stationName: 'Fairwater',
-    crsCode: 'FRW'
+    label: 'Fairwater',
+    value: 'FRW'
   },
   {
-    stationName: 'Falconwood',
-    crsCode: 'FCN'
+    label: 'Falconwood',
+    value: 'FCN'
   },
   {
-    stationName: 'Falkirk Grahamston',
-    crsCode: 'FKG'
+    label: 'Falkirk Grahamston',
+    value: 'FKG'
   },
   {
-    stationName: 'Falkirk High',
-    crsCode: 'FKK'
+    label: 'Falkirk High',
+    value: 'FKK'
   },
   {
-    stationName: 'Falls of Cruachan',
-    crsCode: 'FOC'
+    label: 'Falls of Cruachan',
+    value: 'FOC'
   },
   {
-    stationName: 'Falmer',
-    crsCode: 'FMR'
+    label: 'Falmer',
+    value: 'FMR'
   },
   {
-    stationName: 'Falmouth Docks',
-    crsCode: 'FAL'
+    label: 'Falmouth Docks',
+    value: 'FAL'
   },
   {
-    stationName: 'Falmouth Town',
-    crsCode: 'FMT'
+    label: 'Falmouth Town',
+    value: 'FMT'
   },
   {
-    stationName: 'Fareham',
-    crsCode: 'FRM'
+    label: 'Fareham',
+    value: 'FRM'
   },
   {
-    stationName: 'Farnborough Main',
-    crsCode: 'FNB'
+    label: 'Farnborough Main',
+    value: 'FNB'
   },
   {
-    stationName: 'Farnborough North',
-    crsCode: 'FNN'
+    label: 'Farnborough North',
+    value: 'FNN'
   },
   {
-    stationName: 'Farncombe',
-    crsCode: 'FNC'
+    label: 'Farncombe',
+    value: 'FNC'
   },
   {
-    stationName: 'Farnham',
-    crsCode: 'FNH'
+    label: 'Farnham',
+    value: 'FNH'
   },
   {
-    stationName: 'Farningham Road',
-    crsCode: 'FNR'
+    label: 'Farningham Road',
+    value: 'FNR'
   },
   {
-    stationName: 'Farnworth',
-    crsCode: 'FNW'
+    label: 'Farnworth',
+    value: 'FNW'
   },
   {
-    stationName: 'Farringdon',
-    crsCode: 'ZFD'
+    label: 'Farringdon',
+    value: 'ZFD'
   },
   {
-    stationName: 'Fauldhouse',
-    crsCode: 'FLD'
+    label: 'Fauldhouse',
+    value: 'FLD'
   },
   {
-    stationName: 'Faversham',
-    crsCode: 'FAV'
+    label: 'Faversham',
+    value: 'FAV'
   },
   {
-    stationName: 'Faygate',
-    crsCode: 'FGT'
+    label: 'Faygate',
+    value: 'FGT'
   },
   {
-    stationName: 'Fazakerley',
-    crsCode: 'FAZ'
+    label: 'Fazakerley',
+    value: 'FAZ'
   },
   {
-    stationName: 'Fearn',
-    crsCode: 'FRN'
+    label: 'Fearn',
+    value: 'FRN'
   },
   {
-    stationName: 'Featherstone',
-    crsCode: 'FEA'
+    label: 'Featherstone',
+    value: 'FEA'
   },
   {
-    stationName: 'Felixstowe',
-    crsCode: 'FLX'
+    label: 'Felixstowe',
+    value: 'FLX'
   },
   {
-    stationName: 'Fellgate',
-    crsCode: 'FEG'
+    label: 'Fellgate',
+    value: 'FEG'
   },
   {
-    stationName: 'Feltham',
-    crsCode: 'FEL'
+    label: 'Feltham',
+    value: 'FEL'
   },
   {
-    stationName: 'Feniton',
-    crsCode: 'FNT'
+    label: 'Feniton',
+    value: 'FNT'
   },
   {
-    stationName: 'Fenny Stratford',
-    crsCode: 'FEN'
+    label: 'Fenny Stratford',
+    value: 'FEN'
   },
   {
-    stationName: 'Fernhill',
-    crsCode: 'FER'
+    label: 'Fernhill',
+    value: 'FER'
   },
   {
-    stationName: 'Ferriby',
-    crsCode: 'FRY'
+    label: 'Ferriby',
+    value: 'FRY'
   },
   {
-    stationName: 'Ferryside',
-    crsCode: 'FYS'
+    label: 'Ferryside',
+    value: 'FYS'
   },
   {
-    stationName: 'Ffairfach',
-    crsCode: 'FFA'
+    label: 'Ffairfach',
+    value: 'FFA'
   },
   {
-    stationName: 'Filey',
-    crsCode: 'FIL'
+    label: 'Filey',
+    value: 'FIL'
   },
   {
-    stationName: 'Filton Abbey Wood',
-    crsCode: 'FIT'
+    label: 'Filton Abbey Wood',
+    value: 'FIT'
   },
   {
-    stationName: 'Finchley Road & Frognal',
-    crsCode: 'FNY'
+    label: 'Finchley Road & Frognal',
+    value: 'FNY'
   },
   {
-    stationName: 'Finsbury Park',
-    crsCode: 'FPK'
+    label: 'Finsbury Park',
+    value: 'FPK'
   },
   {
-    stationName: 'Finstock',
-    crsCode: 'FIN'
+    label: 'Finstock',
+    value: 'FIN'
   },
   {
-    stationName: 'Fishbourne',
-    crsCode: 'FSB'
+    label: 'Fishbourne',
+    value: 'FSB'
   },
   {
-    stationName: 'Fishersgate',
-    crsCode: 'FSG'
+    label: 'Fishersgate',
+    value: 'FSG'
   },
   {
-    stationName: 'Fishguard & Goodwick',
-    crsCode: 'FGW'
+    label: 'Fishguard & Goodwick',
+    value: 'FGW'
   },
   {
-    stationName: 'Fishguard Harbour',
-    crsCode: 'FGH'
+    label: 'Fishguard Harbour',
+    value: 'FGH'
   },
   {
-    stationName: 'Fiskerton',
-    crsCode: 'FSK'
+    label: 'Fiskerton',
+    value: 'FSK'
   },
   {
-    stationName: 'Fitzwilliam',
-    crsCode: 'FZW'
+    label: 'Fitzwilliam',
+    value: 'FZW'
   },
   {
-    stationName: 'Five Ways',
-    crsCode: 'FWY'
+    label: 'Five Ways',
+    value: 'FWY'
   },
   {
-    stationName: 'Fleet',
-    crsCode: 'FLE'
+    label: 'Fleet',
+    value: 'FLE'
   },
   {
-    stationName: 'Flimby',
-    crsCode: 'FLM'
+    label: 'Flimby',
+    value: 'FLM'
   },
   {
-    stationName: 'Flint',
-    crsCode: 'FLN'
+    label: 'Flint',
+    value: 'FLN'
   },
   {
-    stationName: 'Flitwick',
-    crsCode: 'FLT'
+    label: 'Flitwick',
+    value: 'FLT'
   },
   {
-    stationName: 'Flixton',
-    crsCode: 'FLI'
+    label: 'Flixton',
+    value: 'FLI'
   },
   {
-    stationName: 'Flowery Field',
-    crsCode: 'FLF'
+    label: 'Flowery Field',
+    value: 'FLF'
   },
   {
-    stationName: 'Folkestone Central',
-    crsCode: 'FKC'
+    label: 'Folkestone Central',
+    value: 'FKC'
   },
   {
-    stationName: 'Folkestone West',
-    crsCode: 'FKW'
+    label: 'Folkestone West',
+    value: 'FKW'
   },
   {
-    stationName: 'Ford',
-    crsCode: 'FOD'
+    label: 'Ford',
+    value: 'FOD'
   },
   {
-    stationName: 'Forest Gate',
-    crsCode: 'FOG'
+    label: 'Forest Gate',
+    value: 'FOG'
   },
   {
-    stationName: 'Forest Hill',
-    crsCode: 'FOH'
+    label: 'Forest Hill',
+    value: 'FOH'
   },
   {
-    stationName: 'Formby',
-    crsCode: 'FBY'
+    label: 'Formby',
+    value: 'FBY'
   },
   {
-    stationName: 'Forres',
-    crsCode: 'FOR'
+    label: 'Forres',
+    value: 'FOR'
   },
   {
-    stationName: 'Forsinard',
-    crsCode: 'FRS'
+    label: 'Forsinard',
+    value: 'FRS'
   },
   {
-    stationName: 'Fort Matilda',
-    crsCode: 'FTM'
+    label: 'Fort Matilda',
+    value: 'FTM'
   },
   {
-    stationName: 'Fort William',
-    crsCode: 'FTW'
+    label: 'Fort William',
+    value: 'FTW'
   },
   {
-    stationName: 'Four Oaks',
-    crsCode: 'FOK'
+    label: 'Four Oaks',
+    value: 'FOK'
   },
   {
-    stationName: 'Foxfield',
-    crsCode: 'FOX'
+    label: 'Foxfield',
+    value: 'FOX'
   },
   {
-    stationName: 'Foxton',
-    crsCode: 'FXN'
+    label: 'Foxton',
+    value: 'FXN'
   },
   {
-    stationName: 'Frant',
-    crsCode: 'FRT'
+    label: 'Frant',
+    value: 'FRT'
   },
   {
-    stationName: 'Fratton',
-    crsCode: 'FTN'
+    label: 'Fratton',
+    value: 'FTN'
   },
   {
-    stationName: 'Freshfield',
-    crsCode: 'FRE'
+    label: 'Freshfield',
+    value: 'FRE'
   },
   {
-    stationName: 'Freshford',
-    crsCode: 'FFD'
+    label: 'Freshford',
+    value: 'FFD'
   },
   {
-    stationName: 'Frimley',
-    crsCode: 'FML'
+    label: 'Frimley',
+    value: 'FML'
   },
   {
-    stationName: 'Frinton-On-Sea',
-    crsCode: 'FRI'
+    label: 'Frinton-On-Sea',
+    value: 'FRI'
   },
   {
-    stationName: 'Frizinghall',
-    crsCode: 'FZH'
+    label: 'Frizinghall',
+    value: 'FZH'
   },
   {
-    stationName: 'Frodsham',
-    crsCode: 'FRD'
+    label: 'Frodsham',
+    value: 'FRD'
   },
   {
-    stationName: 'Frome',
-    crsCode: 'FRO'
+    label: 'Frome',
+    value: 'FRO'
   },
   {
-    stationName: 'Fulwell',
-    crsCode: 'FLW'
+    label: 'Fulwell',
+    value: 'FLW'
   },
   {
-    stationName: 'Furness Vale',
-    crsCode: 'FNV'
+    label: 'Furness Vale',
+    value: 'FNV'
   },
   {
-    stationName: 'Furze Platt',
-    crsCode: 'FZP'
+    label: 'Furze Platt',
+    value: 'FZP'
   },
   {
-    stationName: 'Gainsborough Central',
-    crsCode: 'GNB'
+    label: 'Gainsborough Central',
+    value: 'GNB'
   },
   {
-    stationName: 'Gainsborough Lea Road',
-    crsCode: 'GBL'
+    label: 'Gainsborough Lea Road',
+    value: 'GBL'
   },
   {
-    stationName: 'Galashiels',
-    crsCode: 'GAL'
+    label: 'Galashiels',
+    value: 'GAL'
   },
   {
-    stationName: 'Garelochhead',
-    crsCode: 'GCH'
+    label: 'Garelochhead',
+    value: 'GCH'
   },
   {
-    stationName: 'Garforth',
-    crsCode: 'GRF'
+    label: 'Garforth',
+    value: 'GRF'
   },
   {
-    stationName: 'Gargrave',
-    crsCode: 'GGV'
+    label: 'Gargrave',
+    value: 'GGV'
   },
   {
-    stationName: 'Garrowhill',
-    crsCode: 'GAR'
+    label: 'Garrowhill',
+    value: 'GAR'
   },
   {
-    stationName: 'Garscadden',
-    crsCode: 'GRS'
+    label: 'Garscadden',
+    value: 'GRS'
   },
   {
-    stationName: 'Garsdale',
-    crsCode: 'GSD'
+    label: 'Garsdale',
+    value: 'GSD'
   },
   {
-    stationName: 'Garston',
-    crsCode: 'GSN'
+    label: 'Garston',
+    value: 'GSN'
   },
   {
-    stationName: 'Garswood',
-    crsCode: 'GSW'
+    label: 'Garswood',
+    value: 'GSW'
   },
   {
-    stationName: 'Gartcosh',
-    crsCode: 'GRH'
+    label: 'Gartcosh',
+    value: 'GRH'
   },
   {
-    stationName: 'Garth (Powys)',
-    crsCode: 'GTH'
+    label: 'Garth (Powys)',
+    value: 'GTH'
   },
   {
-    stationName: 'Garth (Mid Glamorgan)',
-    crsCode: 'GMG'
+    label: 'Garth (Mid Glamorgan)',
+    value: 'GMG'
   },
   {
-    stationName: 'Garve',
-    crsCode: 'GVE'
+    label: 'Garve',
+    value: 'GVE'
   },
   {
-    stationName: 'Gathurst',
-    crsCode: 'GST'
+    label: 'Gathurst',
+    value: 'GST'
   },
   {
-    stationName: 'Gatley',
-    crsCode: 'GTY'
+    label: 'Gatley',
+    value: 'GTY'
   },
   {
-    stationName: 'Gatwick Airport',
-    crsCode: 'GTW'
+    label: 'Gatwick Airport',
+    value: 'GTW'
   },
   {
-    stationName: 'Georgemas Junction',
-    crsCode: 'GGJ'
+    label: 'Georgemas Junction',
+    value: 'GGJ'
   },
   {
-    stationName: 'Gerrards Cross',
-    crsCode: 'GER'
+    label: 'Gerrards Cross',
+    value: 'GER'
   },
   {
-    stationName: 'Gidea Park',
-    crsCode: 'GDP'
+    label: 'Gidea Park',
+    value: 'GDP'
   },
   {
-    stationName: 'Giffnock',
-    crsCode: 'GFN'
+    label: 'Giffnock',
+    value: 'GFN'
   },
   {
-    stationName: 'Giggleswick',
-    crsCode: 'GIG'
+    label: 'Giggleswick',
+    value: 'GIG'
   },
   {
-    stationName: 'Gilberdyke',
-    crsCode: 'GBD'
+    label: 'Gilberdyke',
+    value: 'GBD'
   },
   {
-    stationName: 'Gilfach Fargoed',
-    crsCode: 'GFF'
+    label: 'Gilfach Fargoed',
+    value: 'GFF'
   },
   {
-    stationName: 'Gillingham (Dorset)',
-    crsCode: 'GIL'
+    label: 'Gillingham (Dorset)',
+    value: 'GIL'
   },
   {
-    stationName: 'Gillingham (Kent)',
-    crsCode: 'GLM'
+    label: 'Gillingham (Kent)',
+    value: 'GLM'
   },
   {
-    stationName: 'Gilshochill',
-    crsCode: 'GSC'
+    label: 'Gilshochill',
+    value: 'GSC'
   },
   {
-    stationName: 'Gipsy Hill',
-    crsCode: 'GIP'
+    label: 'Gipsy Hill',
+    value: 'GIP'
   },
   {
-    stationName: 'Girvan',
-    crsCode: 'GIR'
+    label: 'Girvan',
+    value: 'GIR'
   },
   {
-    stationName: 'Glaisdale',
-    crsCode: 'GLS'
+    label: 'Glaisdale',
+    value: 'GLS'
   },
   {
-    stationName: 'Glan Conwy',
-    crsCode: 'GCW'
+    label: 'Glan Conwy',
+    value: 'GCW'
   },
   {
-    stationName: 'Glasgow Central',
-    crsCode: 'GLC'
+    label: 'Glasgow Central',
+    value: 'GLC'
   },
   {
-    stationName: 'Glasgow Queen Street',
-    crsCode: 'GLQ'
+    label: 'Glasgow Queen Street',
+    value: 'GLQ'
   },
   {
-    stationName: 'Glasshoughton',
-    crsCode: 'GLH'
+    label: 'Glasshoughton',
+    value: 'GLH'
   },
   {
-    stationName: 'Glazebrook',
-    crsCode: 'GLZ'
+    label: 'Glazebrook',
+    value: 'GLZ'
   },
   {
-    stationName: 'Gleneagles',
-    crsCode: 'GLE'
+    label: 'Gleneagles',
+    value: 'GLE'
   },
   {
-    stationName: 'Glenfinnan',
-    crsCode: 'GLF'
+    label: 'Glenfinnan',
+    value: 'GLF'
   },
   {
-    stationName: 'Glengarnock',
-    crsCode: 'GLG'
+    label: 'Glengarnock',
+    value: 'GLG'
   },
   {
-    stationName: 'Glenrothes with Thornton',
-    crsCode: 'GLT'
+    label: 'Glenrothes with Thornton',
+    value: 'GLT'
   },
   {
-    stationName: 'Glossop',
-    crsCode: 'GLO'
+    label: 'Glossop',
+    value: 'GLO'
   },
   {
-    stationName: 'Gloucester',
-    crsCode: 'GCR'
+    label: 'Gloucester',
+    value: 'GCR'
   },
   {
-    stationName: 'Glynde',
-    crsCode: 'GLY'
+    label: 'Glynde',
+    value: 'GLY'
   },
   {
-    stationName: 'Gobowen',
-    crsCode: 'GOB'
+    label: 'Gobowen',
+    value: 'GOB'
   },
   {
-    stationName: 'Godalming',
-    crsCode: 'GOD'
+    label: 'Godalming',
+    value: 'GOD'
   },
   {
-    stationName: 'Godley',
-    crsCode: 'GDL'
+    label: 'Godley',
+    value: 'GDL'
   },
   {
-    stationName: 'Godstone',
-    crsCode: 'GDN'
+    label: 'Godstone',
+    value: 'GDN'
   },
   {
-    stationName: 'Goldthorpe',
-    crsCode: 'GOE'
+    label: 'Goldthorpe',
+    value: 'GOE'
   },
   {
-    stationName: 'Golf Street',
-    crsCode: 'GOF'
+    label: 'Golf Street',
+    value: 'GOF'
   },
   {
-    stationName: 'Golspie',
-    crsCode: 'GOL'
+    label: 'Golspie',
+    value: 'GOL'
   },
   {
-    stationName: 'Gomshall',
-    crsCode: 'GOM'
+    label: 'Gomshall',
+    value: 'GOM'
   },
   {
-    stationName: 'Goodmayes',
-    crsCode: 'GMY'
+    label: 'Goodmayes',
+    value: 'GMY'
   },
   {
-    stationName: 'Goole',
-    crsCode: 'GOO'
+    label: 'Goole',
+    value: 'GOO'
   },
   {
-    stationName: 'Goostrey',
-    crsCode: 'GTR'
+    label: 'Goostrey',
+    value: 'GTR'
   },
   {
-    stationName: 'Gordon Hill',
-    crsCode: 'GDH'
+    label: 'Gordon Hill',
+    value: 'GDH'
   },
   {
-    stationName: 'Gorebridge',
-    crsCode: 'GBG'
+    label: 'Gorebridge',
+    value: 'GBG'
   },
   {
-    stationName: 'Goring & Streatley',
-    crsCode: 'GOR'
+    label: 'Goring & Streatley',
+    value: 'GOR'
   },
   {
-    stationName: 'Goring-By-Sea',
-    crsCode: 'GBS'
+    label: 'Goring-By-Sea',
+    value: 'GBS'
   },
   {
-    stationName: 'Gorton',
-    crsCode: 'GTO'
+    label: 'Gorton',
+    value: 'GTO'
   },
   {
-    stationName: 'Gospel Oak',
-    crsCode: 'GPO'
+    label: 'Gospel Oak',
+    value: 'GPO'
   },
   {
-    stationName: 'Gourock',
-    crsCode: 'GRK'
+    label: 'Gourock',
+    value: 'GRK'
   },
   {
-    stationName: 'Gourock Pier',
-    crsCode: 'GXX'
+    label: 'Gourock Pier',
+    value: 'GXX'
   },
   {
-    stationName: 'Gowerton',
-    crsCode: 'GWN'
+    label: 'Gowerton',
+    value: 'GWN'
   },
   {
-    stationName: 'Goxhill',
-    crsCode: 'GOX'
+    label: 'Goxhill',
+    value: 'GOX'
   },
   {
-    stationName: 'Grange Park',
-    crsCode: 'GPK'
+    label: 'Grange Park',
+    value: 'GPK'
   },
   {
-    stationName: 'Grange-Over-Sands',
-    crsCode: 'GOS'
+    label: 'Grange-Over-Sands',
+    value: 'GOS'
   },
   {
-    stationName: 'Grangetown',
-    crsCode: 'GTN'
+    label: 'Grangetown',
+    value: 'GTN'
   },
   {
-    stationName: 'Grantham',
-    crsCode: 'GRA'
+    label: 'Grantham',
+    value: 'GRA'
   },
   {
-    stationName: 'Grateley',
-    crsCode: 'GRT'
+    label: 'Grateley',
+    value: 'GRT'
   },
   {
-    stationName: 'Gravelly Hill',
-    crsCode: 'GVH'
+    label: 'Gravelly Hill',
+    value: 'GVH'
   },
   {
-    stationName: 'Gravesend',
-    crsCode: 'GRV'
+    label: 'Gravesend',
+    value: 'GRV'
   },
   {
-    stationName: 'Grays',
-    crsCode: 'GRY'
+    label: 'Grays',
+    value: 'GRY'
   },
   {
-    stationName: 'Great Ayton',
-    crsCode: 'GTA'
+    label: 'Great Ayton',
+    value: 'GTA'
   },
   {
-    stationName: 'Great Bentley',
-    crsCode: 'GRB'
+    label: 'Great Bentley',
+    value: 'GRB'
   },
   {
-    stationName: 'Great Chesterford',
-    crsCode: 'GRC'
+    label: 'Great Chesterford',
+    value: 'GRC'
   },
   {
-    stationName: 'Great Coates',
-    crsCode: 'GCT'
+    label: 'Great Coates',
+    value: 'GCT'
   },
   {
-    stationName: 'Great Malvern',
-    crsCode: 'GMV'
+    label: 'Great Malvern',
+    value: 'GMV'
   },
   {
-    stationName: 'Great Missenden',
-    crsCode: 'GMN'
+    label: 'Great Missenden',
+    value: 'GMN'
   },
   {
-    stationName: 'Great Yarmouth',
-    crsCode: 'GYM'
+    label: 'Great Yarmouth',
+    value: 'GYM'
   },
   {
-    stationName: 'Green Lane',
-    crsCode: 'GNL'
+    label: 'Green Lane',
+    value: 'GNL'
   },
   {
-    stationName: 'Green Road',
-    crsCode: 'GNR'
+    label: 'Green Road',
+    value: 'GNR'
   },
   {
-    stationName: 'Greenbank',
-    crsCode: 'GBK'
+    label: 'Greenbank',
+    value: 'GBK'
   },
   {
-    stationName: 'Greenfaulds',
-    crsCode: 'GRL'
+    label: 'Greenfaulds',
+    value: 'GRL'
   },
   {
-    stationName: 'Greenfield',
-    crsCode: 'GNF'
+    label: 'Greenfield',
+    value: 'GNF'
   },
   {
-    stationName: 'Greenford',
-    crsCode: 'GFD'
+    label: 'Greenford',
+    value: 'GFD'
   },
   {
-    stationName: 'Greenhithe for Bluewater',
-    crsCode: 'GNH'
+    label: 'Greenhithe for Bluewater',
+    value: 'GNH'
   },
   {
-    stationName: 'Greenock Central',
-    crsCode: 'GKC'
+    label: 'Greenock Central',
+    value: 'GKC'
   },
   {
-    stationName: 'Greenock West',
-    crsCode: 'GKW'
+    label: 'Greenock West',
+    value: 'GKW'
   },
   {
-    stationName: 'Greenwich',
-    crsCode: 'GNW'
+    label: 'Greenwich',
+    value: 'GNW'
   },
   {
-    stationName: 'Gretna Green',
-    crsCode: 'GEA'
+    label: 'Gretna Green',
+    value: 'GEA'
   },
   {
-    stationName: 'Grimsby Docks',
-    crsCode: 'GMD'
+    label: 'Grimsby Docks',
+    value: 'GMD'
   },
   {
-    stationName: 'Grimsby Town',
-    crsCode: 'GMB'
+    label: 'Grimsby Town',
+    value: 'GMB'
   },
   {
-    stationName: 'Grindleford',
-    crsCode: 'GRN'
+    label: 'Grindleford',
+    value: 'GRN'
   },
   {
-    stationName: 'Grosmont',
-    crsCode: 'GMT'
+    label: 'Grosmont',
+    value: 'GMT'
   },
   {
-    stationName: 'Grove Park',
-    crsCode: 'GRP'
+    label: 'Grove Park',
+    value: 'GRP'
   },
   {
-    stationName: 'Guide Bridge',
-    crsCode: 'GUI'
+    label: 'Guide Bridge',
+    value: 'GUI'
   },
   {
-    stationName: 'Guildford',
-    crsCode: 'GLD'
+    label: 'Guildford',
+    value: 'GLD'
   },
   {
-    stationName: 'Guiseley',
-    crsCode: 'GSY'
+    label: 'Guiseley',
+    value: 'GSY'
   },
   {
-    stationName: 'Gunnersbury',
-    crsCode: 'GUN'
+    label: 'Gunnersbury',
+    value: 'GUN'
   },
   {
-    stationName: 'Gunnislake',
-    crsCode: 'GSL'
+    label: 'Gunnislake',
+    value: 'GSL'
   },
   {
-    stationName: 'Gunton',
-    crsCode: 'GNT'
+    label: 'Gunton',
+    value: 'GNT'
   },
   {
-    stationName: 'Gwersyllt',
-    crsCode: 'GWE'
+    label: 'Gwersyllt',
+    value: 'GWE'
   },
   {
-    stationName: 'Gypsy Lane',
-    crsCode: 'GYP'
+    label: 'Gypsy Lane',
+    value: 'GYP'
   },
   {
-    stationName: 'Habrough',
-    crsCode: 'HAB'
+    label: 'Habrough',
+    value: 'HAB'
   },
   {
-    stationName: 'Hackbridge',
-    crsCode: 'HCB'
+    label: 'Hackbridge',
+    value: 'HCB'
   },
   {
-    stationName: 'Hackney Central',
-    crsCode: 'HKC'
+    label: 'Hackney Central',
+    value: 'HKC'
   },
   {
-    stationName: 'Hackney Downs',
-    crsCode: 'HAC'
+    label: 'Hackney Downs',
+    value: 'HAC'
   },
   {
-    stationName: 'Hackney Wick',
-    crsCode: 'HKW'
+    label: 'Hackney Wick',
+    value: 'HKW'
   },
   {
-    stationName: 'Haddenham & Thame Parkway',
-    crsCode: 'HDM'
+    label: 'Haddenham & Thame Parkway',
+    value: 'HDM'
   },
   {
-    stationName: 'Haddiscoe',
-    crsCode: 'HAD'
+    label: 'Haddiscoe',
+    value: 'HAD'
   },
   {
-    stationName: 'Hadfield',
-    crsCode: 'HDF'
+    label: 'Hadfield',
+    value: 'HDF'
   },
   {
-    stationName: 'Hadley Wood',
-    crsCode: 'HDW'
+    label: 'Hadley Wood',
+    value: 'HDW'
   },
   {
-    stationName: 'Hag Fold',
-    crsCode: 'HGF'
+    label: 'Hag Fold',
+    value: 'HGF'
   },
   {
-    stationName: 'Haggerston',
-    crsCode: 'HGG'
+    label: 'Haggerston',
+    value: 'HGG'
   },
   {
-    stationName: 'Hagley',
-    crsCode: 'HAG'
+    label: 'Hagley',
+    value: 'HAG'
   },
   {
-    stationName: 'Hairmyres',
-    crsCode: 'HMY'
+    label: 'Hairmyres',
+    value: 'HMY'
   },
   {
-    stationName: 'Hale',
-    crsCode: 'HAL'
+    label: 'Hale',
+    value: 'HAL'
   },
   {
-    stationName: 'Halesworth',
-    crsCode: 'HAS'
+    label: 'Halesworth',
+    value: 'HAS'
   },
   {
-    stationName: 'Halewood',
-    crsCode: 'HED'
+    label: 'Halewood',
+    value: 'HED'
   },
   {
-    stationName: 'Halifax',
-    crsCode: 'HFX'
+    label: 'Halifax',
+    value: 'HFX'
   },
   {
-    stationName: 'Hall Green',
-    crsCode: 'HLG'
+    label: 'Hall Green',
+    value: 'HLG'
   },
   {
-    stationName: "Hall i' th' Wood",
-    crsCode: 'HID'
+    label: "Hall i' th' Wood",
+    value: 'HID'
   },
   {
-    stationName: 'Hall Road',
-    crsCode: 'HLR'
+    label: 'Hall Road',
+    value: 'HLR'
   },
   {
-    stationName: 'Halling',
-    crsCode: 'HAI'
+    label: 'Halling',
+    value: 'HAI'
   },
   {
-    stationName: 'Haltwhistle',
-    crsCode: 'HWH'
+    label: 'Haltwhistle',
+    value: 'HWH'
   },
   {
-    stationName: 'Ham Street',
-    crsCode: 'HMT'
+    label: 'Ham Street',
+    value: 'HMT'
   },
   {
-    stationName: 'Hamble',
-    crsCode: 'HME'
+    label: 'Hamble',
+    value: 'HME'
   },
   {
-    stationName: 'Hamilton Central',
-    crsCode: 'HNC'
+    label: 'Hamilton Central',
+    value: 'HNC'
   },
   {
-    stationName: 'Hamilton West',
-    crsCode: 'HNW'
+    label: 'Hamilton West',
+    value: 'HNW'
   },
   {
-    stationName: 'Hammerton',
-    crsCode: 'HMM'
+    label: 'Hammerton',
+    value: 'HMM'
   },
   {
-    stationName: 'Hampden Park',
-    crsCode: 'HMD'
+    label: 'Hampden Park',
+    value: 'HMD'
   },
   {
-    stationName: 'Hampstead Heath',
-    crsCode: 'HDH'
+    label: 'Hampstead Heath',
+    value: 'HDH'
   },
   {
-    stationName: 'Hampton',
-    crsCode: 'HMP'
+    label: 'Hampton',
+    value: 'HMP'
   },
   {
-    stationName: 'Hampton Court',
-    crsCode: 'HMC'
+    label: 'Hampton Court',
+    value: 'HMC'
   },
   {
-    stationName: 'Hampton Wick',
-    crsCode: 'HMW'
+    label: 'Hampton Wick',
+    value: 'HMW'
   },
   {
-    stationName: 'Hampton-In-Arden',
-    crsCode: 'HIA'
+    label: 'Hampton-In-Arden',
+    value: 'HIA'
   },
   {
-    stationName: 'Hamstead',
-    crsCode: 'HSD'
+    label: 'Hamstead',
+    value: 'HSD'
   },
   {
-    stationName: 'Hamworthy',
-    crsCode: 'HAM'
+    label: 'Hamworthy',
+    value: 'HAM'
   },
   {
-    stationName: 'Hanborough',
-    crsCode: 'HND'
+    label: 'Hanborough',
+    value: 'HND'
   },
   {
-    stationName: 'Handforth',
-    crsCode: 'HTH'
+    label: 'Handforth',
+    value: 'HTH'
   },
   {
-    stationName: 'Hanwell',
-    crsCode: 'HAN'
+    label: 'Hanwell',
+    value: 'HAN'
   },
   {
-    stationName: 'Hapton',
-    crsCode: 'HPN'
+    label: 'Hapton',
+    value: 'HPN'
   },
   {
-    stationName: 'Harlech',
-    crsCode: 'HRL'
+    label: 'Harlech',
+    value: 'HRL'
   },
   {
-    stationName: 'Harlesden',
-    crsCode: 'HDN'
+    label: 'Harlesden',
+    value: 'HDN'
   },
   {
-    stationName: 'Harling Road',
-    crsCode: 'HRD'
+    label: 'Harling Road',
+    value: 'HRD'
   },
   {
-    stationName: 'Harlington',
-    crsCode: 'HLN'
+    label: 'Harlington',
+    value: 'HLN'
   },
   {
-    stationName: 'Harlow Mill',
-    crsCode: 'HWM'
+    label: 'Harlow Mill',
+    value: 'HWM'
   },
   {
-    stationName: 'Harlow Town',
-    crsCode: 'HWN'
+    label: 'Harlow Town',
+    value: 'HWN'
   },
   {
-    stationName: 'Harold Wood',
-    crsCode: 'HRO'
+    label: 'Harold Wood',
+    value: 'HRO'
   },
   {
-    stationName: 'Harpenden',
-    crsCode: 'HPD'
+    label: 'Harpenden',
+    value: 'HPD'
   },
   {
-    stationName: 'Harrietsham',
-    crsCode: 'HRM'
+    label: 'Harrietsham',
+    value: 'HRM'
   },
   {
-    stationName: 'Harringay Green Lanes',
-    crsCode: 'HRY'
+    label: 'Harringay Green Lanes',
+    value: 'HRY'
   },
   {
-    stationName: 'Harringay',
-    crsCode: 'HGY'
+    label: 'Harringay',
+    value: 'HGY'
   },
   {
-    stationName: 'Harrington',
-    crsCode: 'HRR'
+    label: 'Harrington',
+    value: 'HRR'
   },
   {
-    stationName: 'Harrogate',
-    crsCode: 'HGT'
+    label: 'Harrogate',
+    value: 'HGT'
   },
   {
-    stationName: 'Harrow & Wealdstone',
-    crsCode: 'HRW'
+    label: 'Harrow & Wealdstone',
+    value: 'HRW'
   },
   {
-    stationName: 'Harrow-on-the-Hill',
-    crsCode: 'HOH'
+    label: 'Harrow-on-the-Hill',
+    value: 'HOH'
   },
   {
-    stationName: 'Hartford',
-    crsCode: 'HTF'
+    label: 'Hartford',
+    value: 'HTF'
   },
   {
-    stationName: 'Hartlebury',
-    crsCode: 'HBY'
+    label: 'Hartlebury',
+    value: 'HBY'
   },
   {
-    stationName: 'Hartlepool',
-    crsCode: 'HPL'
+    label: 'Hartlepool',
+    value: 'HPL'
   },
   {
-    stationName: 'Hartwood',
-    crsCode: 'HTW'
+    label: 'Hartwood',
+    value: 'HTW'
   },
   {
-    stationName: 'Harwich International',
-    crsCode: 'HPQ'
+    label: 'Harwich International',
+    value: 'HPQ'
   },
   {
-    stationName: 'Harwich Town',
-    crsCode: 'HWC'
+    label: 'Harwich Town',
+    value: 'HWC'
   },
   {
-    stationName: 'Haslemere',
-    crsCode: 'HSL'
+    label: 'Haslemere',
+    value: 'HSL'
   },
   {
-    stationName: 'Hassocks',
-    crsCode: 'HSK'
+    label: 'Hassocks',
+    value: 'HSK'
   },
   {
-    stationName: 'Hastings',
-    crsCode: 'HGS'
+    label: 'Hastings',
+    value: 'HGS'
   },
   {
-    stationName: 'Hatch End',
-    crsCode: 'HTE'
+    label: 'Hatch End',
+    value: 'HTE'
   },
   {
-    stationName: 'Hatfield',
-    crsCode: 'HAT'
+    label: 'Hatfield',
+    value: 'HAT'
   },
   {
-    stationName: 'Hatfield & Stainforth',
-    crsCode: 'HFS'
+    label: 'Hatfield & Stainforth',
+    value: 'HFS'
   },
   {
-    stationName: 'Hatfield Peverel',
-    crsCode: 'HAP'
+    label: 'Hatfield Peverel',
+    value: 'HAP'
   },
   {
-    stationName: 'Hathersage',
-    crsCode: 'HSG'
+    label: 'Hathersage',
+    value: 'HSG'
   },
   {
-    stationName: 'Hattersley',
-    crsCode: 'HTY'
+    label: 'Hattersley',
+    value: 'HTY'
   },
   {
-    stationName: 'Hatton',
-    crsCode: 'HTN'
+    label: 'Hatton',
+    value: 'HTN'
   },
   {
-    stationName: 'Havant',
-    crsCode: 'HAV'
+    label: 'Havant',
+    value: 'HAV'
   },
   {
-    stationName: 'Havenhouse',
-    crsCode: 'HVN'
+    label: 'Havenhouse',
+    value: 'HVN'
   },
   {
-    stationName: 'Haverfordwest',
-    crsCode: 'HVF'
+    label: 'Haverfordwest',
+    value: 'HVF'
   },
   {
-    stationName: 'Hawarden Bridge',
-    crsCode: 'HWB'
+    label: 'Hawarden Bridge',
+    value: 'HWB'
   },
   {
-    stationName: 'Hawarden',
-    crsCode: 'HWD'
+    label: 'Hawarden',
+    value: 'HWD'
   },
   {
-    stationName: 'Hawick',
-    crsCode: 'HWK'
+    label: 'Hawick',
+    value: 'HWK'
   },
   {
-    stationName: 'Hawkhead',
-    crsCode: 'HKH'
+    label: 'Hawkhead',
+    value: 'HKH'
   },
   {
-    stationName: 'Haydon Bridge',
-    crsCode: 'HDB'
+    label: 'Haydon Bridge',
+    value: 'HDB'
   },
   {
-    stationName: 'Haydons Road',
-    crsCode: 'HYR'
+    label: 'Haydons Road',
+    value: 'HYR'
   },
   {
-    stationName: 'Hayes & Harlington',
-    crsCode: 'HAY'
+    label: 'Hayes & Harlington',
+    value: 'HAY'
   },
   {
-    stationName: 'Hayes (Kent)',
-    crsCode: 'HYS'
+    label: 'Hayes (Kent)',
+    value: 'HYS'
   },
   {
-    stationName: 'Hayle',
-    crsCode: 'HYL'
+    label: 'Hayle',
+    value: 'HYL'
   },
   {
-    stationName: 'Haymarket',
-    crsCode: 'HYM'
+    label: 'Haymarket',
+    value: 'HYM'
   },
   {
-    stationName: 'Haywards Heath',
-    crsCode: 'HHE'
+    label: 'Haywards Heath',
+    value: 'HHE'
   },
   {
-    stationName: 'Hazel Grove',
-    crsCode: 'HAZ'
+    label: 'Hazel Grove',
+    value: 'HAZ'
   },
   {
-    stationName: 'Headbolt Lane',
-    crsCode: 'HBL'
+    label: 'Headbolt Lane',
+    value: 'HBL'
   },
   {
-    stationName: 'Headcorn',
-    crsCode: 'HCN'
+    label: 'Headcorn',
+    value: 'HCN'
   },
   {
-    stationName: 'Headingley',
-    crsCode: 'HDY'
+    label: 'Headingley',
+    value: 'HDY'
   },
   {
-    stationName: 'Headstone Lane',
-    crsCode: 'HDL'
+    label: 'Headstone Lane',
+    value: 'HDL'
   },
   {
-    stationName: 'Heald Green',
-    crsCode: 'HDG'
+    label: 'Heald Green',
+    value: 'HDG'
   },
   {
-    stationName: 'Healing',
-    crsCode: 'HLI'
+    label: 'Healing',
+    value: 'HLI'
   },
   {
-    stationName: 'Heath High Level',
-    crsCode: 'HHL'
+    label: 'Heath High Level',
+    value: 'HHL'
   },
   {
-    stationName: 'Heath Low Level',
-    crsCode: 'HLL'
+    label: 'Heath Low Level',
+    value: 'HLL'
   },
   {
-    stationName: 'Heathrow Terminal 4 Rail',
-    crsCode: 'HAF'
+    label: 'Heathrow Terminal 4 Rail',
+    value: 'HAF'
   },
   {
-    stationName: 'Heathrow Terminal 5 Rail',
-    crsCode: 'HWV'
+    label: 'Heathrow Terminal 5 Rail',
+    value: 'HWV'
   },
   {
-    stationName: 'Heathrow Terminals 1-2-3 Rail',
-    crsCode: 'HXX'
+    label: 'Heathrow Terminals 1-2-3 Rail',
+    value: 'HXX'
   },
   {
-    stationName: 'Heaton Chapel',
-    crsCode: 'HTC'
+    label: 'Heaton Chapel',
+    value: 'HTC'
   },
   {
-    stationName: 'Hebden Bridge',
-    crsCode: 'HBD'
+    label: 'Hebden Bridge',
+    value: 'HBD'
   },
   {
-    stationName: 'Heckington',
-    crsCode: 'HEC'
+    label: 'Heckington',
+    value: 'HEC'
   },
   {
-    stationName: 'Hedge End',
-    crsCode: 'HDE'
+    label: 'Hedge End',
+    value: 'HDE'
   },
   {
-    stationName: 'Hednesford',
-    crsCode: 'HNF'
+    label: 'Hednesford',
+    value: 'HNF'
   },
   {
-    stationName: 'Heighington',
-    crsCode: 'HEI'
+    label: 'Heighington',
+    value: 'HEI'
   },
   {
-    stationName: 'Helensburgh Central',
-    crsCode: 'HLC'
+    label: 'Helensburgh Central',
+    value: 'HLC'
   },
   {
-    stationName: 'Helensburgh Upper',
-    crsCode: 'HLU'
+    label: 'Helensburgh Upper',
+    value: 'HLU'
   },
   {
-    stationName: 'Hellifield',
-    crsCode: 'HLD'
+    label: 'Hellifield',
+    value: 'HLD'
   },
   {
-    stationName: 'Helmsdale',
-    crsCode: 'HMS'
+    label: 'Helmsdale',
+    value: 'HMS'
   },
   {
-    stationName: 'Helsby',
-    crsCode: 'HSB'
+    label: 'Helsby',
+    value: 'HSB'
   },
   {
-    stationName: 'Hemel Hempstead',
-    crsCode: 'HML'
+    label: 'Hemel Hempstead',
+    value: 'HML'
   },
   {
-    stationName: 'Hendon',
-    crsCode: 'HEN'
+    label: 'Hendon',
+    value: 'HEN'
   },
   {
-    stationName: 'Hengoed',
-    crsCode: 'HNG'
+    label: 'Hengoed',
+    value: 'HNG'
   },
   {
-    stationName: 'Henley-In-Arden',
-    crsCode: 'HNL'
+    label: 'Henley-In-Arden',
+    value: 'HNL'
   },
   {
-    stationName: 'Henley-On-Thames',
-    crsCode: 'HOT'
+    label: 'Henley-On-Thames',
+    value: 'HOT'
   },
   {
-    stationName: 'Hensall',
-    crsCode: 'HEL'
+    label: 'Hensall',
+    value: 'HEL'
   },
   {
-    stationName: 'Hereford',
-    crsCode: 'HFD'
+    label: 'Hereford',
+    value: 'HFD'
   },
   {
-    stationName: 'Herne Bay',
-    crsCode: 'HNB'
+    label: 'Herne Bay',
+    value: 'HNB'
   },
   {
-    stationName: 'Herne Hill',
-    crsCode: 'HNH'
+    label: 'Herne Hill',
+    value: 'HNH'
   },
   {
-    stationName: 'Hersham',
-    crsCode: 'HER'
+    label: 'Hersham',
+    value: 'HER'
   },
   {
-    stationName: 'Hertford East',
-    crsCode: 'HFE'
+    label: 'Hertford East',
+    value: 'HFE'
   },
   {
-    stationName: 'Hertford North',
-    crsCode: 'HFN'
+    label: 'Hertford North',
+    value: 'HFN'
   },
   {
-    stationName: 'Hessle',
-    crsCode: 'HES'
+    label: 'Hessle',
+    value: 'HES'
   },
   {
-    stationName: 'Heswall',
-    crsCode: 'HSW'
+    label: 'Heswall',
+    value: 'HSW'
   },
   {
-    stationName: 'Hever',
-    crsCode: 'HEV'
+    label: 'Hever',
+    value: 'HEV'
   },
   {
-    stationName: 'Heworth',
-    crsCode: 'HEW'
+    label: 'Heworth',
+    value: 'HEW'
   },
   {
-    stationName: 'Hexham',
-    crsCode: 'HEX'
+    label: 'Hexham',
+    value: 'HEX'
   },
   {
-    stationName: 'Heyford',
-    crsCode: 'HYD'
+    label: 'Heyford',
+    value: 'HYD'
   },
   {
-    stationName: 'Heysham Port',
-    crsCode: 'HHB'
+    label: 'Heysham Port',
+    value: 'HHB'
   },
   {
-    stationName: 'High Brooms',
-    crsCode: 'HIB'
+    label: 'High Brooms',
+    value: 'HIB'
   },
   {
-    stationName: 'High Street',
-    crsCode: 'HST'
+    label: 'High Street',
+    value: 'HST'
   },
   {
-    stationName: 'High Wycombe',
-    crsCode: 'HWY'
+    label: 'High Wycombe',
+    value: 'HWY'
   },
   {
-    stationName: 'Higham',
-    crsCode: 'HGM'
+    label: 'Higham',
+    value: 'HGM'
   },
   {
-    stationName: 'Highams Park',
-    crsCode: 'HIP'
+    label: 'Highams Park',
+    value: 'HIP'
   },
   {
-    stationName: 'Highbridge & Burnham',
-    crsCode: 'HIG'
+    label: 'Highbridge & Burnham',
+    value: 'HIG'
   },
   {
-    stationName: 'Highbury & Islington',
-    crsCode: 'HHY'
+    label: 'Highbury & Islington',
+    value: 'HHY'
   },
   {
-    stationName: 'Hightown',
-    crsCode: 'HTO'
+    label: 'Hightown',
+    value: 'HTO'
   },
   {
-    stationName: 'Hildenborough',
-    crsCode: 'HLB'
+    label: 'Hildenborough',
+    value: 'HLB'
   },
   {
-    stationName: 'Hillfoot',
-    crsCode: 'HLF'
+    label: 'Hillfoot',
+    value: 'HLF'
   },
   {
-    stationName: 'Hillington East',
-    crsCode: 'HLE'
+    label: 'Hillington East',
+    value: 'HLE'
   },
   {
-    stationName: 'Hillington West',
-    crsCode: 'HLW'
+    label: 'Hillington West',
+    value: 'HLW'
   },
   {
-    stationName: 'Hillside',
-    crsCode: 'HIL'
+    label: 'Hillside',
+    value: 'HIL'
   },
   {
-    stationName: 'Hilsea',
-    crsCode: 'HLS'
+    label: 'Hilsea',
+    value: 'HLS'
   },
   {
-    stationName: 'Hinchley Wood',
-    crsCode: 'HYW'
+    label: 'Hinchley Wood',
+    value: 'HYW'
   },
   {
-    stationName: 'Hinckley',
-    crsCode: 'HNK'
+    label: 'Hinckley',
+    value: 'HNK'
   },
   {
-    stationName: 'Hindley',
-    crsCode: 'HIN'
+    label: 'Hindley',
+    value: 'HIN'
   },
   {
-    stationName: 'Hinton Admiral',
-    crsCode: 'HNA'
+    label: 'Hinton Admiral',
+    value: 'HNA'
   },
   {
-    stationName: 'Hitchin',
-    crsCode: 'HIT'
+    label: 'Hitchin',
+    value: 'HIT'
   },
   {
-    stationName: 'Hither Green',
-    crsCode: 'HGR'
+    label: 'Hither Green',
+    value: 'HGR'
   },
   {
-    stationName: 'Hockley',
-    crsCode: 'HOC'
+    label: 'Hockley',
+    value: 'HOC'
   },
   {
-    stationName: 'Hollingbourne',
-    crsCode: 'HBN'
+    label: 'Hollingbourne',
+    value: 'HBN'
   },
   {
-    stationName: 'Holmes Chapel',
-    crsCode: 'HCH'
+    label: 'Holmes Chapel',
+    value: 'HCH'
   },
   {
-    stationName: 'Holmwood',
-    crsCode: 'HLM'
+    label: 'Holmwood',
+    value: 'HLM'
   },
   {
-    stationName: 'Holton Heath',
-    crsCode: 'HOL'
+    label: 'Holton Heath',
+    value: 'HOL'
   },
   {
-    stationName: 'Holyhead',
-    crsCode: 'HHD'
+    label: 'Holyhead',
+    value: 'HHD'
   },
   {
-    stationName: 'Holytown',
-    crsCode: 'HLY'
+    label: 'Holytown',
+    value: 'HLY'
   },
   {
-    stationName: 'Homerton',
-    crsCode: 'HMN'
+    label: 'Homerton',
+    value: 'HMN'
   },
   {
-    stationName: 'Honeybourne',
-    crsCode: 'HYB'
+    label: 'Honeybourne',
+    value: 'HYB'
   },
   {
-    stationName: 'Honiton',
-    crsCode: 'HON'
+    label: 'Honiton',
+    value: 'HON'
   },
   {
-    stationName: 'Honley',
-    crsCode: 'HOY'
+    label: 'Honley',
+    value: 'HOY'
   },
   {
-    stationName: 'Honor Oak Park',
-    crsCode: 'HPA'
+    label: 'Honor Oak Park',
+    value: 'HPA'
   },
   {
-    stationName: 'Hook',
-    crsCode: 'HOK'
+    label: 'Hook',
+    value: 'HOK'
   },
   {
-    stationName: 'Hooton',
-    crsCode: 'HOO'
+    label: 'Hooton',
+    value: 'HOO'
   },
   {
-    stationName: 'Hope (Flintshire)',
-    crsCode: 'HPE'
+    label: 'Hope (Flintshire)',
+    value: 'HPE'
   },
   {
-    stationName: 'Hope (Derbyshire)',
-    crsCode: 'HOP'
+    label: 'Hope (Derbyshire)',
+    value: 'HOP'
   },
   {
-    stationName: 'Hopton Heath',
-    crsCode: 'HPT'
+    label: 'Hopton Heath',
+    value: 'HPT'
   },
   {
-    stationName: 'Horden',
-    crsCode: 'HRE'
+    label: 'Horden',
+    value: 'HRE'
   },
   {
-    stationName: 'Horley',
-    crsCode: 'HOR'
+    label: 'Horley',
+    value: 'HOR'
   },
   {
-    stationName: 'Hornbeam Park',
-    crsCode: 'HBP'
+    label: 'Hornbeam Park',
+    value: 'HBP'
   },
   {
-    stationName: 'Hornsey',
-    crsCode: 'HRN'
+    label: 'Hornsey',
+    value: 'HRN'
   },
   {
-    stationName: 'Horsforth',
-    crsCode: 'HRS'
+    label: 'Horsforth',
+    value: 'HRS'
   },
   {
-    stationName: 'Horsham',
-    crsCode: 'HRH'
+    label: 'Horsham',
+    value: 'HRH'
   },
   {
-    stationName: 'Horsley',
-    crsCode: 'HSY'
+    label: 'Horsley',
+    value: 'HSY'
   },
   {
-    stationName: 'Horton in Ribblesdale',
-    crsCode: 'HIR'
+    label: 'Horton in Ribblesdale',
+    value: 'HIR'
   },
   {
-    stationName: 'Horwich Parkway',
-    crsCode: 'HWI'
+    label: 'Horwich Parkway',
+    value: 'HWI'
   },
   {
-    stationName: 'Hoscar',
-    crsCode: 'HSC'
+    label: 'Hoscar',
+    value: 'HSC'
   },
   {
-    stationName: 'Hough Green',
-    crsCode: 'HGN'
+    label: 'Hough Green',
+    value: 'HGN'
   },
   {
-    stationName: 'Hounslow',
-    crsCode: 'HOU'
+    label: 'Hounslow',
+    value: 'HOU'
   },
   {
-    stationName: 'Hove',
-    crsCode: 'HOV'
+    label: 'Hove',
+    value: 'HOV'
   },
   {
-    stationName: 'Hoveton & Wroxham',
-    crsCode: 'HXM'
+    label: 'Hoveton & Wroxham',
+    value: 'HXM'
   },
   {
-    stationName: 'How Wood',
-    crsCode: 'HWW'
+    label: 'How Wood',
+    value: 'HWW'
   },
   {
-    stationName: 'Howden',
-    crsCode: 'HOW'
+    label: 'Howden',
+    value: 'HOW'
   },
   {
-    stationName: 'Howwood',
-    crsCode: 'HOZ'
+    label: 'Howwood',
+    value: 'HOZ'
   },
   {
-    stationName: 'Hoxton',
-    crsCode: 'HOX'
+    label: 'Hoxton',
+    value: 'HOX'
   },
   {
-    stationName: 'Hoylake',
-    crsCode: 'HYK'
+    label: 'Hoylake',
+    value: 'HYK'
   },
   {
-    stationName: 'Hubberts Bridge',
-    crsCode: 'HBB'
+    label: 'Hubberts Bridge',
+    value: 'HBB'
   },
   {
-    stationName: 'Hucknall',
-    crsCode: 'HKN'
+    label: 'Hucknall',
+    value: 'HKN'
   },
   {
-    stationName: 'Huddersfield',
-    crsCode: 'HUD'
+    label: 'Huddersfield',
+    value: 'HUD'
   },
   {
-    stationName: 'Hull',
-    crsCode: 'HUL'
+    label: 'Hull',
+    value: 'HUL'
   },
   {
-    stationName: 'Humphrey Park',
-    crsCode: 'HUP'
+    label: 'Humphrey Park',
+    value: 'HUP'
   },
   {
-    stationName: 'Huncoat',
-    crsCode: 'HCT'
+    label: 'Huncoat',
+    value: 'HCT'
   },
   {
-    stationName: 'Hungerford',
-    crsCode: 'HGD'
+    label: 'Hungerford',
+    value: 'HGD'
   },
   {
-    stationName: 'Hunmanby',
-    crsCode: 'HUB'
+    label: 'Hunmanby',
+    value: 'HUB'
   },
   {
-    stationName: 'Huntingdon',
-    crsCode: 'HUN'
+    label: 'Huntingdon',
+    value: 'HUN'
   },
   {
-    stationName: 'Huntly',
-    crsCode: 'HNT'
+    label: 'Huntly',
+    value: 'HNT'
   },
   {
-    stationName: 'Hunts Cross',
-    crsCode: 'HNX'
+    label: 'Hunts Cross',
+    value: 'HNX'
   },
   {
-    stationName: 'Hurst Green',
-    crsCode: 'HUR'
+    label: 'Hurst Green',
+    value: 'HUR'
   },
   {
-    stationName: 'Hutton Cranswick',
-    crsCode: 'HUT'
+    label: 'Hutton Cranswick',
+    value: 'HUT'
   },
   {
-    stationName: 'Huyton',
-    crsCode: 'HUY'
+    label: 'Huyton',
+    value: 'HUY'
   },
   {
-    stationName: 'Hyde Central',
-    crsCode: 'HYC'
+    label: 'Hyde Central',
+    value: 'HYC'
   },
   {
-    stationName: 'Hyde North',
-    crsCode: 'HYT'
+    label: 'Hyde North',
+    value: 'HYT'
   },
   {
-    stationName: 'Hykeham',
-    crsCode: 'HKM'
+    label: 'Hykeham',
+    value: 'HKM'
   },
   {
-    stationName: 'Hyndland',
-    crsCode: 'HYN'
+    label: 'Hyndland',
+    value: 'HYN'
   },
   {
-    stationName: 'Hythe',
-    crsCode: 'HYH'
+    label: 'Hythe',
+    value: 'HYH'
   },
   {
-    stationName: 'Ifield',
-    crsCode: 'IFI'
+    label: 'Ifield',
+    value: 'IFI'
   },
   {
-    stationName: 'Ilford',
-    crsCode: 'IFD'
+    label: 'Ilford',
+    value: 'IFD'
   },
   {
-    stationName: 'Ilkeston',
-    crsCode: 'ILN'
+    label: 'Ilkeston',
+    value: 'ILN'
   },
   {
-    stationName: 'Ilkley',
-    crsCode: 'ILK'
+    label: 'Ilkley',
+    value: 'ILK'
   },
   {
-    stationName: 'Imperial Wharf',
-    crsCode: 'IMW'
+    label: 'Imperial Wharf',
+    value: 'IMW'
   },
   {
-    stationName: 'Ince',
-    crsCode: 'INC'
+    label: 'Ince',
+    value: 'INC'
   },
   {
-    stationName: 'Ince & Elton',
-    crsCode: 'INE'
+    label: 'Ince & Elton',
+    value: 'INE'
   },
   {
-    stationName: 'Ingatestone',
-    crsCode: 'INT'
+    label: 'Ingatestone',
+    value: 'INT'
   },
   {
-    stationName: 'Insch',
-    crsCode: 'INS'
+    label: 'Insch',
+    value: 'INS'
   },
   {
-    stationName: 'Invergordon',
-    crsCode: 'IGD'
+    label: 'Invergordon',
+    value: 'IGD'
   },
   {
-    stationName: 'Invergowrie',
-    crsCode: 'ING'
+    label: 'Invergowrie',
+    value: 'ING'
   },
   {
-    stationName: 'Inverkeithing',
-    crsCode: 'INK'
+    label: 'Inverkeithing',
+    value: 'INK'
   },
   {
-    stationName: 'Inverkip',
-    crsCode: 'INP'
+    label: 'Inverkip',
+    value: 'INP'
   },
   {
-    stationName: 'Inverness',
-    crsCode: 'INV'
+    label: 'Inverness',
+    value: 'INV'
   },
   {
-    stationName: 'Inverness Airport',
-    crsCode: 'IVA'
+    label: 'Inverness Airport',
+    value: 'IVA'
   },
   {
-    stationName: 'Invershin',
-    crsCode: 'INH'
+    label: 'Invershin',
+    value: 'INH'
   },
   {
-    stationName: 'Inverurie',
-    crsCode: 'INR'
+    label: 'Inverurie',
+    value: 'INR'
   },
   {
-    stationName: 'Ipswich',
-    crsCode: 'IPS'
+    label: 'Ipswich',
+    value: 'IPS'
   },
   {
-    stationName: 'Irlam',
-    crsCode: 'IRL'
+    label: 'Irlam',
+    value: 'IRL'
   },
   {
-    stationName: 'Irvine',
-    crsCode: 'IRV'
+    label: 'Irvine',
+    value: 'IRV'
   },
   {
-    stationName: 'Isleworth',
-    crsCode: 'ISL'
+    label: 'Isleworth',
+    value: 'ISL'
   },
   {
-    stationName: 'Islip',
-    crsCode: 'ISP'
+    label: 'Islip',
+    value: 'ISP'
   },
   {
-    stationName: 'Iver',
-    crsCode: 'IVR'
+    label: 'Iver',
+    value: 'IVR'
   },
   {
-    stationName: 'Ivybridge',
-    crsCode: 'IVY'
+    label: 'Ivybridge',
+    value: 'IVY'
   },
   {
-    stationName: 'James Cook University Hospital',
-    crsCode: 'JCH'
+    label: 'James Cook University Hospital',
+    value: 'JCH'
   },
   {
-    stationName: 'James Street',
-    crsCode: 'LVJ'
+    label: 'James Street',
+    value: 'LVJ'
   },
   {
-    stationName: 'Jewellery Quarter',
-    crsCode: 'JEQ'
+    label: 'Jewellery Quarter',
+    value: 'JEQ'
   },
   {
-    stationName: 'Johnston',
-    crsCode: 'JOH'
+    label: 'Johnston',
+    value: 'JOH'
   },
   {
-    stationName: 'Johnstone',
-    crsCode: 'JHN'
+    label: 'Johnstone',
+    value: 'JHN'
   },
   {
-    stationName: 'Jordanhill',
-    crsCode: 'JOR'
+    label: 'Jordanhill',
+    value: 'JOR'
   },
   {
-    stationName: 'Kearsley',
-    crsCode: 'KSL'
+    label: 'Kearsley',
+    value: 'KSL'
   },
   {
-    stationName: 'Kearsney',
-    crsCode: 'KSN'
+    label: 'Kearsney',
+    value: 'KSN'
   },
   {
-    stationName: 'Keighley',
-    crsCode: 'KEI'
+    label: 'Keighley',
+    value: 'KEI'
   },
   {
-    stationName: 'Keith',
-    crsCode: 'KEH'
+    label: 'Keith',
+    value: 'KEH'
   },
   {
-    stationName: 'Kelvedon',
-    crsCode: 'KEL'
+    label: 'Kelvedon',
+    value: 'KEL'
   },
   {
-    stationName: 'Kelvindale',
-    crsCode: 'KVD'
+    label: 'Kelvindale',
+    value: 'KVD'
   },
   {
-    stationName: 'Kemble',
-    crsCode: 'KEM'
+    label: 'Kemble',
+    value: 'KEM'
   },
   {
-    stationName: 'Kempston Hardwick',
-    crsCode: 'KMH'
+    label: 'Kempston Hardwick',
+    value: 'KMH'
   },
   {
-    stationName: 'Kempton Park',
-    crsCode: 'KMP'
+    label: 'Kempton Park',
+    value: 'KMP'
   },
   {
-    stationName: 'Kemsing',
-    crsCode: 'KMS'
+    label: 'Kemsing',
+    value: 'KMS'
   },
   {
-    stationName: 'Kemsley',
-    crsCode: 'KML'
+    label: 'Kemsley',
+    value: 'KML'
   },
   {
-    stationName: 'Kendal',
-    crsCode: 'KEN'
+    label: 'Kendal',
+    value: 'KEN'
   },
   {
-    stationName: 'Kenilworth',
-    crsCode: 'KNW'
+    label: 'Kenilworth',
+    value: 'KNW'
   },
   {
-    stationName: 'Kenley',
-    crsCode: 'KLY'
+    label: 'Kenley',
+    value: 'KLY'
   },
   {
-    stationName: 'Kennett',
-    crsCode: 'KNE'
+    label: 'Kennett',
+    value: 'KNE'
   },
   {
-    stationName: 'Kennishead',
-    crsCode: 'KNS'
+    label: 'Kennishead',
+    value: 'KNS'
   },
   {
-    stationName: 'Kensal Green',
-    crsCode: 'KNL'
+    label: 'Kensal Green',
+    value: 'KNL'
   },
   {
-    stationName: 'Kensal Rise',
-    crsCode: 'KNR'
+    label: 'Kensal Rise',
+    value: 'KNR'
   },
   {
-    stationName: 'Kensington Olympia',
-    crsCode: 'KPA'
+    label: 'Kensington Olympia',
+    value: 'KPA'
   },
   {
-    stationName: 'Kent House',
-    crsCode: 'KTH'
+    label: 'Kent House',
+    value: 'KTH'
   },
   {
-    stationName: 'Kentish Town',
-    crsCode: 'KTN'
+    label: 'Kentish Town',
+    value: 'KTN'
   },
   {
-    stationName: 'Kentish Town West',
-    crsCode: 'KTW'
+    label: 'Kentish Town West',
+    value: 'KTW'
   },
   {
-    stationName: 'Kenton',
-    crsCode: 'KNT'
+    label: 'Kenton',
+    value: 'KNT'
   },
   {
-    stationName: 'Kents Bank',
-    crsCode: 'KBK'
+    label: 'Kents Bank',
+    value: 'KBK'
   },
   {
-    stationName: 'Kettering',
-    crsCode: 'KET'
+    label: 'Kettering',
+    value: 'KET'
   },
   {
-    stationName: 'Kew Bridge',
-    crsCode: 'KWB'
+    label: 'Kew Bridge',
+    value: 'KWB'
   },
   {
-    stationName: 'Kew Gardens',
-    crsCode: 'KWG'
+    label: 'Kew Gardens',
+    value: 'KWG'
   },
   {
-    stationName: 'Keyham',
-    crsCode: 'KEY'
+    label: 'Keyham',
+    value: 'KEY'
   },
   {
-    stationName: 'Keynsham',
-    crsCode: 'KYN'
+    label: 'Keynsham',
+    value: 'KYN'
   },
   {
-    stationName: 'Kidbrooke',
-    crsCode: 'KDB'
+    label: 'Kidbrooke',
+    value: 'KDB'
   },
   {
-    stationName: 'Kidderminster',
-    crsCode: 'KID'
+    label: 'Kidderminster',
+    value: 'KID'
   },
   {
-    stationName: 'Kidsgrove',
-    crsCode: 'KDG'
+    label: 'Kidsgrove',
+    value: 'KDG'
   },
   {
-    stationName: 'Kidwelly',
-    crsCode: 'KWL'
+    label: 'Kidwelly',
+    value: 'KWL'
   },
   {
-    stationName: 'Kilburn High Road',
-    crsCode: 'KBN'
+    label: 'Kilburn High Road',
+    value: 'KBN'
   },
   {
-    stationName: 'Kildale',
-    crsCode: 'KLD'
+    label: 'Kildale',
+    value: 'KLD'
   },
   {
-    stationName: 'Kildonan',
-    crsCode: 'KIL'
+    label: 'Kildonan',
+    value: 'KIL'
   },
   {
-    stationName: 'Kilgetty',
-    crsCode: 'KGT'
+    label: 'Kilgetty',
+    value: 'KGT'
   },
   {
-    stationName: 'Kilmarnock',
-    crsCode: 'KMK'
+    label: 'Kilmarnock',
+    value: 'KMK'
   },
   {
-    stationName: 'Kilmaurs',
-    crsCode: 'KLM'
+    label: 'Kilmaurs',
+    value: 'KLM'
   },
   {
-    stationName: 'Kilpatrick',
-    crsCode: 'KPT'
+    label: 'Kilpatrick',
+    value: 'KPT'
   },
   {
-    stationName: 'Kilwinning',
-    crsCode: 'KWN'
+    label: 'Kilwinning',
+    value: 'KWN'
   },
   {
-    stationName: 'Kinbrace',
-    crsCode: 'KBC'
+    label: 'Kinbrace',
+    value: 'KBC'
   },
   {
-    stationName: 'Kingham',
-    crsCode: 'KGM'
+    label: 'Kingham',
+    value: 'KGM'
   },
   {
-    stationName: 'Kinghorn',
-    crsCode: 'KGH'
+    label: 'Kinghorn',
+    value: 'KGH'
   },
   {
-    stationName: 'Kings Langley',
-    crsCode: 'KGL'
+    label: 'Kings Langley',
+    value: 'KGL'
   },
   {
-    stationName: 'Kings Lynn',
-    crsCode: 'KLN'
+    label: 'Kings Lynn',
+    value: 'KLN'
   },
   {
-    stationName: 'Kings Norton',
-    crsCode: 'KNN'
+    label: 'Kings Norton',
+    value: 'KNN'
   },
   {
-    stationName: 'Kings Nympton',
-    crsCode: 'KGN'
+    label: 'Kings Nympton',
+    value: 'KGN'
   },
   {
-    stationName: 'Kings Park',
-    crsCode: 'KGP'
+    label: 'Kings Park',
+    value: 'KGP'
   },
   {
-    stationName: 'Kings Sutton',
-    crsCode: 'KGS'
+    label: 'Kings Sutton',
+    value: 'KGS'
   },
   {
-    stationName: 'Kingsknowe',
-    crsCode: 'KGE'
+    label: 'Kingsknowe',
+    value: 'KGE'
   },
   {
-    stationName: 'Kingston',
-    crsCode: 'KNG'
+    label: 'Kingston',
+    value: 'KNG'
   },
   {
-    stationName: 'Kingswood',
-    crsCode: 'KND'
+    label: 'Kingswood',
+    value: 'KND'
   },
   {
-    stationName: 'Kingussie',
-    crsCode: 'KIN'
+    label: 'Kingussie',
+    value: 'KIN'
   },
   {
-    stationName: 'Kintbury',
-    crsCode: 'KIT'
+    label: 'Kintbury',
+    value: 'KIT'
   },
   {
-    stationName: 'Kintore',
-    crsCode: 'KTR'
+    label: 'Kintore',
+    value: 'KTR'
   },
   {
-    stationName: 'Kirby Cross',
-    crsCode: 'KBX'
+    label: 'Kirby Cross',
+    value: 'KBX'
   },
   {
-    stationName: 'Kirk Sandall',
-    crsCode: 'KKS'
+    label: 'Kirk Sandall',
+    value: 'KKS'
   },
   {
-    stationName: 'Kirkby',
-    crsCode: 'KIR'
+    label: 'Kirkby',
+    value: 'KIR'
   },
   {
-    stationName: 'Kirkby in Ashfield',
-    crsCode: 'KKB'
+    label: 'Kirkby in Ashfield',
+    value: 'KKB'
   },
   {
-    stationName: 'Kirkby Stephen',
-    crsCode: 'KSW'
+    label: 'Kirkby Stephen',
+    value: 'KSW'
   },
   {
-    stationName: 'Kirkby-In-Furness',
-    crsCode: 'KBF'
+    label: 'Kirkby-In-Furness',
+    value: 'KBF'
   },
   {
-    stationName: 'Kirkcaldy',
-    crsCode: 'KDY'
+    label: 'Kirkcaldy',
+    value: 'KDY'
   },
   {
-    stationName: 'Kirkconnel',
-    crsCode: 'KRK'
+    label: 'Kirkconnel',
+    value: 'KRK'
   },
   {
-    stationName: 'Kirkdale',
-    crsCode: 'KKD'
+    label: 'Kirkdale',
+    value: 'KKD'
   },
   {
-    stationName: 'Kirkham & Wesham',
-    crsCode: 'KKM'
+    label: 'Kirkham & Wesham',
+    value: 'KKM'
   },
   {
-    stationName: 'Kirkhill',
-    crsCode: 'KKH'
+    label: 'Kirkhill',
+    value: 'KKH'
   },
   {
-    stationName: 'Kirknewton',
-    crsCode: 'KKN'
+    label: 'Kirknewton',
+    value: 'KKN'
   },
   {
-    stationName: 'Kirkstall Forge',
-    crsCode: 'KLF'
+    label: 'Kirkstall Forge',
+    value: 'KLF'
   },
   {
-    stationName: 'Kirkwood',
-    crsCode: 'KWD'
+    label: 'Kirkwood',
+    value: 'KWD'
   },
   {
-    stationName: 'Kirton Lindsey',
-    crsCode: 'KTL'
+    label: 'Kirton Lindsey',
+    value: 'KTL'
   },
   {
-    stationName: 'Kiveton Bridge',
-    crsCode: 'KIV'
+    label: 'Kiveton Bridge',
+    value: 'KIV'
   },
   {
-    stationName: 'Kiveton Park',
-    crsCode: 'KVP'
+    label: 'Kiveton Park',
+    value: 'KVP'
   },
   {
-    stationName: 'Knaresborough',
-    crsCode: 'KNA'
+    label: 'Knaresborough',
+    value: 'KNA'
   },
   {
-    stationName: 'Knebworth',
-    crsCode: 'KBW'
+    label: 'Knebworth',
+    value: 'KBW'
   },
   {
-    stationName: 'Knighton',
-    crsCode: 'KNI'
+    label: 'Knighton',
+    value: 'KNI'
   },
   {
-    stationName: 'Knockholt',
-    crsCode: 'KCK'
+    label: 'Knockholt',
+    value: 'KCK'
   },
   {
-    stationName: 'Knottingley',
-    crsCode: 'KNO'
+    label: 'Knottingley',
+    value: 'KNO'
   },
   {
-    stationName: 'Knucklas',
-    crsCode: 'KNU'
+    label: 'Knucklas',
+    value: 'KNU'
   },
   {
-    stationName: 'Knutsford',
-    crsCode: 'KNF'
+    label: 'Knutsford',
+    value: 'KNF'
   },
   {
-    stationName: 'Kyle of Lochalsh',
-    crsCode: 'KYL'
+    label: 'Kyle of Lochalsh',
+    value: 'KYL'
   },
   {
-    stationName: 'Ladybank',
-    crsCode: 'LDY'
+    label: 'Ladybank',
+    value: 'LDY'
   },
   {
-    stationName: 'Ladywell',
-    crsCode: 'LAD'
+    label: 'Ladywell',
+    value: 'LAD'
   },
   {
-    stationName: 'Laindon',
-    crsCode: 'LAI'
+    label: 'Laindon',
+    value: 'LAI'
   },
   {
-    stationName: 'Lairg',
-    crsCode: 'LRG'
+    label: 'Lairg',
+    value: 'LRG'
   },
   {
-    stationName: 'Lake',
-    crsCode: 'LKE'
+    label: 'Lake',
+    value: 'LKE'
   },
   {
-    stationName: 'Lakenheath',
-    crsCode: 'LAK'
+    label: 'Lakenheath',
+    value: 'LAK'
   },
   {
-    stationName: 'Lamphey',
-    crsCode: 'LAM'
+    label: 'Lamphey',
+    value: 'LAM'
   },
   {
-    stationName: 'Lanark',
-    crsCode: 'LNK'
+    label: 'Lanark',
+    value: 'LNK'
   },
   {
-    stationName: 'Lancaster',
-    crsCode: 'LAN'
+    label: 'Lancaster',
+    value: 'LAN'
   },
   {
-    stationName: 'Lancing',
-    crsCode: 'LAC'
+    label: 'Lancing',
+    value: 'LAC'
   },
   {
-    stationName: 'Landywood',
-    crsCode: 'LAW'
+    label: 'Landywood',
+    value: 'LAW'
   },
   {
-    stationName: 'Langbank',
-    crsCode: 'LGB'
+    label: 'Langbank',
+    value: 'LGB'
   },
   {
-    stationName: 'Langho',
-    crsCode: 'LHO'
+    label: 'Langho',
+    value: 'LHO'
   },
   {
-    stationName: 'Langholm',
-    crsCode: 'LHL'
+    label: 'Langholm',
+    value: 'LHL'
   },
   {
-    stationName: 'Langley',
-    crsCode: 'LNY'
+    label: 'Langley',
+    value: 'LNY'
   },
   {
-    stationName: 'Langley Green',
-    crsCode: 'LGG'
+    label: 'Langley Green',
+    value: 'LGG'
   },
   {
-    stationName: 'Langley Mill',
-    crsCode: 'LGM'
+    label: 'Langley Mill',
+    value: 'LGM'
   },
   {
-    stationName: 'Langside',
-    crsCode: 'LGS'
+    label: 'Langside',
+    value: 'LGS'
   },
   {
-    stationName: 'Langwathby',
-    crsCode: 'LGW'
+    label: 'Langwathby',
+    value: 'LGW'
   },
   {
-    stationName: 'Langwith - Whaley Thorns',
-    crsCode: 'LAG'
+    label: 'Langwith - Whaley Thorns',
+    value: 'LAG'
   },
   {
-    stationName: 'Lapford',
-    crsCode: 'LAP'
+    label: 'Lapford',
+    value: 'LAP'
   },
   {
-    stationName: 'Lapworth',
-    crsCode: 'LPW'
+    label: 'Lapworth',
+    value: 'LPW'
   },
   {
-    stationName: 'Larbert',
-    crsCode: 'LBT'
+    label: 'Larbert',
+    value: 'LBT'
   },
   {
-    stationName: 'Largs',
-    crsCode: 'LAR'
+    label: 'Largs',
+    value: 'LAR'
   },
   {
-    stationName: 'Larkhall',
-    crsCode: 'LRH'
+    label: 'Larkhall',
+    value: 'LRH'
   },
   {
-    stationName: 'Laurencekirk',
-    crsCode: 'LAU'
+    label: 'Laurencekirk',
+    value: 'LAU'
   },
   {
-    stationName: 'Lawrence Hill',
-    crsCode: 'LWH'
+    label: 'Lawrence Hill',
+    value: 'LWH'
   },
   {
-    stationName: 'Layton',
-    crsCode: 'LAY'
+    label: 'Layton',
+    value: 'LAY'
   },
   {
-    stationName: 'Lazonby & Kirkoswald',
-    crsCode: 'LZB'
+    label: 'Lazonby & Kirkoswald',
+    value: 'LZB'
   },
   {
-    stationName: 'Lea Bridge',
-    crsCode: 'LEB'
+    label: 'Lea Bridge',
+    value: 'LEB'
   },
   {
-    stationName: 'Lea Green',
-    crsCode: 'LEG'
+    label: 'Lea Green',
+    value: 'LEG'
   },
   {
-    stationName: 'Lea Hall',
-    crsCode: 'LEH'
+    label: 'Lea Hall',
+    value: 'LEH'
   },
   {
-    stationName: 'Leagrave',
-    crsCode: 'LEA'
+    label: 'Leagrave',
+    value: 'LEA'
   },
   {
-    stationName: 'Lealholm',
-    crsCode: 'LHM'
+    label: 'Lealholm',
+    value: 'LHM'
   },
   {
-    stationName: 'Leamington Spa',
-    crsCode: 'LMS'
+    label: 'Leamington Spa',
+    value: 'LMS'
   },
   {
-    stationName: 'Leasowe',
-    crsCode: 'LSW'
+    label: 'Leasowe',
+    value: 'LSW'
   },
   {
-    stationName: 'Leatherhead',
-    crsCode: 'LHD'
+    label: 'Leatherhead',
+    value: 'LHD'
   },
   {
-    stationName: 'Ledbury',
-    crsCode: 'LED'
+    label: 'Ledbury',
+    value: 'LED'
   },
   {
-    stationName: 'Lee',
-    crsCode: 'LEE'
+    label: 'Lee',
+    value: 'LEE'
   },
   {
-    stationName: 'Leeds',
-    crsCode: 'LDS'
+    label: 'Leeds',
+    value: 'LDS'
   },
   {
-    stationName: 'Leicester',
-    crsCode: 'LEI'
+    label: 'Leicester',
+    value: 'LEI'
   },
   {
-    stationName: 'Leigh (Kent)',
-    crsCode: 'LIH'
+    label: 'Leigh (Kent)',
+    value: 'LIH'
   },
   {
-    stationName: 'Leigh-on-Sea',
-    crsCode: 'LES'
+    label: 'Leigh-on-Sea',
+    value: 'LES'
   },
   {
-    stationName: 'Leighton Buzzard',
-    crsCode: 'LBZ'
+    label: 'Leighton Buzzard',
+    value: 'LBZ'
   },
   {
-    stationName: 'Lelant Saltings',
-    crsCode: 'LTS'
+    label: 'Lelant Saltings',
+    value: 'LTS'
   },
   {
-    stationName: 'Lelant',
-    crsCode: 'LEL'
+    label: 'Lelant',
+    value: 'LEL'
   },
   {
-    stationName: 'Lenham',
-    crsCode: 'LEN'
+    label: 'Lenham',
+    value: 'LEN'
   },
   {
-    stationName: 'Lenzie',
-    crsCode: 'LNZ'
+    label: 'Lenzie',
+    value: 'LNZ'
   },
   {
-    stationName: 'Leominster',
-    crsCode: 'LEO'
+    label: 'Leominster',
+    value: 'LEO'
   },
   {
-    stationName: 'Letchworth Garden City',
-    crsCode: 'LET'
+    label: 'Letchworth Garden City',
+    value: 'LET'
   },
   {
-    stationName: 'Leuchars',
-    crsCode: 'LEU'
+    label: 'Leuchars',
+    value: 'LEU'
   },
   {
-    stationName: 'Leven',
-    crsCode: 'LEV'
+    label: 'Leven',
+    value: 'LEV'
   },
   {
-    stationName: 'Levenshulme',
-    crsCode: 'LVM'
+    label: 'Levenshulme',
+    value: 'LVM'
   },
   {
-    stationName: 'Lewes',
-    crsCode: 'LWS'
+    label: 'Lewes',
+    value: 'LWS'
   },
   {
-    stationName: 'Lewisham',
-    crsCode: 'LEW'
+    label: 'Lewisham',
+    value: 'LEW'
   },
   {
-    stationName: 'Leyland',
-    crsCode: 'LEY'
+    label: 'Leyland',
+    value: 'LEY'
   },
   {
-    stationName: 'Leyton Midland Road',
-    crsCode: 'LEM'
+    label: 'Leyton Midland Road',
+    value: 'LEM'
   },
   {
-    stationName: 'Leytonstone High Road',
-    crsCode: 'LER'
+    label: 'Leytonstone High Road',
+    value: 'LER'
   },
   {
-    stationName: 'Lichfield City',
-    crsCode: 'LIC'
+    label: 'Lichfield City',
+    value: 'LIC'
   },
   {
-    stationName: 'Lichfield Trent Valley',
-    crsCode: 'LTV'
+    label: 'Lichfield Trent Valley',
+    value: 'LTV'
   },
   {
-    stationName: 'Lidlington',
-    crsCode: 'LID'
+    label: 'Lidlington',
+    value: 'LID'
   },
   {
-    stationName: 'Limehouse',
-    crsCode: 'LHS'
+    label: 'Limehouse',
+    value: 'LHS'
   },
   {
-    stationName: 'Lincoln Central',
-    crsCode: 'LCN'
+    label: 'Lincoln Central',
+    value: 'LCN'
   },
   {
-    stationName: 'Lingfield',
-    crsCode: 'LFD'
+    label: 'Lingfield',
+    value: 'LFD'
   },
   {
-    stationName: 'Lingwood',
-    crsCode: 'LGD'
+    label: 'Lingwood',
+    value: 'LGD'
   },
   {
-    stationName: 'Linlithgow',
-    crsCode: 'LIN'
+    label: 'Linlithgow',
+    value: 'LIN'
   },
   {
-    stationName: 'Liphook',
-    crsCode: 'LIP'
+    label: 'Liphook',
+    value: 'LIP'
   },
   {
-    stationName: 'Liskeard',
-    crsCode: 'LSK'
+    label: 'Liskeard',
+    value: 'LSK'
   },
   {
-    stationName: 'Liss',
-    crsCode: 'LIS'
+    label: 'Liss',
+    value: 'LIS'
   },
   {
-    stationName: 'Lisvane & Thornhill',
-    crsCode: 'LVT'
+    label: 'Lisvane & Thornhill',
+    value: 'LVT'
   },
   {
-    stationName: 'Little Kimble',
-    crsCode: 'LTK'
+    label: 'Little Kimble',
+    value: 'LTK'
   },
   {
-    stationName: 'Little Sutton',
-    crsCode: 'LTT'
+    label: 'Little Sutton',
+    value: 'LTT'
   },
   {
-    stationName: 'Littleborough',
-    crsCode: 'LTL'
+    label: 'Littleborough',
+    value: 'LTL'
   },
   {
-    stationName: 'Littlehampton',
-    crsCode: 'LIT'
+    label: 'Littlehampton',
+    value: 'LIT'
   },
   {
-    stationName: 'Littlehaven',
-    crsCode: 'LVN'
+    label: 'Littlehaven',
+    value: 'LVN'
   },
   {
-    stationName: 'Littleport',
-    crsCode: 'LTP'
+    label: 'Littleport',
+    value: 'LTP'
   },
   {
-    stationName: 'Liverpool Central',
-    crsCode: 'LVC'
+    label: 'Liverpool Central',
+    value: 'LVC'
   },
   {
-    stationName: 'Liverpool Lime Street',
-    crsCode: 'LIV'
+    label: 'Liverpool Lime Street',
+    value: 'LIV'
   },
   {
-    stationName: 'Liverpool South Parkway',
-    crsCode: 'LPY'
+    label: 'Liverpool South Parkway',
+    value: 'LPY'
   },
   {
-    stationName: 'Livingston North',
-    crsCode: 'LSN'
+    label: 'Livingston North',
+    value: 'LSN'
   },
   {
-    stationName: 'Livingston South',
-    crsCode: 'LVG'
+    label: 'Livingston South',
+    value: 'LVG'
   },
   {
-    stationName: 'Llanaber',
-    crsCode: 'LLA'
+    label: 'Llanaber',
+    value: 'LLA'
   },
   {
-    stationName: 'Llanbedr',
-    crsCode: 'LBR'
+    label: 'Llanbedr',
+    value: 'LBR'
   },
   {
-    stationName: 'Llanbister Road',
-    crsCode: 'LLT'
+    label: 'Llanbister Road',
+    value: 'LLT'
   },
   {
-    stationName: 'Llanbradach',
-    crsCode: 'LNB'
+    label: 'Llanbradach',
+    value: 'LNB'
   },
   {
-    stationName: 'Llandaf',
-    crsCode: 'LLN'
+    label: 'Llandaf',
+    value: 'LLN'
   },
   {
-    stationName: 'Llandanwg',
-    crsCode: 'LDN'
+    label: 'Llandanwg',
+    value: 'LDN'
   },
   {
-    stationName: 'Llandecwyn',
-    crsCode: 'LLC'
+    label: 'Llandecwyn',
+    value: 'LLC'
   },
   {
-    stationName: 'Llandeilo',
-    crsCode: 'LLL'
+    label: 'Llandeilo',
+    value: 'LLL'
   },
   {
-    stationName: 'Llandovery',
-    crsCode: 'LLV'
+    label: 'Llandovery',
+    value: 'LLV'
   },
   {
-    stationName: 'Llandrindod',
-    crsCode: 'LLO'
+    label: 'Llandrindod',
+    value: 'LLO'
   },
   {
-    stationName: 'Llandudno',
-    crsCode: 'LLD'
+    label: 'Llandudno',
+    value: 'LLD'
   },
   {
-    stationName: 'Llandudno Junction',
-    crsCode: 'LLJ'
+    label: 'Llandudno Junction',
+    value: 'LLJ'
   },
   {
-    stationName: 'Llandybie',
-    crsCode: 'LLI'
+    label: 'Llandybie',
+    value: 'LLI'
   },
   {
-    stationName: 'Llanelli',
-    crsCode: 'LLE'
+    label: 'Llanelli',
+    value: 'LLE'
   },
   {
-    stationName: 'Llanfairfechan',
-    crsCode: 'LLF'
+    label: 'Llanfairfechan',
+    value: 'LLF'
   },
   {
-    stationName: 'Llanfairpwll',
-    crsCode: 'LPG'
+    label: 'Llanfairpwll',
+    value: 'LPG'
   },
   {
-    stationName: 'Llangadog',
-    crsCode: 'LLG'
+    label: 'Llangadog',
+    value: 'LLG'
   },
   {
-    stationName: 'Llangammarch',
-    crsCode: 'LLM'
+    label: 'Llangammarch',
+    value: 'LLM'
   },
   {
-    stationName: 'Llangennech',
-    crsCode: 'LLH'
+    label: 'Llangennech',
+    value: 'LLH'
   },
   {
-    stationName: 'Llangynllo',
-    crsCode: 'LGO'
+    label: 'Llangynllo',
+    value: 'LGO'
   },
   {
-    stationName: 'Llanharan',
-    crsCode: 'LLR'
+    label: 'Llanharan',
+    value: 'LLR'
   },
   {
-    stationName: 'Llanhilleth',
-    crsCode: 'LTH'
+    label: 'Llanhilleth',
+    value: 'LTH'
   },
   {
-    stationName: 'Llanishen',
-    crsCode: 'LLS'
+    label: 'Llanishen',
+    value: 'LLS'
   },
   {
-    stationName: 'Llanrwst',
-    crsCode: 'LWR'
+    label: 'Llanrwst',
+    value: 'LWR'
   },
   {
-    stationName: 'Llansamlet',
-    crsCode: 'LAS'
+    label: 'Llansamlet',
+    value: 'LAS'
   },
   {
-    stationName: 'Llantwit Major',
-    crsCode: 'LWM'
+    label: 'Llantwit Major',
+    value: 'LWM'
   },
   {
-    stationName: 'Llanwrda',
-    crsCode: 'LNR'
+    label: 'Llanwrda',
+    value: 'LNR'
   },
   {
-    stationName: 'Llanwrtyd',
-    crsCode: 'LNW'
+    label: 'Llanwrtyd',
+    value: 'LNW'
   },
   {
-    stationName: 'Llwyngwril',
-    crsCode: 'LLW'
+    label: 'Llwyngwril',
+    value: 'LLW'
   },
   {
-    stationName: 'Llwynypia',
-    crsCode: 'LLY'
+    label: 'Llwynypia',
+    value: 'LLY'
   },
   {
-    stationName: 'Loch Awe',
-    crsCode: 'LHA'
+    label: 'Loch Awe',
+    value: 'LHA'
   },
   {
-    stationName: 'Loch Eil Outward Bound',
-    crsCode: 'LHE'
+    label: 'Loch Eil Outward Bound',
+    value: 'LHE'
   },
   {
-    stationName: 'Lochailort',
-    crsCode: 'LCL'
+    label: 'Lochailort',
+    value: 'LCL'
   },
   {
-    stationName: 'Locheilside',
-    crsCode: 'LCS'
+    label: 'Locheilside',
+    value: 'LCS'
   },
   {
-    stationName: 'Lochgelly',
-    crsCode: 'LCG'
+    label: 'Lochgelly',
+    value: 'LCG'
   },
   {
-    stationName: 'Lochluichart',
-    crsCode: 'LCC'
+    label: 'Lochluichart',
+    value: 'LCC'
   },
   {
-    stationName: 'Lochwinnoch',
-    crsCode: 'LHW'
+    label: 'Lochwinnoch',
+    value: 'LHW'
   },
   {
-    stationName: 'Lockerbie',
-    crsCode: 'LOC'
+    label: 'Lockerbie',
+    value: 'LOC'
   },
   {
-    stationName: 'Lockwood',
-    crsCode: 'LCK'
+    label: 'Lockwood',
+    value: 'LCK'
   },
   {
-    stationName: 'London Blackfriars',
-    crsCode: 'BFR'
+    label: 'London Blackfriars',
+    value: 'BFR'
   },
   {
-    stationName: 'London Bridge',
-    crsCode: 'LBG'
+    label: 'London Bridge',
+    value: 'LBG'
   },
   {
-    stationName: 'London Cannon Street',
-    crsCode: 'CST'
+    label: 'London Cannon Street',
+    value: 'CST'
   },
   {
-    stationName: 'London Charing Cross',
-    crsCode: 'CHX'
+    label: 'London Charing Cross',
+    value: 'CHX'
   },
   {
-    stationName: 'London Euston',
-    crsCode: 'EUS'
+    label: 'London Euston',
+    value: 'EUS'
   },
   {
-    stationName: 'London Fenchurch Street',
-    crsCode: 'FST'
+    label: 'London Fenchurch Street',
+    value: 'FST'
   },
   {
-    stationName: 'London Fields',
-    crsCode: 'LOF'
+    label: 'London Fields',
+    value: 'LOF'
   },
   {
-    stationName: 'London Kings Cross',
-    crsCode: 'KGX'
+    label: 'London Kings Cross',
+    value: 'KGX'
   },
   {
-    stationName: 'London Liverpool Street',
-    crsCode: 'LST'
+    label: 'London Liverpool Street',
+    value: 'LST'
   },
   {
-    stationName: 'London Marylebone',
-    crsCode: 'MYB'
+    label: 'London Marylebone',
+    value: 'MYB'
   },
   {
-    stationName: 'London Paddington',
-    crsCode: 'PAD'
+    label: 'London Paddington',
+    value: 'PAD'
   },
   {
-    stationName: 'London Road (Brighton)',
-    crsCode: 'LRB'
+    label: 'London Road (Brighton)',
+    value: 'LRB'
   },
   {
-    stationName: 'London Road (Guildford)',
-    crsCode: 'LRD'
+    label: 'London Road (Guildford)',
+    value: 'LRD'
   },
   {
-    stationName: 'London St Pancras International',
-    crsCode: 'STP'
+    label: 'London St Pancras International',
+    value: 'STP'
   },
   {
-    stationName: 'London Victoria',
-    crsCode: 'VIC'
+    label: 'London Victoria',
+    value: 'VIC'
   },
   {
-    stationName: 'London Waterloo',
-    crsCode: 'WAT'
+    label: 'London Waterloo',
+    value: 'WAT'
   },
   {
-    stationName: 'London Waterloo East',
-    crsCode: 'WAE'
+    label: 'London Waterloo East',
+    value: 'WAE'
   },
   {
-    stationName: 'Long Buckby',
-    crsCode: 'LBK'
+    label: 'Long Buckby',
+    value: 'LBK'
   },
   {
-    stationName: 'Long Eaton',
-    crsCode: 'LGE'
+    label: 'Long Eaton',
+    value: 'LGE'
   },
   {
-    stationName: 'Long Preston',
-    crsCode: 'LPR'
+    label: 'Long Preston',
+    value: 'LPR'
   },
   {
-    stationName: 'Longbeck',
-    crsCode: 'LGK'
+    label: 'Longbeck',
+    value: 'LGK'
   },
   {
-    stationName: 'Longbridge',
-    crsCode: 'LOB'
+    label: 'Longbridge',
+    value: 'LOB'
   },
   {
-    stationName: 'Longcross',
-    crsCode: 'LNG'
+    label: 'Longcross',
+    value: 'LNG'
   },
   {
-    stationName: 'Longfield',
-    crsCode: 'LGF'
+    label: 'Longfield',
+    value: 'LGF'
   },
   {
-    stationName: 'Longniddry',
-    crsCode: 'LND'
+    label: 'Longniddry',
+    value: 'LND'
   },
   {
-    stationName: 'Longport',
-    crsCode: 'LPT'
+    label: 'Longport',
+    value: 'LPT'
   },
   {
-    stationName: 'Longton',
-    crsCode: 'LGN'
+    label: 'Longton',
+    value: 'LGN'
   },
   {
-    stationName: 'Looe',
-    crsCode: 'LOO'
+    label: 'Looe',
+    value: 'LOO'
   },
   {
-    stationName: 'Lostock',
-    crsCode: 'LOT'
+    label: 'Lostock',
+    value: 'LOT'
   },
   {
-    stationName: 'Lostock Gralam',
-    crsCode: 'LTG'
+    label: 'Lostock Gralam',
+    value: 'LTG'
   },
   {
-    stationName: 'Lostock Hall',
-    crsCode: 'LOH'
+    label: 'Lostock Hall',
+    value: 'LOH'
   },
   {
-    stationName: 'Lostwithiel',
-    crsCode: 'LOS'
+    label: 'Lostwithiel',
+    value: 'LOS'
   },
   {
-    stationName: 'Loughborough',
-    crsCode: 'LBO'
+    label: 'Loughborough',
+    value: 'LBO'
   },
   {
-    stationName: 'Loughborough Junction',
-    crsCode: 'LGJ'
+    label: 'Loughborough Junction',
+    value: 'LGJ'
   },
   {
-    stationName: 'Low Moor',
-    crsCode: 'LMR'
+    label: 'Low Moor',
+    value: 'LMR'
   },
   {
-    stationName: 'Lowdham',
-    crsCode: 'LOW'
+    label: 'Lowdham',
+    value: 'LOW'
   },
   {
-    stationName: 'Lower Sydenham',
-    crsCode: 'LSY'
+    label: 'Lower Sydenham',
+    value: 'LSY'
   },
   {
-    stationName: 'Lowestoft',
-    crsCode: 'LWT'
+    label: 'Lowestoft',
+    value: 'LWT'
   },
   {
-    stationName: 'Ludlow',
-    crsCode: 'LUD'
+    label: 'Ludlow',
+    value: 'LUD'
   },
   {
-    stationName: 'Luton',
-    crsCode: 'LUT'
+    label: 'Luton',
+    value: 'LUT'
   },
   {
-    stationName: 'Luton Airport Parkway',
-    crsCode: 'LTN'
+    label: 'Luton Airport Parkway',
+    value: 'LTN'
   },
   {
-    stationName: 'Luxulyan',
-    crsCode: 'LUX'
+    label: 'Luxulyan',
+    value: 'LUX'
   },
   {
-    stationName: 'Lydney',
-    crsCode: 'LYD'
+    label: 'Lydney',
+    value: 'LYD'
   },
   {
-    stationName: 'Lye',
-    crsCode: 'LYE'
+    label: 'Lye',
+    value: 'LYE'
   },
   {
-    stationName: 'Lymington Pier',
-    crsCode: 'LYP'
+    label: 'Lymington Pier',
+    value: 'LYP'
   },
   {
-    stationName: 'Lymington Town',
-    crsCode: 'LYT'
+    label: 'Lymington Town',
+    value: 'LYT'
   },
   {
-    stationName: 'Lympstone Commando',
-    crsCode: 'LYC'
+    label: 'Lympstone Commando',
+    value: 'LYC'
   },
   {
-    stationName: 'Lympstone Village',
-    crsCode: 'LYM'
+    label: 'Lympstone Village',
+    value: 'LYM'
   },
   {
-    stationName: 'Lytham',
-    crsCode: 'LTM'
+    label: 'Lytham',
+    value: 'LTM'
   },
   {
-    stationName: 'Macclesfield',
-    crsCode: 'MAC'
+    label: 'Macclesfield',
+    value: 'MAC'
   },
   {
-    stationName: 'Machynlleth',
-    crsCode: 'MCN'
+    label: 'Machynlleth',
+    value: 'MCN'
   },
   {
-    stationName: 'Maesteg (Ewenny Road)',
-    crsCode: 'MEW'
+    label: 'Maesteg (Ewenny Road)',
+    value: 'MEW'
   },
   {
-    stationName: 'Maesteg',
-    crsCode: 'MST'
+    label: 'Maesteg',
+    value: 'MST'
   },
   {
-    stationName: 'Maghull',
-    crsCode: 'MAG'
+    label: 'Maghull',
+    value: 'MAG'
   },
   {
-    stationName: 'Maghull North',
-    crsCode: 'MNS'
+    label: 'Maghull North',
+    value: 'MNS'
   },
   {
-    stationName: 'Maiden Newton',
-    crsCode: 'MDN'
+    label: 'Maiden Newton',
+    value: 'MDN'
   },
   {
-    stationName: 'Maidenhead',
-    crsCode: 'MAI'
+    label: 'Maidenhead',
+    value: 'MAI'
   },
   {
-    stationName: 'Maidstone Barracks',
-    crsCode: 'MDB'
+    label: 'Maidstone Barracks',
+    value: 'MDB'
   },
   {
-    stationName: 'Maidstone East',
-    crsCode: 'MDE'
+    label: 'Maidstone East',
+    value: 'MDE'
   },
   {
-    stationName: 'Maidstone West',
-    crsCode: 'MDW'
+    label: 'Maidstone West',
+    value: 'MDW'
   },
   {
-    stationName: 'Malden Manor',
-    crsCode: 'MAL'
+    label: 'Malden Manor',
+    value: 'MAL'
   },
   {
-    stationName: 'Mallaig',
-    crsCode: 'MLG'
+    label: 'Mallaig',
+    value: 'MLG'
   },
   {
-    stationName: 'Malton',
-    crsCode: 'MLT'
+    label: 'Malton',
+    value: 'MLT'
   },
   {
-    stationName: 'Malvern Link',
-    crsCode: 'MVL'
+    label: 'Malvern Link',
+    value: 'MVL'
   },
   {
-    stationName: 'Manchester Airport',
-    crsCode: 'MIA'
+    label: 'Manchester Airport',
+    value: 'MIA'
   },
   {
-    stationName: 'Manchester Oxford Road',
-    crsCode: 'MCO'
+    label: 'Manchester Oxford Road',
+    value: 'MCO'
   },
   {
-    stationName: 'Manchester Piccadilly',
-    crsCode: 'MAN'
+    label: 'Manchester Piccadilly',
+    value: 'MAN'
   },
   {
-    stationName: 'Manchester United Football Club',
-    crsCode: 'MUF'
+    label: 'Manchester United Football Club',
+    value: 'MUF'
   },
   {
-    stationName: 'Manchester Victoria',
-    crsCode: 'MCV'
+    label: 'Manchester Victoria',
+    value: 'MCV'
   },
   {
-    stationName: 'Manea',
-    crsCode: 'MNE'
+    label: 'Manea',
+    value: 'MNE'
   },
   {
-    stationName: 'Manningtree',
-    crsCode: 'MNG'
+    label: 'Manningtree',
+    value: 'MNG'
   },
   {
-    stationName: 'Manor Park',
-    crsCode: 'MNP'
+    label: 'Manor Park',
+    value: 'MNP'
   },
   {
-    stationName: 'Manor Road',
-    crsCode: 'MNR'
+    label: 'Manor Road',
+    value: 'MNR'
   },
   {
-    stationName: 'Manorbier',
-    crsCode: 'MRB'
+    label: 'Manorbier',
+    value: 'MRB'
   },
   {
-    stationName: 'Manors',
-    crsCode: 'MAS'
+    label: 'Manors',
+    value: 'MAS'
   },
   {
-    stationName: 'Mansfield',
-    crsCode: 'MFT'
+    label: 'Mansfield',
+    value: 'MFT'
   },
   {
-    stationName: 'Mansfield Woodhouse',
-    crsCode: 'MSW'
+    label: 'Mansfield Woodhouse',
+    value: 'MSW'
   },
   {
-    stationName: 'March',
-    crsCode: 'MCH'
+    label: 'March',
+    value: 'MCH'
   },
   {
-    stationName: 'Marden',
-    crsCode: 'MRN'
+    label: 'Marden',
+    value: 'MRN'
   },
   {
-    stationName: 'Margate',
-    crsCode: 'MAR'
+    label: 'Margate',
+    value: 'MAR'
   },
   {
-    stationName: 'Market Harborough',
-    crsCode: 'MHR'
+    label: 'Market Harborough',
+    value: 'MHR'
   },
   {
-    stationName: 'Market Rasen',
-    crsCode: 'MKR'
+    label: 'Market Rasen',
+    value: 'MKR'
   },
   {
-    stationName: 'Markinch',
-    crsCode: 'MNC'
+    label: 'Markinch',
+    value: 'MNC'
   },
   {
-    stationName: 'Marks Tey',
-    crsCode: 'MKT'
+    label: 'Marks Tey',
+    value: 'MKT'
   },
   {
-    stationName: 'Marlow',
-    crsCode: 'MLW'
+    label: 'Marlow',
+    value: 'MLW'
   },
   {
-    stationName: 'Marple',
-    crsCode: 'MPL'
+    label: 'Marple',
+    value: 'MPL'
   },
   {
-    stationName: 'Marsden',
-    crsCode: 'MSN'
+    label: 'Marsden',
+    value: 'MSN'
   },
   {
-    stationName: 'Marsh Barton',
-    crsCode: 'MBT'
+    label: 'Marsh Barton',
+    value: 'MBT'
   },
   {
-    stationName: 'Marske',
-    crsCode: 'MSK'
+    label: 'Marske',
+    value: 'MSK'
   },
   {
-    stationName: 'Marston Green',
-    crsCode: 'MGN'
+    label: 'Marston Green',
+    value: 'MGN'
   },
   {
-    stationName: 'Martin Mill',
-    crsCode: 'MTM'
+    label: 'Martin Mill',
+    value: 'MTM'
   },
   {
-    stationName: 'Martins Heron',
-    crsCode: 'MAO'
+    label: 'Martins Heron',
+    value: 'MAO'
   },
   {
-    stationName: 'Marton',
-    crsCode: 'MTO'
+    label: 'Marton',
+    value: 'MTO'
   },
   {
-    stationName: 'Maryhill',
-    crsCode: 'MYH'
+    label: 'Maryhill',
+    value: 'MYH'
   },
   {
-    stationName: 'Maryland',
-    crsCode: 'MYL'
+    label: 'Maryland',
+    value: 'MYL'
   },
   {
-    stationName: 'Maryport',
-    crsCode: 'MRY'
+    label: 'Maryport',
+    value: 'MRY'
   },
   {
-    stationName: 'Matlock Bath',
-    crsCode: 'MTB'
+    label: 'Matlock Bath',
+    value: 'MTB'
   },
   {
-    stationName: 'Matlock',
-    crsCode: 'MAT'
+    label: 'Matlock',
+    value: 'MAT'
   },
   {
-    stationName: 'Mauldeth Road',
-    crsCode: 'MAU'
+    label: 'Mauldeth Road',
+    value: 'MAU'
   },
   {
-    stationName: 'Maxwell Park',
-    crsCode: 'MAX'
+    label: 'Maxwell Park',
+    value: 'MAX'
   },
   {
-    stationName: 'Maybole',
-    crsCode: 'MAY'
+    label: 'Maybole',
+    value: 'MAY'
   },
   {
-    stationName: 'Maze Hill',
-    crsCode: 'MZH'
+    label: 'Maze Hill',
+    value: 'MZH'
   },
   {
-    stationName: 'Meadowhall',
-    crsCode: 'MHS'
+    label: 'Meadowhall',
+    value: 'MHS'
   },
   {
-    stationName: 'Meldreth',
-    crsCode: 'MEL'
+    label: 'Meldreth',
+    value: 'MEL'
   },
   {
-    stationName: 'Melksham',
-    crsCode: 'MKM'
+    label: 'Melksham',
+    value: 'MKM'
   },
   {
-    stationName: 'Melrose',
-    crsCode: 'MLS'
+    label: 'Melrose',
+    value: 'MLS'
   },
   {
-    stationName: 'Melton',
-    crsCode: 'MES'
+    label: 'Melton',
+    value: 'MES'
   },
   {
-    stationName: 'Melton Mowbray',
-    crsCode: 'MMO'
+    label: 'Melton Mowbray',
+    value: 'MMO'
   },
   {
-    stationName: 'Menheniot',
-    crsCode: 'MEN'
+    label: 'Menheniot',
+    value: 'MEN'
   },
   {
-    stationName: 'Menston',
-    crsCode: 'MNN'
+    label: 'Menston',
+    value: 'MNN'
   },
   {
-    stationName: 'Meols',
-    crsCode: 'MEO'
+    label: 'Meols',
+    value: 'MEO'
   },
   {
-    stationName: 'Meols Cop',
-    crsCode: 'MEC'
+    label: 'Meols Cop',
+    value: 'MEC'
   },
   {
-    stationName: 'Meopham',
-    crsCode: 'MEP'
+    label: 'Meopham',
+    value: 'MEP'
   },
   {
-    stationName: 'Meridian Water',
-    crsCode: 'MRW'
+    label: 'Meridian Water',
+    value: 'MRW'
   },
   {
-    stationName: 'Merryton',
-    crsCode: 'MEY'
+    label: 'Merryton',
+    value: 'MEY'
   },
   {
-    stationName: 'Merstham',
-    crsCode: 'MHM'
+    label: 'Merstham',
+    value: 'MHM'
   },
   {
-    stationName: 'Merthyr Tydfil',
-    crsCode: 'MER'
+    label: 'Merthyr Tydfil',
+    value: 'MER'
   },
   {
-    stationName: 'Merthyr Vale',
-    crsCode: 'MEV'
+    label: 'Merthyr Vale',
+    value: 'MEV'
   },
   {
-    stationName: 'Metheringham',
-    crsCode: 'MGM'
+    label: 'Metheringham',
+    value: 'MGM'
   },
   {
-    stationName: 'Metrocentre',
-    crsCode: 'MCE'
+    label: 'Metrocentre',
+    value: 'MCE'
   },
   {
-    stationName: 'Mexborough',
-    crsCode: 'MEX'
+    label: 'Mexborough',
+    value: 'MEX'
   },
   {
-    stationName: 'Micheldever',
-    crsCode: 'MIC'
+    label: 'Micheldever',
+    value: 'MIC'
   },
   {
-    stationName: 'Micklefield',
-    crsCode: 'MIK'
+    label: 'Micklefield',
+    value: 'MIK'
   },
   {
-    stationName: 'Middlesbrough',
-    crsCode: 'MBR'
+    label: 'Middlesbrough',
+    value: 'MBR'
   },
   {
-    stationName: 'Middlewood',
-    crsCode: 'MDL'
+    label: 'Middlewood',
+    value: 'MDL'
   },
   {
-    stationName: 'Midgham',
-    crsCode: 'MDG'
+    label: 'Midgham',
+    value: 'MDG'
   },
   {
-    stationName: 'Milford (Surrey)',
-    crsCode: 'MLF'
+    label: 'Milford (Surrey)',
+    value: 'MLF'
   },
   {
-    stationName: 'Milford Haven',
-    crsCode: 'MFH'
+    label: 'Milford Haven',
+    value: 'MFH'
   },
   {
-    stationName: 'Mill Hill (Lancs)',
-    crsCode: 'MLH'
+    label: 'Mill Hill (Lancs)',
+    value: 'MLH'
   },
   {
-    stationName: 'Mill Hill Broadway',
-    crsCode: 'MIL'
+    label: 'Mill Hill Broadway',
+    value: 'MIL'
   },
   {
-    stationName: 'Millbrook (Bedfordshire)',
-    crsCode: 'MLB'
+    label: 'Millbrook (Bedfordshire)',
+    value: 'MLB'
   },
   {
-    stationName: 'Millbrook (Hants)',
-    crsCode: 'MBK'
+    label: 'Millbrook (Hants)',
+    value: 'MBK'
   },
   {
-    stationName: 'Milliken Park',
-    crsCode: 'MIN'
+    label: 'Milliken Park',
+    value: 'MIN'
   },
   {
-    stationName: 'Millom',
-    crsCode: 'MLM'
+    label: 'Millom',
+    value: 'MLM'
   },
   {
-    stationName: 'Mills Hill',
-    crsCode: 'MIH'
+    label: 'Mills Hill',
+    value: 'MIH'
   },
   {
-    stationName: 'Milngavie',
-    crsCode: 'MLN'
+    label: 'Milngavie',
+    value: 'MLN'
   },
   {
-    stationName: 'Milton Keynes Central',
-    crsCode: 'MKC'
+    label: 'Milton Keynes Central',
+    value: 'MKC'
   },
   {
-    stationName: 'Minffordd',
-    crsCode: 'MFF'
+    label: 'Minffordd',
+    value: 'MFF'
   },
   {
-    stationName: 'Minster',
-    crsCode: 'MSR'
+    label: 'Minster',
+    value: 'MSR'
   },
   {
-    stationName: 'Mirfield',
-    crsCode: 'MIR'
+    label: 'Mirfield',
+    value: 'MIR'
   },
   {
-    stationName: 'Mistley',
-    crsCode: 'MIS'
+    label: 'Mistley',
+    value: 'MIS'
   },
   {
-    stationName: 'Mitcham Eastfields',
-    crsCode: 'MTC'
+    label: 'Mitcham Eastfields',
+    value: 'MTC'
   },
   {
-    stationName: 'Mitcham Junction',
-    crsCode: 'MIJ'
+    label: 'Mitcham Junction',
+    value: 'MIJ'
   },
   {
-    stationName: 'Mobberley',
-    crsCode: 'MOB'
+    label: 'Mobberley',
+    value: 'MOB'
   },
   {
-    stationName: 'Monifieth',
-    crsCode: 'MON'
+    label: 'Monifieth',
+    value: 'MON'
   },
   {
-    stationName: 'Monks Risborough',
-    crsCode: 'MRS'
+    label: 'Monks Risborough',
+    value: 'MRS'
   },
   {
-    stationName: 'Montpelier',
-    crsCode: 'MTP'
+    label: 'Montpelier',
+    value: 'MTP'
   },
   {
-    stationName: 'Montrose',
-    crsCode: 'MTS'
+    label: 'Montrose',
+    value: 'MTS'
   },
   {
-    stationName: 'Moorfields',
-    crsCode: 'MRF'
+    label: 'Moorfields',
+    value: 'MRF'
   },
   {
-    stationName: 'Moorgate',
-    crsCode: 'MOG'
+    label: 'Moorgate',
+    value: 'MOG'
   },
   {
-    stationName: 'Moorside',
-    crsCode: 'MSD'
+    label: 'Moorside',
+    value: 'MSD'
   },
   {
-    stationName: 'Moorthorpe',
-    crsCode: 'MRP'
+    label: 'Moorthorpe',
+    value: 'MRP'
   },
   {
-    stationName: 'Morar',
-    crsCode: 'MRR'
+    label: 'Morar',
+    value: 'MRR'
   },
   {
-    stationName: 'Morchard Road',
-    crsCode: 'MRD'
+    label: 'Morchard Road',
+    value: 'MRD'
   },
   {
-    stationName: 'Morden South',
-    crsCode: 'MDS'
+    label: 'Morden South',
+    value: 'MDS'
   },
   {
-    stationName: 'Morecambe',
-    crsCode: 'MCM'
+    label: 'Morecambe',
+    value: 'MCM'
   },
   {
-    stationName: 'Moreton (Dorset)',
-    crsCode: 'MTN'
+    label: 'Moreton (Dorset)',
+    value: 'MTN'
   },
   {
-    stationName: 'Moreton (Merseyside)',
-    crsCode: 'MRT'
+    label: 'Moreton (Merseyside)',
+    value: 'MRT'
   },
   {
-    stationName: 'Moreton-In-Marsh',
-    crsCode: 'MIM'
+    label: 'Moreton-In-Marsh',
+    value: 'MIM'
   },
   {
-    stationName: 'Morfa Mawddach',
-    crsCode: 'MFA'
+    label: 'Morfa Mawddach',
+    value: 'MFA'
   },
   {
-    stationName: 'Morley',
-    crsCode: 'MLY'
+    label: 'Morley',
+    value: 'MLY'
   },
   {
-    stationName: 'Morpeth',
-    crsCode: 'MPT'
+    label: 'Morpeth',
+    value: 'MPT'
   },
   {
-    stationName: 'Mortimer',
-    crsCode: 'MOR'
+    label: 'Mortimer',
+    value: 'MOR'
   },
   {
-    stationName: 'Mortlake',
-    crsCode: 'MTL'
+    label: 'Mortlake',
+    value: 'MTL'
   },
   {
-    stationName: 'Moses Gate',
-    crsCode: 'MSS'
+    label: 'Moses Gate',
+    value: 'MSS'
   },
   {
-    stationName: 'Moss Side',
-    crsCode: 'MOS'
+    label: 'Moss Side',
+    value: 'MOS'
   },
   {
-    stationName: 'Mossley (Manchester)',
-    crsCode: 'MSL'
+    label: 'Mossley (Manchester)',
+    value: 'MSL'
   },
   {
-    stationName: 'Mossley Hill',
-    crsCode: 'MSH'
+    label: 'Mossley Hill',
+    value: 'MSH'
   },
   {
-    stationName: 'Mosspark',
-    crsCode: 'MPK'
+    label: 'Mosspark',
+    value: 'MPK'
   },
   {
-    stationName: 'Moston',
-    crsCode: 'MSO'
+    label: 'Moston',
+    value: 'MSO'
   },
   {
-    stationName: 'Motherwell',
-    crsCode: 'MTH'
+    label: 'Motherwell',
+    value: 'MTH'
   },
   {
-    stationName: 'Motspur Park',
-    crsCode: 'MOT'
+    label: 'Motspur Park',
+    value: 'MOT'
   },
   {
-    stationName: 'Mottingham',
-    crsCode: 'MTG'
+    label: 'Mottingham',
+    value: 'MTG'
   },
   {
-    stationName: 'Mottisfont & Dunbridge',
-    crsCode: 'DBG'
+    label: 'Mottisfont & Dunbridge',
+    value: 'DBG'
   },
   {
-    stationName: 'Mouldsworth',
-    crsCode: 'MLD'
+    label: 'Mouldsworth',
+    value: 'MLD'
   },
   {
-    stationName: 'Moulsecoomb',
-    crsCode: 'MCB'
+    label: 'Moulsecoomb',
+    value: 'MCB'
   },
   {
-    stationName: 'Mount Florida',
-    crsCode: 'MFL'
+    label: 'Mount Florida',
+    value: 'MFL'
   },
   {
-    stationName: 'Mount Vernon',
-    crsCode: 'MTV'
+    label: 'Mount Vernon',
+    value: 'MTV'
   },
   {
-    stationName: 'Mountain Ash',
-    crsCode: 'MTA'
+    label: 'Mountain Ash',
+    value: 'MTA'
   },
   {
-    stationName: 'Muir of Ord',
-    crsCode: 'MOO'
+    label: 'Muir of Ord',
+    value: 'MOO'
   },
   {
-    stationName: 'Muirend',
-    crsCode: 'MUI'
+    label: 'Muirend',
+    value: 'MUI'
   },
   {
-    stationName: 'Musselburgh',
-    crsCode: 'MUB'
+    label: 'Musselburgh',
+    value: 'MUB'
   },
   {
-    stationName: 'Mytholmroyd',
-    crsCode: 'MYT'
+    label: 'Mytholmroyd',
+    value: 'MYT'
   },
   {
-    stationName: 'Nafferton',
-    crsCode: 'NFN'
+    label: 'Nafferton',
+    value: 'NFN'
   },
   {
-    stationName: 'Nailsea & Backwell',
-    crsCode: 'NLS'
+    label: 'Nailsea & Backwell',
+    value: 'NLS'
   },
   {
-    stationName: 'Nairn',
-    crsCode: 'NRN'
+    label: 'Nairn',
+    value: 'NRN'
   },
   {
-    stationName: 'Nantwich',
-    crsCode: 'NAN'
+    label: 'Nantwich',
+    value: 'NAN'
   },
   {
-    stationName: 'Narberth',
-    crsCode: 'NAR'
+    label: 'Narberth',
+    value: 'NAR'
   },
   {
-    stationName: 'Narborough',
-    crsCode: 'NBR'
+    label: 'Narborough',
+    value: 'NBR'
   },
   {
-    stationName: 'Navigation Road',
-    crsCode: 'NVR'
+    label: 'Navigation Road',
+    value: 'NVR'
   },
   {
-    stationName: 'Neath',
-    crsCode: 'NTH'
+    label: 'Neath',
+    value: 'NTH'
   },
   {
-    stationName: 'Needham Market',
-    crsCode: 'NMT'
+    label: 'Needham Market',
+    value: 'NMT'
   },
   {
-    stationName: 'Neilston',
-    crsCode: 'NEI'
+    label: 'Neilston',
+    value: 'NEI'
   },
   {
-    stationName: 'Nelson',
-    crsCode: 'NEL'
+    label: 'Nelson',
+    value: 'NEL'
   },
   {
-    stationName: 'Neston',
-    crsCode: 'NES'
+    label: 'Neston',
+    value: 'NES'
   },
   {
-    stationName: 'Netherfield',
-    crsCode: 'NET'
+    label: 'Netherfield',
+    value: 'NET'
   },
   {
-    stationName: 'Nethertown',
-    crsCode: 'NRT'
+    label: 'Nethertown',
+    value: 'NRT'
   },
   {
-    stationName: 'Netley',
-    crsCode: 'NTL'
+    label: 'Netley',
+    value: 'NTL'
   },
   {
-    stationName: 'New Barnet',
-    crsCode: 'NBA'
+    label: 'New Barnet',
+    value: 'NBA'
   },
   {
-    stationName: 'New Beckenham',
-    crsCode: 'NBC'
+    label: 'New Beckenham',
+    value: 'NBC'
   },
   {
-    stationName: 'New Brighton',
-    crsCode: 'NBN'
+    label: 'New Brighton',
+    value: 'NBN'
   },
   {
-    stationName: 'New Clee',
-    crsCode: 'NCE'
+    label: 'New Clee',
+    value: 'NCE'
   },
   {
-    stationName: 'New Cross Gate',
-    crsCode: 'NXG'
+    label: 'New Cross Gate',
+    value: 'NXG'
   },
   {
-    stationName: 'New Cross',
-    crsCode: 'NWX'
+    label: 'New Cross',
+    value: 'NWX'
   },
   {
-    stationName: 'New Cumnock',
-    crsCode: 'NCK'
+    label: 'New Cumnock',
+    value: 'NCK'
   },
   {
-    stationName: 'New Eltham',
-    crsCode: 'NEH'
+    label: 'New Eltham',
+    value: 'NEH'
   },
   {
-    stationName: 'New Holland',
-    crsCode: 'NHL'
+    label: 'New Holland',
+    value: 'NHL'
   },
   {
-    stationName: 'New Hythe',
-    crsCode: 'NHE'
+    label: 'New Hythe',
+    value: 'NHE'
   },
   {
-    stationName: 'New Lane',
-    crsCode: 'NLN'
+    label: 'New Lane',
+    value: 'NLN'
   },
   {
-    stationName: 'New Malden',
-    crsCode: 'NEM'
+    label: 'New Malden',
+    value: 'NEM'
   },
   {
-    stationName: 'New Mills Central',
-    crsCode: 'NMC'
+    label: 'New Mills Central',
+    value: 'NMC'
   },
   {
-    stationName: 'New Mills Newtown',
-    crsCode: 'NMN'
+    label: 'New Mills Newtown',
+    value: 'NMN'
   },
   {
-    stationName: 'New Milton',
-    crsCode: 'NWM'
+    label: 'New Milton',
+    value: 'NWM'
   },
   {
-    stationName: 'New Pudsey',
-    crsCode: 'NPD'
+    label: 'New Pudsey',
+    value: 'NPD'
   },
   {
-    stationName: 'New Southgate',
-    crsCode: 'NSG'
+    label: 'New Southgate',
+    value: 'NSG'
   },
   {
-    stationName: 'Newark Castle',
-    crsCode: 'NCT'
+    label: 'Newark Castle',
+    value: 'NCT'
   },
   {
-    stationName: 'Newark Northgate',
-    crsCode: 'NNG'
+    label: 'Newark Northgate',
+    value: 'NNG'
   },
   {
-    stationName: 'Newbridge',
-    crsCode: 'NBE'
+    label: 'Newbridge',
+    value: 'NBE'
   },
   {
-    stationName: 'Newbury Park',
-    crsCode: 'ZNP'
+    label: 'Newbury Park',
+    value: 'ZNP'
   },
   {
-    stationName: 'Newbury Racecourse',
-    crsCode: 'NRC'
+    label: 'Newbury Racecourse',
+    value: 'NRC'
   },
   {
-    stationName: 'Newbury',
-    crsCode: 'NBY'
+    label: 'Newbury',
+    value: 'NBY'
   },
   {
-    stationName: 'Newcastle',
-    crsCode: 'NCL'
+    label: 'Newcastle',
+    value: 'NCL'
   },
   {
-    stationName: 'Newcastle Airport',
-    crsCode: 'APN'
+    label: 'Newcastle Airport',
+    value: 'APN'
   },
   {
-    stationName: 'Newcourt',
-    crsCode: 'NCO'
+    label: 'Newcourt',
+    value: 'NCO'
   },
   {
-    stationName: 'Newcraighall',
-    crsCode: 'NEW'
+    label: 'Newcraighall',
+    value: 'NEW'
   },
   {
-    stationName: 'Newhaven Harbour',
-    crsCode: 'NVH'
+    label: 'Newhaven Harbour',
+    value: 'NVH'
   },
   {
-    stationName: 'Newhaven Town',
-    crsCode: 'NVN'
+    label: 'Newhaven Town',
+    value: 'NVN'
   },
   {
-    stationName: 'Newington',
-    crsCode: 'NGT'
+    label: 'Newington',
+    value: 'NGT'
   },
   {
-    stationName: 'Newmarket',
-    crsCode: 'NMK'
+    label: 'Newmarket',
+    value: 'NMK'
   },
   {
-    stationName: 'Newport (Essex)',
-    crsCode: 'NWE'
+    label: 'Newport (Essex)',
+    value: 'NWE'
   },
   {
-    stationName: 'Newport (South Wales)',
-    crsCode: 'NWP'
+    label: 'Newport (South Wales)',
+    value: 'NWP'
   },
   {
-    stationName: 'Newquay',
-    crsCode: 'NQY'
+    label: 'Newquay',
+    value: 'NQY'
   },
   {
-    stationName: 'Newstead',
-    crsCode: 'NSD'
+    label: 'Newstead',
+    value: 'NSD'
   },
   {
-    stationName: 'Newton',
-    crsCode: 'NTN'
+    label: 'Newton',
+    value: 'NTN'
   },
   {
-    stationName: 'Newton Abbot',
-    crsCode: 'NTA'
+    label: 'Newton Abbot',
+    value: 'NTA'
   },
   {
-    stationName: 'Newton Aycliffe',
-    crsCode: 'NAY'
+    label: 'Newton Aycliffe',
+    value: 'NAY'
   },
   {
-    stationName: 'Newton for Hyde',
-    crsCode: 'NWN'
+    label: 'Newton for Hyde',
+    value: 'NWN'
   },
   {
-    stationName: 'Newton Heath and Moston',
-    crsCode: 'NMM'
+    label: 'Newton Heath and Moston',
+    value: 'NMM'
   },
   {
-    stationName: 'Newton St Cyres',
-    crsCode: 'NTC'
+    label: 'Newton St Cyres',
+    value: 'NTC'
   },
   {
-    stationName: 'Newtongrange',
-    crsCode: 'NEG'
+    label: 'Newtongrange',
+    value: 'NEG'
   },
   {
-    stationName: 'Newton-Le-Willows',
-    crsCode: 'NLW'
+    label: 'Newton-Le-Willows',
+    value: 'NLW'
   },
   {
-    stationName: 'Newtonmore',
-    crsCode: 'NWR'
+    label: 'Newtonmore',
+    value: 'NWR'
   },
   {
-    stationName: 'Newton-On-Ayr',
-    crsCode: 'NOA'
+    label: 'Newton-On-Ayr',
+    value: 'NOA'
   },
   {
-    stationName: 'Newtown (Powys)',
-    crsCode: 'NWT'
+    label: 'Newtown (Powys)',
+    value: 'NWT'
   },
   {
-    stationName: 'Ninian Park',
-    crsCode: 'NNP'
+    label: 'Ninian Park',
+    value: 'NNP'
   },
   {
-    stationName: 'Nitshill',
-    crsCode: 'NIT'
+    label: 'Nitshill',
+    value: 'NIT'
   },
   {
-    stationName: 'Norbiton',
-    crsCode: 'NBT'
+    label: 'Norbiton',
+    value: 'NBT'
   },
   {
-    stationName: 'Norbury',
-    crsCode: 'NRB'
+    label: 'Norbury',
+    value: 'NRB'
   },
   {
-    stationName: 'Normans Bay',
-    crsCode: 'NSB'
+    label: 'Normans Bay',
+    value: 'NSB'
   },
   {
-    stationName: 'Normanton',
-    crsCode: 'NOR'
+    label: 'Normanton',
+    value: 'NOR'
   },
   {
-    stationName: 'North Berwick',
-    crsCode: 'NBW'
+    label: 'North Berwick',
+    value: 'NBW'
   },
   {
-    stationName: 'North Camp',
-    crsCode: 'NCM'
+    label: 'North Camp',
+    value: 'NCM'
   },
   {
-    stationName: 'North Dulwich',
-    crsCode: 'NDL'
+    label: 'North Dulwich',
+    value: 'NDL'
   },
   {
-    stationName: 'North Fambridge',
-    crsCode: 'NFA'
+    label: 'North Fambridge',
+    value: 'NFA'
   },
   {
-    stationName: 'North Llanrwst',
-    crsCode: 'NLR'
+    label: 'North Llanrwst',
+    value: 'NLR'
   },
   {
-    stationName: 'North Queensferry',
-    crsCode: 'NQU'
+    label: 'North Queensferry',
+    value: 'NQU'
   },
   {
-    stationName: 'North Road',
-    crsCode: 'NRD'
+    label: 'North Road',
+    value: 'NRD'
   },
   {
-    stationName: 'North Sheen',
-    crsCode: 'NSH'
+    label: 'North Sheen',
+    value: 'NSH'
   },
   {
-    stationName: 'North Walsham',
-    crsCode: 'NWA'
+    label: 'North Walsham',
+    value: 'NWA'
   },
   {
-    stationName: 'North Wembley',
-    crsCode: 'NWB'
+    label: 'North Wembley',
+    value: 'NWB'
   },
   {
-    stationName: 'Northallerton',
-    crsCode: 'NTR'
+    label: 'Northallerton',
+    value: 'NTR'
   },
   {
-    stationName: 'Northampton',
-    crsCode: 'NMP'
+    label: 'Northampton',
+    value: 'NMP'
   },
   {
-    stationName: 'Northfield',
-    crsCode: 'NFD'
+    label: 'Northfield',
+    value: 'NFD'
   },
   {
-    stationName: 'Northfleet - Cooper Arms',
-    crsCode: 'NFL'
+    label: 'Northfleet - Cooper Arms',
+    value: 'NFL'
   },
   {
-    stationName: 'Northolt Park',
-    crsCode: 'NLT'
+    label: 'Northolt Park',
+    value: 'NLT'
   },
   {
-    stationName: 'Northumberland Park',
-    crsCode: 'NUM'
+    label: 'Northumberland Park',
+    value: 'NUM'
   },
   {
-    stationName: 'Northwich',
-    crsCode: 'NWI'
+    label: 'Northwich',
+    value: 'NWI'
   },
   {
-    stationName: 'Norton Bridge',
-    crsCode: 'NTB'
+    label: 'Norton Bridge',
+    value: 'NTB'
   },
   {
-    stationName: 'Norwich',
-    crsCode: 'NRW'
+    label: 'Norwich',
+    value: 'NRW'
   },
   {
-    stationName: 'Norwood Junction',
-    crsCode: 'NWD'
+    label: 'Norwood Junction',
+    value: 'NWD'
   },
   {
-    stationName: 'Nottingham',
-    crsCode: 'NOT'
+    label: 'Nottingham',
+    value: 'NOT'
   },
   {
-    stationName: 'Nuneaton',
-    crsCode: 'NUN'
+    label: 'Nuneaton',
+    value: 'NUN'
   },
   {
-    stationName: 'Nunhead',
-    crsCode: 'NHD'
+    label: 'Nunhead',
+    value: 'NHD'
   },
   {
-    stationName: 'Nunthorpe',
-    crsCode: 'NNT'
+    label: 'Nunthorpe',
+    value: 'NNT'
   },
   {
-    stationName: 'Nutbourne',
-    crsCode: 'NUT'
+    label: 'Nutbourne',
+    value: 'NUT'
   },
   {
-    stationName: 'Nutfield',
-    crsCode: 'NUF'
+    label: 'Nutfield',
+    value: 'NUF'
   },
   {
-    stationName: 'Oakengates',
-    crsCode: 'OKN'
+    label: 'Oakengates',
+    value: 'OKN'
   },
   {
-    stationName: 'Oakham',
-    crsCode: 'OKM'
+    label: 'Oakham',
+    value: 'OKM'
   },
   {
-    stationName: 'Oakleigh Park',
-    crsCode: 'OKL'
+    label: 'Oakleigh Park',
+    value: 'OKL'
   },
   {
-    stationName: 'Oban',
-    crsCode: 'OBN'
+    label: 'Oban',
+    value: 'OBN'
   },
   {
-    stationName: 'Ockendon',
-    crsCode: 'OCK'
+    label: 'Ockendon',
+    value: 'OCK'
   },
   {
-    stationName: 'Ockley',
-    crsCode: 'OLY'
+    label: 'Ockley',
+    value: 'OLY'
   },
   {
-    stationName: 'Okehampton',
-    crsCode: 'OKE'
+    label: 'Okehampton',
+    value: 'OKE'
   },
   {
-    stationName: 'Old Hill',
-    crsCode: 'OHL'
+    label: 'Old Hill',
+    value: 'OHL'
   },
   {
-    stationName: 'Old Roan',
-    crsCode: 'ORN'
+    label: 'Old Roan',
+    value: 'ORN'
   },
   {
-    stationName: 'Old Street',
-    crsCode: 'OLD'
+    label: 'Old Street',
+    value: 'OLD'
   },
   {
-    stationName: 'Oldfield Park',
-    crsCode: 'OLF'
+    label: 'Oldfield Park',
+    value: 'OLF'
   },
   {
-    stationName: 'Olton',
-    crsCode: 'OLT'
+    label: 'Olton',
+    value: 'OLT'
   },
   {
-    stationName: 'Ore',
-    crsCode: 'ORE'
+    label: 'Ore',
+    value: 'ORE'
   },
   {
-    stationName: 'Ormskirk',
-    crsCode: 'OMS'
+    label: 'Ormskirk',
+    value: 'OMS'
   },
   {
-    stationName: 'Orpington',
-    crsCode: 'ORP'
+    label: 'Orpington',
+    value: 'ORP'
   },
   {
-    stationName: 'Orrell',
-    crsCode: 'ORR'
+    label: 'Orrell',
+    value: 'ORR'
   },
   {
-    stationName: 'Orrell Park',
-    crsCode: 'OPK'
+    label: 'Orrell Park',
+    value: 'OPK'
   },
   {
-    stationName: 'Otford',
-    crsCode: 'OTF'
+    label: 'Otford',
+    value: 'OTF'
   },
   {
-    stationName: 'Oulton Broad North',
-    crsCode: 'OUN'
+    label: 'Oulton Broad North',
+    value: 'OUN'
   },
   {
-    stationName: 'Oulton Broad South',
-    crsCode: 'OUS'
+    label: 'Oulton Broad South',
+    value: 'OUS'
   },
   {
-    stationName: 'Outwood',
-    crsCode: 'OUT'
+    label: 'Outwood',
+    value: 'OUT'
   },
   {
-    stationName: 'Overpool',
-    crsCode: 'OVE'
+    label: 'Overpool',
+    value: 'OVE'
   },
   {
-    stationName: 'Overton',
-    crsCode: 'OVR'
+    label: 'Overton',
+    value: 'OVR'
   },
   {
-    stationName: 'Oxenholme Lake District',
-    crsCode: 'OXN'
+    label: 'Oxenholme Lake District',
+    value: 'OXN'
   },
   {
-    stationName: 'Oxford',
-    crsCode: 'OXF'
+    label: 'Oxford',
+    value: 'OXF'
   },
   {
-    stationName: 'Oxford Parkway',
-    crsCode: 'OXP'
+    label: 'Oxford Parkway',
+    value: 'OXP'
   },
   {
-    stationName: 'Oxshott',
-    crsCode: 'OXS'
+    label: 'Oxshott',
+    value: 'OXS'
   },
   {
-    stationName: 'Oxted',
-    crsCode: 'OXT'
+    label: 'Oxted',
+    value: 'OXT'
   },
   {
-    stationName: 'Paddock Wood',
-    crsCode: 'PDW'
+    label: 'Paddock Wood',
+    value: 'PDW'
   },
   {
-    stationName: 'Padgate',
-    crsCode: 'PDG'
+    label: 'Padgate',
+    value: 'PDG'
   },
   {
-    stationName: 'Paignton',
-    crsCode: 'PGN'
+    label: 'Paignton',
+    value: 'PGN'
   },
   {
-    stationName: 'Paisley Canal',
-    crsCode: 'PCN'
+    label: 'Paisley Canal',
+    value: 'PCN'
   },
   {
-    stationName: 'Paisley Gilmour Street',
-    crsCode: 'PYG'
+    label: 'Paisley Gilmour Street',
+    value: 'PYG'
   },
   {
-    stationName: 'Paisley St James',
-    crsCode: 'PYJ'
+    label: 'Paisley St James',
+    value: 'PYJ'
   },
   {
-    stationName: 'Palmers Green',
-    crsCode: 'PAL'
+    label: 'Palmers Green',
+    value: 'PAL'
   },
   {
-    stationName: 'Pangbourne',
-    crsCode: 'PAN'
+    label: 'Pangbourne',
+    value: 'PAN'
   },
   {
-    stationName: 'Pannal',
-    crsCode: 'PNL'
+    label: 'Pannal',
+    value: 'PNL'
   },
   {
-    stationName: 'Pantyffynnon',
-    crsCode: 'PTF'
+    label: 'Pantyffynnon',
+    value: 'PTF'
   },
   {
-    stationName: 'Par',
-    crsCode: 'PAR'
+    label: 'Par',
+    value: 'PAR'
   },
   {
-    stationName: 'Parbold',
-    crsCode: 'PBL'
+    label: 'Parbold',
+    value: 'PBL'
   },
   {
-    stationName: 'Park Street',
-    crsCode: 'PKT'
+    label: 'Park Street',
+    value: 'PKT'
   },
   {
-    stationName: 'Parkstone (Dorset)',
-    crsCode: 'PKS'
+    label: 'Parkstone (Dorset)',
+    value: 'PKS'
   },
   {
-    stationName: 'Parson Street',
-    crsCode: 'PSN'
+    label: 'Parson Street',
+    value: 'PSN'
   },
   {
-    stationName: 'Partick',
-    crsCode: 'PTK'
+    label: 'Partick',
+    value: 'PTK'
   },
   {
-    stationName: 'Parton',
-    crsCode: 'PRN'
+    label: 'Parton',
+    value: 'PRN'
   },
   {
-    stationName: 'Patchway',
-    crsCode: 'PWY'
+    label: 'Patchway',
+    value: 'PWY'
   },
   {
-    stationName: 'Patricroft',
-    crsCode: 'PAT'
+    label: 'Patricroft',
+    value: 'PAT'
   },
   {
-    stationName: 'Patterton',
-    crsCode: 'PTT'
+    label: 'Patterton',
+    value: 'PTT'
   },
   {
-    stationName: 'Peartree',
-    crsCode: 'PEA'
+    label: 'Peartree',
+    value: 'PEA'
   },
   {
-    stationName: 'Peckham Rye',
-    crsCode: 'PMR'
+    label: 'Peckham Rye',
+    value: 'PMR'
   },
   {
-    stationName: 'Pegswood',
-    crsCode: 'PEG'
+    label: 'Pegswood',
+    value: 'PEG'
   },
   {
-    stationName: 'Pemberton',
-    crsCode: 'PEM'
+    label: 'Pemberton',
+    value: 'PEM'
   },
   {
-    stationName: 'Pembrey & Burry Port',
-    crsCode: 'PBY'
+    label: 'Pembrey & Burry Port',
+    value: 'PBY'
   },
   {
-    stationName: 'Pembroke Dock',
-    crsCode: 'PMD'
+    label: 'Pembroke Dock',
+    value: 'PMD'
   },
   {
-    stationName: 'Pembroke',
-    crsCode: 'PMB'
+    label: 'Pembroke',
+    value: 'PMB'
   },
   {
-    stationName: 'Penally',
-    crsCode: 'PNA'
+    label: 'Penally',
+    value: 'PNA'
   },
   {
-    stationName: 'Penarth',
-    crsCode: 'PEN'
+    label: 'Penarth',
+    value: 'PEN'
   },
   {
-    stationName: 'Pencoed',
-    crsCode: 'PCD'
+    label: 'Pencoed',
+    value: 'PCD'
   },
   {
-    stationName: 'Pengam',
-    crsCode: 'PGM'
+    label: 'Pengam',
+    value: 'PGM'
   },
   {
-    stationName: 'Penge East',
-    crsCode: 'PNE'
+    label: 'Penge East',
+    value: 'PNE'
   },
   {
-    stationName: 'Penge West',
-    crsCode: 'PNW'
+    label: 'Penge West',
+    value: 'PNW'
   },
   {
-    stationName: 'Penhelig',
-    crsCode: 'PHG'
+    label: 'Penhelig',
+    value: 'PHG'
   },
   {
-    stationName: 'Penistone',
-    crsCode: 'PNS'
+    label: 'Penistone',
+    value: 'PNS'
   },
   {
-    stationName: 'Penkridge',
-    crsCode: 'PKG'
+    label: 'Penkridge',
+    value: 'PKG'
   },
   {
-    stationName: 'Penmaenmawr',
-    crsCode: 'PMW'
+    label: 'Penmaenmawr',
+    value: 'PMW'
   },
   {
-    stationName: 'Penmere',
-    crsCode: 'PNM'
+    label: 'Penmere',
+    value: 'PNM'
   },
   {
-    stationName: 'Penrhiwceiber',
-    crsCode: 'PER'
+    label: 'Penrhiwceiber',
+    value: 'PER'
   },
   {
-    stationName: 'Penrhyndeudraeth',
-    crsCode: 'PRH'
+    label: 'Penrhyndeudraeth',
+    value: 'PRH'
   },
   {
-    stationName: 'Penrith',
-    crsCode: 'PNR'
+    label: 'Penrith',
+    value: 'PNR'
   },
   {
-    stationName: 'Penryn',
-    crsCode: 'PYN'
+    label: 'Penryn',
+    value: 'PYN'
   },
   {
-    stationName: 'Pensarn',
-    crsCode: 'PES'
+    label: 'Pensarn',
+    value: 'PES'
   },
   {
-    stationName: 'Penshurst',
-    crsCode: 'PHR'
+    label: 'Penshurst',
+    value: 'PHR'
   },
   {
-    stationName: 'Pentre-Bach',
-    crsCode: 'PTB'
+    label: 'Pentre-Bach',
+    value: 'PTB'
   },
   {
-    stationName: 'Pen-Y-Bont',
-    crsCode: 'PNY'
+    label: 'Pen-Y-Bont',
+    value: 'PNY'
   },
   {
-    stationName: 'Penychain',
-    crsCode: 'PNC'
+    label: 'Penychain',
+    value: 'PNC'
   },
   {
-    stationName: 'Penyffordd',
-    crsCode: 'PNF'
+    label: 'Penyffordd',
+    value: 'PNF'
   },
   {
-    stationName: 'Penzance',
-    crsCode: 'PNZ'
+    label: 'Penzance',
+    value: 'PNZ'
   },
   {
-    stationName: 'Perranwell',
-    crsCode: 'PRW'
+    label: 'Perranwell',
+    value: 'PRW'
   },
   {
-    stationName: 'Perry Barr',
-    crsCode: 'PRY'
+    label: 'Perry Barr',
+    value: 'PRY'
   },
   {
-    stationName: 'Pershore',
-    crsCode: 'PSH'
+    label: 'Pershore',
+    value: 'PSH'
   },
   {
-    stationName: 'Perth',
-    crsCode: 'PTH'
+    label: 'Perth',
+    value: 'PTH'
   },
   {
-    stationName: 'Peterborough',
-    crsCode: 'PBO'
+    label: 'Peterborough',
+    value: 'PBO'
   },
   {
-    stationName: 'Petersfield',
-    crsCode: 'PTR'
+    label: 'Petersfield',
+    value: 'PTR'
   },
   {
-    stationName: 'Petts Wood',
-    crsCode: 'PET'
+    label: 'Petts Wood',
+    value: 'PET'
   },
   {
-    stationName: 'Pevensey & Westham',
-    crsCode: 'PEV'
+    label: 'Pevensey & Westham',
+    value: 'PEV'
   },
   {
-    stationName: 'Pevensey Bay',
-    crsCode: 'PEB'
+    label: 'Pevensey Bay',
+    value: 'PEB'
   },
   {
-    stationName: 'Pewsey',
-    crsCode: 'PEW'
+    label: 'Pewsey',
+    value: 'PEW'
   },
   {
-    stationName: 'Pickering Eastgate',
-    crsCode: 'PIZ'
+    label: 'Pickering Eastgate',
+    value: 'PIZ'
   },
   {
-    stationName: 'Pilning',
-    crsCode: 'PIL'
+    label: 'Pilning',
+    value: 'PIL'
   },
   {
-    stationName: 'Pinhoe',
-    crsCode: 'PIN'
+    label: 'Pinhoe',
+    value: 'PIN'
   },
   {
-    stationName: 'Pitlochry',
-    crsCode: 'PIT'
+    label: 'Pitlochry',
+    value: 'PIT'
   },
   {
-    stationName: 'Pitsea',
-    crsCode: 'PSE'
+    label: 'Pitsea',
+    value: 'PSE'
   },
   {
-    stationName: 'Pleasington',
-    crsCode: 'PLS'
+    label: 'Pleasington',
+    value: 'PLS'
   },
   {
-    stationName: 'Plockton',
-    crsCode: 'PLK'
+    label: 'Plockton',
+    value: 'PLK'
   },
   {
-    stationName: 'Pluckley',
-    crsCode: 'PLC'
+    label: 'Pluckley',
+    value: 'PLC'
   },
   {
-    stationName: 'Plumley',
-    crsCode: 'PLM'
+    label: 'Plumley',
+    value: 'PLM'
   },
   {
-    stationName: 'Plumpton',
-    crsCode: 'PMP'
+    label: 'Plumpton',
+    value: 'PMP'
   },
   {
-    stationName: 'Plumstead',
-    crsCode: 'PLU'
+    label: 'Plumstead',
+    value: 'PLU'
   },
   {
-    stationName: 'Plymouth',
-    crsCode: 'PLY'
+    label: 'Plymouth',
+    value: 'PLY'
   },
   {
-    stationName: 'Pokesdown',
-    crsCode: 'POK'
+    label: 'Pokesdown',
+    value: 'POK'
   },
   {
-    stationName: 'Polegate',
-    crsCode: 'PLG'
+    label: 'Polegate',
+    value: 'PLG'
   },
   {
-    stationName: 'Polesworth',
-    crsCode: 'PSW'
+    label: 'Polesworth',
+    value: 'PSW'
   },
   {
-    stationName: 'Pollokshaws East',
-    crsCode: 'PWE'
+    label: 'Pollokshaws East',
+    value: 'PWE'
   },
   {
-    stationName: 'Pollokshaws West',
-    crsCode: 'PWW'
+    label: 'Pollokshaws West',
+    value: 'PWW'
   },
   {
-    stationName: 'Pollokshields East',
-    crsCode: 'PLE'
+    label: 'Pollokshields East',
+    value: 'PLE'
   },
   {
-    stationName: 'Pollokshields West',
-    crsCode: 'PLW'
+    label: 'Pollokshields West',
+    value: 'PLW'
   },
   {
-    stationName: 'Polmont',
-    crsCode: 'PMT'
+    label: 'Polmont',
+    value: 'PMT'
   },
   {
-    stationName: 'Polsloe Bridge',
-    crsCode: 'POL'
+    label: 'Polsloe Bridge',
+    value: 'POL'
   },
   {
-    stationName: 'Ponders End',
-    crsCode: 'PON'
+    label: 'Ponders End',
+    value: 'PON'
   },
   {
-    stationName: 'Pontarddulais',
-    crsCode: 'PTD'
+    label: 'Pontarddulais',
+    value: 'PTD'
   },
   {
-    stationName: 'Pontefract Baghill',
-    crsCode: 'PFR'
+    label: 'Pontefract Baghill',
+    value: 'PFR'
   },
   {
-    stationName: 'Pontefract Monkhill',
-    crsCode: 'PFM'
+    label: 'Pontefract Monkhill',
+    value: 'PFM'
   },
   {
-    stationName: 'Pontefract Tanshelf',
-    crsCode: 'POT'
+    label: 'Pontefract Tanshelf',
+    value: 'POT'
   },
   {
-    stationName: 'Pontlottyn',
-    crsCode: 'PLT'
+    label: 'Pontlottyn',
+    value: 'PLT'
   },
   {
-    stationName: 'Pontyclun',
-    crsCode: 'PYC'
+    label: 'Pontyclun',
+    value: 'PYC'
   },
   {
-    stationName: 'Pont-Y-Pant',
-    crsCode: 'PYP'
+    label: 'Pont-Y-Pant',
+    value: 'PYP'
   },
   {
-    stationName: 'Pontypool and New Inn',
-    crsCode: 'PPL'
+    label: 'Pontypool and New Inn',
+    value: 'PPL'
   },
   {
-    stationName: 'Pontypridd',
-    crsCode: 'PPD'
+    label: 'Pontypridd',
+    value: 'PPD'
   },
   {
-    stationName: 'Poole',
-    crsCode: 'POO'
+    label: 'Poole',
+    value: 'POO'
   },
   {
-    stationName: 'Poppleton',
-    crsCode: 'POP'
+    label: 'Poppleton',
+    value: 'POP'
   },
   {
-    stationName: 'Port Glasgow',
-    crsCode: 'PTG'
+    label: 'Port Glasgow',
+    value: 'PTG'
   },
   {
-    stationName: 'Port Sunlight',
-    crsCode: 'PSL'
+    label: 'Port Sunlight',
+    value: 'PSL'
   },
   {
-    stationName: 'Port Talbot Parkway',
-    crsCode: 'PTA'
+    label: 'Port Talbot Parkway',
+    value: 'PTA'
   },
   {
-    stationName: 'Portchester',
-    crsCode: 'PTC'
+    label: 'Portchester',
+    value: 'PTC'
   },
   {
-    stationName: 'Porth',
-    crsCode: 'POR'
+    label: 'Porth',
+    value: 'POR'
   },
   {
-    stationName: 'Porthmadog',
-    crsCode: 'PTM'
+    label: 'Porthmadog',
+    value: 'PTM'
   },
   {
-    stationName: 'Portlethen',
-    crsCode: 'PLN'
+    label: 'Portlethen',
+    value: 'PLN'
   },
   {
-    stationName: 'Portslade',
-    crsCode: 'PLD'
+    label: 'Portslade',
+    value: 'PLD'
   },
   {
-    stationName: 'Portsmouth & Southsea',
-    crsCode: 'PMS'
+    label: 'Portsmouth & Southsea',
+    value: 'PMS'
   },
   {
-    stationName: 'Portsmouth Arms',
-    crsCode: 'PMA'
+    label: 'Portsmouth Arms',
+    value: 'PMA'
   },
   {
-    stationName: 'Portsmouth Harbour',
-    crsCode: 'PMH'
+    label: 'Portsmouth Harbour',
+    value: 'PMH'
   },
   {
-    stationName: 'Portway Park & Ride',
-    crsCode: 'PRI'
+    label: 'Portway Park & Ride',
+    value: 'PRI'
   },
   {
-    stationName: 'Possilpark & Parkhouse',
-    crsCode: 'PPK'
+    label: 'Possilpark & Parkhouse',
+    value: 'PPK'
   },
   {
-    stationName: 'Potters Bar',
-    crsCode: 'PBR'
+    label: 'Potters Bar',
+    value: 'PBR'
   },
   {
-    stationName: 'Poulton-Le-Fylde',
-    crsCode: 'PFY'
+    label: 'Poulton-Le-Fylde',
+    value: 'PFY'
   },
   {
-    stationName: 'Poynton',
-    crsCode: 'PYT'
+    label: 'Poynton',
+    value: 'PYT'
   },
   {
-    stationName: 'Prees',
-    crsCode: 'PRS'
+    label: 'Prees',
+    value: 'PRS'
   },
   {
-    stationName: 'Prescot',
-    crsCode: 'PSC'
+    label: 'Prescot',
+    value: 'PSC'
   },
   {
-    stationName: 'Prestatyn',
-    crsCode: 'PRT'
+    label: 'Prestatyn',
+    value: 'PRT'
   },
   {
-    stationName: 'Prestbury',
-    crsCode: 'PRB'
+    label: 'Prestbury',
+    value: 'PRB'
   },
   {
-    stationName: 'Preston',
-    crsCode: 'PRE'
+    label: 'Preston',
+    value: 'PRE'
   },
   {
-    stationName: 'Preston Park',
-    crsCode: 'PRP'
+    label: 'Preston Park',
+    value: 'PRP'
   },
   {
-    stationName: 'Prestonpans',
-    crsCode: 'PST'
+    label: 'Prestonpans',
+    value: 'PST'
   },
   {
-    stationName: 'Prestwick International Airport',
-    crsCode: 'PRA'
+    label: 'Prestwick International Airport',
+    value: 'PRA'
   },
   {
-    stationName: 'Prestwick Town',
-    crsCode: 'PTW'
+    label: 'Prestwick Town',
+    value: 'PTW'
   },
   {
-    stationName: 'Priesthill & Darnley',
-    crsCode: 'PTL'
+    label: 'Priesthill & Darnley',
+    value: 'PTL'
   },
   {
-    stationName: 'Princes Risborough',
-    crsCode: 'PRR'
+    label: 'Princes Risborough',
+    value: 'PRR'
   },
   {
-    stationName: 'Prittlewell',
-    crsCode: 'PRL'
+    label: 'Prittlewell',
+    value: 'PRL'
   },
   {
-    stationName: 'Prudhoe',
-    crsCode: 'PRU'
+    label: 'Prudhoe',
+    value: 'PRU'
   },
   {
-    stationName: 'Pulborough',
-    crsCode: 'PUL'
+    label: 'Pulborough',
+    value: 'PUL'
   },
   {
-    stationName: 'Purfleet',
-    crsCode: 'PFL'
+    label: 'Purfleet',
+    value: 'PFL'
   },
   {
-    stationName: 'Purley Oaks',
-    crsCode: 'PUO'
+    label: 'Purley Oaks',
+    value: 'PUO'
   },
   {
-    stationName: 'Purley',
-    crsCode: 'PUR'
+    label: 'Purley',
+    value: 'PUR'
   },
   {
-    stationName: 'Putney',
-    crsCode: 'PUT'
+    label: 'Putney',
+    value: 'PUT'
   },
   {
-    stationName: 'Pwllheli',
-    crsCode: 'PWL'
+    label: 'Pwllheli',
+    value: 'PWL'
   },
   {
-    stationName: 'Pye Corner',
-    crsCode: 'PYE'
+    label: 'Pye Corner',
+    value: 'PYE'
   },
   {
-    stationName: 'Pyle',
-    crsCode: 'PYL'
+    label: 'Pyle',
+    value: 'PYL'
   },
   {
-    stationName: 'Quakers Yard',
-    crsCode: 'QYD'
+    label: 'Quakers Yard',
+    value: 'QYD'
   },
   {
-    stationName: 'Queenborough',
-    crsCode: 'QBR'
+    label: 'Queenborough',
+    value: 'QBR'
   },
   {
-    stationName: 'Queens Park (Glasgow)',
-    crsCode: 'QPK'
+    label: 'Queens Park (Glasgow)',
+    value: 'QPK'
   },
   {
-    stationName: 'Queens Park (London)',
-    crsCode: 'QPW'
+    label: 'Queens Park (London)',
+    value: 'QPW'
   },
   {
-    stationName: 'Queens Road Peckham',
-    crsCode: 'QRP'
+    label: 'Queens Road Peckham',
+    value: 'QRP'
   },
   {
-    stationName: 'Queenstown Road (Battersea)',
-    crsCode: 'QRB'
+    label: 'Queenstown Road (Battersea)',
+    value: 'QRB'
   },
   {
-    stationName: 'Quintrell Downs',
-    crsCode: 'QUI'
+    label: 'Quintrell Downs',
+    value: 'QUI'
   },
   {
-    stationName: 'Radcliffe (Nottinghamshire)',
-    crsCode: 'RDF'
+    label: 'Radcliffe (Nottinghamshire)',
+    value: 'RDF'
   },
   {
-    stationName: 'Radlett',
-    crsCode: 'RDT'
+    label: 'Radlett',
+    value: 'RDT'
   },
   {
-    stationName: 'Radley',
-    crsCode: 'RAD'
+    label: 'Radley',
+    value: 'RAD'
   },
   {
-    stationName: 'Radyr',
-    crsCode: 'RDR'
+    label: 'Radyr',
+    value: 'RDR'
   },
   {
-    stationName: 'Rainford',
-    crsCode: 'RNF'
+    label: 'Rainford',
+    value: 'RNF'
   },
   {
-    stationName: 'Rainham (Essex)',
-    crsCode: 'RNM'
+    label: 'Rainham (Essex)',
+    value: 'RNM'
   },
   {
-    stationName: 'Rainham (Kent)',
-    crsCode: 'RAI'
+    label: 'Rainham (Kent)',
+    value: 'RAI'
   },
   {
-    stationName: 'Rainhill',
-    crsCode: 'RNH'
+    label: 'Rainhill',
+    value: 'RNH'
   },
   {
-    stationName: 'Ramsgate',
-    crsCode: 'RAM'
+    label: 'Ramsgate',
+    value: 'RAM'
   },
   {
-    stationName: 'Ramsgreave & Wilpshire',
-    crsCode: 'RGW'
+    label: 'Ramsgreave & Wilpshire',
+    value: 'RGW'
   },
   {
-    stationName: 'Rannoch',
-    crsCode: 'RAN'
+    label: 'Rannoch',
+    value: 'RAN'
   },
   {
-    stationName: 'Rauceby',
-    crsCode: 'RAU'
+    label: 'Rauceby',
+    value: 'RAU'
   },
   {
-    stationName: 'Ravenglass for Eskdale',
-    crsCode: 'RAV'
+    label: 'Ravenglass for Eskdale',
+    value: 'RAV'
   },
   {
-    stationName: 'Ravensbourne',
-    crsCode: 'RVB'
+    label: 'Ravensbourne',
+    value: 'RVB'
   },
   {
-    stationName: 'Ravensthorpe',
-    crsCode: 'RVN'
+    label: 'Ravensthorpe',
+    value: 'RVN'
   },
   {
-    stationName: 'Rawcliffe',
-    crsCode: 'RWC'
+    label: 'Rawcliffe',
+    value: 'RWC'
   },
   {
-    stationName: 'Rayleigh',
-    crsCode: 'RLG'
+    label: 'Rayleigh',
+    value: 'RLG'
   },
   {
-    stationName: 'Raynes Park',
-    crsCode: 'RAY'
+    label: 'Raynes Park',
+    value: 'RAY'
   },
   {
-    stationName: 'Reading',
-    crsCode: 'RDG'
+    label: 'Reading',
+    value: 'RDG'
   },
   {
-    stationName: 'Reading Green Park',
-    crsCode: 'RGP'
+    label: 'Reading Green Park',
+    value: 'RGP'
   },
   {
-    stationName: 'Reading West',
-    crsCode: 'RDW'
+    label: 'Reading West',
+    value: 'RDW'
   },
   {
-    stationName: 'Rectory Road',
-    crsCode: 'REC'
+    label: 'Rectory Road',
+    value: 'REC'
   },
   {
-    stationName: 'Redbridge',
-    crsCode: 'RDB'
+    label: 'Redbridge',
+    value: 'RDB'
   },
   {
-    stationName: 'Redcar Central',
-    crsCode: 'RCC'
+    label: 'Redcar Central',
+    value: 'RCC'
   },
   {
-    stationName: 'Redcar East',
-    crsCode: 'RCE'
+    label: 'Redcar East',
+    value: 'RCE'
   },
   {
-    stationName: 'Reddish North',
-    crsCode: 'RDN'
+    label: 'Reddish North',
+    value: 'RDN'
   },
   {
-    stationName: 'Reddish South',
-    crsCode: 'RDS'
+    label: 'Reddish South',
+    value: 'RDS'
   },
   {
-    stationName: 'Redditch',
-    crsCode: 'RDC'
+    label: 'Redditch',
+    value: 'RDC'
   },
   {
-    stationName: 'Redhill',
-    crsCode: 'RDH'
+    label: 'Redhill',
+    value: 'RDH'
   },
   {
-    stationName: 'Redland',
-    crsCode: 'RDA'
+    label: 'Redland',
+    value: 'RDA'
   },
   {
-    stationName: 'Redruth',
-    crsCode: 'RED'
+    label: 'Redruth',
+    value: 'RED'
   },
   {
-    stationName: 'Reedham (London)',
-    crsCode: 'RHM'
+    label: 'Reedham (London)',
+    value: 'RHM'
   },
   {
-    stationName: 'Reedham (Norfolk)',
-    crsCode: 'REE'
+    label: 'Reedham (Norfolk)',
+    value: 'REE'
   },
   {
-    stationName: 'Reigate',
-    crsCode: 'REI'
+    label: 'Reigate',
+    value: 'REI'
   },
   {
-    stationName: 'Renton',
-    crsCode: 'RTN'
+    label: 'Renton',
+    value: 'RTN'
   },
   {
-    stationName: 'Reston',
-    crsCode: 'RSN'
+    label: 'Reston',
+    value: 'RSN'
   },
   {
-    stationName: 'Retford',
-    crsCode: 'RET'
+    label: 'Retford',
+    value: 'RET'
   },
   {
-    stationName: 'Rhiwbina',
-    crsCode: 'RHI'
+    label: 'Rhiwbina',
+    value: 'RHI'
   },
   {
-    stationName: 'Rhoose Cardiff Airport',
-    crsCode: 'RIA'
+    label: 'Rhoose Cardiff Airport',
+    value: 'RIA'
   },
   {
-    stationName: 'Rhosneigr',
-    crsCode: 'RHO'
+    label: 'Rhosneigr',
+    value: 'RHO'
   },
   {
-    stationName: 'Rhyl',
-    crsCode: 'RHL'
+    label: 'Rhyl',
+    value: 'RHL'
   },
   {
-    stationName: 'Rhymney',
-    crsCode: 'RHY'
+    label: 'Rhymney',
+    value: 'RHY'
   },
   {
-    stationName: 'Ribblehead',
-    crsCode: 'RHD'
+    label: 'Ribblehead',
+    value: 'RHD'
   },
   {
-    stationName: 'Rice Lane',
-    crsCode: 'RIL'
+    label: 'Rice Lane',
+    value: 'RIL'
   },
   {
-    stationName: 'Richmond',
-    crsCode: 'RMD'
+    label: 'Richmond',
+    value: 'RMD'
   },
   {
-    stationName: 'Rickmansworth',
-    crsCode: 'RIC'
+    label: 'Rickmansworth',
+    value: 'RIC'
   },
   {
-    stationName: 'Riddlesdown',
-    crsCode: 'RDD'
+    label: 'Riddlesdown',
+    value: 'RDD'
   },
   {
-    stationName: 'Ridgmont',
-    crsCode: 'RID'
+    label: 'Ridgmont',
+    value: 'RID'
   },
   {
-    stationName: 'Riding Mill',
-    crsCode: 'RDM'
+    label: 'Riding Mill',
+    value: 'RDM'
   },
   {
-    stationName: 'Risca & Pontymister',
-    crsCode: 'RCA'
+    label: 'Risca & Pontymister',
+    value: 'RCA'
   },
   {
-    stationName: 'Rishton',
-    crsCode: 'RIS'
+    label: 'Rishton',
+    value: 'RIS'
   },
   {
-    stationName: 'Robertsbridge',
-    crsCode: 'RBR'
+    label: 'Robertsbridge',
+    value: 'RBR'
   },
   {
-    stationName: 'Robroyston',
-    crsCode: 'RRN'
+    label: 'Robroyston',
+    value: 'RRN'
   },
   {
-    stationName: 'Roby',
-    crsCode: 'ROB'
+    label: 'Roby',
+    value: 'ROB'
   },
   {
-    stationName: 'Rochdale',
-    crsCode: 'RCD'
+    label: 'Rochdale',
+    value: 'RCD'
   },
   {
-    stationName: 'Roche',
-    crsCode: 'ROC'
+    label: 'Roche',
+    value: 'ROC'
   },
   {
-    stationName: 'Rochester',
-    crsCode: 'RTR'
+    label: 'Rochester',
+    value: 'RTR'
   },
   {
-    stationName: 'Rochford',
-    crsCode: 'RFD'
+    label: 'Rochford',
+    value: 'RFD'
   },
   {
-    stationName: 'Rock Ferry',
-    crsCode: 'RFY'
+    label: 'Rock Ferry',
+    value: 'RFY'
   },
   {
-    stationName: 'Rogart',
-    crsCode: 'ROG'
+    label: 'Rogart',
+    value: 'ROG'
   },
   {
-    stationName: 'Rogerstone',
-    crsCode: 'ROR'
+    label: 'Rogerstone',
+    value: 'ROR'
   },
   {
-    stationName: 'Rolleston',
-    crsCode: 'ROL'
+    label: 'Rolleston',
+    value: 'ROL'
   },
   {
-    stationName: 'Roman Bridge',
-    crsCode: 'RMB'
+    label: 'Roman Bridge',
+    value: 'RMB'
   },
   {
-    stationName: 'Romford',
-    crsCode: 'RMF'
+    label: 'Romford',
+    value: 'RMF'
   },
   {
-    stationName: 'Romiley',
-    crsCode: 'RML'
+    label: 'Romiley',
+    value: 'RML'
   },
   {
-    stationName: 'Romsey',
-    crsCode: 'ROM'
+    label: 'Romsey',
+    value: 'ROM'
   },
   {
-    stationName: 'Roose',
-    crsCode: 'ROO'
+    label: 'Roose',
+    value: 'ROO'
   },
   {
-    stationName: 'Rose Grove',
-    crsCode: 'RSG'
+    label: 'Rose Grove',
+    value: 'RSG'
   },
   {
-    stationName: 'Rose Hill Marple',
-    crsCode: 'RSH'
+    label: 'Rose Hill Marple',
+    value: 'RSH'
   },
   {
-    stationName: 'Rosyth',
-    crsCode: 'ROS'
+    label: 'Rosyth',
+    value: 'ROS'
   },
   {
-    stationName: 'Rotherham Central',
-    crsCode: 'RMC'
+    label: 'Rotherham Central',
+    value: 'RMC'
   },
   {
-    stationName: 'Rotherhithe',
-    crsCode: 'ROE'
+    label: 'Rotherhithe',
+    value: 'ROE'
   },
   {
-    stationName: 'Roughton Road',
-    crsCode: 'RNR'
+    label: 'Roughton Road',
+    value: 'RNR'
   },
   {
-    stationName: 'Rowlands Castle',
-    crsCode: 'RLN'
+    label: 'Rowlands Castle',
+    value: 'RLN'
   },
   {
-    stationName: 'Rowley Regis',
-    crsCode: 'ROW'
+    label: 'Rowley Regis',
+    value: 'ROW'
   },
   {
-    stationName: 'Roy Bridge',
-    crsCode: 'RYB'
+    label: 'Roy Bridge',
+    value: 'RYB'
   },
   {
-    stationName: 'Roydon',
-    crsCode: 'RYN'
+    label: 'Roydon',
+    value: 'RYN'
   },
   {
-    stationName: 'Royston',
-    crsCode: 'RYS'
+    label: 'Royston',
+    value: 'RYS'
   },
   {
-    stationName: 'Ruabon',
-    crsCode: 'RUA'
+    label: 'Ruabon',
+    value: 'RUA'
   },
   {
-    stationName: 'Rufford',
-    crsCode: 'RUF'
+    label: 'Rufford',
+    value: 'RUF'
   },
   {
-    stationName: 'Rugby',
-    crsCode: 'RUG'
+    label: 'Rugby',
+    value: 'RUG'
   },
   {
-    stationName: 'Rugeley Town',
-    crsCode: 'RGT'
+    label: 'Rugeley Town',
+    value: 'RGT'
   },
   {
-    stationName: 'Rugeley Trent Valley',
-    crsCode: 'RGL'
+    label: 'Rugeley Trent Valley',
+    value: 'RGL'
   },
   {
-    stationName: 'Runcorn',
-    crsCode: 'RUN'
+    label: 'Runcorn',
+    value: 'RUN'
   },
   {
-    stationName: 'Runcorn East',
-    crsCode: 'RUE'
+    label: 'Runcorn East',
+    value: 'RUE'
   },
   {
-    stationName: 'Ruskington',
-    crsCode: 'RKT'
+    label: 'Ruskington',
+    value: 'RKT'
   },
   {
-    stationName: 'Ruswarp',
-    crsCode: 'RUS'
+    label: 'Ruswarp',
+    value: 'RUS'
   },
   {
-    stationName: 'Rutherglen',
-    crsCode: 'RUT'
+    label: 'Rutherglen',
+    value: 'RUT'
   },
   {
-    stationName: 'Ryde Esplanade',
-    crsCode: 'RYD'
+    label: 'Ryde Esplanade',
+    value: 'RYD'
   },
   {
-    stationName: 'Ryde Pier Head',
-    crsCode: 'RYP'
+    label: 'Ryde Pier Head',
+    value: 'RYP'
   },
   {
-    stationName: 'Ryde St Johns Road',
-    crsCode: 'RYR'
+    label: 'Ryde St Johns Road',
+    value: 'RYR'
   },
   {
-    stationName: 'Ryder Brow',
-    crsCode: 'RRB'
+    label: 'Ryder Brow',
+    value: 'RRB'
   },
   {
-    stationName: 'Rye',
-    crsCode: 'RYE'
+    label: 'Rye',
+    value: 'RYE'
   },
   {
-    stationName: 'Rye House',
-    crsCode: 'RYH'
+    label: 'Rye House',
+    value: 'RYH'
   },
   {
-    stationName: 'Salford Central',
-    crsCode: 'SFD'
+    label: 'Salford Central',
+    value: 'SFD'
   },
   {
-    stationName: 'Salford Crescent',
-    crsCode: 'SLD'
+    label: 'Salford Crescent',
+    value: 'SLD'
   },
   {
-    stationName: 'Salfords',
-    crsCode: 'SAF'
+    label: 'Salfords',
+    value: 'SAF'
   },
   {
-    stationName: 'Salhouse',
-    crsCode: 'SAH'
+    label: 'Salhouse',
+    value: 'SAH'
   },
   {
-    stationName: 'Salisbury',
-    crsCode: 'SAL'
+    label: 'Salisbury',
+    value: 'SAL'
   },
   {
-    stationName: 'Saltaire',
-    crsCode: 'SAE'
+    label: 'Saltaire',
+    value: 'SAE'
   },
   {
-    stationName: 'Saltash',
-    crsCode: 'STS'
+    label: 'Saltash',
+    value: 'STS'
   },
   {
-    stationName: 'Saltburn',
-    crsCode: 'SLB'
+    label: 'Saltburn',
+    value: 'SLB'
   },
   {
-    stationName: 'Saltcoats',
-    crsCode: 'SLT'
+    label: 'Saltcoats',
+    value: 'SLT'
   },
   {
-    stationName: 'Saltmarshe',
-    crsCode: 'SAM'
+    label: 'Saltmarshe',
+    value: 'SAM'
   },
   {
-    stationName: 'Salwick',
-    crsCode: 'SLW'
+    label: 'Salwick',
+    value: 'SLW'
   },
   {
-    stationName: 'Sandal & Agbrigg',
-    crsCode: 'SNA'
+    label: 'Sandal & Agbrigg',
+    value: 'SNA'
   },
   {
-    stationName: 'Sandbach',
-    crsCode: 'SDB'
+    label: 'Sandbach',
+    value: 'SDB'
   },
   {
-    stationName: 'Sanderstead',
-    crsCode: 'SNR'
+    label: 'Sanderstead',
+    value: 'SNR'
   },
   {
-    stationName: 'Sandhills',
-    crsCode: 'SDL'
+    label: 'Sandhills',
+    value: 'SDL'
   },
   {
-    stationName: 'Sandhurst',
-    crsCode: 'SND'
+    label: 'Sandhurst',
+    value: 'SND'
   },
   {
-    stationName: 'Sandling',
-    crsCode: 'SDG'
+    label: 'Sandling',
+    value: 'SDG'
   },
   {
-    stationName: 'Sandown',
-    crsCode: 'SAN'
+    label: 'Sandown',
+    value: 'SAN'
   },
   {
-    stationName: 'Sandplace',
-    crsCode: 'SDP'
+    label: 'Sandplace',
+    value: 'SDP'
   },
   {
-    stationName: 'Sandwell & Dudley',
-    crsCode: 'SAD'
+    label: 'Sandwell & Dudley',
+    value: 'SAD'
   },
   {
-    stationName: 'Sandwich',
-    crsCode: 'SDW'
+    label: 'Sandwich',
+    value: 'SDW'
   },
   {
-    stationName: 'Sandy',
-    crsCode: 'SDY'
+    label: 'Sandy',
+    value: 'SDY'
   },
   {
-    stationName: 'Sankey for Penketh',
-    crsCode: 'SNK'
+    label: 'Sankey for Penketh',
+    value: 'SNK'
   },
   {
-    stationName: 'Sanquhar',
-    crsCode: 'SQH'
+    label: 'Sanquhar',
+    value: 'SQH'
   },
   {
-    stationName: 'Sarn',
-    crsCode: 'SRR'
+    label: 'Sarn',
+    value: 'SRR'
   },
   {
-    stationName: 'Saundersfoot',
-    crsCode: 'SDF'
+    label: 'Saundersfoot',
+    value: 'SDF'
   },
   {
-    stationName: 'Saunderton',
-    crsCode: 'SDR'
+    label: 'Saunderton',
+    value: 'SDR'
   },
   {
-    stationName: 'Sawbridgeworth',
-    crsCode: 'SAW'
+    label: 'Sawbridgeworth',
+    value: 'SAW'
   },
   {
-    stationName: 'Saxilby',
-    crsCode: 'SXY'
+    label: 'Saxilby',
+    value: 'SXY'
   },
   {
-    stationName: 'Saxmundham',
-    crsCode: 'SAX'
+    label: 'Saxmundham',
+    value: 'SAX'
   },
   {
-    stationName: 'Scarborough',
-    crsCode: 'SCA'
+    label: 'Scarborough',
+    value: 'SCA'
   },
   {
-    stationName: 'Scotscalder',
-    crsCode: 'SCT'
+    label: 'Scotscalder',
+    value: 'SCT'
   },
   {
-    stationName: 'Scotstounhill',
-    crsCode: 'SCH'
+    label: 'Scotstounhill',
+    value: 'SCH'
   },
   {
-    stationName: 'Scunthorpe',
-    crsCode: 'SCU'
+    label: 'Scunthorpe',
+    value: 'SCU'
   },
   {
-    stationName: 'Sea Mills',
-    crsCode: 'SML'
+    label: 'Sea Mills',
+    value: 'SML'
   },
   {
-    stationName: 'Seaburn',
-    crsCode: 'SEB'
+    label: 'Seaburn',
+    value: 'SEB'
   },
   {
-    stationName: 'Seaford',
-    crsCode: 'SEF'
+    label: 'Seaford',
+    value: 'SEF'
   },
   {
-    stationName: 'Seaforth & Litherland',
-    crsCode: 'SFL'
+    label: 'Seaforth & Litherland',
+    value: 'SFL'
   },
   {
-    stationName: 'Seaham',
-    crsCode: 'SEA'
+    label: 'Seaham',
+    value: 'SEA'
   },
   {
-    stationName: 'Seamer',
-    crsCode: 'SEM'
+    label: 'Seamer',
+    value: 'SEM'
   },
   {
-    stationName: 'Seascale',
-    crsCode: 'SSC'
+    label: 'Seascale',
+    value: 'SSC'
   },
   {
-    stationName: 'Seaton Carew',
-    crsCode: 'SEC'
+    label: 'Seaton Carew',
+    value: 'SEC'
   },
   {
-    stationName: 'Seaton Delaval',
-    crsCode: 'SEJ'
+    label: 'Seaton Delaval',
+    value: 'SEJ'
   },
   {
-    stationName: 'Seer Green & Jordans',
-    crsCode: 'SRG'
+    label: 'Seer Green & Jordans',
+    value: 'SRG'
   },
   {
-    stationName: 'Selby',
-    crsCode: 'SBY'
+    label: 'Selby',
+    value: 'SBY'
   },
   {
-    stationName: 'Selhurst',
-    crsCode: 'SRS'
+    label: 'Selhurst',
+    value: 'SRS'
   },
   {
-    stationName: 'Selkirk',
-    crsCode: 'SKK'
+    label: 'Selkirk',
+    value: 'SKK'
   },
   {
-    stationName: 'Sellafield',
-    crsCode: 'SEL'
+    label: 'Sellafield',
+    value: 'SEL'
   },
   {
-    stationName: 'Selling',
-    crsCode: 'SEG'
+    label: 'Selling',
+    value: 'SEG'
   },
   {
-    stationName: 'Selly Oak',
-    crsCode: 'SLY'
+    label: 'Selly Oak',
+    value: 'SLY'
   },
   {
-    stationName: 'Settle',
-    crsCode: 'SET'
+    label: 'Settle',
+    value: 'SET'
   },
   {
-    stationName: 'Seven Kings',
-    crsCode: 'SVK'
+    label: 'Seven Kings',
+    value: 'SVK'
   },
   {
-    stationName: 'Seven Sisters',
-    crsCode: 'SVS'
+    label: 'Seven Sisters',
+    value: 'SVS'
   },
   {
-    stationName: 'Sevenoaks',
-    crsCode: 'SEV'
+    label: 'Sevenoaks',
+    value: 'SEV'
   },
   {
-    stationName: 'Severn Beach',
-    crsCode: 'SVB'
+    label: 'Severn Beach',
+    value: 'SVB'
   },
   {
-    stationName: 'Severn Tunnel Junction',
-    crsCode: 'STJ'
+    label: 'Severn Tunnel Junction',
+    value: 'STJ'
   },
   {
-    stationName: 'Shadwell',
-    crsCode: 'SDE'
+    label: 'Shadwell',
+    value: 'SDE'
   },
   {
-    stationName: 'Shalford',
-    crsCode: 'SFR'
+    label: 'Shalford',
+    value: 'SFR'
   },
   {
-    stationName: 'Shanklin',
-    crsCode: 'SHN'
+    label: 'Shanklin',
+    value: 'SHN'
   },
   {
-    stationName: 'Shawfair',
-    crsCode: 'SFI'
+    label: 'Shawfair',
+    value: 'SFI'
   },
   {
-    stationName: 'Shawford',
-    crsCode: 'SHW'
+    label: 'Shawford',
+    value: 'SHW'
   },
   {
-    stationName: 'Shawlands',
-    crsCode: 'SHL'
+    label: 'Shawlands',
+    value: 'SHL'
   },
   {
-    stationName: 'Sheerness-On-Sea',
-    crsCode: 'SSS'
+    label: 'Sheerness-On-Sea',
+    value: 'SSS'
   },
   {
-    stationName: 'Sheffield',
-    crsCode: 'SHF'
+    label: 'Sheffield',
+    value: 'SHF'
   },
   {
-    stationName: 'Shelford',
-    crsCode: 'SED'
+    label: 'Shelford',
+    value: 'SED'
   },
   {
-    stationName: 'Shenfield',
-    crsCode: 'SNF'
+    label: 'Shenfield',
+    value: 'SNF'
   },
   {
-    stationName: 'Shenstone',
-    crsCode: 'SEN'
+    label: 'Shenstone',
+    value: 'SEN'
   },
   {
-    stationName: 'Shepherds Bush',
-    crsCode: 'SPB'
+    label: 'Shepherds Bush',
+    value: 'SPB'
   },
   {
-    stationName: 'Shepherds Well',
-    crsCode: 'SPH'
+    label: 'Shepherds Well',
+    value: 'SPH'
   },
   {
-    stationName: 'Shepley',
-    crsCode: 'SPY'
+    label: 'Shepley',
+    value: 'SPY'
   },
   {
-    stationName: 'Shepperton',
-    crsCode: 'SHP'
+    label: 'Shepperton',
+    value: 'SHP'
   },
   {
-    stationName: 'Shepreth',
-    crsCode: 'STH'
+    label: 'Shepreth',
+    value: 'STH'
   },
   {
-    stationName: 'Sherborne',
-    crsCode: 'SHE'
+    label: 'Sherborne',
+    value: 'SHE'
   },
   {
-    stationName: 'Sherburn-In-Elmet',
-    crsCode: 'SIE'
+    label: 'Sherburn-In-Elmet',
+    value: 'SIE'
   },
   {
-    stationName: 'Sheringham',
-    crsCode: 'SHM'
+    label: 'Sheringham',
+    value: 'SHM'
   },
   {
-    stationName: 'Shettleston',
-    crsCode: 'SLS'
+    label: 'Shettleston',
+    value: 'SLS'
   },
   {
-    stationName: 'Shieldmuir',
-    crsCode: 'SDM'
+    label: 'Shieldmuir',
+    value: 'SDM'
   },
   {
-    stationName: 'Shifnal',
-    crsCode: 'SFN'
+    label: 'Shifnal',
+    value: 'SFN'
   },
   {
-    stationName: 'Shildon',
-    crsCode: 'SHD'
+    label: 'Shildon',
+    value: 'SHD'
   },
   {
-    stationName: 'Shiplake',
-    crsCode: 'SHI'
+    label: 'Shiplake',
+    value: 'SHI'
   },
   {
-    stationName: 'Shipley',
-    crsCode: 'SHY'
+    label: 'Shipley',
+    value: 'SHY'
   },
   {
-    stationName: 'Shippea Hill',
-    crsCode: 'SPP'
+    label: 'Shippea Hill',
+    value: 'SPP'
   },
   {
-    stationName: 'Shipton',
-    crsCode: 'SIP'
+    label: 'Shipton',
+    value: 'SIP'
   },
   {
-    stationName: 'Shirebrook',
-    crsCode: 'SHB'
+    label: 'Shirebrook',
+    value: 'SHB'
   },
   {
-    stationName: 'Shirehampton',
-    crsCode: 'SHH'
+    label: 'Shirehampton',
+    value: 'SHH'
   },
   {
-    stationName: 'Shireoaks',
-    crsCode: 'SRO'
+    label: 'Shireoaks',
+    value: 'SRO'
   },
   {
-    stationName: 'Shirley',
-    crsCode: 'SRL'
+    label: 'Shirley',
+    value: 'SRL'
   },
   {
-    stationName: 'Shoeburyness',
-    crsCode: 'SRY'
+    label: 'Shoeburyness',
+    value: 'SRY'
   },
   {
-    stationName: 'Sholing',
-    crsCode: 'SHO'
+    label: 'Sholing',
+    value: 'SHO'
   },
   {
-    stationName: 'Shoreditch High Street',
-    crsCode: 'SDC'
+    label: 'Shoreditch High Street',
+    value: 'SDC'
   },
   {
-    stationName: 'Shoreham (Kent)',
-    crsCode: 'SEH'
+    label: 'Shoreham (Kent)',
+    value: 'SEH'
   },
   {
-    stationName: 'Shoreham-By-Sea',
-    crsCode: 'SSE'
+    label: 'Shoreham-By-Sea',
+    value: 'SSE'
   },
   {
-    stationName: 'Shortlands',
-    crsCode: 'SRT'
+    label: 'Shortlands',
+    value: 'SRT'
   },
   {
-    stationName: 'Shotton',
-    crsCode: 'SHT'
+    label: 'Shotton',
+    value: 'SHT'
   },
   {
-    stationName: 'Shotts',
-    crsCode: 'SHS'
+    label: 'Shotts',
+    value: 'SHS'
   },
   {
-    stationName: 'Shrewsbury',
-    crsCode: 'SHR'
+    label: 'Shrewsbury',
+    value: 'SHR'
   },
   {
-    stationName: 'Sidcup',
-    crsCode: 'SID'
+    label: 'Sidcup',
+    value: 'SID'
   },
   {
-    stationName: 'Sileby',
-    crsCode: 'SIL'
+    label: 'Sileby',
+    value: 'SIL'
   },
   {
-    stationName: 'Silecroft',
-    crsCode: 'SIC'
+    label: 'Silecroft',
+    value: 'SIC'
   },
   {
-    stationName: 'Silkstone Common',
-    crsCode: 'SLK'
+    label: 'Silkstone Common',
+    value: 'SLK'
   },
   {
-    stationName: 'Silver Street',
-    crsCode: 'SLV'
+    label: 'Silver Street',
+    value: 'SLV'
   },
   {
-    stationName: 'Silverdale',
-    crsCode: 'SVR'
+    label: 'Silverdale',
+    value: 'SVR'
   },
   {
-    stationName: 'Singer',
-    crsCode: 'SIN'
+    label: 'Singer',
+    value: 'SIN'
   },
   {
-    stationName: 'Sittingbourne',
-    crsCode: 'SIT'
+    label: 'Sittingbourne',
+    value: 'SIT'
   },
   {
-    stationName: 'Skegness',
-    crsCode: 'SKG'
+    label: 'Skegness',
+    value: 'SKG'
   },
   {
-    stationName: 'Skewen',
-    crsCode: 'SKE'
+    label: 'Skewen',
+    value: 'SKE'
   },
   {
-    stationName: 'Skipton',
-    crsCode: 'SKI'
+    label: 'Skipton',
+    value: 'SKI'
   },
   {
-    stationName: 'Slade Green',
-    crsCode: 'SGR'
+    label: 'Slade Green',
+    value: 'SGR'
   },
   {
-    stationName: 'Slaithwaite',
-    crsCode: 'SWT'
+    label: 'Slaithwaite',
+    value: 'SWT'
   },
   {
-    stationName: 'Slateford',
-    crsCode: 'SLA'
+    label: 'Slateford',
+    value: 'SLA'
   },
   {
-    stationName: 'Sleaford',
-    crsCode: 'SLR'
+    label: 'Sleaford',
+    value: 'SLR'
   },
   {
-    stationName: 'Sleights',
-    crsCode: 'SLH'
+    label: 'Sleights',
+    value: 'SLH'
   },
   {
-    stationName: 'Slough',
-    crsCode: 'SLO'
+    label: 'Slough',
+    value: 'SLO'
   },
   {
-    stationName: 'Small Heath',
-    crsCode: 'SMA'
+    label: 'Small Heath',
+    value: 'SMA'
   },
   {
-    stationName: 'Smallbrook Junction',
-    crsCode: 'SAB'
+    label: 'Smallbrook Junction',
+    value: 'SAB'
   },
   {
-    stationName: 'Smethwick Galton Bridge',
-    crsCode: 'SGB'
+    label: 'Smethwick Galton Bridge',
+    value: 'SGB'
   },
   {
-    stationName: 'Smethwick Rolfe Street',
-    crsCode: 'SMR'
+    label: 'Smethwick Rolfe Street',
+    value: 'SMR'
   },
   {
-    stationName: 'Smithy Bridge',
-    crsCode: 'SMB'
+    label: 'Smithy Bridge',
+    value: 'SMB'
   },
   {
-    stationName: 'Snaith',
-    crsCode: 'SNI'
+    label: 'Snaith',
+    value: 'SNI'
   },
   {
-    stationName: 'Snodland',
-    crsCode: 'SDA'
+    label: 'Snodland',
+    value: 'SDA'
   },
   {
-    stationName: 'Snowdown',
-    crsCode: 'SWO'
+    label: 'Snowdown',
+    value: 'SWO'
   },
   {
-    stationName: 'Sole Street',
-    crsCode: 'SOR'
+    label: 'Sole Street',
+    value: 'SOR'
   },
   {
-    stationName: 'Solihull',
-    crsCode: 'SOL'
+    label: 'Solihull',
+    value: 'SOL'
   },
   {
-    stationName: 'Soham',
-    crsCode: 'SOJ'
+    label: 'Soham',
+    value: 'SOJ'
   },
   {
-    stationName: 'Somerleyton',
-    crsCode: 'SYT'
+    label: 'Somerleyton',
+    value: 'SYT'
   },
   {
-    stationName: 'South Acton',
-    crsCode: 'SAT'
+    label: 'South Acton',
+    value: 'SAT'
   },
   {
-    stationName: 'South Bank',
-    crsCode: 'SBK'
+    label: 'South Bank',
+    value: 'SBK'
   },
   {
-    stationName: 'South Bermondsey',
-    crsCode: 'SBM'
+    label: 'South Bermondsey',
+    value: 'SBM'
   },
   {
-    stationName: 'South Croydon',
-    crsCode: 'SCY'
+    label: 'South Croydon',
+    value: 'SCY'
   },
   {
-    stationName: 'South Elmsall',
-    crsCode: 'SES'
+    label: 'South Elmsall',
+    value: 'SES'
   },
   {
-    stationName: 'South Greenford',
-    crsCode: 'SGN'
+    label: 'South Greenford',
+    value: 'SGN'
   },
   {
-    stationName: 'South Gyle',
-    crsCode: 'SGL'
+    label: 'South Gyle',
+    value: 'SGL'
   },
   {
-    stationName: 'South Hampstead',
-    crsCode: 'SOH'
+    label: 'South Hampstead',
+    value: 'SOH'
   },
   {
-    stationName: 'South Kenton',
-    crsCode: 'SOK'
+    label: 'South Kenton',
+    value: 'SOK'
   },
   {
-    stationName: 'South Merton',
-    crsCode: 'SMO'
+    label: 'South Merton',
+    value: 'SMO'
   },
   {
-    stationName: 'South Milford',
-    crsCode: 'SOM'
+    label: 'South Milford',
+    value: 'SOM'
   },
   {
-    stationName: 'South Ruislip',
-    crsCode: 'SRU'
+    label: 'South Ruislip',
+    value: 'SRU'
   },
   {
-    stationName: 'South Tottenham',
-    crsCode: 'STO'
+    label: 'South Tottenham',
+    value: 'STO'
   },
   {
-    stationName: 'South Wigston',
-    crsCode: 'SWS'
+    label: 'South Wigston',
+    value: 'SWS'
   },
   {
-    stationName: 'South Woodham Ferrers',
-    crsCode: 'SOF'
+    label: 'South Woodham Ferrers',
+    value: 'SOF'
   },
   {
-    stationName: 'Southall',
-    crsCode: 'STL'
+    label: 'Southall',
+    value: 'STL'
   },
   {
-    stationName: 'Southampton Airport Parkway',
-    crsCode: 'SOA'
+    label: 'Southampton Airport Parkway',
+    value: 'SOA'
   },
   {
-    stationName: 'Southampton Central',
-    crsCode: 'SOU'
+    label: 'Southampton Central',
+    value: 'SOU'
   },
   {
-    stationName: 'Southampton Town Quay',
-    crsCode: 'STQ'
+    label: 'Southampton Town Quay',
+    value: 'STQ'
   },
   {
-    stationName: 'Southbourne',
-    crsCode: 'SOB'
+    label: 'Southbourne',
+    value: 'SOB'
   },
   {
-    stationName: 'Southbury',
-    crsCode: 'SBU'
+    label: 'Southbury',
+    value: 'SBU'
   },
   {
-    stationName: 'Southease',
-    crsCode: 'SEE'
+    label: 'Southease',
+    value: 'SEE'
   },
   {
-    stationName: 'Southend Airport',
-    crsCode: 'SIA'
+    label: 'Southend Airport',
+    value: 'SIA'
   },
   {
-    stationName: 'Southend Central',
-    crsCode: 'SOC'
+    label: 'Southend Central',
+    value: 'SOC'
   },
   {
-    stationName: 'Southend East',
-    crsCode: 'SOE'
+    label: 'Southend East',
+    value: 'SOE'
   },
   {
-    stationName: 'Southend Victoria',
-    crsCode: 'SOV'
+    label: 'Southend Victoria',
+    value: 'SOV'
   },
   {
-    stationName: 'Southminster',
-    crsCode: 'SMN'
+    label: 'Southminster',
+    value: 'SMN'
   },
   {
-    stationName: 'Southport',
-    crsCode: 'SOP'
+    label: 'Southport',
+    value: 'SOP'
   },
   {
-    stationName: 'Southwick',
-    crsCode: 'SWK'
+    label: 'Southwick',
+    value: 'SWK'
   },
   {
-    stationName: 'Sowerby Bridge',
-    crsCode: 'SOW'
+    label: 'Sowerby Bridge',
+    value: 'SOW'
   },
   {
-    stationName: 'Spalding',
-    crsCode: 'SPA'
+    label: 'Spalding',
+    value: 'SPA'
   },
   {
-    stationName: 'Spean Bridge',
-    crsCode: 'SBR'
+    label: 'Spean Bridge',
+    value: 'SBR'
   },
   {
-    stationName: 'Spital',
-    crsCode: 'SPI'
+    label: 'Spital',
+    value: 'SPI'
   },
   {
-    stationName: 'Spondon',
-    crsCode: 'SPO'
+    label: 'Spondon',
+    value: 'SPO'
   },
   {
-    stationName: 'Spooner Row',
-    crsCode: 'SPN'
+    label: 'Spooner Row',
+    value: 'SPN'
   },
   {
-    stationName: 'Spring Road',
-    crsCode: 'SRI'
+    label: 'Spring Road',
+    value: 'SRI'
   },
   {
-    stationName: 'Springburn',
-    crsCode: 'SPR'
+    label: 'Springburn',
+    value: 'SPR'
   },
   {
-    stationName: 'Springfield',
-    crsCode: 'SPF'
+    label: 'Springfield',
+    value: 'SPF'
   },
   {
-    stationName: 'Squires Gate',
-    crsCode: 'SQU'
+    label: 'Squires Gate',
+    value: 'SQU'
   },
   {
-    stationName: 'St Albans',
-    crsCode: 'SAC'
+    label: 'St Albans',
+    value: 'SAC'
   },
   {
-    stationName: 'St Albans Abbey',
-    crsCode: 'SAA'
+    label: 'St Albans Abbey',
+    value: 'SAA'
   },
   {
-    stationName: 'St Andrews Road',
-    crsCode: 'SAR'
+    label: 'St Andrews Road',
+    value: 'SAR'
   },
   {
-    stationName: 'St Annes-On-The-Sea',
-    crsCode: 'SAS'
+    label: 'St Annes-On-The-Sea',
+    value: 'SAS'
   },
   {
-    stationName: 'St Austell',
-    crsCode: 'SAU'
+    label: 'St Austell',
+    value: 'SAU'
   },
   {
-    stationName: 'St Bees',
-    crsCode: 'SBS'
+    label: 'St Bees',
+    value: 'SBS'
   },
   {
-    stationName: 'St Budeaux Ferry Road',
-    crsCode: 'SBF'
+    label: 'St Budeaux Ferry Road',
+    value: 'SBF'
   },
   {
-    stationName: 'St Budeaux Victoria Road',
-    crsCode: 'SBV'
+    label: 'St Budeaux Victoria Road',
+    value: 'SBV'
   },
   {
-    stationName: 'St Columb Road',
-    crsCode: 'SCR'
+    label: 'St Columb Road',
+    value: 'SCR'
   },
   {
-    stationName: 'St Denys',
-    crsCode: 'SDN'
+    label: 'St Denys',
+    value: 'SDN'
   },
   {
-    stationName: 'St Erth',
-    crsCode: 'SER'
+    label: 'St Erth',
+    value: 'SER'
   },
   {
-    stationName: 'St Germans',
-    crsCode: 'SGM'
+    label: 'St Germans',
+    value: 'SGM'
   },
   {
-    stationName: 'St Helens Central',
-    crsCode: 'SNH'
+    label: 'St Helens Central',
+    value: 'SNH'
   },
   {
-    stationName: 'St Helens Junction',
-    crsCode: 'SHJ'
+    label: 'St Helens Junction',
+    value: 'SHJ'
   },
   {
-    stationName: 'St Helier',
-    crsCode: 'SIH'
+    label: 'St Helier',
+    value: 'SIH'
   },
   {
-    stationName: 'St Ives',
-    crsCode: 'SIV'
+    label: 'St Ives',
+    value: 'SIV'
   },
   {
-    stationName: "St James' Park",
-    crsCode: 'SJP'
+    label: "St James' Park",
+    value: 'SJP'
   },
   {
-    stationName: 'St James Street',
-    crsCode: 'SJS'
+    label: 'St James Street',
+    value: 'SJS'
   },
   {
-    stationName: 'St Johns',
-    crsCode: 'SAJ'
+    label: 'St Johns',
+    value: 'SAJ'
   },
   {
-    stationName: 'St Keyne',
-    crsCode: 'SKN'
+    label: 'St Keyne',
+    value: 'SKN'
   },
   {
-    stationName: 'St Leonards Warrior Square',
-    crsCode: 'SLQ'
+    label: 'St Leonards Warrior Square',
+    value: 'SLQ'
   },
   {
-    stationName: 'St Margarets (London)',
-    crsCode: 'SMG'
+    label: 'St Margarets (London)',
+    value: 'SMG'
   },
   {
-    stationName: 'St Margarets (Herts)',
-    crsCode: 'SMT'
+    label: 'St Margarets (Herts)',
+    value: 'SMT'
   },
   {
-    stationName: 'St Mary Cray',
-    crsCode: 'SMY'
+    label: 'St Mary Cray',
+    value: 'SMY'
   },
   {
-    stationName: 'St Michaels',
-    crsCode: 'STM'
+    label: 'St Michaels',
+    value: 'STM'
   },
   {
-    stationName: 'St Neots',
-    crsCode: 'SNO'
+    label: 'St Neots',
+    value: 'SNO'
   },
   {
-    stationName: 'St Peters',
-    crsCode: 'STZ'
+    label: 'St Peters',
+    value: 'STZ'
   },
   {
-    stationName: 'Stadium of Light',
-    crsCode: 'STI'
+    label: 'Stadium of Light',
+    value: 'STI'
   },
   {
-    stationName: 'Stafford',
-    crsCode: 'STA'
+    label: 'Stafford',
+    value: 'STA'
   },
   {
-    stationName: 'Staines',
-    crsCode: 'SNS'
+    label: 'Staines',
+    value: 'SNS'
   },
   {
-    stationName: 'Stallingborough',
-    crsCode: 'SLL'
+    label: 'Stallingborough',
+    value: 'SLL'
   },
   {
-    stationName: 'Stalybridge',
-    crsCode: 'SYB'
+    label: 'Stalybridge',
+    value: 'SYB'
   },
   {
-    stationName: 'Stamford',
-    crsCode: 'SMD'
+    label: 'Stamford',
+    value: 'SMD'
   },
   {
-    stationName: 'Stamford Hill',
-    crsCode: 'SMH'
+    label: 'Stamford Hill',
+    value: 'SMH'
   },
   {
-    stationName: 'Stanford-Le-Hope',
-    crsCode: 'SFO'
+    label: 'Stanford-Le-Hope',
+    value: 'SFO'
   },
   {
-    stationName: 'Stanlow & Thornton',
-    crsCode: 'SNT'
+    label: 'Stanlow & Thornton',
+    value: 'SNT'
   },
   {
-    stationName: 'Stansted Airport',
-    crsCode: 'SSD'
+    label: 'Stansted Airport',
+    value: 'SSD'
   },
   {
-    stationName: 'Stansted Mountfitchet',
-    crsCode: 'SST'
+    label: 'Stansted Mountfitchet',
+    value: 'SST'
   },
   {
-    stationName: 'Staplehurst',
-    crsCode: 'SPU'
+    label: 'Staplehurst',
+    value: 'SPU'
   },
   {
-    stationName: 'Stapleton Road',
-    crsCode: 'SRD'
+    label: 'Stapleton Road',
+    value: 'SRD'
   },
   {
-    stationName: 'Starbeck',
-    crsCode: 'SBE'
+    label: 'Starbeck',
+    value: 'SBE'
   },
   {
-    stationName: 'Starcross',
-    crsCode: 'SCS'
+    label: 'Starcross',
+    value: 'SCS'
   },
   {
-    stationName: 'Staveley',
-    crsCode: 'SVL'
+    label: 'Staveley',
+    value: 'SVL'
   },
   {
-    stationName: 'Stechford',
-    crsCode: 'SCF'
+    label: 'Stechford',
+    value: 'SCF'
   },
   {
-    stationName: 'Steeton & Silsden',
-    crsCode: 'SON'
+    label: 'Steeton & Silsden',
+    value: 'SON'
   },
   {
-    stationName: 'Stepps',
-    crsCode: 'SPS'
+    label: 'Stepps',
+    value: 'SPS'
   },
   {
-    stationName: 'Stevenage',
-    crsCode: 'SVG'
+    label: 'Stevenage',
+    value: 'SVG'
   },
   {
-    stationName: 'Stevenston',
-    crsCode: 'STV'
+    label: 'Stevenston',
+    value: 'STV'
   },
   {
-    stationName: 'Stewartby',
-    crsCode: 'SWR'
+    label: 'Stewartby',
+    value: 'SWR'
   },
   {
-    stationName: 'Stewarton',
-    crsCode: 'STT'
+    label: 'Stewarton',
+    value: 'STT'
   },
   {
-    stationName: 'Stirling',
-    crsCode: 'STG'
+    label: 'Stirling',
+    value: 'STG'
   },
   {
-    stationName: 'Stockport',
-    crsCode: 'SPT'
+    label: 'Stockport',
+    value: 'SPT'
   },
   {
-    stationName: 'Stocksfield',
-    crsCode: 'SKS'
+    label: 'Stocksfield',
+    value: 'SKS'
   },
   {
-    stationName: 'Stocksmoor',
-    crsCode: 'SSM'
+    label: 'Stocksmoor',
+    value: 'SSM'
   },
   {
-    stationName: 'Stockton',
-    crsCode: 'STK'
+    label: 'Stockton',
+    value: 'STK'
   },
   {
-    stationName: 'Stoke Mandeville',
-    crsCode: 'SKM'
+    label: 'Stoke Mandeville',
+    value: 'SKM'
   },
   {
-    stationName: 'Stoke Newington',
-    crsCode: 'SKW'
+    label: 'Stoke Newington',
+    value: 'SKW'
   },
   {
-    stationName: 'Stoke-On-Trent',
-    crsCode: 'SOT'
+    label: 'Stoke-On-Trent',
+    value: 'SOT'
   },
   {
-    stationName: 'Stone',
-    crsCode: 'SNE'
+    label: 'Stone',
+    value: 'SNE'
   },
   {
-    stationName: 'Stone Crossing',
-    crsCode: 'SCG'
+    label: 'Stone Crossing',
+    value: 'SCG'
   },
   {
-    stationName: 'Stonebridge Park',
-    crsCode: 'SBP'
+    label: 'Stonebridge Park',
+    value: 'SBP'
   },
   {
-    stationName: 'Stonegate',
-    crsCode: 'SOG'
+    label: 'Stonegate',
+    value: 'SOG'
   },
   {
-    stationName: 'Stonehaven',
-    crsCode: 'STN'
+    label: 'Stonehaven',
+    value: 'STN'
   },
   {
-    stationName: 'Stonehouse',
-    crsCode: 'SHU'
+    label: 'Stonehouse',
+    value: 'SHU'
   },
   {
-    stationName: 'Stoneleigh',
-    crsCode: 'SNL'
+    label: 'Stoneleigh',
+    value: 'SNL'
   },
   {
-    stationName: 'Stourbridge Junction',
-    crsCode: 'SBJ'
+    label: 'Stourbridge Junction',
+    value: 'SBJ'
   },
   {
-    stationName: 'Stourbridge Town',
-    crsCode: 'SBT'
+    label: 'Stourbridge Town',
+    value: 'SBT'
   },
   {
-    stationName: 'Stow',
-    crsCode: 'SOI'
+    label: 'Stow',
+    value: 'SOI'
   },
   {
-    stationName: 'Stowmarket',
-    crsCode: 'SMK'
+    label: 'Stowmarket',
+    value: 'SMK'
   },
   {
-    stationName: 'Stranraer',
-    crsCode: 'STR'
+    label: 'Stranraer',
+    value: 'STR'
   },
   {
-    stationName: 'Stratford International',
-    crsCode: 'SFA'
+    label: 'Stratford International',
+    value: 'SFA'
   },
   {
-    stationName: 'Stratford (London)',
-    crsCode: 'SRA'
+    label: 'Stratford (London)',
+    value: 'SRA'
   },
   {
-    stationName: 'Stratford-upon-Avon Parkway',
-    crsCode: 'STY'
+    label: 'Stratford-upon-Avon Parkway',
+    value: 'STY'
   },
   {
-    stationName: 'Stratford-upon-Avon',
-    crsCode: 'SAV'
+    label: 'Stratford-upon-Avon',
+    value: 'SAV'
   },
   {
-    stationName: 'Strathcarron',
-    crsCode: 'STC'
+    label: 'Strathcarron',
+    value: 'STC'
   },
   {
-    stationName: 'Strawberry Hill',
-    crsCode: 'STW'
+    label: 'Strawberry Hill',
+    value: 'STW'
   },
   {
-    stationName: 'Streatham Common',
-    crsCode: 'SRC'
+    label: 'Streatham Common',
+    value: 'SRC'
   },
   {
-    stationName: 'Streatham Hill',
-    crsCode: 'SRH'
+    label: 'Streatham Hill',
+    value: 'SRH'
   },
   {
-    stationName: 'Streatham',
-    crsCode: 'STE'
+    label: 'Streatham',
+    value: 'STE'
   },
   {
-    stationName: 'Streethouse',
-    crsCode: 'SHC'
+    label: 'Streethouse',
+    value: 'SHC'
   },
   {
-    stationName: 'Strines',
-    crsCode: 'SRN'
+    label: 'Strines',
+    value: 'SRN'
   },
   {
-    stationName: 'Stromeferry',
-    crsCode: 'STF'
+    label: 'Stromeferry',
+    value: 'STF'
   },
   {
-    stationName: 'Strood',
-    crsCode: 'SOO'
+    label: 'Strood',
+    value: 'SOO'
   },
   {
-    stationName: 'Stroud',
-    crsCode: 'STD'
+    label: 'Stroud',
+    value: 'STD'
   },
   {
-    stationName: 'Sturry',
-    crsCode: 'STU'
+    label: 'Sturry',
+    value: 'STU'
   },
   {
-    stationName: 'Styal',
-    crsCode: 'SYA'
+    label: 'Styal',
+    value: 'SYA'
   },
   {
-    stationName: 'Sudbury & Harrow Road',
-    crsCode: 'SUD'
+    label: 'Sudbury & Harrow Road',
+    value: 'SUD'
   },
   {
-    stationName: 'Sudbury Hill Harrow',
-    crsCode: 'SDH'
+    label: 'Sudbury Hill Harrow',
+    value: 'SDH'
   },
   {
-    stationName: 'Sudbury Suffolk',
-    crsCode: 'SUY'
+    label: 'Sudbury Suffolk',
+    value: 'SUY'
   },
   {
-    stationName: 'Sugar Loaf',
-    crsCode: 'SUG'
+    label: 'Sugar Loaf',
+    value: 'SUG'
   },
   {
-    stationName: 'Summerston',
-    crsCode: 'SUM'
+    label: 'Summerston',
+    value: 'SUM'
   },
   {
-    stationName: 'Sunbury',
-    crsCode: 'SUU'
+    label: 'Sunbury',
+    value: 'SUU'
   },
   {
-    stationName: 'Sunderland',
-    crsCode: 'SUN'
+    label: 'Sunderland',
+    value: 'SUN'
   },
   {
-    stationName: 'Sundridge Park',
-    crsCode: 'SUP'
+    label: 'Sundridge Park',
+    value: 'SUP'
   },
   {
-    stationName: 'Sunningdale',
-    crsCode: 'SNG'
+    label: 'Sunningdale',
+    value: 'SNG'
   },
   {
-    stationName: 'Sunnymeads',
-    crsCode: 'SNY'
+    label: 'Sunnymeads',
+    value: 'SNY'
   },
   {
-    stationName: 'Surbiton',
-    crsCode: 'SUR'
+    label: 'Surbiton',
+    value: 'SUR'
   },
   {
-    stationName: 'Surrey Quays',
-    crsCode: 'SQE'
+    label: 'Surrey Quays',
+    value: 'SQE'
   },
   {
-    stationName: 'Sutton (London)',
-    crsCode: 'SUO'
+    label: 'Sutton (London)',
+    value: 'SUO'
   },
   {
-    stationName: 'Sutton Coldfield',
-    crsCode: 'SUT'
+    label: 'Sutton Coldfield',
+    value: 'SUT'
   },
   {
-    stationName: 'Sutton Common',
-    crsCode: 'SUC'
+    label: 'Sutton Common',
+    value: 'SUC'
   },
   {
-    stationName: 'Sutton Parkway',
-    crsCode: 'SPK'
+    label: 'Sutton Parkway',
+    value: 'SPK'
   },
   {
-    stationName: 'Swale',
-    crsCode: 'SWL'
+    label: 'Swale',
+    value: 'SWL'
   },
   {
-    stationName: 'Swanley',
-    crsCode: 'SAY'
+    label: 'Swanley',
+    value: 'SAY'
   },
   {
-    stationName: 'Swanscombe- George & Dragon',
-    crsCode: 'SWM'
+    label: 'Swanscombe- George & Dragon',
+    value: 'SWM'
   },
   {
-    stationName: 'Swansea',
-    crsCode: 'SWA'
+    label: 'Swansea',
+    value: 'SWA'
   },
   {
-    stationName: 'Swanwick',
-    crsCode: 'SNW'
+    label: 'Swanwick',
+    value: 'SNW'
   },
   {
-    stationName: 'Sway',
-    crsCode: 'SWY'
+    label: 'Sway',
+    value: 'SWY'
   },
   {
-    stationName: 'Swaythling',
-    crsCode: 'SWG'
+    label: 'Swaythling',
+    value: 'SWG'
   },
   {
-    stationName: 'Swinderby',
-    crsCode: 'SWD'
+    label: 'Swinderby',
+    value: 'SWD'
   },
   {
-    stationName: 'Swindon',
-    crsCode: 'SWI'
+    label: 'Swindon',
+    value: 'SWI'
   },
   {
-    stationName: 'Swineshead',
-    crsCode: 'SWE'
+    label: 'Swineshead',
+    value: 'SWE'
   },
   {
-    stationName: 'Swinton (Manchester)',
-    crsCode: 'SNN'
+    label: 'Swinton (Manchester)',
+    value: 'SNN'
   },
   {
-    stationName: 'Swinton (South Yorks)',
-    crsCode: 'SWN'
+    label: 'Swinton (South Yorks)',
+    value: 'SWN'
   },
   {
-    stationName: 'Sydenham Hill',
-    crsCode: 'SYH'
+    label: 'Sydenham Hill',
+    value: 'SYH'
   },
   {
-    stationName: 'Sydenham',
-    crsCode: 'SYD'
+    label: 'Sydenham',
+    value: 'SYD'
   },
   {
-    stationName: 'Syon Lane',
-    crsCode: 'SYL'
+    label: 'Syon Lane',
+    value: 'SYL'
   },
   {
-    stationName: 'Syston',
-    crsCode: 'SYS'
+    label: 'Syston',
+    value: 'SYS'
   },
   {
-    stationName: 'Tackley',
-    crsCode: 'TAC'
+    label: 'Tackley',
+    value: 'TAC'
   },
   {
-    stationName: 'Tadworth',
-    crsCode: 'TAD'
+    label: 'Tadworth',
+    value: 'TAD'
   },
   {
-    stationName: 'Taffs Well',
-    crsCode: 'TAF'
+    label: 'Taffs Well',
+    value: 'TAF'
   },
   {
-    stationName: 'Tain',
-    crsCode: 'TAI'
+    label: 'Tain',
+    value: 'TAI'
   },
   {
-    stationName: 'Talsarnau',
-    crsCode: 'TAL'
+    label: 'Talsarnau',
+    value: 'TAL'
   },
   {
-    stationName: 'Talybont',
-    crsCode: 'TLB'
+    label: 'Talybont',
+    value: 'TLB'
   },
   {
-    stationName: 'Tal-Y-Cafn',
-    crsCode: 'TLC'
+    label: 'Tal-Y-Cafn',
+    value: 'TLC'
   },
   {
-    stationName: 'Tame Bridge Parkway',
-    crsCode: 'TAB'
+    label: 'Tame Bridge Parkway',
+    value: 'TAB'
   },
   {
-    stationName: 'Tamworth',
-    crsCode: 'TAM'
+    label: 'Tamworth',
+    value: 'TAM'
   },
   {
-    stationName: 'Tan-Y-Bwlch',
-    crsCode: 'TYB'
+    label: 'Tan-Y-Bwlch',
+    value: 'TYB'
   },
   {
-    stationName: 'Taplow',
-    crsCode: 'TAP'
+    label: 'Taplow',
+    value: 'TAP'
   },
   {
-    stationName: 'Tattenham Corner',
-    crsCode: 'TAT'
+    label: 'Tattenham Corner',
+    value: 'TAT'
   },
   {
-    stationName: 'Taunton',
-    crsCode: 'TAU'
+    label: 'Taunton',
+    value: 'TAU'
   },
   {
-    stationName: 'Taynuilt',
-    crsCode: 'TAY'
+    label: 'Taynuilt',
+    value: 'TAY'
   },
   {
-    stationName: 'Teddington',
-    crsCode: 'TED'
+    label: 'Teddington',
+    value: 'TED'
   },
   {
-    stationName: 'Teesside Airport',
-    crsCode: 'TEA'
+    label: 'Teesside Airport',
+    value: 'TEA'
   },
   {
-    stationName: 'Teignmouth',
-    crsCode: 'TGM'
+    label: 'Teignmouth',
+    value: 'TGM'
   },
   {
-    stationName: 'Telford Central',
-    crsCode: 'TFC'
+    label: 'Telford Central',
+    value: 'TFC'
   },
   {
-    stationName: 'Templecombe',
-    crsCode: 'TMC'
+    label: 'Templecombe',
+    value: 'TMC'
   },
   {
-    stationName: 'Tenby',
-    crsCode: 'TEN'
+    label: 'Tenby',
+    value: 'TEN'
   },
   {
-    stationName: 'Teynham',
-    crsCode: 'TEY'
+    label: 'Teynham',
+    value: 'TEY'
   },
   {
-    stationName: 'Thames Ditton',
-    crsCode: 'THD'
+    label: 'Thames Ditton',
+    value: 'THD'
   },
   {
-    stationName: 'Thanet Parkway',
-    crsCode: 'THP'
+    label: 'Thanet Parkway',
+    value: 'THP'
   },
   {
-    stationName: 'Thatcham',
-    crsCode: 'THA'
+    label: 'Thatcham',
+    value: 'THA'
   },
   {
-    stationName: 'Thatto Heath',
-    crsCode: 'THH'
+    label: 'Thatto Heath',
+    value: 'THH'
   },
   {
-    stationName: 'The Hawthorns',
-    crsCode: 'THW'
+    label: 'The Hawthorns',
+    value: 'THW'
   },
   {
-    stationName: 'The Lakes',
-    crsCode: 'TLK'
+    label: 'The Lakes',
+    value: 'TLK'
   },
   {
-    stationName: 'Theale',
-    crsCode: 'THE'
+    label: 'Theale',
+    value: 'THE'
   },
   {
-    stationName: 'Theobalds Grove',
-    crsCode: 'TEO'
+    label: 'Theobalds Grove',
+    value: 'TEO'
   },
   {
-    stationName: 'Thetford',
-    crsCode: 'TTF'
+    label: 'Thetford',
+    value: 'TTF'
   },
   {
-    stationName: 'Thirsk',
-    crsCode: 'THI'
+    label: 'Thirsk',
+    value: 'THI'
   },
   {
-    stationName: 'Thornaby',
-    crsCode: 'TBY'
+    label: 'Thornaby',
+    value: 'TBY'
   },
   {
-    stationName: 'Thorne North',
-    crsCode: 'TNN'
+    label: 'Thorne North',
+    value: 'TNN'
   },
   {
-    stationName: 'Thorne South',
-    crsCode: 'TNS'
+    label: 'Thorne South',
+    value: 'TNS'
   },
   {
-    stationName: 'Thornford',
-    crsCode: 'THO'
+    label: 'Thornford',
+    value: 'THO'
   },
   {
-    stationName: 'Thornliebank',
-    crsCode: 'THB'
+    label: 'Thornliebank',
+    value: 'THB'
   },
   {
-    stationName: 'Thornton Abbey',
-    crsCode: 'TNA'
+    label: 'Thornton Abbey',
+    value: 'TNA'
   },
   {
-    stationName: 'Thornton Heath',
-    crsCode: 'TTH'
+    label: 'Thornton Heath',
+    value: 'TTH'
   },
   {
-    stationName: 'Thorntonhall',
-    crsCode: 'THT'
+    label: 'Thorntonhall',
+    value: 'THT'
   },
   {
-    stationName: 'Thorpe Bay',
-    crsCode: 'TPB'
+    label: 'Thorpe Bay',
+    value: 'TPB'
   },
   {
-    stationName: 'Thorpe Culvert',
-    crsCode: 'TPC'
+    label: 'Thorpe Culvert',
+    value: 'TPC'
   },
   {
-    stationName: 'Thorpe-Le-Soken',
-    crsCode: 'TLS'
+    label: 'Thorpe-Le-Soken',
+    value: 'TLS'
   },
   {
-    stationName: 'Three Bridges',
-    crsCode: 'TBD'
+    label: 'Three Bridges',
+    value: 'TBD'
   },
   {
-    stationName: 'Three Oaks',
-    crsCode: 'TOK'
+    label: 'Three Oaks',
+    value: 'TOK'
   },
   {
-    stationName: 'Thurgarton',
-    crsCode: 'THU'
+    label: 'Thurgarton',
+    value: 'THU'
   },
   {
-    stationName: 'Thurnscoe',
-    crsCode: 'THC'
+    label: 'Thurnscoe',
+    value: 'THC'
   },
   {
-    stationName: 'Thurso',
-    crsCode: 'THS'
+    label: 'Thurso',
+    value: 'THS'
   },
   {
-    stationName: 'Thurston',
-    crsCode: 'TRS'
+    label: 'Thurston',
+    value: 'TRS'
   },
   {
-    stationName: 'Tilbury Riverside',
-    crsCode: 'TBR'
+    label: 'Tilbury Riverside',
+    value: 'TBR'
   },
   {
-    stationName: 'Tilbury Town',
-    crsCode: 'TIL'
+    label: 'Tilbury Town',
+    value: 'TIL'
   },
   {
-    stationName: 'Tile Hill',
-    crsCode: 'THL'
+    label: 'Tile Hill',
+    value: 'THL'
   },
   {
-    stationName: 'Tilehurst',
-    crsCode: 'TLH'
+    label: 'Tilehurst',
+    value: 'TLH'
   },
   {
-    stationName: 'Tipton',
-    crsCode: 'TIP'
+    label: 'Tipton',
+    value: 'TIP'
   },
   {
-    stationName: 'Tir-Phil',
-    crsCode: 'TIR'
+    label: 'Tir-Phil',
+    value: 'TIR'
   },
   {
-    stationName: 'Tisbury',
-    crsCode: 'TIS'
+    label: 'Tisbury',
+    value: 'TIS'
   },
   {
-    stationName: 'Tiverton Parkway',
-    crsCode: 'TVP'
+    label: 'Tiverton Parkway',
+    value: 'TVP'
   },
   {
-    stationName: 'Todmorden',
-    crsCode: 'TOD'
+    label: 'Todmorden',
+    value: 'TOD'
   },
   {
-    stationName: 'Tolworth',
-    crsCode: 'TOL'
+    label: 'Tolworth',
+    value: 'TOL'
   },
   {
-    stationName: 'Ton Pentre',
-    crsCode: 'TPN'
+    label: 'Ton Pentre',
+    value: 'TPN'
   },
   {
-    stationName: 'Tonbridge',
-    crsCode: 'TON'
+    label: 'Tonbridge',
+    value: 'TON'
   },
   {
-    stationName: 'Tondu',
-    crsCode: 'TDU'
+    label: 'Tondu',
+    value: 'TDU'
   },
   {
-    stationName: 'Tonfanau',
-    crsCode: 'TNF'
+    label: 'Tonfanau',
+    value: 'TNF'
   },
   {
-    stationName: 'Tonypandy',
-    crsCode: 'TNP'
+    label: 'Tonypandy',
+    value: 'TNP'
   },
   {
-    stationName: 'Tooting',
-    crsCode: 'TOO'
+    label: 'Tooting',
+    value: 'TOO'
   },
   {
-    stationName: 'Topsham',
-    crsCode: 'TOP'
+    label: 'Topsham',
+    value: 'TOP'
   },
   {
-    stationName: 'Torquay',
-    crsCode: 'TQY'
+    label: 'Torquay',
+    value: 'TQY'
   },
   {
-    stationName: 'Torre',
-    crsCode: 'TRR'
+    label: 'Torre',
+    value: 'TRR'
   },
   {
-    stationName: 'Totnes',
-    crsCode: 'TOT'
+    label: 'Totnes',
+    value: 'TOT'
   },
   {
-    stationName: 'Tottenham Court Road',
-    crsCode: 'TCR'
+    label: 'Tottenham Court Road',
+    value: 'TCR'
   },
   {
-    stationName: 'Tottenham Hale',
-    crsCode: 'TOM'
+    label: 'Tottenham Hale',
+    value: 'TOM'
   },
   {
-    stationName: 'Totton',
-    crsCode: 'TTN'
+    label: 'Totton',
+    value: 'TTN'
   },
   {
-    stationName: 'Town Green',
-    crsCode: 'TWN'
+    label: 'Town Green',
+    value: 'TWN'
   },
   {
-    stationName: 'Trafford Park',
-    crsCode: 'TRA'
+    label: 'Trafford Park',
+    value: 'TRA'
   },
   {
-    stationName: 'Trefforest Estate',
-    crsCode: 'TRE'
+    label: 'Trefforest Estate',
+    value: 'TRE'
   },
   {
-    stationName: 'Trefforest',
-    crsCode: 'TRF'
+    label: 'Trefforest',
+    value: 'TRF'
   },
   {
-    stationName: 'Trehafod',
-    crsCode: 'TRH'
+    label: 'Trehafod',
+    value: 'TRH'
   },
   {
-    stationName: 'Treherbert',
-    crsCode: 'TRB'
+    label: 'Treherbert',
+    value: 'TRB'
   },
   {
-    stationName: 'Treorchy',
-    crsCode: 'TRY'
+    label: 'Treorchy',
+    value: 'TRY'
   },
   {
-    stationName: 'Trimley',
-    crsCode: 'TRM'
+    label: 'Trimley',
+    value: 'TRM'
   },
   {
-    stationName: 'Tring',
-    crsCode: 'TRI'
+    label: 'Tring',
+    value: 'TRI'
   },
   {
-    stationName: 'Troed-Y-Rhiw',
-    crsCode: 'TRD'
+    label: 'Troed-Y-Rhiw',
+    value: 'TRD'
   },
   {
-    stationName: 'Troon',
-    crsCode: 'TRN'
+    label: 'Troon',
+    value: 'TRN'
   },
   {
-    stationName: 'Trowbridge',
-    crsCode: 'TRO'
+    label: 'Trowbridge',
+    value: 'TRO'
   },
   {
-    stationName: 'Truro',
-    crsCode: 'TRU'
+    label: 'Truro',
+    value: 'TRU'
   },
   {
-    stationName: 'Tulloch',
-    crsCode: 'TUL'
+    label: 'Tulloch',
+    value: 'TUL'
   },
   {
-    stationName: 'Tulse Hill',
-    crsCode: 'TUH'
+    label: 'Tulse Hill',
+    value: 'TUH'
   },
   {
-    stationName: 'Tunbridge Wells',
-    crsCode: 'TBW'
+    label: 'Tunbridge Wells',
+    value: 'TBW'
   },
   {
-    stationName: 'Turkey Street',
-    crsCode: 'TUR'
+    label: 'Turkey Street',
+    value: 'TUR'
   },
   {
-    stationName: 'Tutbury & Hatton',
-    crsCode: 'TUT'
+    label: 'Tutbury & Hatton',
+    value: 'TUT'
   },
   {
-    stationName: 'Tweedbank',
-    crsCode: 'TWB'
+    label: 'Tweedbank',
+    value: 'TWB'
   },
   {
-    stationName: 'Twickenham',
-    crsCode: 'TWI'
+    label: 'Twickenham',
+    value: 'TWI'
   },
   {
-    stationName: 'Twyford',
-    crsCode: 'TWY'
+    label: 'Twyford',
+    value: 'TWY'
   },
   {
-    stationName: 'Ty Croes',
-    crsCode: 'TYC'
+    label: 'Ty Croes',
+    value: 'TYC'
   },
   {
-    stationName: 'Ty Glas',
-    crsCode: 'TGS'
+    label: 'Ty Glas',
+    value: 'TGS'
   },
   {
-    stationName: 'Tygwyn',
-    crsCode: 'TYG'
+    label: 'Tygwyn',
+    value: 'TYG'
   },
   {
-    stationName: 'Tyndrum Lower',
-    crsCode: 'TYL'
+    label: 'Tyndrum Lower',
+    value: 'TYL'
   },
   {
-    stationName: 'Tyseley',
-    crsCode: 'TYS'
+    label: 'Tyseley',
+    value: 'TYS'
   },
   {
-    stationName: 'Tywyn',
-    crsCode: 'TYW'
+    label: 'Tywyn',
+    value: 'TYW'
   },
   {
-    stationName: 'Uckfield',
-    crsCode: 'UCK'
+    label: 'Uckfield',
+    value: 'UCK'
   },
   {
-    stationName: 'Uddingston',
-    crsCode: 'UDD'
+    label: 'Uddingston',
+    value: 'UDD'
   },
   {
-    stationName: 'Ulceby',
-    crsCode: 'ULC'
+    label: 'Ulceby',
+    value: 'ULC'
   },
   {
-    stationName: 'Ulleskelf',
-    crsCode: 'ULL'
+    label: 'Ulleskelf',
+    value: 'ULL'
   },
   {
-    stationName: 'Ulverston',
-    crsCode: 'ULV'
+    label: 'Ulverston',
+    value: 'ULV'
   },
   {
-    stationName: 'Umberleigh',
-    crsCode: 'UMB'
+    label: 'Umberleigh',
+    value: 'UMB'
   },
   {
-    stationName: 'University (Birmingham)',
-    crsCode: 'UNI'
+    label: 'University (Birmingham)',
+    value: 'UNI'
   },
   {
-    stationName: 'Uphall',
-    crsCode: 'UHA'
+    label: 'Uphall',
+    value: 'UHA'
   },
   {
-    stationName: 'Upholland',
-    crsCode: 'UPL'
+    label: 'Upholland',
+    value: 'UPL'
   },
   {
-    stationName: 'Upminster',
-    crsCode: 'UPM'
+    label: 'Upminster',
+    value: 'UPM'
   },
   {
-    stationName: 'Upper Halliford',
-    crsCode: 'UPH'
+    label: 'Upper Halliford',
+    value: 'UPH'
   },
   {
-    stationName: 'Upper Holloway',
-    crsCode: 'UHL'
+    label: 'Upper Holloway',
+    value: 'UHL'
   },
   {
-    stationName: 'Upper Tyndrum',
-    crsCode: 'UTY'
+    label: 'Upper Tyndrum',
+    value: 'UTY'
   },
   {
-    stationName: 'Upper Warlingham',
-    crsCode: 'UWL'
+    label: 'Upper Warlingham',
+    value: 'UWL'
   },
   {
-    stationName: 'Upton',
-    crsCode: 'UPT'
+    label: 'Upton',
+    value: 'UPT'
   },
   {
-    stationName: 'Upwey',
-    crsCode: 'UPW'
+    label: 'Upwey',
+    value: 'UPW'
   },
   {
-    stationName: 'Urmston',
-    crsCode: 'URM'
+    label: 'Urmston',
+    value: 'URM'
   },
   {
-    stationName: 'Uttoxeter',
-    crsCode: 'UTT'
+    label: 'Uttoxeter',
+    value: 'UTT'
   },
   {
-    stationName: 'Valley',
-    crsCode: 'VAL'
+    label: 'Valley',
+    value: 'VAL'
   },
   {
-    stationName: 'Vauxhall',
-    crsCode: 'VXH'
+    label: 'Vauxhall',
+    value: 'VXH'
   },
   {
-    stationName: 'Virginia Water',
-    crsCode: 'VIR'
+    label: 'Virginia Water',
+    value: 'VIR'
   },
   {
-    stationName: 'Waddon',
-    crsCode: 'WDO'
+    label: 'Waddon',
+    value: 'WDO'
   },
   {
-    stationName: 'Wadhurst',
-    crsCode: 'WAD'
+    label: 'Wadhurst',
+    value: 'WAD'
   },
   {
-    stationName: 'Wainfleet',
-    crsCode: 'WFL'
+    label: 'Wainfleet',
+    value: 'WFL'
   },
   {
-    stationName: 'Wakefield Kirkgate',
-    crsCode: 'WKK'
+    label: 'Wakefield Kirkgate',
+    value: 'WKK'
   },
   {
-    stationName: 'Wakefield Westgate',
-    crsCode: 'WKF'
+    label: 'Wakefield Westgate',
+    value: 'WKF'
   },
   {
-    stationName: 'Walkden',
-    crsCode: 'WKD'
+    label: 'Walkden',
+    value: 'WKD'
   },
   {
-    stationName: 'Wallasey Grove Road',
-    crsCode: 'WLG'
+    label: 'Wallasey Grove Road',
+    value: 'WLG'
   },
   {
-    stationName: 'Wallasey Village',
-    crsCode: 'WLV'
+    label: 'Wallasey Village',
+    value: 'WLV'
   },
   {
-    stationName: 'Wallington',
-    crsCode: 'WLT'
+    label: 'Wallington',
+    value: 'WLT'
   },
   {
-    stationName: 'Wallyford',
-    crsCode: 'WAF'
+    label: 'Wallyford',
+    value: 'WAF'
   },
   {
-    stationName: 'Walmer',
-    crsCode: 'WAM'
+    label: 'Walmer',
+    value: 'WAM'
   },
   {
-    stationName: 'Walsall',
-    crsCode: 'WSL'
+    label: 'Walsall',
+    value: 'WSL'
   },
   {
-    stationName: 'Walsden',
-    crsCode: 'WDN'
+    label: 'Walsden',
+    value: 'WDN'
   },
   {
-    stationName: 'Waltham Cross',
-    crsCode: 'WLC'
+    label: 'Waltham Cross',
+    value: 'WLC'
   },
   {
-    stationName: 'Walthamstow Central',
-    crsCode: 'WHC'
+    label: 'Walthamstow Central',
+    value: 'WHC'
   },
   {
-    stationName: 'Walthamstow Queens Road',
-    crsCode: 'WMW'
+    label: 'Walthamstow Queens Road',
+    value: 'WMW'
   },
   {
-    stationName: 'Walton (Merseyside)',
-    crsCode: 'WAO'
+    label: 'Walton (Merseyside)',
+    value: 'WAO'
   },
   {
-    stationName: 'Walton-On-Thames',
-    crsCode: 'WAL'
+    label: 'Walton-On-Thames',
+    value: 'WAL'
   },
   {
-    stationName: 'Walton-On-The-Naze',
-    crsCode: 'WON'
+    label: 'Walton-On-The-Naze',
+    value: 'WON'
   },
   {
-    stationName: 'Wanborough',
-    crsCode: 'WAN'
+    label: 'Wanborough',
+    value: 'WAN'
   },
   {
-    stationName: 'Wandsworth Common',
-    crsCode: 'WSW'
+    label: 'Wandsworth Common',
+    value: 'WSW'
   },
   {
-    stationName: 'Wandsworth Road',
-    crsCode: 'WWR'
+    label: 'Wandsworth Road',
+    value: 'WWR'
   },
   {
-    stationName: 'Wandsworth Town',
-    crsCode: 'WNT'
+    label: 'Wandsworth Town',
+    value: 'WNT'
   },
   {
-    stationName: 'Wanstead Park',
-    crsCode: 'WNP'
+    label: 'Wanstead Park',
+    value: 'WNP'
   },
   {
-    stationName: 'Wapping',
-    crsCode: 'WPE'
+    label: 'Wapping',
+    value: 'WPE'
   },
   {
-    stationName: 'Warblington',
-    crsCode: 'WBL'
+    label: 'Warblington',
+    value: 'WBL'
   },
   {
-    stationName: 'Ware',
-    crsCode: 'WAR'
+    label: 'Ware',
+    value: 'WAR'
   },
   {
-    stationName: 'Wareham',
-    crsCode: 'WRM'
+    label: 'Wareham',
+    value: 'WRM'
   },
   {
-    stationName: 'Wargrave',
-    crsCode: 'WGV'
+    label: 'Wargrave',
+    value: 'WGV'
   },
   {
-    stationName: 'Warminster',
-    crsCode: 'WMN'
+    label: 'Warminster',
+    value: 'WMN'
   },
   {
-    stationName: 'Warnham',
-    crsCode: 'WNH'
+    label: 'Warnham',
+    value: 'WNH'
   },
   {
-    stationName: 'Warrington Bank Quay',
-    crsCode: 'WBQ'
+    label: 'Warrington Bank Quay',
+    value: 'WBQ'
   },
   {
-    stationName: 'Warrington Central',
-    crsCode: 'WAC'
+    label: 'Warrington Central',
+    value: 'WAC'
   },
   {
-    stationName: 'Warrington West',
-    crsCode: 'WAW'
+    label: 'Warrington West',
+    value: 'WAW'
   },
   {
-    stationName: 'Warwick',
-    crsCode: 'WRW'
+    label: 'Warwick',
+    value: 'WRW'
   },
   {
-    stationName: 'Warwick Parkway',
-    crsCode: 'WRP'
+    label: 'Warwick Parkway',
+    value: 'WRP'
   },
   {
-    stationName: 'Water Orton',
-    crsCode: 'WTO'
+    label: 'Water Orton',
+    value: 'WTO'
   },
   {
-    stationName: 'Waterbeach',
-    crsCode: 'WBC'
+    label: 'Waterbeach',
+    value: 'WBC'
   },
   {
-    stationName: 'Wateringbury',
-    crsCode: 'WTR'
+    label: 'Wateringbury',
+    value: 'WTR'
   },
   {
-    stationName: 'Waterloo (Merseyside)',
-    crsCode: 'WLO'
+    label: 'Waterloo (Merseyside)',
+    value: 'WLO'
   },
   {
-    stationName: 'Watford High Street',
-    crsCode: 'WFH'
+    label: 'Watford High Street',
+    value: 'WFH'
   },
   {
-    stationName: 'Watford Junction',
-    crsCode: 'WFJ'
+    label: 'Watford Junction',
+    value: 'WFJ'
   },
   {
-    stationName: 'Watford North',
-    crsCode: 'WFN'
+    label: 'Watford North',
+    value: 'WFN'
   },
   {
-    stationName: 'Watlington',
-    crsCode: 'WTG'
+    label: 'Watlington',
+    value: 'WTG'
   },
   {
-    stationName: 'Watton-At-Stone',
-    crsCode: 'WAS'
+    label: 'Watton-At-Stone',
+    value: 'WAS'
   },
   {
-    stationName: 'Waun-Gron Park',
-    crsCode: 'WNG'
+    label: 'Waun-Gron Park',
+    value: 'WNG'
   },
   {
-    stationName: 'Wavertree Technology Park',
-    crsCode: 'WAV'
+    label: 'Wavertree Technology Park',
+    value: 'WAV'
   },
   {
-    stationName: 'Wedgwood',
-    crsCode: 'WED'
+    label: 'Wedgwood',
+    value: 'WED'
   },
   {
-    stationName: 'Wedgwood Lane',
-    crsCode: 'WER'
+    label: 'Wedgwood Lane',
+    value: 'WER'
   },
   {
-    stationName: 'Weeley',
-    crsCode: 'WEE'
+    label: 'Weeley',
+    value: 'WEE'
   },
   {
-    stationName: 'Weeton',
-    crsCode: 'WET'
+    label: 'Weeton',
+    value: 'WET'
   },
   {
-    stationName: 'Welham Green',
-    crsCode: 'WMG'
+    label: 'Welham Green',
+    value: 'WMG'
   },
   {
-    stationName: 'Welling',
-    crsCode: 'WLI'
+    label: 'Welling',
+    value: 'WLI'
   },
   {
-    stationName: 'Wellingborough',
-    crsCode: 'WEL'
+    label: 'Wellingborough',
+    value: 'WEL'
   },
   {
-    stationName: 'Wellington (Shropshire)',
-    crsCode: 'WLN'
+    label: 'Wellington (Shropshire)',
+    value: 'WLN'
   },
   {
-    stationName: 'Wells Next The Sea',
-    crsCode: 'WEN'
+    label: 'Wells Next The Sea',
+    value: 'WEN'
   },
   {
-    stationName: 'Welshpool',
-    crsCode: 'WLP'
+    label: 'Welshpool',
+    value: 'WLP'
   },
   {
-    stationName: 'Welwyn Garden City',
-    crsCode: 'WGC'
+    label: 'Welwyn Garden City',
+    value: 'WGC'
   },
   {
-    stationName: 'Welwyn North',
-    crsCode: 'WLW'
+    label: 'Welwyn North',
+    value: 'WLW'
   },
   {
-    stationName: 'Wem',
-    crsCode: 'WEM'
+    label: 'Wem',
+    value: 'WEM'
   },
   {
-    stationName: 'Wembley Central',
-    crsCode: 'WMB'
+    label: 'Wembley Central',
+    value: 'WMB'
   },
   {
-    stationName: 'Wembley Stadium',
-    crsCode: 'WCX'
+    label: 'Wembley Stadium',
+    value: 'WCX'
   },
   {
-    stationName: 'Wemyss Bay',
-    crsCode: 'WMS'
+    label: 'Wemyss Bay',
+    value: 'WMS'
   },
   {
-    stationName: 'Wendover',
-    crsCode: 'WND'
+    label: 'Wendover',
+    value: 'WND'
   },
   {
-    stationName: 'Wennington',
-    crsCode: 'WNN'
+    label: 'Wennington',
+    value: 'WNN'
   },
   {
-    stationName: 'West Allerton',
-    crsCode: 'WSA'
+    label: 'West Allerton',
+    value: 'WSA'
   },
   {
-    stationName: 'West Brompton',
-    crsCode: 'WBP'
+    label: 'West Brompton',
+    value: 'WBP'
   },
   {
-    stationName: 'West Byfleet',
-    crsCode: 'WBY'
+    label: 'West Byfleet',
+    value: 'WBY'
   },
   {
-    stationName: 'West Calder',
-    crsCode: 'WCL'
+    label: 'West Calder',
+    value: 'WCL'
   },
   {
-    stationName: 'West Croydon',
-    crsCode: 'WCY'
+    label: 'West Croydon',
+    value: 'WCY'
   },
   {
-    stationName: 'West Drayton',
-    crsCode: 'WDT'
+    label: 'West Drayton',
+    value: 'WDT'
   },
   {
-    stationName: 'West Dulwich',
-    crsCode: 'WDU'
+    label: 'West Dulwich',
+    value: 'WDU'
   },
   {
-    stationName: 'West Ealing',
-    crsCode: 'WEA'
+    label: 'West Ealing',
+    value: 'WEA'
   },
   {
-    stationName: 'West Ham',
-    crsCode: 'WEH'
+    label: 'West Ham',
+    value: 'WEH'
   },
   {
-    stationName: 'West Hampstead',
-    crsCode: 'WHD'
+    label: 'West Hampstead',
+    value: 'WHD'
   },
   {
-    stationName: 'West Hampstead Thameslink',
-    crsCode: 'WHP'
+    label: 'West Hampstead Thameslink',
+    value: 'WHP'
   },
   {
-    stationName: 'West Horndon',
-    crsCode: 'WHR'
+    label: 'West Horndon',
+    value: 'WHR'
   },
   {
-    stationName: 'West Kilbride',
-    crsCode: 'WKB'
+    label: 'West Kilbride',
+    value: 'WKB'
   },
   {
-    stationName: 'West Kirby',
-    crsCode: 'WKI'
+    label: 'West Kirby',
+    value: 'WKI'
   },
   {
-    stationName: 'West Malling',
-    crsCode: 'WMA'
+    label: 'West Malling',
+    value: 'WMA'
   },
   {
-    stationName: 'West Norwood',
-    crsCode: 'WNW'
+    label: 'West Norwood',
+    value: 'WNW'
   },
   {
-    stationName: 'West Ruislip',
-    crsCode: 'WRU'
+    label: 'West Ruislip',
+    value: 'WRU'
   },
   {
-    stationName: 'West Runton',
-    crsCode: 'WRN'
+    label: 'West Runton',
+    value: 'WRN'
   },
   {
-    stationName: 'West St Leonards',
-    crsCode: 'WLD'
+    label: 'West St Leonards',
+    value: 'WLD'
   },
   {
-    stationName: 'West Sutton',
-    crsCode: 'WSU'
+    label: 'West Sutton',
+    value: 'WSU'
   },
   {
-    stationName: 'West Wickham',
-    crsCode: 'WWI'
+    label: 'West Wickham',
+    value: 'WWI'
   },
   {
-    stationName: 'West Worthing',
-    crsCode: 'WWO'
+    label: 'West Worthing',
+    value: 'WWO'
   },
   {
-    stationName: 'Westbury',
-    crsCode: 'WSB'
+    label: 'Westbury',
+    value: 'WSB'
   },
   {
-    stationName: 'Westcliff',
-    crsCode: 'WCF'
+    label: 'Westcliff',
+    value: 'WCF'
   },
   {
-    stationName: 'Westcombe Park',
-    crsCode: 'WCB'
+    label: 'Westcombe Park',
+    value: 'WCB'
   },
   {
-    stationName: 'Westenhanger',
-    crsCode: 'WHA'
+    label: 'Westenhanger',
+    value: 'WHA'
   },
   {
-    stationName: 'Wester Hailes',
-    crsCode: 'WTA'
+    label: 'Wester Hailes',
+    value: 'WTA'
   },
   {
-    stationName: 'Westerfield',
-    crsCode: 'WFI'
+    label: 'Westerfield',
+    value: 'WFI'
   },
   {
-    stationName: 'Westerton',
-    crsCode: 'WES'
+    label: 'Westerton',
+    value: 'WES'
   },
   {
-    stationName: 'Westgate-On-Sea',
-    crsCode: 'WGA'
+    label: 'Westgate-On-Sea',
+    value: 'WGA'
   },
   {
-    stationName: 'Westhoughton',
-    crsCode: 'WHG'
+    label: 'Westhoughton',
+    value: 'WHG'
   },
   {
-    stationName: 'Weston Milton',
-    crsCode: 'WNM'
+    label: 'Weston Milton',
+    value: 'WNM'
   },
   {
-    stationName: 'Weston-Super-Mare',
-    crsCode: 'WSM'
+    label: 'Weston-Super-Mare',
+    value: 'WSM'
   },
   {
-    stationName: 'Wetheral',
-    crsCode: 'WRL'
+    label: 'Wetheral',
+    value: 'WRL'
   },
   {
-    stationName: 'Weybridge',
-    crsCode: 'WYB'
+    label: 'Weybridge',
+    value: 'WYB'
   },
   {
-    stationName: 'Weymouth',
-    crsCode: 'WEY'
+    label: 'Weymouth',
+    value: 'WEY'
   },
   {
-    stationName: 'Whaley Bridge',
-    crsCode: 'WBR'
+    label: 'Whaley Bridge',
+    value: 'WBR'
   },
   {
-    stationName: 'Whalley',
-    crsCode: 'WHE'
+    label: 'Whalley',
+    value: 'WHE'
   },
   {
-    stationName: 'Whatstandwell',
-    crsCode: 'WTS'
+    label: 'Whatstandwell',
+    value: 'WTS'
   },
   {
-    stationName: 'Whifflet',
-    crsCode: 'WFF'
+    label: 'Whifflet',
+    value: 'WFF'
   },
   {
-    stationName: 'Whimple',
-    crsCode: 'WHM'
+    label: 'Whimple',
+    value: 'WHM'
   },
   {
-    stationName: 'Whinhill',
-    crsCode: 'WNL'
+    label: 'Whinhill',
+    value: 'WNL'
   },
   {
-    stationName: 'Whiston',
-    crsCode: 'WHN'
+    label: 'Whiston',
+    value: 'WHN'
   },
   {
-    stationName: 'Whitby',
-    crsCode: 'WTB'
+    label: 'Whitby',
+    value: 'WTB'
   },
   {
-    stationName: 'Whitchurch (Cardiff)',
-    crsCode: 'WHT'
+    label: 'Whitchurch (Cardiff)',
+    value: 'WHT'
   },
   {
-    stationName: 'Whitchurch (Hampshire)',
-    crsCode: 'WCH'
+    label: 'Whitchurch (Hampshire)',
+    value: 'WCH'
   },
   {
-    stationName: 'Whitchurch (Shropshire)',
-    crsCode: 'WTC'
+    label: 'Whitchurch (Shropshire)',
+    value: 'WTC'
   },
   {
-    stationName: 'White Hart Lane',
-    crsCode: 'WHL'
+    label: 'White Hart Lane',
+    value: 'WHL'
   },
   {
-    stationName: 'White Notley',
-    crsCode: 'WNY'
+    label: 'White Notley',
+    value: 'WNY'
   },
   {
-    stationName: 'Whitechapel',
-    crsCode: 'ZLW'
+    label: 'Whitechapel',
+    value: 'ZLW'
   },
   {
-    stationName: 'Whitecraigs',
-    crsCode: 'WCR'
+    label: 'Whitecraigs',
+    value: 'WCR'
   },
   {
-    stationName: 'Whitehaven',
-    crsCode: 'WTH'
+    label: 'Whitehaven',
+    value: 'WTH'
   },
   {
-    stationName: 'Whitland',
-    crsCode: 'WTL'
+    label: 'Whitland',
+    value: 'WTL'
   },
   {
-    stationName: 'Whitley Bridge',
-    crsCode: 'WBD'
+    label: 'Whitley Bridge',
+    value: 'WBD'
   },
   {
-    stationName: 'Whitlocks End',
-    crsCode: 'WTE'
+    label: 'Whitlocks End',
+    value: 'WTE'
   },
   {
-    stationName: 'Whitstable',
-    crsCode: 'WHI'
+    label: 'Whitstable',
+    value: 'WHI'
   },
   {
-    stationName: 'Whittlesea',
-    crsCode: 'WLE'
+    label: 'Whittlesea',
+    value: 'WLE'
   },
   {
-    stationName: 'Whittlesford Parkway',
-    crsCode: 'WLF'
+    label: 'Whittlesford Parkway',
+    value: 'WLF'
   },
   {
-    stationName: 'Whitton',
-    crsCode: 'WTN'
+    label: 'Whitton',
+    value: 'WTN'
   },
   {
-    stationName: 'Whitwell',
-    crsCode: 'WWL'
+    label: 'Whitwell',
+    value: 'WWL'
   },
   {
-    stationName: 'Whyteleafe South',
-    crsCode: 'WHS'
+    label: 'Whyteleafe South',
+    value: 'WHS'
   },
   {
-    stationName: 'Whyteleafe',
-    crsCode: 'WHY'
+    label: 'Whyteleafe',
+    value: 'WHY'
   },
   {
-    stationName: 'Wick',
-    crsCode: 'WCK'
+    label: 'Wick',
+    value: 'WCK'
   },
   {
-    stationName: 'Wickford',
-    crsCode: 'WIC'
+    label: 'Wickford',
+    value: 'WIC'
   },
   {
-    stationName: 'Wickham Market',
-    crsCode: 'WCM'
+    label: 'Wickham Market',
+    value: 'WCM'
   },
   {
-    stationName: 'Widdrington',
-    crsCode: 'WDD'
+    label: 'Widdrington',
+    value: 'WDD'
   },
   {
-    stationName: 'Widnes',
-    crsCode: 'WID'
+    label: 'Widnes',
+    value: 'WID'
   },
   {
-    stationName: 'Widney Manor',
-    crsCode: 'WMR'
+    label: 'Widney Manor',
+    value: 'WMR'
   },
   {
-    stationName: 'Wigan North Western',
-    crsCode: 'WGN'
+    label: 'Wigan North Western',
+    value: 'WGN'
   },
   {
-    stationName: 'Wigan Wallgate',
-    crsCode: 'WGW'
+    label: 'Wigan Wallgate',
+    value: 'WGW'
   },
   {
-    stationName: 'Wigton',
-    crsCode: 'WGT'
+    label: 'Wigton',
+    value: 'WGT'
   },
   {
-    stationName: 'Wildmill',
-    crsCode: 'WMI'
+    label: 'Wildmill',
+    value: 'WMI'
   },
   {
-    stationName: 'Willesden Junction',
-    crsCode: 'WIJ'
+    label: 'Willesden Junction',
+    value: 'WIJ'
   },
   {
-    stationName: 'Williamwood',
-    crsCode: 'WLM'
+    label: 'Williamwood',
+    value: 'WLM'
   },
   {
-    stationName: 'Willington',
-    crsCode: 'WIL'
+    label: 'Willington',
+    value: 'WIL'
   },
   {
-    stationName: 'Wilmcote',
-    crsCode: 'WMC'
+    label: 'Wilmcote',
+    value: 'WMC'
   },
   {
-    stationName: 'Wilmslow',
-    crsCode: 'WML'
+    label: 'Wilmslow',
+    value: 'WML'
   },
   {
-    stationName: 'Wilnecote',
-    crsCode: 'WNE'
+    label: 'Wilnecote',
+    value: 'WNE'
   },
   {
-    stationName: 'Wimbledon Chase',
-    crsCode: 'WBO'
+    label: 'Wimbledon Chase',
+    value: 'WBO'
   },
   {
-    stationName: 'Wimbledon',
-    crsCode: 'WIM'
+    label: 'Wimbledon',
+    value: 'WIM'
   },
   {
-    stationName: 'Winchelsea',
-    crsCode: 'WSE'
+    label: 'Winchelsea',
+    value: 'WSE'
   },
   {
-    stationName: 'Winchester',
-    crsCode: 'WIN'
+    label: 'Winchester',
+    value: 'WIN'
   },
   {
-    stationName: 'Winchfield',
-    crsCode: 'WNF'
+    label: 'Winchfield',
+    value: 'WNF'
   },
   {
-    stationName: 'Winchmore Hill',
-    crsCode: 'WIH'
+    label: 'Winchmore Hill',
+    value: 'WIH'
   },
   {
-    stationName: 'Windermere',
-    crsCode: 'WDM'
+    label: 'Windermere',
+    value: 'WDM'
   },
   {
-    stationName: 'Windsor & Eton Central',
-    crsCode: 'WNC'
+    label: 'Windsor & Eton Central',
+    value: 'WNC'
   },
   {
-    stationName: 'Windsor & Eton Riverside',
-    crsCode: 'WNR'
+    label: 'Windsor & Eton Riverside',
+    value: 'WNR'
   },
   {
-    stationName: 'Winnersh',
-    crsCode: 'WNS'
+    label: 'Winnersh',
+    value: 'WNS'
   },
   {
-    stationName: 'Winnersh Triangle',
-    crsCode: 'WTI'
+    label: 'Winnersh Triangle',
+    value: 'WTI'
   },
   {
-    stationName: 'Winsford',
-    crsCode: 'WSF'
+    label: 'Winsford',
+    value: 'WSF'
   },
   {
-    stationName: 'Wishaw',
-    crsCode: 'WSH'
+    label: 'Wishaw',
+    value: 'WSH'
   },
   {
-    stationName: 'Witham',
-    crsCode: 'WTM'
+    label: 'Witham',
+    value: 'WTM'
   },
   {
-    stationName: 'Witley',
-    crsCode: 'WTY'
+    label: 'Witley',
+    value: 'WTY'
   },
   {
-    stationName: 'Witton',
-    crsCode: 'WTT'
+    label: 'Witton',
+    value: 'WTT'
   },
   {
-    stationName: 'Wivelsfield',
-    crsCode: 'WVF'
+    label: 'Wivelsfield',
+    value: 'WVF'
   },
   {
-    stationName: 'Wivenhoe',
-    crsCode: 'WIV'
+    label: 'Wivenhoe',
+    value: 'WIV'
   },
   {
-    stationName: 'Woburn Sands',
-    crsCode: 'WOB'
+    label: 'Woburn Sands',
+    value: 'WOB'
   },
   {
-    stationName: 'Woking',
-    crsCode: 'WOK'
+    label: 'Woking',
+    value: 'WOK'
   },
   {
-    stationName: 'Wokingham',
-    crsCode: 'WKM'
+    label: 'Wokingham',
+    value: 'WKM'
   },
   {
-    stationName: 'Woldingham',
-    crsCode: 'WOH'
+    label: 'Woldingham',
+    value: 'WOH'
   },
   {
-    stationName: 'Wolverhampton',
-    crsCode: 'WVH'
+    label: 'Wolverhampton',
+    value: 'WVH'
   },
   {
-    stationName: 'Wolverton',
-    crsCode: 'WOL'
+    label: 'Wolverton',
+    value: 'WOL'
   },
   {
-    stationName: 'Wombwell',
-    crsCode: 'WOM'
+    label: 'Wombwell',
+    value: 'WOM'
   },
   {
-    stationName: 'Wood End',
-    crsCode: 'WDE'
+    label: 'Wood End',
+    value: 'WDE'
   },
   {
-    stationName: 'Wood Street',
-    crsCode: 'WST'
+    label: 'Wood Street',
+    value: 'WST'
   },
   {
-    stationName: 'Woodbridge',
-    crsCode: 'WDB'
+    label: 'Woodbridge',
+    value: 'WDB'
   },
   {
-    stationName: 'Woodgrange Park',
-    crsCode: 'WGR'
+    label: 'Woodgrange Park',
+    value: 'WGR'
   },
   {
-    stationName: 'Woodhall',
-    crsCode: 'WDL'
+    label: 'Woodhall',
+    value: 'WDL'
   },
   {
-    stationName: 'Woodhouse',
-    crsCode: 'WDH'
+    label: 'Woodhouse',
+    value: 'WDH'
   },
   {
-    stationName: 'Woodlesford',
-    crsCode: 'WDS'
+    label: 'Woodlesford',
+    value: 'WDS'
   },
   {
-    stationName: 'Woodley',
-    crsCode: 'WLY'
+    label: 'Woodley',
+    value: 'WLY'
   },
   {
-    stationName: 'Woodmansterne',
-    crsCode: 'WME'
+    label: 'Woodmansterne',
+    value: 'WME'
   },
   {
-    stationName: 'Woodsmoor',
-    crsCode: 'WSR'
+    label: 'Woodsmoor',
+    value: 'WSR'
   },
   {
-    stationName: 'Wool',
-    crsCode: 'WOO'
+    label: 'Wool',
+    value: 'WOO'
   },
   {
-    stationName: 'Woolston',
-    crsCode: 'WLS'
+    label: 'Woolston',
+    value: 'WLS'
   },
   {
-    stationName: 'Woolwich',
-    crsCode: 'WWC'
+    label: 'Woolwich',
+    value: 'WWC'
   },
   {
-    stationName: 'Woolwich Arsenal',
-    crsCode: 'WWA'
+    label: 'Woolwich Arsenal',
+    value: 'WWA'
   },
   {
-    stationName: 'Woolwich Dockyard',
-    crsCode: 'WWD'
+    label: 'Woolwich Dockyard',
+    value: 'WWD'
   },
   {
-    stationName: 'Wootton Wawen',
-    crsCode: 'WWW'
+    label: 'Wootton Wawen',
+    value: 'WWW'
   },
   {
-    stationName: 'Worcester Foregate Street',
-    crsCode: 'WOF'
+    label: 'Worcester Foregate Street',
+    value: 'WOF'
   },
   {
-    stationName: 'Worcester Park',
-    crsCode: 'WCP'
+    label: 'Worcester Park',
+    value: 'WCP'
   },
   {
-    stationName: 'Worcestershire Parkway',
-    crsCode: 'WOP'
+    label: 'Worcestershire Parkway',
+    value: 'WOP'
   },
   {
-    stationName: 'Worcester Shrub Hill',
-    crsCode: 'WOS'
+    label: 'Worcester Shrub Hill',
+    value: 'WOS'
   },
   {
-    stationName: 'Workington',
-    crsCode: 'WKG'
+    label: 'Workington',
+    value: 'WKG'
   },
   {
-    stationName: 'Worksop',
-    crsCode: 'WRK'
+    label: 'Worksop',
+    value: 'WRK'
   },
   {
-    stationName: 'Worle',
-    crsCode: 'WOR'
+    label: 'Worle',
+    value: 'WOR'
   },
   {
-    stationName: 'Worplesdon',
-    crsCode: 'WPL'
+    label: 'Worplesdon',
+    value: 'WPL'
   },
   {
-    stationName: 'Worstead',
-    crsCode: 'WRT'
+    label: 'Worstead',
+    value: 'WRT'
   },
   {
-    stationName: 'Worthing',
-    crsCode: 'WRH'
+    label: 'Worthing',
+    value: 'WRH'
   },
   {
-    stationName: 'Wrabness',
-    crsCode: 'WRB'
+    label: 'Wrabness',
+    value: 'WRB'
   },
   {
-    stationName: 'Wraysbury',
-    crsCode: 'WRY'
+    label: 'Wraysbury',
+    value: 'WRY'
   },
   {
-    stationName: 'Wrenbury',
-    crsCode: 'WRE'
+    label: 'Wrenbury',
+    value: 'WRE'
   },
   {
-    stationName: 'Wressle',
-    crsCode: 'WRS'
+    label: 'Wressle',
+    value: 'WRS'
   },
   {
-    stationName: 'Wrexham Central',
-    crsCode: 'WXC'
+    label: 'Wrexham Central',
+    value: 'WXC'
   },
   {
-    stationName: 'Wrexham General',
-    crsCode: 'WRX'
+    label: 'Wrexham General',
+    value: 'WRX'
   },
   {
-    stationName: 'Wye',
-    crsCode: 'WYE'
+    label: 'Wye',
+    value: 'WYE'
   },
   {
-    stationName: 'Wylam',
-    crsCode: 'WYM'
+    label: 'Wylam',
+    value: 'WYM'
   },
   {
-    stationName: 'Wylde Green',
-    crsCode: 'WYL'
+    label: 'Wylde Green',
+    value: 'WYL'
   },
   {
-    stationName: 'Wymondham',
-    crsCode: 'WMD'
+    label: 'Wymondham',
+    value: 'WMD'
   },
   {
-    stationName: 'Wythall',
-    crsCode: 'WYT'
+    label: 'Wythall',
+    value: 'WYT'
   },
   {
-    stationName: 'Yalding',
-    crsCode: 'YAL'
+    label: 'Yalding',
+    value: 'YAL'
   },
   {
-    stationName: 'Yardley Wood',
-    crsCode: 'YRD'
+    label: 'Yardley Wood',
+    value: 'YRD'
   },
   {
-    stationName: 'Yarm',
-    crsCode: 'YRM'
+    label: 'Yarm',
+    value: 'YRM'
   },
   {
-    stationName: 'Yarmouth (Isle of Wight)',
-    crsCode: 'YMH'
+    label: 'Yarmouth (Isle of Wight)',
+    value: 'YMH'
   },
   {
-    stationName: 'Yate',
-    crsCode: 'YAE'
+    label: 'Yate',
+    value: 'YAE'
   },
   {
-    stationName: 'Yatton',
-    crsCode: 'YAT'
+    label: 'Yatton',
+    value: 'YAT'
   },
   {
-    stationName: 'Yeoford',
-    crsCode: 'YEO'
+    label: 'Yeoford',
+    value: 'YEO'
   },
   {
-    stationName: 'Yeovil Junction',
-    crsCode: 'YVJ'
+    label: 'Yeovil Junction',
+    value: 'YVJ'
   },
   {
-    stationName: 'Yeovil Pen Mill',
-    crsCode: 'YVP'
+    label: 'Yeovil Pen Mill',
+    value: 'YVP'
   },
   {
-    stationName: 'Yetminster',
-    crsCode: 'YET'
+    label: 'Yetminster',
+    value: 'YET'
   },
   {
-    stationName: 'Ynyswen',
-    crsCode: 'YNW'
+    label: 'Ynyswen',
+    value: 'YNW'
   },
   {
-    stationName: 'Yoker',
-    crsCode: 'YOK'
+    label: 'Yoker',
+    value: 'YOK'
   },
   {
-    stationName: 'York',
-    crsCode: 'YRK'
+    label: 'York',
+    value: 'YRK'
   },
   {
-    stationName: 'Yorton',
-    crsCode: 'YRT'
+    label: 'Yorton',
+    value: 'YRT'
   },
   {
-    stationName: 'Ystrad Mynach',
-    crsCode: 'YSM'
+    label: 'Ystrad Mynach',
+    value: 'YSM'
   },
   {
-    stationName: 'Ystrad Rhondda',
-    crsCode: 'YSR'
+    label: 'Ystrad Rhondda',
+    value: 'YSR'
   }
 ]
