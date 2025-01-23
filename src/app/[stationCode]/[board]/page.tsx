@@ -36,10 +36,6 @@ export default async function BoardPage(props: PageProps) {
   const trains = filterTrainServices(data, params.board)
 
   return (
-    <TrainTimesBoard
-      station={station}
-      trains={trains}
-      enableSwitching={params.board === 'all'}
-    />
+    <TrainTimesBoard station={station} trains={trains} board={params.board} />
   )
 }

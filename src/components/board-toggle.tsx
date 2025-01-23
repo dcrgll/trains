@@ -9,7 +9,6 @@ export default function BoardToggle({
 }) {
   return (
     <div className="flex items-center space-x-2">
-      {/* Indicator Circles */}
       <button
         onClick={() => setShowDepartures(!showDepartures)}
         disabled={showDepartures}
