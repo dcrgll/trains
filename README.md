@@ -2,6 +2,11 @@
 
 Welcome to [trains.cargill.dev](https://trains.cargill.dev)!
 
+
+
+![Screenshot](https://raw.githubusercontent.com/dcrgll/trains/refs/heads/main/public/screenshot.png?token=GHSAT0AAAAAAC4JAMRUI2U76M5R5WKACIGEZ42OJMA)
+
+
 ## 🚀 Features
 
 - Built with modern Typescript, using tools and frameworks like [next](https://github.com/vercel/next.js), [trpc](https://github.com/trpc/trpc), [react-query](https://github.com/TanStack/query), [react-hook-form](https://github.com/react-hook-form/react-hook-form) and [tailwind](https://github.com/tailwindlabs/tailwindcss/).
