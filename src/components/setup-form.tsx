@@ -1,14 +1,12 @@
 'use client'
 
-import { useState } from 'react'
-import { useRouter } from 'next/navigation'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { Loader2 } from 'lucide-react'
+import { useRouter } from 'next/navigation'
+import { useState } from 'react'
 import { useForm } from 'react-hook-form'
 import * as z from 'zod'
 
-import { stations } from '@/lib/stations'
-import { cn } from '@/lib/utils'
 import { Button } from '@/components/ui/button'
 import {
   Form,
@@ -20,6 +18,8 @@ import {
 } from '@/components/ui/form'
 import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group'
 import Select from '@/components/ui/select'
+import { stations } from '@/lib/stations'
+import { cn } from '@/lib/utils'
 
 const formSchema = z.object({
   station: z.object({
@@ -50,17 +50,17 @@ export default function SetupForm() {
     <Form {...form}>
       <form
         onSubmit={form.handleSubmit(onSubmit)}
-        className="mx-auto max-w-3xl space-y-8"
+        className='mx-auto max-w-3xl space-y-8'
       >
         <FormField
-          name="station"
+          name='station'
           control={form.control}
           render={({ field }) => (
-            <FormItem className="flex w-full flex-col">
+            <FormItem className='flex w-full flex-col'>
               <FormLabel>Station</FormLabel>
               <Select
                 {...field}
-                placeholder="Select station..."
+                placeholder='Select station...'
                 options={stations}
               />
               <FormMessage />
@@ -69,39 +69,39 @@ export default function SetupForm() {
         />
 
         <FormField
-          name="board"
+          name='board'
           control={form.control}
-          defaultValue="all"
+          defaultValue='all'
           render={({ field }) => (
-            <FormItem className="space-y-3">
+            <FormItem className='space-y-3'>
               <FormLabel>Type of board:</FormLabel>
               <FormControl>
                 <RadioGroup
                   onValueChange={field.onChange}
                   defaultValue={field.value}
-                  className="flex flex-col space-y-1"
+                  className='flex flex-col space-y-1'
                 >
-                  <FormItem className="flex items-center space-x-3 space-y-0">
+                  <FormItem className='flex items-center space-x-3 space-y-0'>
                     <FormControl>
-                      <RadioGroupItem value="all" />
+                      <RadioGroupItem value='all' />
                     </FormControl>
-                    <FormLabel className="font-normal">
+                    <FormLabel className='font-normal'>
                       Departures & Arrivals
                     </FormLabel>
                   </FormItem>
-                  <FormItem className="flex items-center space-x-3 space-y-0">
+                  <FormItem className='flex items-center space-x-3 space-y-0'>
                     <FormControl>
-                      <RadioGroupItem value="departures" />
+                      <RadioGroupItem value='departures' />
                     </FormControl>
-                    <FormLabel className="font-normal">
+                    <FormLabel className='font-normal'>
                       Just Departures
                     </FormLabel>
                   </FormItem>
-                  <FormItem className="flex items-center space-x-3 space-y-0">
+                  <FormItem className='flex items-center space-x-3 space-y-0'>
                     <FormControl>
-                      <RadioGroupItem value="arrivals" />
+                      <RadioGroupItem value='arrivals' />
                     </FormControl>
-                    <FormLabel className="font-normal">Just Arrivals</FormLabel>
+                    <FormLabel className='font-normal'>Just Arrivals</FormLabel>
                   </FormItem>
                 </RadioGroup>
               </FormControl>
@@ -111,14 +111,14 @@ export default function SetupForm() {
         />
 
         <Button
-          type="submit"
+          type='submit'
           className={cn(
             'w-full',
             loading ? 'cursor-not-allowed opacity-50' : 'hover:cursor-pointer'
           )}
         >
           {loading ? (
-            <Loader2 className="h-5 w-5 animate-spin text-background" />
+            <Loader2 className='h-5 w-5 animate-spin text-background' />
           ) : (
             'Submit'
           )}

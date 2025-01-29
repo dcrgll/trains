@@ -1,14 +1,14 @@
-import { redirect } from 'next/navigation'
 import { api } from '@/trpc/server'
+import { redirect } from 'next/navigation'
 
-import { type Board, type CRSCode } from '@/types/stations'
+import TrainTimesBoard from '@/components/board'
 import { stations } from '@/lib/stations'
 import { filterTrainServices } from '@/lib/utils'
-import TrainTimesBoard from '@/components/board'
+import type { Board, CrsCode } from '@/types/stations'
 
 interface PageProps {
   params: Promise<{
-    stationCode: CRSCode
+    stationCode: CrsCode
     board: Board
   }>
 }
@@ -21,7 +21,7 @@ export default async function BoardPage(props: PageProps) {
   }
 
   const station = stations.find(
-    (station) => station.value === params.stationCode.toUpperCase()
+    station => station.value === params.stationCode.toUpperCase()
   )
 
   if (!station) {

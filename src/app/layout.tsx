@@ -1,13 +1,13 @@
 import '@/styles/globals.css'
 
-import { type Metadata, type Viewport } from 'next'
 import { TRPCReactProvider } from '@/trpc/react'
 import { GeistMono } from 'geist/font/mono'
 import { GeistSans } from 'geist/font/sans'
+import type { Metadata, Viewport } from 'next'
 
-import { env } from '@/env'
 import Footer from '@/components/footer'
 import { ThemeProvider } from '@/components/theme-provider'
+import { env } from '@/env'
 
 export const metadata: Metadata = {
   metadataBase:
@@ -67,13 +67,13 @@ export default function RootLayout({
   children
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang='en' suppressHydrationWarning>
       <body
         className={`${GeistSans.variable} ${GeistMono.variable} min-h-screen bg-background font-sans text-foreground`}
       >
         <ThemeProvider
-          attribute="class"
-          defaultTheme="system"
+          attribute='class'
+          defaultTheme='system'
           enableSystem
           disableTransitionOnChange
         >

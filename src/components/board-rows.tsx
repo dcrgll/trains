@@ -1,8 +1,8 @@
-import Link from 'next/link'
 import { AnimatePresence, motion } from 'framer-motion'
+import Link from 'next/link'
 
-import { type TrainService } from '@/types/stations'
 import { cn } from '@/lib/utils'
+import type { TrainService } from '@/types/stations'
 
 export default function TrainBoardRows({
   filteredTrains,
@@ -12,31 +12,31 @@ export default function TrainBoardRows({
   showDepartures: boolean
 }) {
   return (
-    <AnimatePresence mode="wait">
+    <AnimatePresence mode='wait'>
       <motion.div
         key={showDepartures ? 'departures' : 'arrivals'}
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         exit={{ opacity: 0, y: -20 }}
         transition={{ duration: 0.5 }}
-        className="overflow-y-none"
+        className='overflow-y-none'
       >
         {filteredTrains.map((train, index) => (
           <motion.div
-            key={index + train.destination[0]!.crs + train.std}
-            className="grid grid-cols-4 gap-4 border-b border-border p-3 last:border-b-0 md:grid-cols-5"
+            key={train.destination[0]?.crs + train.std}
+            className='grid grid-cols-4 gap-4 border-b border-border p-3 last:border-b-0 md:grid-cols-5'
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: index * 0.1 }}
           >
-            <div className="font-mono text-xl font-medium md:text-2xl">
+            <div className='font-mono text-xl font-medium md:text-2xl'>
               {showDepartures ? train.std : train.sta}
             </div>
-            <div className="col-span-2">
-              <div className="truncate text-xl font-medium md:text-2xl">
+            <div className='col-span-2'>
+              <div className='truncate text-xl font-medium md:text-2xl'>
                 <Link
                   href={`/${train.destination[0]?.crs.toLowerCase()}/all`}
-                  className="hover:underline"
+                  className='hover:underline'
                 >
                   {train.destination[0]?.locationName}
                 </Link>
@@ -61,10 +61,10 @@ export default function TrainBoardRows({
                 {showDepartures ? train.etd : train.eta}
               </div>
             </div>
-            <div className="flex justify-end text-xl font-medium md:justify-normal md:text-2xl">
+            <div className='flex justify-end text-xl font-medium md:justify-normal md:text-2xl'>
               {train.platform}
             </div>
-            <div className="hidden truncate text-xl text-primary md:flex">
+            <div className='hidden truncate text-xl text-primary md:flex'>
               {train.operator}
             </div>
           </motion.div>

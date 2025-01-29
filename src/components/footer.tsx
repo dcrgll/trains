@@ -5,19 +5,19 @@ import ThemeToggle from './theme-toggle'
 
 export default function Footer() {
   return (
-    <footer className="flex h-16 w-full text-muted-foreground">
-      <div className="mx-auto flex w-full max-w-7xl items-center justify-between px-4">
+    <footer className='flex h-16 w-full text-muted-foreground'>
+      <div className='mx-auto flex w-full max-w-7xl items-center justify-between px-4'>
         <Counter />
 
         <ThemeToggle />
-        <div className="flex items-center gap-4">
-          <p className="text-sm">
+        <div className='flex items-center gap-4'>
+          <p className='text-sm'>
             Built by{' '}
             <Link
-              href="https://cargill.dev"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="underline"
+              href='https://cargill.dev'
+              target='_blank'
+              rel='noopener noreferrer'
+              className='underline'
             >
               Dan Cargill
             </Link>
