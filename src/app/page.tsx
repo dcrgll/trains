@@ -1,3 +1,4 @@
+import SetupForm from '@/components/setup-form'
 import {
   Card,
   CardContent,
@@ -5,12 +6,11 @@ import {
   CardHeader,
   CardTitle
 } from '@/components/ui/card'
-import SetupForm from '@/components/setup-form'
 
 export default function HomePage() {
   return (
-    <main className="flex h-[calc(100vh-4rem)] items-center justify-center px-4">
-      <Card className="w-full max-w-md">
+    <main className='flex h-[calc(100vh-4rem)] items-center justify-center px-4'>
+      <Card className='w-full max-w-md'>
         <CardHeader>
           <CardTitle>UK Live Departure Boards</CardTitle>
           <CardDescription>

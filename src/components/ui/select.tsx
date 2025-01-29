@@ -1,5 +1,5 @@
-import React, { type ReactElement } from 'react'
 import { Check, ChevronDown, X } from 'lucide-react'
+import React, { type ReactElement } from 'react'
 import SelectComponent, {
   components,
   createFilter,
@@ -63,61 +63,61 @@ export const createClassNames = (
   classNames: ClassNamesConfig<OptionType, boolean, GroupBase<OptionType>>
 ): ClassNamesConfig<OptionType, boolean, GroupBase<OptionType>> => {
   return {
-    clearIndicator: (state) =>
+    clearIndicator: state =>
       cn(
         selectStyles.clearIndicatorStyles,
         classNames?.clearIndicator?.(state)
       ),
-    container: (state) => cn(classNames?.container?.(state)),
-    control: (state) =>
+    container: state => cn(classNames?.container?.(state)),
+    control: state =>
       cn(
         selectStyles.controlStyles.base,
         state.isDisabled && selectStyles.controlStyles.disabled,
         state.isFocused && selectStyles.controlStyles.focus,
         classNames?.control?.(state)
       ),
-    dropdownIndicator: (state) =>
+    dropdownIndicator: state =>
       cn(
         selectStyles.dropdownIndicatorStyles,
         classNames?.dropdownIndicator?.(state)
       ),
-    group: (state) => cn(classNames?.group?.(state)),
-    groupHeading: (state) =>
+    group: state => cn(classNames?.group?.(state)),
+    groupHeading: state =>
       cn(selectStyles.groupHeadingStyles, classNames?.groupHeading?.(state)),
-    indicatorsContainer: (state) =>
+    indicatorsContainer: state =>
       cn(
         selectStyles.indicatorsContainerStyles,
         classNames?.indicatorsContainer?.(state)
       ),
-    indicatorSeparator: (state) =>
+    indicatorSeparator: state =>
       cn(
         selectStyles.indicatorSeparatorStyles,
         classNames?.indicatorSeparator?.(state)
       ),
-    input: (state) => cn(classNames?.input?.(state)),
-    loadingIndicator: (state) =>
+    input: state => cn(classNames?.input?.(state)),
+    loadingIndicator: state =>
       cn(
         selectStyles.loadingIndicatorStyles,
         classNames?.loadingIndicator?.(state)
       ),
-    loadingMessage: (state) =>
+    loadingMessage: state =>
       cn(
         selectStyles.loadingMessageStyles,
         classNames?.loadingMessage?.(state)
       ),
-    menu: (state) => cn(selectStyles.menu, classNames?.menu?.(state)),
-    menuList: (state) => cn(classNames?.menuList?.(state)),
-    menuPortal: (state) => cn(classNames?.menuPortal?.(state)),
-    multiValue: (state) =>
+    menu: state => cn(selectStyles.menu, classNames?.menu?.(state)),
+    menuList: state => cn(classNames?.menuList?.(state)),
+    menuPortal: state => cn(classNames?.menuPortal?.(state)),
+    multiValue: state =>
       cn(selectStyles.multiValueStyles, classNames?.multiValue?.(state)),
-    multiValueLabel: (state) => cn(classNames?.multiValueLabel?.(state)),
-    multiValueRemove: (state) => cn(classNames?.multiValueRemove?.(state)),
-    noOptionsMessage: (state) =>
+    multiValueLabel: state => cn(classNames?.multiValueLabel?.(state)),
+    multiValueRemove: state => cn(classNames?.multiValueRemove?.(state)),
+    noOptionsMessage: state =>
       cn(
         selectStyles.noOptionsMessageStyles,
         classNames?.noOptionsMessage?.(state)
       ),
-    option: (state) =>
+    option: state =>
       cn(
         selectStyles.optionStyles.base,
         state.isFocused && selectStyles.optionStyles.focus,
@@ -125,10 +125,10 @@ export const createClassNames = (
         state.isSelected && selectStyles.optionStyles.selected,
         classNames?.option?.(state)
       ),
-    placeholder: (state) =>
+    placeholder: state =>
       cn(selectStyles.placeholderStyles, classNames?.placeholder?.(state)),
-    singleValue: (state) => cn(classNames?.singleValue?.(state)),
-    valueContainer: (state) =>
+    singleValue: state => cn(classNames?.singleValue?.(state)),
+    valueContainer: state =>
       cn(selectStyles.valueContainerStyles, classNames?.valueContainer?.(state))
   }
 }
@@ -139,23 +139,23 @@ export const defaultStyles: StylesConfig<
   boolean,
   GroupBase<OptionType>
 > = {
-  input: (base) => ({
+  input: base => ({
     ...base,
     'input:focus': {
       boxShadow: 'none'
     }
   }),
-  multiValueLabel: (base) => ({
+  multiValueLabel: base => ({
     ...base,
     whiteSpace: 'normal',
     overflow: 'visible'
   }),
-  control: (base) => ({
+  control: base => ({
     ...base,
     transition: 'none'
     // minHeight: '2.25rem', // we used !min-h-9 instead
   }),
-  menuList: (base) => ({
+  menuList: base => ({
     ...base,
     '::-webkit-scrollbar': {
       background: 'transparent'
@@ -180,7 +180,7 @@ export const DropdownIndicator = (
 ) => {
   return (
     <components.DropdownIndicator {...props}>
-      <ChevronDown className="h-4 w-4 opacity-50" />
+      <ChevronDown className='h-4 w-4 opacity-50' />
     </components.DropdownIndicator>
   )
 }
@@ -188,7 +188,7 @@ export const DropdownIndicator = (
 export const ClearIndicator = (props: ClearIndicatorProps<OptionType>) => {
   return (
     <components.ClearIndicator {...props}>
-      <X className="h-4 w-4 opacity-50" />
+      <X className='h-4 w-4 opacity-50' />
     </components.ClearIndicator>
   )
 }
@@ -196,7 +196,7 @@ export const ClearIndicator = (props: ClearIndicatorProps<OptionType>) => {
 export const MultiValueRemove = (props: MultiValueRemoveProps<OptionType>) => {
   return (
     <components.MultiValueRemove {...props}>
-      <X className="h-3.5 w-3.5 opacity-50" />
+      <X className='h-3.5 w-3.5 opacity-50' />
     </components.MultiValueRemove>
   )
 }
@@ -204,9 +204,9 @@ export const MultiValueRemove = (props: MultiValueRemoveProps<OptionType>) => {
 export const Option = (props: OptionProps<OptionType>) => {
   return (
     <components.Option {...props}>
-      <div className="flex items-center justify-between">
+      <div className='flex items-center justify-between'>
         <div>{props.label}</div>
-        {props.isSelected && <Check className="h-4 w-4 opacity-50" />}
+        {props.isSelected && <Check className='h-4 w-4 opacity-50' />}
       </div>
     </components.Option>
   )
@@ -239,7 +239,7 @@ export const MenuList = (props: MenuListProps<OptionType>) => {
       height={height}
       itemCount={childrenArray.length}
       itemSize={35} // Adjust item height if different
-      width="100%"
+      width='100%'
     >
       {({ index, style }: { index: number; style: React.CSSProperties }) => (
         <div style={style}>{childrenArray[index]}</div>
@@ -267,7 +267,7 @@ const BaseSelect = <IsMulti extends boolean = false>(
       unstyled
       filterOption={createFilter({
         matchFrom: 'any',
-        stringify: (option) => option.label
+        stringify: option => option.label
       })}
       components={{
         DropdownIndicator,

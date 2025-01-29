@@ -22,7 +22,7 @@ import { ZodError } from 'zod'
  *
  * @see https://trpc.io/docs/server/context
  */
-export const createTRPCContext = async (opts: { headers: Headers }) => {
+export const createTrpcContext = async (opts: { headers: Headers }) => {
   return {
     ...opts
   }
@@ -35,7 +35,7 @@ export const createTRPCContext = async (opts: { headers: Headers }) => {
  * ZodErrors so that you get typesafety on the frontend if your procedure fails due to validation
  * errors on the backend.
  */
-const t = initTRPC.context<typeof createTRPCContext>().create({
+const t = initTRPC.context<typeof createTrpcContext>().create({
   transformer: superjson,
   errorFormatter({ shape, error }) {
     return {
@@ -81,7 +81,7 @@ const timingMiddleware = t.middleware(async ({ next, path }) => {
   if (t._config.isDev) {
     // artificial delay in dev
     const waitMs = Math.floor(Math.random() * 400) + 100
-    await new Promise((resolve) => setTimeout(resolve, waitMs))
+    await new Promise(resolve => setTimeout(resolve, waitMs))
   }
 
   const result = await next()

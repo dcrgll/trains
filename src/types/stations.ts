@@ -1,4 +1,4 @@
-export type CRSCode = string
+export type CrsCode = string
 
 type Coach = {
   coachClass: string
@@ -76,7 +76,7 @@ export type HuxleyApiResponse = {
 
 export type Station = {
   label: string
-  value: CRSCode
+  value: CrsCode
 }
 
 export type Board = 'departures' | 'arrivals' | 'all'

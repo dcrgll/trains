@@ -2,7 +2,7 @@ import { createTRPCRouter, publicProcedure } from '@/server/api/trpc'
 import { z } from 'zod'
 
 import { env } from '@/env'
-import { type HuxleyApiResponse } from '@/types/stations'
+import type { HuxleyApiResponse } from '@/types/stations'
 
 export const stationRouter = createTRPCRouter({
   getTrainsByCode: publicProcedure
@@ -21,8 +21,7 @@ export const stationRouter = createTRPCRouter({
 
       try {
         const response = await fetch(
-          env.HUXLEY_BASE_URL +
-            `/${board}/${stationCode}/${amount}/?accessToken=${env.LDBWS_KEY}`
+          `${env.HUXLEY_BASE_URL}/${board}/${stationCode}/${amount}/?accessToken=${env.LDBWS_KEY}`
         )
 
         if (!response.ok) {

@@ -1,11 +1,7 @@
-import { clsx, type ClassValue } from 'clsx'
+import { type ClassValue, clsx } from 'clsx'
 import { twMerge } from 'tailwind-merge'
 
-import {
-  type Board,
-  type FilteredTrains,
-  type HuxleyApiResponse
-} from '@/types/stations'
+import type { Board, FilteredTrains, HuxleyApiResponse } from '@/types/stations'
 
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs))
@@ -22,10 +18,10 @@ export function filterTrainServices(
   }
 
   const arrivals = trainServices.filter(
-    (service) => service.sta !== null || service.eta !== null
+    service => service.sta !== null || service.eta !== null
   )
   const departures = trainServices.filter(
-    (service) => service.std !== null || service.etd !== null
+    service => service.std !== null || service.etd !== null
   )
 
   if (board === 'arrivals') {

@@ -1,4 +1,4 @@
-import { type Station } from '@/types/stations'
+import type { Station } from '@/types/stations'
 
 export const stations: Station[] = [
   {

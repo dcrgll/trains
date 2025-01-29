@@ -8,7 +8,7 @@ export default function BoardToggle({
   setShowDepartures: (showDepartures: boolean) => void
 }) {
   return (
-    <div className="flex items-center space-x-2">
+    <div className='flex items-center space-x-2'>
       <button
         onClick={() => setShowDepartures(!showDepartures)}
         disabled={showDepartures}
@@ -16,15 +16,15 @@ export default function BoardToggle({
           'h-3 w-3 rounded-full transition-colors duration-300',
           showDepartures ? 'bg-muted-foreground' : 'bg-muted'
         )}
-      ></button>
+      />
       <button
         onClick={() => setShowDepartures(!showDepartures)}
         disabled={!showDepartures}
         className={cn(
           'h-3 w-3 rounded-full transition-colors duration-300',
-          !showDepartures ? 'bg-muted-foreground' : 'bg-muted'
+          showDepartures ? 'bg-muted' : 'bg-muted-foreground'
         )}
-      ></button>
+      />
     </div>
   )
 }

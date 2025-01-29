@@ -1,7 +1,7 @@
-import { type NextRequest } from 'next/server'
 import { appRouter } from '@/server/api/root'
-import { createTRPCContext } from '@/server/api/trpc'
+import { createTrpcContext } from '@/server/api/trpc'
 import { fetchRequestHandler } from '@trpc/server/adapters/fetch'
+import type { NextRequest } from 'next/server'
 
 import { env } from '@/env'
 
@@ -10,7 +10,7 @@ import { env } from '@/env'
  * handling a HTTP request (e.g. when you make requests from Client Components).
  */
 const createContext = async (req: NextRequest) => {
-  return createTRPCContext({
+  return createTrpcContext({
     headers: req.headers
   })
 }
