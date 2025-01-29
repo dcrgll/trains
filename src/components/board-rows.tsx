@@ -23,7 +23,8 @@ export default function TrainBoardRows({
       >
         {filteredTrains.map((train, index) => (
           <motion.div
-            key={train.destination[0]?.crs + train.std}
+            // biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
+            key={train.destination[0]?.crs + train.std + index}
             className='grid grid-cols-4 gap-4 border-b border-border p-3 last:border-b-0 md:grid-cols-5'
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
