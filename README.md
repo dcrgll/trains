@@ -1,29 +1,47 @@
-# Create T3 App
+# Personal Website
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+Welcome to [trains.cargill.dev](https://trains.cargill.dev)!
 
-## What's next? How do I make an app with this?
+## 🚀 Features
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+- Built with modern Typescript, using tools and frameworks like [next](https://github.com/vercel/next.js), [trpc](https://github.com/trpc/trpc), [react-query](https://github.com/TanStack/query), [react-hook-form](https://github.com/react-hook-form/react-hook-form) and [tailwind](https://github.com/tailwindlabs/tailwindcss/).
+- Animations via [motion](https://github.com/motiondivision/motion).
+- A great developer experience with [biome](https://github.com/biomejs/biome)
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+## 🔧 Dependencies
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Drizzle](https://orm.drizzle.team)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+Ensure you have [node](https://nodejs.org/) >= v22. I like to use pnpm to manage dependencies, but npm, bun or yarn will work as well.
 
-## Learn More
+## 🚀 Setup and Running
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+1. Clone the repository:
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+   ```bash
+   git clone git@github.com:dcrgll/train-times.git
+   ```
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+2. (Optional) Ensure you're on Node v22 or higher:
 
-## How do I deploy this?
+   ```bash
+   node --version
+   ```
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+3. Install dependencies:
+
+   ```bash
+   pnpm install
+   ```
+
+4. Setup environment variables:
+
+   Rename the `.env.example` file to `.env.local` and fill in the necessary values.
+
+There is more documentation on the environment variables in the example file.
+
+5. Start the application:
+
+   ```bash
+   pnpm dev
+   ```
+
+By default, the application should be available at [http://localhost:3000/](http://localhost:3000/).
