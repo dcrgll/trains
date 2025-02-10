@@ -4,7 +4,7 @@ Welcome to [trains.cargill.dev](https://trains.cargill.dev)!
 
 
 
-![Screenshot](https://raw.githubusercontent.com/dcrgll/trains/refs/heads/main/public/screenshot.png?token=GHSAT0AAAAAAC4JAMRUI2U76M5R5WKACIGEZ42OJMA)
+![Screenshot](https://raw.githubusercontent.com/dcrgll/trains/refs/heads/main/public/screenshot.png)
 
 
 ## 🚀 Features
