@@ -15,7 +15,7 @@ import SelectComponent, {
   type SelectInstance,
   type StylesConfig
 } from 'react-select'
-import { FixedSizeList as List } from 'react-window'
+import { List } from 'react-window'
 
 import { cn } from '@/lib/utils'
 
@@ -236,15 +236,14 @@ export const MenuList = (props: MenuListProps<OptionType>) => {
   }
   return (
     <List
-      height={height}
-      itemCount={childrenArray.length}
-      itemSize={35} // Adjust item height if different
-      width='100%'
-    >
-      {({ index, style }: { index: number; style: React.CSSProperties }) => (
-        <div style={style}>{childrenArray[index]}</div>
+      defaultHeight={height}
+      rowCount={childrenArray.length}
+      rowHeight={35} // Adjust item height if different
+      rowProps={({ index, style }: { index: number; style: React.CSSProperties }) => ({ key: index, style })}
+      rowComponent={({ index, style }) => (
+        <div style={style} key={index}>{childrenArray[index]}</div>
       )}
-    </List>
+    />
   )
 }
 
