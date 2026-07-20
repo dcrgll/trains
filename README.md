@@ -2,20 +2,17 @@
 
 Welcome to [trains.cargill.dev](https://trains.cargill.dev)!
 
-
-
 ![Screenshot](https://raw.githubusercontent.com/dcrgll/trains/refs/heads/main/public/screenshot.png)
-
 
 ## 🚀 Features
 
 - Built with modern Typescript, using tools and frameworks like [next](https://github.com/vercel/next.js), [trpc](https://github.com/trpc/trpc), [react-query](https://github.com/TanStack/query), [react-hook-form](https://github.com/react-hook-form/react-hook-form) and [tailwind](https://github.com/tailwindlabs/tailwindcss/).
 - Animations via [motion](https://github.com/motiondivision/motion).
-- A great developer experience with [biome](https://github.com/biomejs/biome)
+- A great developer experience with [Ultracite](https://www.ultracite.dev/), powered by [Oxfmt](https://oxc.rs/docs/guide/usage/formatter.html) and [Oxlint](https://oxc.rs/docs/guide/usage/linter.html).
 
 ## 🔧 Dependencies
 
-Ensure you have [node](https://nodejs.org/) >= v22. I like to use pnpm to manage dependencies, but npm, bun or yarn will work as well.
+Ensure you have [node](https://nodejs.org/) >= v24 and [pnpm](https://pnpm.io/) v11.
 
 ## 🚀 Setup and Running
 

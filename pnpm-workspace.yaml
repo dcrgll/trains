@@ -1,0 +1,6 @@
+allowBuilds:
+  lefthook: true
+  sharp: true
+onlyBuiltDependencies:
+  - lefthook
+  - sharp
