@@ -1,88 +1,91 @@
 export type CrsCode = string
 
-type Coach = {
-  coachClass: string
-  toilet: Toilet | null
-  loading: number
-  loadingSpecified: boolean
-  number: string
+interface Coach {
+	coachClass: string
+	toilet: Toilet | null
+	loading: number
+	loadingSpecified: boolean
+	number: string
 }
 
-type Toilet = {
-  status: number
-  value: string
+interface Toilet {
+	status: number
+	value: string
 }
 
-type OriginDestination = {
-  locationName: string
-  crs: string
-  via: string | null
-  futureChangeTo: string | null
-  assocIsCancelled: boolean
+interface OriginDestination {
+	locationName: string
+	crs: string
+	via: string | null
+	futureChangeTo: string | null
+	assocIsCancelled: boolean
 }
 
-export type TrainService = {
-  formation: {
-    avgLoading: number
-    avgLoadingSpecified: boolean
-    coaches: Coach[]
-  }
-  origin: OriginDestination[]
-  destination: OriginDestination[]
-  currentOrigins: null // Not sure what this is, assuming it's null in the response
-  currentDestinations: null // Same assumption as above
-  rsid: string | null
-  serviceIdPercentEncoded: string
-  serviceIdGuid: string
-  serviceIdUrlSafe: string
-  sta: string | null
-  eta: string | null
-  std: string
-  etd: string
-  platform: string
-  operator: string
-  operatorCode: string
-  isCircularRoute: boolean
-  isCancelled: boolean
-  filterLocationCancelled: boolean
-  serviceType: number
-  length: number
-  detachFront: boolean
-  isReverseFormation: boolean
-  cancelReason: string | null
-  delayReason: string | null
-  serviceID: string
-  adhocAlerts: null // Assuming null or some structured data
+export interface TrainService {
+	formation: {
+		avgLoading: number
+		avgLoadingSpecified: boolean
+		coaches: Coach[]
+	}
+	origin: OriginDestination[]
+	destination: OriginDestination[]
+	// Not sure what this is, assuming it's null in the response.
+	currentOrigins: null
+	// Same assumption as above.
+	currentDestinations: null
+	rsid: string | null
+	serviceIdPercentEncoded: string
+	serviceIdGuid: string
+	serviceIdUrlSafe: string
+	sta: string | null
+	eta: string | null
+	std: string
+	etd: string
+	platform: string
+	operator: string
+	operatorCode: string
+	isCircularRoute: boolean
+	isCancelled: boolean
+	filterLocationCancelled: boolean
+	serviceType: number
+	length: number
+	detachFront: boolean
+	isReverseFormation: boolean
+	cancelReason: string | null
+	delayReason: string | null
+	serviceID: string
+	// Assuming null or some structured data.
+	adhocAlerts: null
 }
 
-export type HuxleyApiResponse = {
-  trainServices: TrainService[]
-  busServices: string | null
-  ferryServices: string | null
-  generatedAt: string
-  locationName: string
-  crs: string
-  filterLocationName: string | null
-  filtercrs: string | null
-  filterType: number
-  nrccMessages:
-    | {
-        value: string
-      }[]
-    | null
-  platformAvailable: boolean
-  areServicesAvailable: boolean
+export interface HuxleyApiResponse {
+	trainServices: TrainService[]
+	busServices: string | null
+	ferryServices: string | null
+	generatedAt: string
+	locationName: string
+	crs: string
+	filterLocationName: string | null
+	filtercrs: string | null
+	filterType: number
+	nrccMessages:
+		| {
+				value: string
+		  }[]
+		| null
+	platformAvailable: boolean
+	areServicesAvailable: boolean
 }
 
-export type Station = {
-  label: string
-  value: CrsCode
+export interface Station {
+	label: string
+	value: CrsCode
 }
 
 export type Board = 'departures' | 'arrivals' | 'all'
 
-export type FilteredTrains = {
-  arrivals: TrainService[]
-  departures: TrainService[]
-  nrccMessages: HuxleyApiResponse['nrccMessages']
+export interface FilteredTrains {
+	arrivals: TrainService[]
+	departures: TrainService[]
+	nrccMessages: HuxleyApiResponse['nrccMessages']
 }

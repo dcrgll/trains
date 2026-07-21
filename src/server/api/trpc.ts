@@ -22,10 +22,10 @@ import { ZodError } from 'zod'
  *
  * @see https://trpc.io/docs/server/context
  */
-export const createTrpcContext = async (opts: { headers: Headers }) => {
-  return {
-    ...opts
-  }
+export function createTrpcContext(opts: { headers: Headers }) {
+	return {
+		...opts
+	}
 }
 
 /**
@@ -36,16 +36,16 @@ export const createTrpcContext = async (opts: { headers: Headers }) => {
  * errors on the backend.
  */
 const t = initTRPC.context<typeof createTrpcContext>().create({
-  transformer: superjson,
-  errorFormatter({ shape, error }) {
-    return {
-      ...shape,
-      data: {
-        ...shape.data,
-        zodError: error.cause instanceof ZodError ? error.cause.flatten() : null
-      }
-    }
-  }
+	errorFormatter({ shape, error }) {
+		return {
+			...shape,
+			data: {
+				...shape.data,
+				zodError: error.cause instanceof ZodError ? error.cause.flatten() : null
+			}
+		}
+	},
+	transformer: superjson
 })
 
 /**
@@ -53,7 +53,7 @@ const t = initTRPC.context<typeof createTrpcContext>().create({
  *
  * @see https://trpc.io/docs/server/server-side-calls
  */
-export const createCallerFactory = t.createCallerFactory
+export const { createCallerFactory } = t
 
 /**
  * 3. ROUTER & PROCEDURE (THE IMPORTANT BIT)
@@ -76,20 +76,24 @@ export const createTRPCRouter = t.router
  * network latency that would occur in production but not in local development.
  */
 const timingMiddleware = t.middleware(async ({ next, path }) => {
-  const start = Date.now()
+	const start = Date.now()
 
-  if (t._config.isDev) {
-    // artificial delay in dev
-    const waitMs = Math.floor(Math.random() * 400) + 100
-    await new Promise(resolve => setTimeout(resolve, waitMs))
-  }
+	if (t._config.isDev) {
+		// artificial delay in dev
+		const waitMs = Math.floor(Math.random() * 400) + 100
+		// oxlint-disable-next-line promise/avoid-new -- `setTimeout` requires a Promise wrapper for await.
+		await new Promise<void>((resolve) => {
+			setTimeout(resolve, waitMs)
+		})
+	}
 
-  const result = await next()
+	// oxlint-disable-next-line node/callback-return -- Execution timing is logged after the tRPC callback resolves.
+	const result = await next()
 
-  const end = Date.now()
-  console.log(`[TRPC] ${path} took ${end - start}ms to execute`)
+	const end = Date.now()
+	console.log(`[TRPC] ${path} took ${end - start}ms to execute`)
 
-  return result
+	return result
 })
 
 /**
