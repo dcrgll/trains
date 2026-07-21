@@ -237,19 +237,12 @@ export const MenuList = (props: MenuListProps<OptionType>) => {
 	return (
 		<List
 			defaultHeight={height}
+			style={{ height }}
 			rowCount={childrenArray.length}
 			rowHeight={35} // Adjust item height if different
-			rowProps={({
-				index,
-				style
-			}: {
-				index: number
-				style: React.CSSProperties
-			}) => ({ key: index, style })}
-			rowComponent={({ index, style }) => (
-				<div style={style} key={index}>
-					{childrenArray[index]}
-				</div>
+			rowProps={{ children: childrenArray }}
+			rowComponent={({ children, index, style }) => (
+				<div style={style}>{children[index]}</div>
 			)}
 		/>
 	)
