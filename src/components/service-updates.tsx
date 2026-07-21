@@ -1,5 +1,5 @@
-import { motion } from 'motion/react'
 import { AlertTriangle } from 'lucide-react'
+import { motion } from 'motion/react'
 
 import type { FilteredTrains } from '@/types/stations'
 
