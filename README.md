@@ -46,4 +46,4 @@ There is more documentation on the environment variables in the example file.
    pnpm dev
    ```
 
-By default, the application should be available at [http://localhost:3000/](http://localhost:3000/).
+By default, the application should be available at [https://trains.local](https://trains.local). To use the standard Next.js development server instead, run `pnpm dev:app`.

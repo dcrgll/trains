@@ -7,10 +7,12 @@
 	"scripts": {
 		"build": "next build",
 		"check": "pnpm lint:check && pnpm typecheck",
-		"dev": "next dev --turbo",
+		"dev": "portless --lan",
+		"dev:app": "next dev --turbo",
 		"format": "ultracite fix",
 		"lint:check": "ultracite check",
 		"lint": "ultracite fix",
+		"proxy": "portless proxy start --lan",
 		"preview": "next build && next start",
 		"start": "next start",
 		"typecheck": "tsc --noEmit"
@@ -50,6 +52,7 @@
 		"@types/react-dom": "19.2.3",
 		"oxfmt": "0.59.0",
 		"oxlint": "1.74.0",
+		"portless": "0.15.4",
 		"postcss": "8.5.6",
 		"tailwindcss": "3.4.19",
 		"typescript": "5.9.3",
@@ -58,5 +61,9 @@
 	"packageManager": "pnpm@11.15.1",
 	"ct3aMetadata": {
 		"initVersion": "7.38.1"
+	},
+	"portless": {
+		"name": "trains",
+		"script": "dev:app"
 	}
 }
