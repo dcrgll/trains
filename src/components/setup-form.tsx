@@ -29,6 +29,8 @@ const formSchema = z.object({
 	})
 })
 
+const MIN_STATION_SEARCH_LENGTH = 2
+
 export default function SetupForm() {
 	const router = useRouter()
 
@@ -60,6 +62,18 @@ export default function SetupForm() {
 							<FormLabel>Station</FormLabel>
 							<Select
 								{...field}
+								filterOption={(option, inputValue) =>
+									inputValue.trim().length >= MIN_STATION_SEARCH_LENGTH &&
+									option.label
+										.toLocaleLowerCase()
+										.includes(inputValue.trim().toLocaleLowerCase())
+								}
+								maxMenuHeight={280}
+								noOptionsMessage={({ inputValue }) =>
+									inputValue.trim().length < MIN_STATION_SEARCH_LENGTH
+										? 'Type at least 2 characters to search stations'
+										: 'No stations found'
+								}
 								placeholder='Select station...'
 								options={stations}
 							/>
